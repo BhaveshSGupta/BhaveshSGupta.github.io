@@ -4,7 +4,7 @@ html{font-size: 10px;font-family: arial;}
 h1{font-size: 80px;font-size: 8rem;font-weight: 400}
 h2{font-size: 50px;font-size: 5rem;font-weight: 400}
 ul{list-style-type: none;text-align: center;}
-.content{position: fixed;top: 50%;left: 50%;-webkit-transform: translate-Y(-50%);transform: translate-Y(-50%);text-align: center;width: 100%;}
+.content{position: fixed;top: 50%;left: 50%;-webkit-transform: translateY(-50%);transform: translateY(-50%);text-align: center;width: 100%;}
 .connect-links ul li a{color:#34495e;}
 .connect-links ul li{float: none; display: inline;font-size: 50px;font-size: 5rem;padding:0 20px;}
 .connect-links ul li:first-child{padding-left: 0}
