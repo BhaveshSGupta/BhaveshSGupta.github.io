@@ -1,18 +1,12 @@
 html{font-size: 10px;font-family: arial;}
 .float100{float:left;width: 100%;position: relative;}
 .body{background: #90C695;color:#34495e;height: 100vh;width: 100wh;}
-/*.content{background:lightgreen;position: absolute;top:0;left: 50%; bottom: 0}*/
-h1{font-size: 8rem;font-weight: 400}
-h2{font-size: 5rem;font-weight: 400}
+h1{font-size: 80px;font-size: 8rem;font-weight: 400}
+h2{font-size: 50px;font-size: 5rem;font-weight: 400}
 ul{list-style-type: none;text-align: center;}
-.content{position: fixed;
-   top: 50%;
-   left: 50%;
-   transform: translate(-50%, -50%);
-   text-align: center;
-}
+.content{position: fixed;top: 50%;left: 50%;-webkit-transform: translate-Y(-50%, -50%);transform: translate-Y(-50%, -50%);text-align: center;width: 100%;}
 .connect-links ul li a{color:#34495e;}
-.connect-links ul li{float: none; display: inline;font-size: 5rem;padding:0 20px;color: }
+.connect-links ul li{float: none; display: inline;font-size: 50px;font-size: 5rem;padding:0 20px;}
 .connect-links ul li:first-child{padding-left: 0}
 .connect-links ul li:last-child{padding-right: 0}
 .name{padding: 10px 0}
