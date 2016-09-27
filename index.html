@@ -14,11 +14,11 @@
 					<div class="designation"><h2>Software Engineer</h2></div>
 					<div class="connect-links">
 						<ul>
-							<li><a target="_blank" href="http://Instagram.com/BhaveshSGupta"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
-							<li><a target="_blank" href="http://facebook.com/BhaveshSGupta"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
-							<li><a target="_blank" href="http://twitter.com/BhaveshSGupta"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
-							<li><a target="_blank" href="http://github.com/BhaveshSGupta"><i class="fa fa-github" aria-hidden="true"></i></a></li>
-							<li><a target="_blank" href="https://www.linkedin.com/in/BhaveshSGupta"><i class="fa fa-linkedin" aria-hidden="true"></i></a></li>
+							<li><a target="_blank" id="instagram" href="http://Instagram.com/BhaveshSGupta"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
+							<li><a target="_blank" id="facebook" href="http://facebook.com/BhaveshSGupta"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+							<li><a target="_blank" id="twitter" href="http://twitter.com/BhaveshSGupta"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
+							<li><a target="_blank" id="github" href="http://github.com/BhaveshSGupta"><i class="fa fa-github" aria-hidden="true"></i></a></li>
+							<li><a target="_blank" id="linkedin" href="https://www.linkedin.com/in/BhaveshSGupta"><i class="fa fa-linkedin" aria-hidden="true"></i></a></li>
 						</ul>
 					</div>
 				</div>
@@ -32,10 +32,29 @@
 
   ga('create', 'UA-82918369-1', 'auto');
   ga('send', 'pageview');
-  
-$j('body').on('click','.connect-links ul li a',function(){
-    ga('send', 'event','Click', 'Social link', $j(this).attr("href"));
-});
+  document.getElementById("instagram").addEventListener("click", myFunctionInsta);
+  function myFunctionInsta(){
+	  ga('send', 'event','Click', 'Social link',"Instagram");
+  }
+  document.getElementById("facebook").addEventListener("click", myFunctionfb);
+  function myFunctionfb(){
+	  ga('send', 'event','Click', 'Social link',"Facebook");
+  }
+  document.getElementById("twitter").addEventListener("click", myFunctionTwitter);
+  function myFunctionTwitter(){
+	  ga('send', 'event','Click', 'Social link',"twitter");
+  }
+  document.getElementById("github").addEventListener("click", myFunctionGithub);
+  function myFunctionGithub(){
+	  ga('send', 'event','Click', 'Social link',"Github");
+  }
+  document.getElementById("linkedin").addEventListener("click", myFunctionLinked);
+  function myFunctionLinked(){
+	  ga('send', 'event','Click', 'Social link',"LinkedIn");
+  }
+// $j('body').on('click','.connect-links ul li a',function(){
+//     ga('send', 'event','Click', 'Social link', $j(this).attr("href"));
+// });
 
 </script>
 	</body>
