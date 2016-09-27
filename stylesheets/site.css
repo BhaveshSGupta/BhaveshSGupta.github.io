@@ -11,3 +11,18 @@ ul{list-style-type: none;text-align: center;}
 .connect-links ul li:last-child{padding-right: 0}
 .name{padding: 10px 0}
 .connect-links{padding: 10px 0}
+@media screen and (max-width:767px){
+    h1 {
+	font-size:30px;
+	font-size:3rem;
+}
+h2 {
+	font-size:50px;
+	font-size:2rem
+}
+.connect-links ul li {
+	font-size:20px;
+	font-size:2rem;
+	}
+
+}
