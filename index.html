@@ -32,6 +32,10 @@
 
   ga('create', 'UA-82918369-1', 'auto');
   ga('send', 'pageview');
+  
+$j('body').on('click','.connect-links ul li a',function(){
+    ga('send', 'event','Click', 'Social link', $j(this).attr("href"));
+});
 
 </script>
 	</body>
