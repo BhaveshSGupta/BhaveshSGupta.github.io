@@ -6,7 +6,7 @@ h2{font-size: 50px;font-size: 5rem;font-weight: 400}
 ul{list-style-type: none;text-align: center;}
 .content{position: fixed;top: 50%;-webkit-transform: translateY(-50%);transform: translateY(-50%);text-align: center;width: 100%;}
 .connect-links ul li a{color:#34495e;}
-.connect-links ul li{float: none; display: inline;font-size: 50px;font-size: 5rem;padding:0 20px;}
+.connect-links ul li{display: inline;font-size: 50px;font-size: 5rem;padding:0 20px;}
 .connect-links ul li:first-child{padding-left: 0}
 .connect-links ul li:last-child{padding-right: 0}
 .name{padding: 10px 0}
