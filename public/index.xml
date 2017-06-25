@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Bhavesh Gupta</title>
+    <link>http:BhaveshSGupta.me/</link>
+    <description>Recent content on Bhavesh Gupta</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-US</language>
+    <copyright>Copyright © 2017 Bhavesh Gupta </copyright>
+    <lastBuildDate>Mon, 26 Jun 2017 12:00:00 +0530</lastBuildDate>
+    
+	<atom:link href="http:BhaveshSGupta.me/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>First Post</title>
+      <link>http:BhaveshSGupta.me/blog/first-post/</link>
+      <pubDate>Mon, 26 Jun 2017 12:00:00 +0530</pubDate>
+      
+      <guid>http:BhaveshSGupta.me/blog/first-post/</guid>
+      <description>So finally blog is up again I have thinking to making this up long time and finally I have yay. Well I did purchase the domain in last august, I am using hugo static site generator and currently I am using customized version of cocoa-eh theme. What I like about this theme is its very simple, plain, I dont like more fancy stuff and I could customize it as per requirement.</description>
+    </item>
+    
+    <item>
+      <title>Home</title>
+      <link>http:BhaveshSGupta.me/home/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http:BhaveshSGupta.me/home/</guid>
+      <description>This is the home page. It will display the blog section if there is one, and a text before.
+Hey ! Welcome to the Cocoa Enhanced theme. Here are some articles :</description>
+    </item>
+    
+    <item>
+      <title>License</title>
+      <link>http:BhaveshSGupta.me/license/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http:BhaveshSGupta.me/license/</guid>
+      <description>You can use this page to put a license on the contents of your blog, like so:
+ The MIT License (MIT)
+Copyright &amp;copy; 2015 Nishanth Shanmughamnishanth.gerrard@gmail.com
+Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the &amp;ldquo;Software&amp;rdquo;), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:</description>
+    </item>
+    
+  </channel>
+</rss>
