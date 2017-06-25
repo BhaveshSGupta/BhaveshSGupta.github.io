@@ -1102,8 +1102,38 @@ section.main .content .markdown pre, section.main .content .markdown pre code {
       progressively.init({delay: 30, throttle: 50});
     
   };
-</script>
 
+ (function (i, s, o, g, r, a, m) {
+        i['GoogleAnalyticsObject'] = r; i[r] = i[r] || function () {
+            (i[r].q = i[r].q || []).push(arguments)
+        }, i[r].l = 1 * new Date(); a = s.createElement(o),
+            m = s.getElementsByTagName(o)[0]; a.async = 1; a.src = g; m.parentNode.insertBefore(a, m)
+        })(window, document, 'script', 'https://www.google-analytics.com/analytics.js', 'ga');
+
+        ga('create', 'UA-82918369-1', 'auto');
+        ga('send', 'pageview');
+  document.getElementById("instagram").addEventListener("click", myFunctionInsta);
+        function myFunctionInsta() {
+            ga('send', 'event', 'Click', 'Social link', "Instagram");
+        }
+        document.getElementById("facebook").addEventListener("click", myFunctionfb);
+        function myFunctionfb() {
+            ga('send', 'event', 'Click', 'Social link', "Facebook");
+        }
+        document.getElementById("twitter").addEventListener("click", myFunctionTwitter);
+        function myFunctionTwitter() {
+            ga('send', 'event', 'Click', 'Social link', "Twitter");
+        }
+        document.getElementById("github").addEventListener("click", myFunctionGithub);
+        function myFunctionGithub() {
+            ga('send', 'event', 'Click', 'Social link', "Github");
+        }
+        document.getElementById("linkedin").addEventListener("click", myFunctionLinkedin);
+        function myFunctionLinkedin() {
+            ga('send', 'event', 'Click', 'Social link', "LinkedIn");
+        }
+
+        </script>
 
 </body>
 </html>
