@@ -21,15 +21,5 @@
       <description>So finally blog is up again I have thinking to making this up long time and finally I have yay. Well I did purchase the domain in last august, I am using hugo static site generator and currently I am using customized version of cocoa-eh theme. What I like about this theme is its very simple, plain, I dont like more fancy stuff and I could customize it as per requirement.</description>
     </item>
     
-    <item>
-      <title>Home</title>
-      <link>/home/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>/home/</guid>
-      <description>This is the home page. It will display the blog section if there is one, and a text before.
-Hey ! Welcome to the Cocoa Enhanced theme. Here are some articles :</description>
-    </item>
-    
   </channel>
 </rss>
