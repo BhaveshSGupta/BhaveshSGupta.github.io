@@ -3,13 +3,18 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>/blog/hasura-product-development-fellowship/</loc>
+    <lastmod>2017-07-12T15:28:51+05:30</lastmod>
+  </url>
+  
+  <url>
     <loc>/blog/first-post/</loc>
     <lastmod>2017-06-25T12:00:00+05:30</lastmod>
   </url>
   
   <url>
     <loc>/blog/</loc>
-    <lastmod>2017-06-25T12:00:00+05:30</lastmod>
+    <lastmod>2017-07-12T15:28:51+05:30</lastmod>
     <priority>0</priority>
   </url>
   
@@ -26,7 +31,31 @@
   
   <url>
     <loc>/</loc>
-    <lastmod>2017-06-25T12:00:00+05:30</lastmod>
+    <lastmod>2017-07-12T15:28:51+05:30</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/fellowship/</loc>
+    <lastmod>2017-07-12T15:28:51+05:30</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/categories/fellowship/</loc>
+    <lastmod>2017-07-12T15:28:51+05:30</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/hasura/</loc>
+    <lastmod>2017-07-12T15:28:51+05:30</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/categories/hasura/</loc>
+    <lastmod>2017-07-12T15:28:51+05:30</lastmod>
     <priority>0</priority>
   </url>
   
