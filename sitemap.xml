@@ -36,25 +36,25 @@
   </url>
   
   <url>
-    <loc>/categories/fellowship/</loc>
-    <lastmod>2017-07-12T15:28:51+05:30</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
     <loc>/tags/fellowship/</loc>
     <lastmod>2017-07-12T15:28:51+05:30</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>/categories/hasura/</loc>
+    <loc>/categories/fellowship/</loc>
     <lastmod>2017-07-12T15:28:51+05:30</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>/tags/hasura/</loc>
+    <lastmod>2017-07-12T15:28:51+05:30</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/categories/hasura/</loc>
     <lastmod>2017-07-12T15:28:51+05:30</lastmod>
     <priority>0</priority>
   </url>
