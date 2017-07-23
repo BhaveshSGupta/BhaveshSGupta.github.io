@@ -1016,25 +1016,25 @@ section.main .content .markdown pre, section.main .content .markdown pre code {
                 </div>
                 <div class="connect-links">
                 
-                            <a class="icon" href="/blog/">
+                            <a id="blog" class="icon" href="/blog/">
                     <span class="fa fa-rss"></span>
             </a> 
                         
-                            <a class="icon" href="mailto:BhaveshSGupta@gmail.com">
+                            <a id="mailto" class="icon" href="mailto:BhaveshSGupta@gmail.com">
                <span class="fa fa-envelope"></span>
             </a> 
                          
-                            <a class="icon" href="https://twitter.com/BhaveshSGupta" target="_blank">
+                            <a id="twitter" class="icon" href="https://twitter.com/BhaveshSGupta" target="_blank">
                 <span class="fa fa-twitter"></span>
             </a> 
                         
                         
-                            <a href="https://github.com/BhaveshSGupta" class="icon" target="_blank">
+                            <a id="github" href="https://github.com/BhaveshSGupta" class="icon" target="_blank">
               <span class="fa fa-github"></span>
             </a> 
                         
                         
-                            <a href="https://www.linkedin.com/in/BhaveshSGupta" class="icon" target="_blank">
+                            <a id="linkedin" href="https://www.linkedin.com/in/BhaveshSGupta" class="icon" target="_blank">
               <span class="fa fa-linkedin"></span>
             </a> 
                     
@@ -1082,14 +1082,14 @@ section.main .content .markdown pre, section.main .content .markdown pre code {
 
         ga('create', 'UA-82918369-1', 'auto');
         ga('send', 'pageview');
-  document.getElementById("instagram").addEventListener("click", myFunctionInsta);
-        function myFunctionInsta() {
-            ga('send', 'event', 'Click', 'Social link', "Instagram");
-        }
-        document.getElementById("facebook").addEventListener("click", myFunctionfb);
-        function myFunctionfb() {
-            ga('send', 'event', 'Click', 'Social link', "Facebook");
-        }
+  
+  
+  
+  
+        
+        
+        
+        
         document.getElementById("twitter").addEventListener("click", myFunctionTwitter);
         function myFunctionTwitter() {
             ga('send', 'event', 'Click', 'Social link', "Twitter");
@@ -1102,7 +1102,24 @@ section.main .content .markdown pre, section.main .content .markdown pre code {
         function myFunctionLinkedin() {
             ga('send', 'event', 'Click', 'Social link', "LinkedIn");
         }
-
+        document.getElementById("mailto").addEventListener("click", myFunctionLinkedin);
+        function myFunctionLinkedin() {
+            ga('send', 'event', 'Click', 'Social link', "mailto");
+        }
+          var rssElement = document.getElementById('Rss');
+          if (rssElement !== null){
+         document.getElementById("rss").addEventListener("click", myFunctionLinkedin);
+        function myFunctionLinkedin() {
+            ga('send', 'event', 'Click', 'Social link', "RSS Feed");
+        }
+          }
+        var blogElement = document.getElementById('blog');
+        if (blogElement !== null){
+          document.getElementById("blog").addEventListener("click", myFunctionLinkedin);
+        function myFunctionLinkedin() {
+            ga('send', 'event', 'Click', 'Social link', "Blog");
+        }
+        }
         </script>
 
 
