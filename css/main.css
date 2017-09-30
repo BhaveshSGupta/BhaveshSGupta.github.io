@@ -1,4 +1,3 @@
-@font-face{font-family:'Nexa Bold';src:url('/fonts/Nexa Bold.otf')}
 html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abbr,acronym,address,big,cite,code,del,dfn,em,img,ins,kbd,q,s,samp,small,strike,strong,sub,tt,var,b,u,i,center,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td,article,aside,canvas,details,embed,figure,figcaption,footer,header,hgroup,menu,nav,output,ruby,section,summary,time,mark,audio,video{margin:0;padding:0;border:0;font-size:100%;font:inherit;vertical-align:baseline}
 article,aside,details,figcaption,figure,footer,header,hgroup,menu,nav,section{display:block}
 body{line-height:1}
@@ -16,7 +15,7 @@ section{display:-webkit-flex;display:-moz-flex;display:-ms-flexbox;display:-ms-f
 section.header .container{-webkit-align-items:center;-moz-align-items:center;-ms-align-items:center;align-items:center;-webkit-justify-content:center;-moz-justify-content:center;-ms-justify-content:center;justify-content:center}
 section.header .content{display:-webkit-flex;display:-moz-flex;display:-ms-flexbox;display:-ms-flex;display:flex;-webkit-flex-direction:column;-moz-flex-direction:column;-ms-flex-direction:column;flex-direction:column;-webkit-align-items:center;-moz-align-items:center;-ms-align-items:center;align-items:center}
 section.header .container .logo{max-width:100px;margin-left:-2em}
-section.header .name{padding-top:20px;font-size:28px;font-family:'Nexa Bold','Helvetica Neue','Arial',sans-serif;-moz-osx-font-smoothing:grayscale;-webkit-font-smoothing:antialiased;font-smoothing:antialiased;color:#333;color:#555}
+section.header .name{padding-top:20px;font-size:28px;-moz-osx-font-smoothing:grayscale;-webkit-font-smoothing:antialiased;font-smoothing:antialiased;color:#333;color:#555}
 section.header nav{margin-bottom:16px}
 section.header nav ul{list-style:none;text-align:center;display:-webkit-inline-flex;display:-moz-inline-flex;display:-ms-inline-flexbox;display:-ms-inline-flex;display:inline-flex}
 section.header nav ul a{margin-left:6px;margin-right:6px}
