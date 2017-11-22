@@ -3,64 +3,69 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>/blog/hasura-product-development-fellowship/</loc>
+    <loc>http://BhaveshSGupta.me/blog/hasura-internship/</loc>
     <lastmod>2017-07-12T15:28:51+05:30</lastmod>
   </url>
   
   <url>
-    <loc>/blog/first-post/</loc>
+    <loc>http://BhaveshSGupta.me/blog/first-post/</loc>
     <lastmod>2017-06-25T12:00:00+05:30</lastmod>
   </url>
   
   <url>
-    <loc>/blog/</loc>
-    <lastmod>2017-07-12T15:28:51+05:30</lastmod>
-    <priority>0</priority>
+    <loc>http://BhaveshSGupta.me/about/</loc>
+    <lastmod>2015-06-20T14:02:37+02:00</lastmod>
   </url>
   
   <url>
-    <loc>/tags/blog/</loc>
+    <loc>http://BhaveshSGupta.me/tags/blog/</loc>
     <lastmod>2017-06-25T12:00:00+05:30</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>/categories/</loc>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>/</loc>
+    <loc>http://BhaveshSGupta.me/blog/</loc>
     <lastmod>2017-07-12T15:28:51+05:30</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>/tags/fellowship/</loc>
+    <loc>http://BhaveshSGupta.me/categories/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://BhaveshSGupta.me/</loc>
     <lastmod>2017-07-12T15:28:51+05:30</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>/categories/fellowship/</loc>
+    <loc>http://BhaveshSGupta.me/tags/fellowship/</loc>
     <lastmod>2017-07-12T15:28:51+05:30</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>/tags/hasura/</loc>
+    <loc>http://BhaveshSGupta.me/categories/fellowship/</loc>
     <lastmod>2017-07-12T15:28:51+05:30</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>/categories/hasura/</loc>
+    <loc>http://BhaveshSGupta.me/tags/hasura/</loc>
     <lastmod>2017-07-12T15:28:51+05:30</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>/tags/</loc>
+    <loc>http://BhaveshSGupta.me/categories/hasura/</loc>
+    <lastmod>2017-07-12T15:28:51+05:30</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://BhaveshSGupta.me/tags/</loc>
     <lastmod>2017-06-25T12:00:00+05:30</lastmod>
     <priority>0</priority>
   </url>

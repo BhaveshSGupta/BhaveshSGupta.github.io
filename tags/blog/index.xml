@@ -2,22 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Blog on Everyone Has a Story</title>
-    <link>/tags/blog/</link>
+    <link>http://BhaveshSGupta.me/tags/blog/</link>
     <description>Recent content in Blog on Everyone Has a Story</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-US</language>
-    <copyright>Copyright © 2017 Bhavesh Gupta </copyright>
+    <language>en-us</language>
     <lastBuildDate>Sun, 25 Jun 2017 12:00:00 +0530</lastBuildDate>
     
-	<atom:link href="/tags/blog/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="http://BhaveshSGupta.me/tags/blog/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>First Post</title>
-      <link>/blog/first-post/</link>
+      <link>http://BhaveshSGupta.me/blog/first-post/</link>
       <pubDate>Sun, 25 Jun 2017 12:00:00 +0530</pubDate>
       
-      <guid>/blog/first-post/</guid>
+      <guid>http://BhaveshSGupta.me/blog/first-post/</guid>
       <description>So finally blog is up again I have thinking to making this up long time and finally I have yay. Well I did purchase the domain in last august, I am using hugo static site generator and currently I am using customized version of cocoa-eh theme. What I like about this theme is its very simple, plain, I dont like more fancy stuff and I could customize it as per requirement.</description>
     </item>
     
