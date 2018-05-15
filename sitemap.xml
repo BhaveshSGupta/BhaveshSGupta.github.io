@@ -3,6 +3,11 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>//BhaveshSGupta.me/blog/trying-forestry-from-mobile-browser/</loc>
+    <lastmod>2018-05-15T05:59:44+05:30</lastmod>
+  </url>
+  
+  <url>
     <loc>//BhaveshSGupta.me/blog/mobile-test-post/</loc>
     <lastmod>2018-05-15T05:20:55+05:30</lastmod>
   </url>
@@ -29,13 +34,13 @@
   
   <url>
     <loc>//BhaveshSGupta.me/tags/blog/</loc>
-    <lastmod>2018-05-04T02:22:55+05:30</lastmod>
+    <lastmod>2018-05-15T05:59:44+05:30</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>//BhaveshSGupta.me/blog/</loc>
-    <lastmod>2018-05-15T05:20:55+05:30</lastmod>
+    <lastmod>2018-05-15T05:59:44+05:30</lastmod>
     <priority>0</priority>
   </url>
   
@@ -46,7 +51,7 @@
   
   <url>
     <loc>//BhaveshSGupta.me/</loc>
-    <lastmod>2018-05-15T05:20:55+05:30</lastmod>
+    <lastmod>2018-05-15T05:59:44+05:30</lastmod>
     <priority>0</priority>
   </url>
   
@@ -59,6 +64,12 @@
   <url>
     <loc>//BhaveshSGupta.me/categories/fellowship/</loc>
     <lastmod>2017-07-12T15:28:51+05:30</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>//BhaveshSGupta.me/tags/forestry/</loc>
+    <lastmod>2018-05-15T05:59:44+05:30</lastmod>
     <priority>0</priority>
   </url>
   
@@ -100,7 +111,7 @@
   
   <url>
     <loc>//BhaveshSGupta.me/tags/</loc>
-    <lastmod>2018-05-04T02:22:55+05:30</lastmod>
+    <lastmod>2018-05-15T05:59:44+05:30</lastmod>
     <priority>0</priority>
   </url>
   
