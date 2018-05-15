@@ -23,6 +23,10 @@
   </url>
   
   <url>
+    <loc>//BhaveshSGupta.me/blog/mobile-test-post/</loc>
+  </url>
+  
+  <url>
     <loc>//BhaveshSGupta.me/tags/blog/</loc>
     <lastmod>2018-05-04T02:22:55+05:30</lastmod>
     <priority>0</priority>
@@ -76,8 +80,28 @@
   </url>
   
   <url>
+    <loc>//BhaveshSGupta.me/tags/mobile/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>//BhaveshSGupta.me/tags/post/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>//BhaveshSGupta.me/categories/post/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>//BhaveshSGupta.me/tags/</loc>
     <lastmod>2018-05-04T02:22:55+05:30</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>//BhaveshSGupta.me/categories/test/</loc>
     <priority>0</priority>
   </url>
   

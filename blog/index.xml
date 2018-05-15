@@ -26,7 +26,7 @@
       <pubDate>Wed, 12 Jul 2017 15:28:51 +0530</pubDate>
       
       <guid>//BhaveshSGupta.me/blog/hasura-internship/</guid>
-      <description>Hasura Product Development Fellowship So Introduction to Modern App Development(IMAD) was one of the MOOC that is was recently part of as the title says it was basic introduction to app development where we learnt several things including node, git, Android app development, Mac app development, etc . The fellowship was offered to the top students from the IMAD course(I was one of them ;). The fellowship is all about learning how to make your own product as it is developed in the industry following development process starting from deciding about the idea then prototyping then data modeling and so on.</description>
+      <description>Hasura Product Development Fellowship So Introduction to Modern App Development(IMAD) was one of the MOOC that is was recently part of as the title says it was basic introduction to app development where we learnt several things including node, git, Android app development, Mac app development, etc. The fellowship was offered to the top students from the IMAD course(I was one of them ;). The fellowship is all about learning how to make your own product as it is developed in the industry following development process starting from deciding about the idea then prototyping then data modeling and so on.</description>
     </item>
     
     <item>
@@ -36,6 +36,16 @@
       
       <guid>//BhaveshSGupta.me/blog/first-post/</guid>
       <description>So finally blog is up again I have thinking to making this up long time and finally I have yay. Well I did purchase the domain in last august, I am using hugo static site generator and currently I am using customized version of cocoa-eh theme. What I like about this theme is its very simple, plain, I dont like more fancy stuff and I could customize it as per requirement.</description>
+    </item>
+    
+    <item>
+      <title> Bloging from mobile</title>
+      <link>//BhaveshSGupta.me/blog/mobile-test-post/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>//BhaveshSGupta.me/blog/mobile-test-post/</guid>
+      <description>This is the solution test for the question how to create static site generator blog from mobile with an ease this is a test post of everything works out a how to post is comming down soon.
+kudos, bye</description>
     </item>
     
   </channel>

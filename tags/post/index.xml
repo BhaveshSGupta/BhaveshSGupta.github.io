@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Post on Everyone Has a Story</title>
+    <link>//BhaveshSGupta.me/tags/post/</link>
+    <description>Recent content in Post on Everyone Has a Story</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    
+	<atom:link href="//BhaveshSGupta.me/tags/post/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title> Bloging from mobile</title>
+      <link>//BhaveshSGupta.me/blog/mobile-test-post/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>//BhaveshSGupta.me/blog/mobile-test-post/</guid>
+      <description>This is the solution test for the question how to create static site generator blog from mobile with an ease this is a test post of everything works out a how to post is comming down soon.
+kudos, bye</description>
+    </item>
+    
+  </channel>
+</rss>
