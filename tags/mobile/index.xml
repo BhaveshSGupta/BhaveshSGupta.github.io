@@ -6,6 +6,7 @@
     <description>Recent content in Mobile on Everyone Has a Story</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
+    <lastBuildDate>Tue, 15 May 2018 05:20:51 +0530</lastBuildDate>
     
 	<atom:link href="//BhaveshSGupta.me/tags/mobile/index.xml" rel="self" type="application/rss+xml" />
     
@@ -13,7 +14,7 @@
     <item>
       <title> Bloging from mobile</title>
       <link>//BhaveshSGupta.me/blog/mobile-test-post/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <pubDate>Tue, 15 May 2018 05:20:51 +0530</pubDate>
       
       <guid>//BhaveshSGupta.me/blog/mobile-test-post/</guid>
       <description>This is the solution test for the question how to create static site generator blog from mobile with an ease this is a test post of everything works out a how to post is comming down soon.
