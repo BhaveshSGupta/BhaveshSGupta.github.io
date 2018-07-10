@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Personal on Everyone Has a Story</title>
-    <link>//BhaveshSGupta.me/tags/personal/</link>
+    <link>https://BhaveshSGupta.me/tags/personal/</link>
     <description>Recent content in Personal on Everyone Has a Story</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Tue, 10 Jul 2018 12:44:32 +0530</lastBuildDate>
     
-	<atom:link href="//BhaveshSGupta.me/tags/personal/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://BhaveshSGupta.me/tags/personal/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Static file blog using web based CMS</title>
-      <link>//BhaveshSGupta.me/blog/static-file-blog-with-web-based-cms/</link>
+      <link>https://BhaveshSGupta.me/blog/static-file-blog-with-web-based-cms/</link>
       <pubDate>Tue, 10 Jul 2018 12:44:32 +0530</pubDate>
       
-      <guid>//BhaveshSGupta.me/blog/static-file-blog-with-web-based-cms/</guid>
+      <guid>https://BhaveshSGupta.me/blog/static-file-blog-with-web-based-cms/</guid>
       <description>So this is an update post, to summarize things which are going on around. So a few days back I was working on a solution so that I could keep that blog updated. As this is a not-self deployable blog I actually need to deploy changes. Somebody would say instead of taking so much efforts to deploy a single post you could have set up a WordPress blog which has an awesome app to add post, n number of themes, plugins, etc.</description>
     </item>
     
