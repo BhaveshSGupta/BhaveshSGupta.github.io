@@ -2,47 +2,47 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Categories on Everyone Has a Story</title>
-    <link>//BhaveshSGupta.me/categories/</link>
+    <link>https://BhaveshSGupta.me/categories/</link>
     <description>Recent content in Categories on Everyone Has a Story</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     
-	<atom:link href="//BhaveshSGupta.me/categories/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://BhaveshSGupta.me/categories/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Fellowship</title>
-      <link>//BhaveshSGupta.me/categories/fellowship/</link>
+      <link>https://BhaveshSGupta.me/categories/fellowship/</link>
       <pubDate>Wed, 12 Jul 2017 15:28:51 +0530</pubDate>
       
-      <guid>//BhaveshSGupta.me/categories/fellowship/</guid>
+      <guid>https://BhaveshSGupta.me/categories/fellowship/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Hasura</title>
-      <link>//BhaveshSGupta.me/categories/hasura/</link>
+      <link>https://BhaveshSGupta.me/categories/hasura/</link>
       <pubDate>Wed, 12 Jul 2017 15:28:51 +0530</pubDate>
       
-      <guid>//BhaveshSGupta.me/categories/hasura/</guid>
+      <guid>https://BhaveshSGupta.me/categories/hasura/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Post</title>
-      <link>//BhaveshSGupta.me/categories/post/</link>
+      <link>https://BhaveshSGupta.me/categories/post/</link>
       <pubDate>Tue, 15 May 2018 05:20:55 +0530</pubDate>
       
-      <guid>//BhaveshSGupta.me/categories/post/</guid>
+      <guid>https://BhaveshSGupta.me/categories/post/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Test</title>
-      <link>//BhaveshSGupta.me/categories/test/</link>
+      <link>https://BhaveshSGupta.me/categories/test/</link>
       <pubDate>Tue, 15 May 2018 05:20:55 +0530</pubDate>
       
-      <guid>//BhaveshSGupta.me/categories/test/</guid>
+      <guid>https://BhaveshSGupta.me/categories/test/</guid>
       <description></description>
     </item>
     

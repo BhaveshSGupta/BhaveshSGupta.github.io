@@ -2,93 +2,93 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Tags on Everyone Has a Story</title>
-    <link>//BhaveshSGupta.me/tags/</link>
+    <link>https://BhaveshSGupta.me/tags/</link>
     <description>Recent content in Tags on Everyone Has a Story</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Tue, 10 Jul 2018 12:44:32 +0530</lastBuildDate>
     
-	<atom:link href="//BhaveshSGupta.me/tags/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://BhaveshSGupta.me/tags/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Blog</title>
-      <link>//BhaveshSGupta.me/tags/blog/</link>
+      <link>https://BhaveshSGupta.me/tags/blog/</link>
       <pubDate>Tue, 10 Jul 2018 12:44:32 +0530</pubDate>
       
-      <guid>//BhaveshSGupta.me/tags/blog/</guid>
+      <guid>https://BhaveshSGupta.me/tags/blog/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Blog Testing</title>
-      <link>//BhaveshSGupta.me/tags/blog-testing/</link>
+      <link>https://BhaveshSGupta.me/tags/blog-testing/</link>
       <pubDate>Tue, 15 May 2018 05:59:44 +0530</pubDate>
       
-      <guid>//BhaveshSGupta.me/tags/blog-testing/</guid>
+      <guid>https://BhaveshSGupta.me/tags/blog-testing/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Fellowship</title>
-      <link>//BhaveshSGupta.me/tags/fellowship/</link>
+      <link>https://BhaveshSGupta.me/tags/fellowship/</link>
       <pubDate>Wed, 12 Jul 2017 15:28:51 +0530</pubDate>
       
-      <guid>//BhaveshSGupta.me/tags/fellowship/</guid>
+      <guid>https://BhaveshSGupta.me/tags/fellowship/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Forestry</title>
-      <link>//BhaveshSGupta.me/tags/forestry/</link>
+      <link>https://BhaveshSGupta.me/tags/forestry/</link>
       <pubDate>Tue, 15 May 2018 05:59:44 +0530</pubDate>
       
-      <guid>//BhaveshSGupta.me/tags/forestry/</guid>
+      <guid>https://BhaveshSGupta.me/tags/forestry/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Github</title>
-      <link>//BhaveshSGupta.me/tags/github/</link>
+      <link>https://BhaveshSGupta.me/tags/github/</link>
       <pubDate>Fri, 04 May 2018 02:22:55 +0530</pubDate>
       
-      <guid>//BhaveshSGupta.me/tags/github/</guid>
+      <guid>https://BhaveshSGupta.me/tags/github/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Hasura</title>
-      <link>//BhaveshSGupta.me/tags/hasura/</link>
+      <link>https://BhaveshSGupta.me/tags/hasura/</link>
       <pubDate>Wed, 12 Jul 2017 15:28:51 +0530</pubDate>
       
-      <guid>//BhaveshSGupta.me/tags/hasura/</guid>
+      <guid>https://BhaveshSGupta.me/tags/hasura/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Mobile</title>
-      <link>//BhaveshSGupta.me/tags/mobile/</link>
+      <link>https://BhaveshSGupta.me/tags/mobile/</link>
       <pubDate>Tue, 15 May 2018 05:20:55 +0530</pubDate>
       
-      <guid>//BhaveshSGupta.me/tags/mobile/</guid>
+      <guid>https://BhaveshSGupta.me/tags/mobile/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Personal</title>
-      <link>//BhaveshSGupta.me/tags/personal/</link>
+      <link>https://BhaveshSGupta.me/tags/personal/</link>
       <pubDate>Tue, 10 Jul 2018 12:44:32 +0530</pubDate>
       
-      <guid>//BhaveshSGupta.me/tags/personal/</guid>
+      <guid>https://BhaveshSGupta.me/tags/personal/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Post</title>
-      <link>//BhaveshSGupta.me/tags/post/</link>
+      <link>https://BhaveshSGupta.me/tags/post/</link>
       <pubDate>Tue, 15 May 2018 05:20:55 +0530</pubDate>
       
-      <guid>//BhaveshSGupta.me/tags/post/</guid>
+      <guid>https://BhaveshSGupta.me/tags/post/</guid>
       <description></description>
     </item>
     
