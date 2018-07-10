@@ -19,7 +19,7 @@
 
 
 <meta property="og:title" content="Static file blog using web based CMS" />
-<meta property="og:description" content="So this is an update post, to summarize things which are going on around. So a few days back I was working on a solution so that I could keep that blog updated. As this is a not-self deployable blog I actually need to deploy changes. Somebody would say instead of taking so much efforts to deploy a single post you could have set up a WordPress blog which has an awesome app to add post, n number of themes, plugins, etc." />
+<meta property="og:description" content="So a few days back I was working on a solution so that I could keep that blog updated. As this is a not-self deployable blog I actually need to deploy changes. Somebody would say instead of taking so much efforts to deploy a single post you could have set up a WordPress blog which has an awesome app to add post, n number of themes, plugins, etc. But I feel I like it this way." />
 <meta property="og:type" content="article" />
 <meta property="og:url" content="https://BhaveshSGupta.me/blog/static-file-blog-with-web-based-cms/" />
 
@@ -42,12 +42,12 @@
 
 
 <meta itemprop="name" content="Static file blog using web based CMS">
-<meta itemprop="description" content="So this is an update post, to summarize things which are going on around. So a few days back I was working on a solution so that I could keep that blog updated. As this is a not-self deployable blog I actually need to deploy changes. Somebody would say instead of taking so much efforts to deploy a single post you could have set up a WordPress blog which has an awesome app to add post, n number of themes, plugins, etc.">
+<meta itemprop="description" content="So a few days back I was working on a solution so that I could keep that blog updated. As this is a not-self deployable blog I actually need to deploy changes. Somebody would say instead of taking so much efforts to deploy a single post you could have set up a WordPress blog which has an awesome app to add post, n number of themes, plugins, etc. But I feel I like it this way.">
 
 
 <meta itemprop="datePublished" content="2018-07-10T12:44:32&#43;05:30" />
 <meta itemprop="dateModified" content="2018-07-10T12:44:32&#43;05:30" />
-<meta itemprop="wordCount" content="514">
+<meta itemprop="wordCount" content="500">
 
 
 
@@ -55,7 +55,7 @@
 
 <meta name="twitter:card" content="summary"/>
 <meta name="twitter:title" content="Static file blog using web based CMS"/>
-<meta name="twitter:description" content="So this is an update post, to summarize things which are going on around. So a few days back I was working on a solution so that I could keep that blog updated. As this is a not-self deployable blog I actually need to deploy changes. Somebody would say instead of taking so much efforts to deploy a single post you could have set up a WordPress blog which has an awesome app to add post, n number of themes, plugins, etc."/>
+<meta name="twitter:description" content="So a few days back I was working on a solution so that I could keep that blog updated. As this is a not-self deployable blog I actually need to deploy changes. Somebody would say instead of taking so much efforts to deploy a single post you could have set up a WordPress blog which has an awesome app to add post, n number of themes, plugins, etc. But I feel I like it this way."/>
 <meta name="twitter:site" content="@https://www.twitter.com/BhaveshSGupta"/>
 
 
@@ -99,7 +99,7 @@
     <section id="post-body">
         
 
-<p>So this is an update post, to summarize things which are going on around. So a few days back I was working on a solution so that I could keep that blog updated. As this is a not-self deployable blog I actually need to deploy changes. Somebody would say instead of taking so much efforts to deploy a single post you could have set up a WordPress blog which has an awesome app to add post, n number of themes, plugins, etc. But I feel I like it this way. The geeky way of maintaining a blog :D. I was working on to find something which could help me update my blog from cell phone. For that I was able to install git on my cellphone (SU access). First how this blog actually works so there are two repo&rsquo;s using which this blog works. One is the content management part where the content stays, theme stays and other things. And there is another repo on which there whole hugo generated HTML stays which is present on github.</p>
+<p>So a few days back I was working on a solution so that I could keep that blog updated. As this is a not-self deployable blog I actually need to deploy changes. Somebody would say instead of taking so much efforts to deploy a single post you could have set up a WordPress blog which has an awesome app to add post, n number of themes, plugins, etc. But I feel I like it this way. The geeky way of maintaining a blog :D. I was working on to find something which could help me update my blog from cell phone. For that I was able to install git on my cellphone (SU access). First how this blog actually works so there are two repo&rsquo;s using which this blog works. One is the content management part where the content stays, theme stays and other things. And there is another repo on which there whole hugo generated HTML stays which is present on github.</p>
 
 <p>As I was having git access into my cellphone I was able to update content but how to use hugo. I need to run hugo on my content repo and update the blog repo which was not possible through phone. So to do that what I was thinking was I would setup a server, when there would be a commit in content repo it would call a web-hook. The hook would work to fetch content from content repo into server, server would run hugo generate html and then it would push updates to blog repo and my blog would be live :D. This could be most tedious thing I would have thought to do for a blog. So I started again to find something which could be useful here as there are 1000&rsquo;s of blog which actually uses hugo who would have faced the issue of updating blog post from mobile. There came one such solution which was <a href="https://forestry.io">forestry.io</a>. Forestry is a static file CMS the thing I was needing to update my blog.</p>
 
