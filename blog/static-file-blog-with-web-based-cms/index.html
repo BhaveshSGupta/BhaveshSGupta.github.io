@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="en-us">
+	<head>
+    <meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="author" content="Bhavesh S. Gupta">
+
+<title>Static file blog using web based CMS &middot; Everyone Has a Story</title>
+<link rel="shortcut icon" href="//BhaveshSGupta.me/images/avatar.png">
+<link rel="stylesheet" href="//BhaveshSGupta.me/css/style.css">
+<link rel="stylesheet" href="//BhaveshSGupta.me/css/highlight.css">
+
+
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/latest/css/font-awesome.min.css">
+
+
+<link href="//BhaveshSGupta.me/index.xml" rel="alternate" type="application/rss+xml" title="Everyone Has a Story" />
+
+
+<meta property="og:title" content="Static file blog using web based CMS" />
+<meta property="og:description" content="So this is an update post, to summarize things which are going on around. So a few days back I was working on a solution so that I could keep that blog updated. As this is a not-self deployable blog I actually need to deploy changes. Somebody would say instead of taking so much efforts to deploy a single post you could have set up a WordPress blog which has an awesome app to add post, n number of themes, plugins, etc." />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="//BhaveshSGupta.me/blog/static-file-blog-with-web-based-cms/" />
+
+
+
+<meta property="article:published_time" content="2018-07-10T12:44:32&#43;05:30"/>
+
+<meta property="article:modified_time" content="2018-07-10T12:44:32&#43;05:30"/>
+
+
+
+
+
+
+
+
+
+
+
+
+
+<meta itemprop="name" content="Static file blog using web based CMS">
+<meta itemprop="description" content="So this is an update post, to summarize things which are going on around. So a few days back I was working on a solution so that I could keep that blog updated. As this is a not-self deployable blog I actually need to deploy changes. Somebody would say instead of taking so much efforts to deploy a single post you could have set up a WordPress blog which has an awesome app to add post, n number of themes, plugins, etc.">
+
+
+<meta itemprop="datePublished" content="2018-07-10T12:44:32&#43;05:30" />
+<meta itemprop="dateModified" content="2018-07-10T12:44:32&#43;05:30" />
+<meta itemprop="wordCount" content="514">
+
+
+
+<meta itemprop="keywords" content="blog,personal," />
+
+<meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content="Static file blog using web based CMS"/>
+<meta name="twitter:description" content="So this is an update post, to summarize things which are going on around. So a few days back I was working on a solution so that I could keep that blog updated. As this is a not-self deployable blog I actually need to deploy changes. Somebody would say instead of taking so much efforts to deploy a single post you could have set up a WordPress blog which has an awesome app to add post, n number of themes, plugins, etc."/>
+<meta name="twitter:site" content="@https://www.twitter.com/BhaveshSGupta"/>
+
+
+    </head>
+<body>
+    <nav class="main-nav">
+	
+		<a href='//BhaveshSGupta.me'> Home</a>
+	
+
+	
+ 		<a href='/about/'>About</a>
+  	
+
+	
+		<a class="cta" href="//BhaveshSGupta.me/index.xml">Subscribe</a>
+	
+</nav>
+
+    <section id="wrapper">
+        
+        
+<article class="post">
+    <header>
+        <h1>Static file blog using web based CMS</h1>
+        <h2 class="subtitle"></h2>
+        <h2 class="headline">
+        July 10, 2018
+        <br>
+        
+        
+            
+                <a href="//BhaveshSGupta.me/tags/blog">blog</a>
+            
+                <a href="//BhaveshSGupta.me/tags/personal">personal</a>
+            
+        
+        
+        </h2>
+    </header>
+    <section id="post-body">
+        
+
+<p>So this is an update post, to summarize things which are going on around. So a few days back I was working on a solution so that I could keep that blog updated. As this is a not-self deployable blog I actually need to deploy changes. Somebody would say instead of taking so much efforts to deploy a single post you could have set up a WordPress blog which has an awesome app to add post, n number of themes, plugins, etc. But I feel I like it this way. The geeky way of maintaining a blog :D. I was working on to find something which could help me update my blog from cell phone. For that I was able to install git on my cellphone (SU access). First how this blog actually works so there are two repo&rsquo;s using which this blog works. One is the content management part where the content stays, theme stays and other things. And there is another repo on which there whole hugo generated HTML stays which is present on github.</p>
+
+<p>As I was having git access into my cellphone I was able to update content but how to use hugo. I need to run hugo on my content repo and update the blog repo which was not possible through phone. So to do that what I was thinking was I would setup a server, when there would be a commit in content repo it would call a web-hook. The hook would work to fetch content from content repo into server, server would run hugo generate html and then it would push updates to blog repo and my blog would be live :D. This could be most tedious thing I would have thought to do for a blog. So I started again to find something which could be useful here as there are 1000&rsquo;s of blog which actually uses hugo who would have faced the issue of updating blog post from mobile. There came one such solution which was <a href="https://forestry.io">forestry.io</a>. Forestry is a static file CMS the thing I was needing to update my blog.</p>
+
+<p>The awesome thing about forestry is that it allows you to use hugo and jekyll both with an online CMS like features. Also you can configure almost everything using their platform. I remember during my college days I was not having laptop and that time I was using jekyll blog. Jekyll has a tedious path to configure, you need ruby and other things to make it work. And to work on a windows it was a whole new challenge. If there had been something like forestry back then my blog would be having much more content :D. So forestry became solution for my misery.</p>
+
+<h2 id="why-i-was-doing-above">Why I was doing above?</h2>
+
+<p>So this year for my birthday I had a sort of planned/unplanned trip to Haridwar and rishikesh. And I was thinking to keep things updated using the blog which I was not able to due to network issue, battery issue, internet issue and finally I lost my phone basically someone pick my pocket :(.</p>
+
+    </section>
+</article>
+
+<footer id="post-meta" class="clearfix">
+    <a href="https://twitter.com/BhaveshSGupta">
+    <img class="avatar" src="//BhaveshSGupta.me/images/avatar.png">
+    <div>
+        <span class="dark">Bhavesh S. Gupta</span>
+        <span>Programmer</span>
+    </div>
+    </a>
+    <section id="sharing">
+        <a class="twitter" href="https://twitter.com/intent/tweet?text=%2f%2fBhaveshSGupta.me%2fblog%2fstatic-file-blog-with-web-based-cms%2f - Static%20file%20blog%20using%20web%20based%20CMS by @BhaveshSGupta"><span class="icon-twitter"> tweet</span></a>
+
+<a class="facebook" href="#" onclick="
+    window.open(
+      'https://www.facebook.com/sharer/sharer.php?u='+encodeURIComponent(location.href),
+      'facebook-share-dialog',
+      'width=626,height=436');
+    return false;"><span class="icon-facebook-rect"> Share</span>
+</a>
+
+    </section>
+</footer>
+
+
+
+<ul id="post-list" class="archive readmore">
+    <h3>Read more</h3>
+
+    
+    
+    
+        <li>
+            <a href="/blog/trying-forestry-from-mobile-browser/">Trying Forestry from mobile browser<aside class="dates">May 15 2018</aside></a>
+        </li>
+    
+        <li>
+            <a href="/blog/mobile-test-post/">Bloging from mobile<aside class="dates">May 15 2018</aside></a>
+        </li>
+    
+        <li>
+            <a href="/blog/finally-https/">Finally HTTPS<aside class="dates">May 4 2018</aside></a>
+        </li>
+    
+        <li>
+            <a href="/blog/hasura-internship/">Hasura Product Development Fellowship<aside class="dates">Jul 12 2017</aside></a>
+        </li>
+    
+        <li>
+            <a href="/blog/first-post/">First Post<aside class="dates">Jun 25 2017</aside></a>
+        </li>
+    
+</ul>
+
+
+
+        <footer id="footer">
+    
+        <div id="social">
+
+	
+	
+    <a class="symbol" href="mailto:mail@BhaveshSGupta.me">
+        <i class="fa fa-envelope-o"></i>
+    </a>
+    
+    <a class="symbol" href="https://www.github.com/BhaveshSGupta">
+        <i class="fa fa-github"></i>
+    </a>
+    
+    <a class="symbol" href="https://www.linkedin.com/in/BhaveshSGupta">
+        <i class="fa fa-linkedin"></i>
+    </a>
+    
+    <a class="symbol" href="https://www.twitter.com/BhaveshSGupta">
+        <i class="fa fa-twitter"></i>
+    </a>
+    
+
+
+</div>
+
+    
+    <p class="small">
+    
+        © Copyright 2018 Bhavesh S. Gupta
+    
+    </p>
+</footer>
+
+    </section>
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+<script src="//BhaveshSGupta.me/js/main.js"></script>
+<script src="//BhaveshSGupta.me/js/highlight.js"></script>
+<script>hljs.initHighlightingOnLoad();</script>
+
+
+
+
+<script>
+(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+})(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+ga('create', 'UA-82918369-1', 'auto');
+ga('send', 'pageview');
+</script>
+
+
+</body>
+</html>
