@@ -34,6 +34,12 @@
   
   <url>
     <loc>//BhaveshSGupta.me/tags/blog/</loc>
+    <lastmod>2018-05-04T02:22:55+05:30</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>//BhaveshSGupta.me/tags/blog-testing/</loc>
     <lastmod>2018-05-15T05:59:44+05:30</lastmod>
     <priority>0</priority>
   </url>
@@ -56,13 +62,13 @@
   </url>
   
   <url>
-    <loc>//BhaveshSGupta.me/categories/fellowship/</loc>
+    <loc>//BhaveshSGupta.me/tags/fellowship/</loc>
     <lastmod>2017-07-12T15:28:51+05:30</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>//BhaveshSGupta.me/tags/fellowship/</loc>
+    <loc>//BhaveshSGupta.me/categories/fellowship/</loc>
     <lastmod>2017-07-12T15:28:51+05:30</lastmod>
     <priority>0</priority>
   </url>
@@ -80,13 +86,13 @@
   </url>
   
   <url>
-    <loc>//BhaveshSGupta.me/categories/hasura/</loc>
+    <loc>//BhaveshSGupta.me/tags/hasura/</loc>
     <lastmod>2017-07-12T15:28:51+05:30</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>//BhaveshSGupta.me/tags/hasura/</loc>
+    <loc>//BhaveshSGupta.me/categories/hasura/</loc>
     <lastmod>2017-07-12T15:28:51+05:30</lastmod>
     <priority>0</priority>
   </url>
@@ -98,20 +104,20 @@
   </url>
   
   <url>
-    <loc>//BhaveshSGupta.me/categories/post/</loc>
-    <lastmod>2018-05-15T05:20:55+05:30</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
     <loc>//BhaveshSGupta.me/tags/post/</loc>
     <lastmod>2018-05-15T05:20:55+05:30</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
+    <loc>//BhaveshSGupta.me/categories/post/</loc>
+    <lastmod>2018-05-15T05:20:55+05:30</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>//BhaveshSGupta.me/tags/</loc>
-    <lastmod>2018-05-15T05:59:44+05:30</lastmod>
+    <lastmod>2018-05-04T02:22:55+05:30</lastmod>
     <priority>0</priority>
   </url>
   
