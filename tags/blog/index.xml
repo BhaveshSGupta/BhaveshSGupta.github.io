@@ -6,10 +6,19 @@
     <description>Recent content in Blog on Everyone Has a Story</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 10 Jul 2018 12:44:32 +0530</lastBuildDate>
+    <lastBuildDate>Tue, 17 Jul 2018 04:00:28 +0530</lastBuildDate>
     
 	<atom:link href="https://BhaveshSGupta.me/tags/blog/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>dgplug Start 2</title>
+      <link>https://BhaveshSGupta.me/blog/dgplug-start-2/</link>
+      <pubDate>Tue, 17 Jul 2018 04:00:28 +0530</pubDate>
+      
+      <guid>https://BhaveshSGupta.me/blog/dgplug-start-2/</guid>
+      <description>So Last year in some Facebook group or somewhere I read about summer training offered by dgplug on IRC chat. I had heard about IRC chat before and had tried to use it once or twice but never tried to use it or understand it. Technically summer trainings are usually for college students but during my college time I was too busy being in and around Microsoft Student Partner that I didn&amp;rsquo;t knew about many things around.</description>
+    </item>
     
     <item>
       <title>Static file blog using web based CMS</title>

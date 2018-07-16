@@ -6,7 +6,7 @@
     <description>Recent content in Tags on Everyone Has a Story</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 10 Jul 2018 12:44:32 +0530</lastBuildDate>
+    <lastBuildDate>Tue, 17 Jul 2018 04:00:28 +0530</lastBuildDate>
     
 	<atom:link href="https://BhaveshSGupta.me/tags/index.xml" rel="self" type="application/rss+xml" />
     
@@ -14,7 +14,7 @@
     <item>
       <title>Blog</title>
       <link>https://BhaveshSGupta.me/tags/blog/</link>
-      <pubDate>Tue, 10 Jul 2018 12:44:32 +0530</pubDate>
+      <pubDate>Tue, 17 Jul 2018 04:00:28 +0530</pubDate>
       
       <guid>https://BhaveshSGupta.me/tags/blog/</guid>
       <description></description>
@@ -26,6 +26,15 @@
       <pubDate>Tue, 15 May 2018 05:59:44 +0530</pubDate>
       
       <guid>https://BhaveshSGupta.me/tags/blog-testing/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Dgplug</title>
+      <link>https://BhaveshSGupta.me/tags/dgplug/</link>
+      <pubDate>Tue, 17 Jul 2018 04:00:28 +0530</pubDate>
+      
+      <guid>https://BhaveshSGupta.me/tags/dgplug/</guid>
       <description></description>
     </item>
     
