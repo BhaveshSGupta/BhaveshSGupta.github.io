@@ -6,7 +6,7 @@
     <description>Recent content in Tags on Everyone Has a Story</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 17 Jul 2018 05:03:32 +0530</lastBuildDate>
+    <lastBuildDate>Tue, 17 Jul 2018 05:45:40 +0530</lastBuildDate>
     
 	<atom:link href="https://BhaveshSGupta.me/tags/index.xml" rel="self" type="application/rss+xml" />
     
@@ -14,7 +14,7 @@
     <item>
       <title>Blog</title>
       <link>https://BhaveshSGupta.me/tags/blog/</link>
-      <pubDate>Tue, 17 Jul 2018 05:03:32 +0530</pubDate>
+      <pubDate>Tue, 17 Jul 2018 05:45:40 +0530</pubDate>
       
       <guid>https://BhaveshSGupta.me/tags/blog/</guid>
       <description></description>
@@ -26,6 +26,15 @@
       <pubDate>Tue, 15 May 2018 05:59:44 +0530</pubDate>
       
       <guid>https://BhaveshSGupta.me/tags/blog-testing/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Character Encoding</title>
+      <link>https://BhaveshSGupta.me/tags/character-encoding/</link>
+      <pubDate>Tue, 17 Jul 2018 05:45:40 +0530</pubDate>
+      
+      <guid>https://BhaveshSGupta.me/tags/character-encoding/</guid>
       <description></description>
     </item>
     
@@ -71,6 +80,33 @@
       <pubDate>Wed, 12 Jul 2017 15:28:51 +0530</pubDate>
       
       <guid>https://BhaveshSGupta.me/tags/hasura/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Html</title>
+      <link>https://BhaveshSGupta.me/tags/html/</link>
+      <pubDate>Tue, 17 Jul 2018 05:45:40 +0530</pubDate>
+      
+      <guid>https://BhaveshSGupta.me/tags/html/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Javascript</title>
+      <link>https://BhaveshSGupta.me/tags/javascript/</link>
+      <pubDate>Tue, 17 Jul 2018 05:45:40 +0530</pubDate>
+      
+      <guid>https://BhaveshSGupta.me/tags/javascript/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Js</title>
+      <link>https://BhaveshSGupta.me/tags/js/</link>
+      <pubDate>Tue, 17 Jul 2018 05:45:40 +0530</pubDate>
+      
+      <guid>https://BhaveshSGupta.me/tags/js/</guid>
       <description></description>
     </item>
     

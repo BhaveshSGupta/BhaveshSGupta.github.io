@@ -3,6 +3,11 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>https://BhaveshSGupta.me/blog/javascript-utf16-and-html-utf8-how-things-work-together/</loc>
+    <lastmod>2018-07-17T06:22:12+05:30</lastmod>
+  </url>
+  
+  <url>
     <loc>https://BhaveshSGupta.me/blog/update-17-jul-18/</loc>
     <lastmod>2018-07-17T05:35:53+05:30</lastmod>
   </url>
@@ -49,7 +54,7 @@
   
   <url>
     <loc>https://BhaveshSGupta.me/tags/blog/</loc>
-    <lastmod>2018-07-17T05:35:53+05:30</lastmod>
+    <lastmod>2018-07-17T06:22:12+05:30</lastmod>
     <priority>0</priority>
   </url>
   
@@ -61,12 +66,18 @@
   
   <url>
     <loc>https://BhaveshSGupta.me/blog/</loc>
-    <lastmod>2018-07-17T05:35:53+05:30</lastmod>
+    <lastmod>2018-07-17T06:22:12+05:30</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>https://BhaveshSGupta.me/categories/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://BhaveshSGupta.me/tags/character-encoding/</loc>
+    <lastmod>2018-07-17T06:22:12+05:30</lastmod>
     <priority>0</priority>
   </url>
   
@@ -78,7 +89,7 @@
   
   <url>
     <loc>https://BhaveshSGupta.me/</loc>
-    <lastmod>2018-07-17T05:35:53+05:30</lastmod>
+    <lastmod>2018-07-17T06:22:12+05:30</lastmod>
     <priority>0</priority>
   </url>
   
@@ -119,6 +130,24 @@
   </url>
   
   <url>
+    <loc>https://BhaveshSGupta.me/tags/html/</loc>
+    <lastmod>2018-07-17T06:22:12+05:30</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://BhaveshSGupta.me/tags/javascript/</loc>
+    <lastmod>2018-07-17T06:22:12+05:30</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://BhaveshSGupta.me/tags/js/</loc>
+    <lastmod>2018-07-17T06:22:12+05:30</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>https://BhaveshSGupta.me/tags/mobile/</loc>
     <lastmod>2018-07-10T14:45:12+05:30</lastmod>
     <priority>0</priority>
@@ -144,7 +173,7 @@
   
   <url>
     <loc>https://BhaveshSGupta.me/tags/</loc>
-    <lastmod>2018-07-17T05:35:53+05:30</lastmod>
+    <lastmod>2018-07-17T06:22:12+05:30</lastmod>
     <priority>0</priority>
   </url>
   
