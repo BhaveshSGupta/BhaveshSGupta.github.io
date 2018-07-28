@@ -6,10 +6,19 @@
     <description>Recent content in Blog on Everyone Has a Story</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 17 Jul 2018 05:45:40 +0530</lastBuildDate>
+    <lastBuildDate>Sun, 29 Jul 2018 01:24:50 +0530</lastBuildDate>
     
 	<atom:link href="https://BhaveshSGupta.me/tags/blog/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>The Man Who Stole My Laptop&#39;s Ferrari</title>
+      <link>https://BhaveshSGupta.me/blog/the-man-who-stole-my-laptops-ferrari/</link>
+      <pubDate>Sun, 29 Jul 2018 01:24:50 +0530</pubDate>
+      
+      <guid>https://BhaveshSGupta.me/blog/the-man-who-stole-my-laptops-ferrari/</guid>
+      <description>So, the story goes back to 2014-2015 maybe I don&amp;rsquo;t remember exactly when my laptop stopped working on later finding it was discovered the issue was with my onboard graphics card. A brief history I had a Sony Vaio laptop with AND Radeon graphics card on it. So, it was found that it was my graphics card which is creating issue. So, I took it to many people to check what can be done this that.</description>
+    </item>
     
     <item>
       <title>Javascript uses utf16 and Html utf8, then how things work together?</title>

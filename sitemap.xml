@@ -3,6 +3,11 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>https://BhaveshSGupta.me/blog/the-man-who-stole-my-laptops-ferrari/</loc>
+    <lastmod>2018-07-29T02:12:56+05:30</lastmod>
+  </url>
+  
+  <url>
     <loc>https://BhaveshSGupta.me/blog/javascript-utf16-and-html-utf8-how-things-work-together/</loc>
     <lastmod>2018-07-17T06:22:12+05:30</lastmod>
   </url>
@@ -54,7 +59,7 @@
   
   <url>
     <loc>https://BhaveshSGupta.me/tags/blog/</loc>
-    <lastmod>2018-07-17T06:22:12+05:30</lastmod>
+    <lastmod>2018-07-29T02:12:56+05:30</lastmod>
     <priority>0</priority>
   </url>
   
@@ -66,7 +71,7 @@
   
   <url>
     <loc>https://BhaveshSGupta.me/blog/</loc>
-    <lastmod>2018-07-17T06:22:12+05:30</lastmod>
+    <lastmod>2018-07-29T02:12:56+05:30</lastmod>
     <priority>0</priority>
   </url>
   
@@ -89,18 +94,18 @@
   
   <url>
     <loc>https://BhaveshSGupta.me/</loc>
-    <lastmod>2018-07-17T06:22:12+05:30</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://BhaveshSGupta.me/tags/fellowship/</loc>
-    <lastmod>2018-07-10T14:45:12+05:30</lastmod>
+    <lastmod>2018-07-29T02:12:56+05:30</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>https://BhaveshSGupta.me/categories/fellowship/</loc>
+    <lastmod>2018-07-10T14:45:12+05:30</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://BhaveshSGupta.me/tags/fellowship/</loc>
     <lastmod>2018-07-10T14:45:12+05:30</lastmod>
     <priority>0</priority>
   </url>
@@ -118,13 +123,13 @@
   </url>
   
   <url>
-    <loc>https://BhaveshSGupta.me/tags/hasura/</loc>
+    <loc>https://BhaveshSGupta.me/categories/hasura/</loc>
     <lastmod>2018-07-10T14:45:12+05:30</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://BhaveshSGupta.me/categories/hasura/</loc>
+    <loc>https://BhaveshSGupta.me/tags/hasura/</loc>
     <lastmod>2018-07-10T14:45:12+05:30</lastmod>
     <priority>0</priority>
   </url>
@@ -160,20 +165,20 @@
   </url>
   
   <url>
-    <loc>https://BhaveshSGupta.me/tags/post/</loc>
-    <lastmod>2018-07-10T14:45:12+05:30</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
     <loc>https://BhaveshSGupta.me/categories/post/</loc>
     <lastmod>2018-07-10T14:45:12+05:30</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
+    <loc>https://BhaveshSGupta.me/tags/post/</loc>
+    <lastmod>2018-07-10T14:45:12+05:30</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>https://BhaveshSGupta.me/tags/</loc>
-    <lastmod>2018-07-17T06:22:12+05:30</lastmod>
+    <lastmod>2018-07-29T02:12:56+05:30</lastmod>
     <priority>0</priority>
   </url>
   
