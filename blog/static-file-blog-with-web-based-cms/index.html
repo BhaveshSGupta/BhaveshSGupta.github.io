@@ -74,6 +74,83 @@
     <section id="wrapper">
 				
 				
+<article class="post">
+    <header>
+        <h1>Static file blog using web based CMS</h1>
+        <h2 class="subtitle"></h2>
+        <h2 class="headline">
+        July 10, 2018
+        <br>
+        
+        
+            
+                <a href="https://BhaveshSGupta.me/tags/blog">blog</a>
+            
+                <a href="https://BhaveshSGupta.me/tags/personal">personal</a>
+            
+        
+        
+        </h2>
+    </header>
+    <section id="post-body">
+        
+
+<p>So a few days back I was working on a solution so that I could keep that blog updated. As this is a not-self deployable blog I actually need to deploy changes. Somebody would say instead of taking so much efforts to deploy a single post you could have set up a WordPress blog which has an awesome app to add post, n number of themes, plugins, etc. But I feel I like it this way. The geeky way of maintaining a blog :D. I was working on to find something which could help me update my blog from cell phone. For that I was able to install git on my cellphone (SU access). First how this blog actually works so there are two repo&rsquo;s using which this blog works. One is the content management part where the content stays, theme stays and other things. And there is another repo on which there whole hugo generated HTML stays which is present on github.</p>
+
+<p>As I was having git access into my cellphone I was able to update content but how to use hugo. I need to run hugo on my content repo and update the blog repo which was not possible through phone. So to do that what I was thinking was I would setup a server, when there would be a commit in content repo it would call a web-hook. The hook would work to fetch content from content repo into server, server would run hugo generate html and then it would push updates to blog repo and my blog would be live :D. This could be most tedious thing I would have thought to do for a blog. So I started again to find something which could be useful here as there are 1000&rsquo;s of blog which actually uses hugo who would have faced the issue of updating blog post from mobile. There came one such solution which was <a href="https://forestry.io">forestry.io</a>. Forestry is a static file CMS the thing I was needing to update my blog.</p>
+
+<p>The awesome thing about forestry is that it allows you to use hugo and jekyll both with an online CMS like features. Also you can configure almost everything using their platform. I remember during my college days I was not having laptop and that time I was using jekyll blog. Jekyll has a tedious path to configure, you need ruby and other things to make it work. And to work on a windows it was a whole new challenge. If there had been something like forestry back then my blog would be having much more content :D. So forestry became solution for my misery.</p>
+
+<h2 id="why-i-was-doing-above">Why I was doing above?</h2>
+
+<p>So this year for my birthday I had a sort of planned/unplanned trip to Haridwar and rishikesh. And I was thinking to keep things updated using the blog which I was not able to due to network issue, battery issue, internet issue and finally I lost my phone basically someone pick my pocket :(.</p>
+
+    </section>
+</article>
+
+<footer id="post-meta" class="clearfix">
+    <a href="https://twitter.com/BhaveshSGupta">
+    <img class="avatar" src="https://BhaveshSGupta.me/images/avatar.png">
+    <div>
+        <span class="dark">Bhavesh S. Gupta</span>
+        <span>Programmer</span>
+    </div>
+    </a>
+    <section id="sharing">
+        <a class="twitter" href="https://twitter.com/intent/tweet?text=https%3a%2f%2fBhaveshSGupta.me%2fblog%2fstatic-file-blog-with-web-based-cms%2f - Static%20file%20blog%20using%20web%20based%20CMS by @BhaveshSGupta"><span class="icon-twitter"> tweet</span></a>
+
+<a class="facebook" href="#" onclick="
+    window.open(
+      'https://www.facebook.com/sharer/sharer.php?u='+encodeURIComponent(location.href),
+      'facebook-share-dialog',
+      'width=626,height=436');
+    return false;"><span class="icon-facebook-rect"> Share</span>
+</a>
+
+    </section>
+</footer>
+
+
+
+<ul id="post-list" class="archive readmore">
+    <h3>Read more</h3>
+    
+    
+    
+        <li>
+            <a href="/blog/reading-habit/">Reading Habit<aside class="dates">Aug 4 2018</aside></a>
+        </li>
+    
+        <li>
+            <a href="/blog/the-man-who-stole-my-laptops-ferrari/">The Man Who Stole My Laptop&#39;s Ferrari<aside class="dates">Jul 29 2018</aside></a>
+        </li>
+    
+        <li>
+            <a href="/blog/javascript-utf16-and-html-utf8-how-things-work-together/">Javascript uses utf16 and Html utf8, then how things work together?<aside class="dates">Jul 17 2018</aside></a>
+        </li>
+    
+</ul>
+
 				<footer id="footer">
     
         <div id="social">

@@ -77,6 +77,83 @@ This was quite intresting on how things work around because of this. So I was re
     <section id="wrapper">
 				
 				
+<article class="post">
+    <header>
+        <h1>Javascript uses utf16 and Html utf8, then how things work together?</h1>
+        <h2 class="subtitle"></h2>
+        <h2 class="headline">
+        July 17, 2018
+        <br>
+        
+        
+            
+                <a href="https://BhaveshSGupta.me/tags/blog">blog</a>
+            
+                <a href="https://BhaveshSGupta.me/tags/javascript">javascript</a>
+            
+                <a href="https://BhaveshSGupta.me/tags/html">html</a>
+            
+                <a href="https://BhaveshSGupta.me/tags/character-encoding">character-encoding</a>
+            
+                <a href="https://BhaveshSGupta.me/tags/js">js</a>
+            
+        
+        
+        </h2>
+    </header>
+    <section id="post-body">
+        <p>This was part of one the discussion of dgplug discussion, that javascript uses utf-16 and html we usually use utf-8 as character encoding then how things work out.</p>
+
+<p>This was quite intresting on how things work around because of this. So I was reading around to find answers for the above question and I landed upon <a href="https://stackoverflow.com/questions/12114477/how-do-i-correctly-insert-unicode-in-an-html-title-using-javascript/12114520#12114520">this</a>. And this text from the answer in the link helps understand how things work. &ldquo;JavaScript string constants are parsed by the JavaScript parser. Text inside HTML tags is parsed by the HTML parser. The two languages (and, by extension, their parsers) are different, and in particular they have different ways of representing characters by character code.&rdquo; Basically they won&rsquo;t have issue with different character encoding as they would render same character. More over javascript parser would parse the character into the html when you use innerHTML method.</p>
+
+<p>I would have to read more and update this post again.</p>
+
+    </section>
+</article>
+
+<footer id="post-meta" class="clearfix">
+    <a href="https://twitter.com/BhaveshSGupta">
+    <img class="avatar" src="https://BhaveshSGupta.me/images/avatar.png">
+    <div>
+        <span class="dark">Bhavesh S. Gupta</span>
+        <span>Programmer</span>
+    </div>
+    </a>
+    <section id="sharing">
+        <a class="twitter" href="https://twitter.com/intent/tweet?text=https%3a%2f%2fBhaveshSGupta.me%2fblog%2fjavascript-utf16-and-html-utf8-how-things-work-together%2f - Javascript%20uses%20utf16%20and%20Html%20utf8%2c%20then%20how%20things%20work%20together%3f by @BhaveshSGupta"><span class="icon-twitter"> tweet</span></a>
+
+<a class="facebook" href="#" onclick="
+    window.open(
+      'https://www.facebook.com/sharer/sharer.php?u='+encodeURIComponent(location.href),
+      'facebook-share-dialog',
+      'width=626,height=436');
+    return false;"><span class="icon-facebook-rect"> Share</span>
+</a>
+
+    </section>
+</footer>
+
+
+
+<ul id="post-list" class="archive readmore">
+    <h3>Read more</h3>
+    
+    
+    
+        <li>
+            <a href="/blog/reading-habit/">Reading Habit<aside class="dates">Aug 4 2018</aside></a>
+        </li>
+    
+        <li>
+            <a href="/blog/the-man-who-stole-my-laptops-ferrari/">The Man Who Stole My Laptop&#39;s Ferrari<aside class="dates">Jul 29 2018</aside></a>
+        </li>
+    
+        <li>
+            <a href="/blog/update-17-jul-18/">Update 17 Jul 18<aside class="dates">Jul 17 2018</aside></a>
+        </li>
+    
+</ul>
+
 				<footer id="footer">
     
         <div id="social">
