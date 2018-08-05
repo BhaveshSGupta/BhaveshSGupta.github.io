@@ -1,114 +1,126 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en-us">
 	<head>
 		<meta charset="utf-8">
-		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-		<meta name="viewport" content="width=device-width, initial-scale=1">
-		 
-			
-  
-    <meta name="twitter:card" content="summary"/>
-    
-      <meta name="twitter:image" content="https://BhaveshSGupta.me/images/avatar.png" />
-    
-  
-  
-  <meta name="twitter:title" content="Javascript uses utf16 and Html utf8, then how things work together?"/>
-  <meta name="twitter:description" content="This was part of one the discussion of dgplug discussion, that javascript uses utf-16 and html we usually use utf-8 as character encoding then how things work out.
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="author" content="Bhavesh S. Gupta">
+
+<title>Javascript uses utf16 and Html utf8, then how things work together? &middot; Everyone Has a Story</title>
+<link rel="shortcut icon" href="https://BhaveshSGupta.me/images/avatar.png">
+<link rel="stylesheet" href="https://BhaveshSGupta.me/css/style.css">
+<link rel="stylesheet" href="https://BhaveshSGupta.me/css/highlight.css">
+
+
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/latest/css/font-awesome.min.css">
+
+
+<link href="https://BhaveshSGupta.me/index.xml" rel="alternate" type="application/rss+xml" title="Everyone Has a Story" />
+
+<meta property="og:title" content="Javascript uses utf16 and Html utf8, then how things work together?" />
+<meta property="og:description" content="This was part of one the discussion of dgplug discussion, that javascript uses utf-16 and html we usually use utf-8 as character encoding then how things work out.
+This was quite intresting on how things work around because of this. So I was reading around to find answers for the above question and I landed upon this. And this text from the answer in the link helps understand how things work." />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://BhaveshSGupta.me/blog/javascript-utf16-and-html-utf8-how-things-work-together/" />
+
+
+
+<meta property="article:published_time" content="2018-07-17T05:45:40&#43;05:30"/>
+
+<meta property="article:modified_time" content="2018-07-17T06:22:12&#43;05:30"/>
+
+
+
+
+
+
+
+
+
+
+
+
+
+<meta itemprop="name" content="Javascript uses utf16 and Html utf8, then how things work together?">
+<meta itemprop="description" content="This was part of one the discussion of dgplug discussion, that javascript uses utf-16 and html we usually use utf-8 as character encoding then how things work out.
+This was quite intresting on how things work around because of this. So I was reading around to find answers for the above question and I landed upon this. And this text from the answer in the link helps understand how things work.">
+
+
+<meta itemprop="datePublished" content="2018-07-17T05:45:40&#43;05:30" />
+<meta itemprop="dateModified" content="2018-07-17T05:45:40&#43;05:30" />
+<meta itemprop="wordCount" content="155">
+
+
+
+<meta itemprop="keywords" content="blog,javascript,html,character-encoding,js," />
+
+<meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content="Javascript uses utf16 and Html utf8, then how things work together?"/>
+<meta name="twitter:description" content="This was part of one the discussion of dgplug discussion, that javascript uses utf-16 and html we usually use utf-8 as character encoding then how things work out.
 This was quite intresting on how things work around because of this. So I was reading around to find answers for the above question and I landed upon this. And this text from the answer in the link helps understand how things work."/>
-  
-    <meta name="twitter:site" content="@BhaveshSGupta"/>
-  
-  
-  
-  
-    <meta name="twitter:creator" content="@Bhavesh S. Gupta"/>
-  
+<meta name="twitter:site" content="@https://www.twitter.com/BhaveshSGupta"/>
 
-
-
-		
-		<meta name="author" content="Bhavesh S. Gupta">
-		<meta name="description" content="Blog">
-		<meta name="generator" content="Hugo 0.46" />
-		<title>Javascript uses utf16 and Html utf8, then how things work together? &middot; Everyone Has a Story</title>
-		<link rel="shortcut icon" href="https://BhaveshSGupta.me/images/favicon.ico">
-		<link rel="stylesheet" href="https://BhaveshSGupta.me/css/style.css">
-		<link rel="stylesheet" href="https://BhaveshSGupta.me/css/highlight.css">
-
-		
-		<link rel="stylesheet" href="https://BhaveshSGupta.me/css/font-awesome.min.css">
-		
-
-		
-		<link href="https://BhaveshSGupta.me/index.xml" rel="alternate" type="application/rss+xml" title="Everyone Has a Story" />
-		
-
-		
 	</head>
-
-    <body>
-       <nav class="main-nav">
+	<body>
+		<nav class="main-nav">
+	
+		<a href='https://BhaveshSGupta.me'> Home</a>
 	
 	
-		<a href='https://BhaveshSGupta.me/'> <span class="arrow">←</span>Home</a>
+ 		<a href='/about/'>About</a>
+  	
 	
-	<a href='https://BhaveshSGupta.me/posts'>Blog</a>
-	<a href='https://BhaveshSGupta.me/tags'>Tags</a>
-	<a href='https://BhaveshSGupta.me/about'>About</a>
-
-	
-
-	
-	<a class="cta" href="https://BhaveshSGupta.me/index.xml">Subscribe</a>
+		<a class="cta" href="https://BhaveshSGupta.me/index.xml">Subscribe</a>
 	
 </nav>
 
-
-        <section id="wrapper" class="post">
-            <article>
-                <header>
-                    <h1>
-                        Javascript uses utf16 and Html utf8, then how things work together?
-                    </h1>
-                    <h2 class="headline">
-                    Jul 17, 2018 05:45
-                    · 155 words
-                    · 1 minute read
-                      <span class="tags">
-                      
-                      
-                          
-                              <a href="https://BhaveshSGupta.me/tags/blog">blog</a>
-                          
-                              <a href="https://BhaveshSGupta.me/tags/javascript">javascript</a>
-                          
-                              <a href="https://BhaveshSGupta.me/tags/html">html</a>
-                          
-                              <a href="https://BhaveshSGupta.me/tags/character-encoding">character-encoding</a>
-                          
-                              <a href="https://BhaveshSGupta.me/tags/js">js</a>
-                          
-                      
-                      
-                      </span>
-                    </h2>
-                </header>
-                
-                  
-                
-                <section id="post-body">
-                    <p>This was part of one the discussion of dgplug discussion, that javascript uses utf-16 and html we usually use utf-8 as character encoding then how things work out.</p>
+    <section id="wrapper">
+				
+				
+<article class="post">
+    <header>
+        <h1>Javascript uses utf16 and Html utf8, then how things work together?</h1>
+        <h2 class="subtitle"></h2>
+        <h2 class="headline">
+        July 17, 2018
+         <br>
+        
+        
+            
+                <a href="https://BhaveshSGupta.me/tags/blog">blog</a>
+            
+                <a href="https://BhaveshSGupta.me/tags/javascript">javascript</a>
+            
+                <a href="https://BhaveshSGupta.me/tags/html">html</a>
+            
+                <a href="https://BhaveshSGupta.me/tags/character-encoding">character-encoding</a>
+            
+                <a href="https://BhaveshSGupta.me/tags/js">js</a>
+            
+        
+        
+        </h2>
+    </header>
+    <section id="post-body">
+        <p>This was part of one the discussion of dgplug discussion, that javascript uses utf-16 and html we usually use utf-8 as character encoding then how things work out.</p>
 
 <p>This was quite intresting on how things work around because of this. So I was reading around to find answers for the above question and I landed upon <a href="https://stackoverflow.com/questions/12114477/how-do-i-correctly-insert-unicode-in-an-html-title-using-javascript/12114520#12114520">this</a>. And this text from the answer in the link helps understand how things work. &ldquo;JavaScript string constants are parsed by the JavaScript parser. Text inside HTML tags is parsed by the HTML parser. The two languages (and, by extension, their parsers) are different, and in particular they have different ways of representing characters by character code.&rdquo; Basically they won&rsquo;t have issue with different character encoding as they would render same character. More over javascript parser would parse the character into the html when you use innerHTML method.</p>
 
 <p>I would have to read more and update this post again.</p>
 
-                </section>
-            </article>
+    </section>
+</article>
 
-            
-                <a class="twitter" href="https://twitter.com/intent/tweet?text=https%3a%2f%2fBhaveshSGupta.me%2fblog%2fjavascript-utf16-and-html-utf8-how-things-work-together%2f - Javascript%20uses%20utf16%20and%20Html%20utf8%2c%20then%20how%20things%20work%20together%3f by @BhaveshSGupta"><span class="icon-twitter"> tweet</span></a>
+<footer id="post-meta" class="clearfix">
+    <a href="https://twitter.com/BhaveshSGupta">
+    <img class="avatar" src="https://BhaveshSGupta.me/images/avatar.png">
+    <div>
+        <span class="dark">Bhavesh S. Gupta</span>
+        <span>Programmer</span>
+    </div>
+    </a>
+    <section id="sharing">
+        <a class="twitter" href="https://twitter.com/intent/tweet?text=https%3a%2f%2fBhaveshSGupta.me%2fblog%2fjavascript-utf16-and-html-utf8-how-things-work-together%2f - Javascript%20uses%20utf16%20and%20Html%20utf8%2c%20then%20how%20things%20work%20together%3f by @BhaveshSGupta"><span class="icon-twitter"> tweet</span></a>
 
 <a class="facebook" href="#" onclick="
     window.open(
@@ -118,75 +130,66 @@ This was quite intresting on how things work around because of this. So I was re
     return false;"><span class="icon-facebook-rect"> Share</span>
 </a>
 
-            
+    </section>
+</footer>
 
-            
-                <div id="disqus_thread"></div>
-<script type="text/javascript">
-    var disqus_shortname = 'your_disqus_short_name'; 
 
-     
-    (function() {
-        var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
-        dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
-        (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
-    })();
-</script>
-<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
-</div>
 
-            
+<ul id="post-list" class="archive readmore">
+    <h3>Read more</h3>
+    
+    
+    
+        <li>
+            <a href="/blog/reading-habit/">Reading Habit<aside class="dates">Aug 4 2018</aside></a>
+        </li>
+    
+        <li>
+            <a href="/blog/the-man-who-stole-my-laptops-ferrari/">The Man Who Stole My Laptop&#39;s Ferrari<aside class="dates">Jul 29 2018</aside></a>
+        </li>
+    
+        <li>
+            <a href="/blog/update-17-jul-18/">Update 17 Jul 18<aside class="dates">Jul 17 2018</aside></a>
+        </li>
+    
+</ul>
 
-            
-
-            <footer id="footer">
+				<footer id="footer">
     
         <div id="social">
-
+	 
+	<a class="symbol" href="mailto:mail@BhaveshSGupta.me">
+		<i class="fa fa-envelope-o"></i>
+	</a>
 	
+	<a class="symbol" href="https://www.github.com/BhaveshSGupta">
+		<i class="fa fa-github"></i>
+	</a>
 	
-    <a class="symbol" href="mailto:mail@BhaveshSGupta.me">
-        <i class="fa fa-envelope-o"></i>
-    </a>
-    
-    <a class="symbol" href="https://www.github.com/BhaveshSGupta">
-        <i class="fa fa-github-square"></i>
-    </a>
-    
-    <a class="symbol" href="https://www.linkedin.com/in/BhaveshSGupta">
-        <i class="fa fa-linkedin"></i>
-    </a>
-    
-    <a class="symbol" href="https://www.twitter.com/BhaveshSGupta">
-        <i class="fa fa-twitter"></i>
-    </a>
-    
-
-
+	<a class="symbol" href="https://www.linkedin.com/in/BhaveshSGupta">
+		<i class="fa fa-linkedin"></i>
+	</a>
+	
+	<a class="symbol" href="https://www.twitter.com/BhaveshSGupta">
+		<i class="fa fa-twitter"></i>
+	</a>
+	 
 </div>
-
     
     <p class="small">
     
-       © Copyright 2018 <i class="fa fa-heart" aria-hidden="true"></i> Bhavesh S. Gupta
+        © Copyright 2018 Bhavesh S. Gupta
     
-    </p>
-    <p class="small">
-        Powered by <a href="http://www.gohugo.io/">Hugo</a> Theme By <a href="https://github.com/nodejh/hugo-theme-cactus-plus">nodejh</a>
     </p>
 </footer>
 
-        </section>
-
-        <script src="https://BhaveshSGupta.me/js/jquery-3.3.1.min.js"></script>
+		</section>
+		<script src="//ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
 <script src="https://BhaveshSGupta.me/js/main.js"></script>
-<script src="https://BhaveshSGupta.me/js/highlight.min.js"></script>
+<script src="https://BhaveshSGupta.me/js/highlight.js"></script>
 <script>hljs.initHighlightingOnLoad();</script>
 
 
-
-
-  
 <script>
 var doNotTrack = false;
 if (!doNotTrack) {
@@ -200,9 +203,5 @@ if (!doNotTrack) {
 }
 </script>
 
-
-
-
-
-    </body>
+	</body>
 </html>
