@@ -6,10 +6,19 @@
     <description>Recent content on Everyone Has a Story</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 06 Aug 2018 16:03:34 +0530</lastBuildDate>
+    <lastBuildDate>Tue, 07 Aug 2018 23:36:01 +0530</lastBuildDate>
     
 	<atom:link href="https://BhaveshSGupta.me/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Readingeveryday 2</title>
+      <link>https://BhaveshSGupta.me/blog/readingeveryday-2/</link>
+      <pubDate>Tue, 07 Aug 2018 23:36:01 +0530</pubDate>
+      
+      <guid>https://BhaveshSGupta.me/blog/readingeveryday-2/</guid>
+      <description>For #readingeveryday and link To day I dedicated 15 mins to read documentation or pym python book.</description>
+    </item>
     
     <item>
       <title>#Readingeveryday Day-1</title>
