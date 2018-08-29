@@ -6,10 +6,11 @@
     <description>Recent content on Everyone Has a Story</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 07 Aug 2018 23:36:01 +0530</lastBuildDate>
+    <lastBuildDate>Sat, 20 Jun 2015 14:02:37 +0200</lastBuildDate>
     
-	<atom:link href="https://BhaveshSGupta.me/index.xml" rel="self" type="application/rss+xml" />
+        <atom:link href="https://BhaveshSGupta.me/index.xml" rel="self" type="application/rss+xml" />
     
+		
     
     <item>
       <title>#readingeveryday 2</title>
@@ -17,7 +18,9 @@
       <pubDate>Tue, 07 Aug 2018 23:36:01 +0530</pubDate>
       
       <guid>https://BhaveshSGupta.me/blog/readingeveryday-2/</guid>
-      <description>For #readingeveryday and link Today I dedicated 15 mins to read documentation or pym python book.</description>
+      
+        <description>For #readingeveryday and link Today I dedicated 15 mins to read documentation or pym python book.</description>
+      
     </item>
     
     <item>
@@ -26,7 +29,9 @@
       <pubDate>Mon, 06 Aug 2018 16:03:34 +0530</pubDate>
       
       <guid>https://BhaveshSGupta.me/blog/readingeveryday-1/</guid>
-      <description>I have been having difficulties in making reading a habbit so my friend Jason, introduce to something which is called #readingeveryday challenge to start reading here is the link. So this post and goes to that today is the day 1, rightnow as I am starting I am reading 15 min a day. Being a slow Reader I was able to read 6 pages of the book which I am currently &amp;ldquo;Think and Grow Rich&amp;rdquo; by Napoleon Hill.</description>
+      
+        <description>I have been having difficulties in making reading a habbit so my friend Jason, introduce to something which is called #readingeveryday challenge to start reading here is the link. So this post and goes to that today is the day 1, rightnow as I am starting I am reading 15 min a day. Being a slow Reader I was able to read 6 pages of the book which I am currently &amp;ldquo;Think and Grow Rich&amp;rdquo; by Napoleon Hill.</description>
+      
     </item>
     
     <item>
@@ -35,8 +40,10 @@
       <pubDate>Sat, 04 Aug 2018 03:58:11 +0530</pubDate>
       
       <guid>https://BhaveshSGupta.me/blog/reading-habit/</guid>
-      <description>I am trying to develop the habit of reading. Recently while going through #dgplug summer training, there have been discussion about having a habit to read. You write 1/10th part of what you read. Reading and writing both is considered to be one of the most important part of engineer.
+      
+        <description>I am trying to develop the habit of reading. Recently while going through #dgplug summer training, there have been discussion about having a habit to read. You write 1/10th part of what you read. Reading and writing both is considered to be one of the most important part of engineer.
 So trying to follow above I started reading books still non-technical but as a first step I did start. I do a lot of technical reading, but I never write about it so one of the task is to start writting about technical readings be it github projects I am going to try to write about it.</description>
+      
     </item>
     
     <item>
@@ -45,7 +52,9 @@ So trying to follow above I started reading books still non-technical but as a f
       <pubDate>Sun, 29 Jul 2018 01:24:50 +0530</pubDate>
       
       <guid>https://BhaveshSGupta.me/blog/the-man-who-stole-my-laptops-ferrari/</guid>
-      <description>So, the story goes back to 2014-2015 maybe I don&amp;rsquo;t remember exactly when my laptop stopped working on later finding it was discovered the issue was with my onboard graphics card. A brief history I had a Sony Vaio laptop with AND Radeon graphics card on it. So, it was found that it was my graphics card which is creating issue. So, I took it to many people to check what can be done this that.</description>
+      
+        <description>So, the story goes back to 2014-2015 maybe I don&amp;rsquo;t remember exactly when my laptop stopped working on later finding it was discovered the issue was with my onboard graphics card. A brief history I had a Sony Vaio laptop with AND Radeon graphics card on it. So, it was found that it was my graphics card which is creating issue. So, I took it to many people to check what can be done this that.</description>
+      
     </item>
     
     <item>
@@ -54,8 +63,10 @@ So trying to follow above I started reading books still non-technical but as a f
       <pubDate>Tue, 17 Jul 2018 05:45:40 +0530</pubDate>
       
       <guid>https://BhaveshSGupta.me/blog/javascript-utf16-and-html-utf8-how-things-work-together/</guid>
-      <description>This was part of one the discussion of dgplug discussion, that javascript uses utf-16 and html we usually use utf-8 as character encoding then how things work out.
+      
+        <description>This was part of one the discussion of dgplug discussion, that javascript uses utf-16 and html we usually use utf-8 as character encoding then how things work out.
 This was quite intresting on how things work around because of this. So I was reading around to find answers for the above question and I landed upon this. And this text from the answer in the link helps understand how things work.</description>
+      
     </item>
     
     <item>
@@ -64,8 +75,10 @@ This was quite intresting on how things work around because of this. So I was re
       <pubDate>Tue, 17 Jul 2018 05:03:32 +0530</pubDate>
       
       <guid>https://BhaveshSGupta.me/blog/update-17-jul-18/</guid>
-      <description>This update post was actually created on 10th july, But as ususal due to some x reason it is not yet complete. There are several things which are running into my life right now out of them on is to update this blog on regular bases to get align with things.
+      
+        <description>This update post was actually created on 10th july, But as ususal due to some x reason it is not yet complete. There are several things which are running into my life right now out of them on is to update this blog on regular bases to get align with things.
 Pending Posts This blog came to life again due to dgplug summer training where we were taught to write blog post about things you are doing or learning(PS: I am yet to read logs to that class :p).</description>
+      
     </item>
     
     <item>
@@ -74,8 +87,10 @@ Pending Posts This blog came to life again due to dgplug summer training where w
       <pubDate>Tue, 17 Jul 2018 04:00:28 +0530</pubDate>
       
       <guid>https://BhaveshSGupta.me/blog/dgplug-start-2/</guid>
-      <description>So Last year in some Facebook group or somewhere I read about summer training offered by dgplug on IRC chat. I had heard about IRC chat before and had tried to use it once or twice but never tried to use it or understand it.
+      
+        <description>So Last year in some Facebook group or somewhere I read about summer training offered by dgplug on IRC chat. I had heard about IRC chat before and had tried to use it once or twice but never tried to use it or understand it.
 Technically summer trainings are usually for college students but during my college time I was too busy being in and around Microsoft Student Partner that I didn&amp;rsquo;t knew about many things around.</description>
+      
     </item>
     
     <item>
@@ -84,7 +99,9 @@ Technically summer trainings are usually for college students but during my coll
       <pubDate>Tue, 10 Jul 2018 12:44:32 +0530</pubDate>
       
       <guid>https://BhaveshSGupta.me/blog/static-file-blog-with-web-based-cms/</guid>
-      <description>So a few days back I was working on a solution so that I could keep that blog updated. As this is a not-self deployable blog I actually need to deploy changes. Somebody would say instead of taking so much efforts to deploy a single post you could have set up a WordPress blog which has an awesome app to add post, n number of themes, plugins, etc. But I feel I like it this way.</description>
+      
+        <description>So a few days back I was working on a solution so that I could keep that blog updated. As this is a not-self deployable blog I actually need to deploy changes. Somebody would say instead of taking so much efforts to deploy a single post you could have set up a WordPress blog which has an awesome app to add post, n number of themes, plugins, etc. But I feel I like it this way.</description>
+      
     </item>
     
     <item>
@@ -93,10 +110,12 @@ Technically summer trainings are usually for college students but during my coll
       <pubDate>Tue, 15 May 2018 05:59:44 +0530</pubDate>
       
       <guid>https://BhaveshSGupta.me/blog/trying-forestry-from-mobile-browser/</guid>
-      <description>This is the first post using forestry I have actually setup git for android and other stuff for my blog this is another approach which can be used let see how&amp;rsquo;s this work. There would be more test post to check the overall working.
+      
+        <description>This is the first post using forestry I have actually setup git for android and other stuff for my blog this is another approach which can be used let see how&amp;rsquo;s this work. There would be more test post to check the overall working.
 Bbye
 Kudos
 Bhavesh Gupta</description>
+      
     </item>
     
     <item>
@@ -105,8 +124,10 @@ Bhavesh Gupta</description>
       <pubDate>Tue, 15 May 2018 05:20:55 +0530</pubDate>
       
       <guid>https://BhaveshSGupta.me/blog/mobile-test-post/</guid>
-      <description>This is the solution test for the question how to create static site generator blog from mobile with an ease this is a test post of everything works out a how to post is comming down soon.
+      
+        <description>This is the solution test for the question how to create static site generator blog from mobile with an ease this is a test post of everything works out a how to post is comming down soon.
 kudos, bye</description>
+      
     </item>
     
     <item>
@@ -115,7 +136,9 @@ kudos, bye</description>
       <pubDate>Fri, 04 May 2018 02:22:55 +0530</pubDate>
       
       <guid>https://BhaveshSGupta.me/blog/finally-https/</guid>
-      <description>Well, GitHub started providing HTTPS even for custom domain, So I had to enable that plus there were some internal changes which were required. Which I had done. Its been almost two years since I have bought this domain But I have been away from blogging. I had setup this a good time ago using Hugo and a cactus theme still have been struck the same place not able to write what I want or I should say not able to give to write what I want.</description>
+      
+        <description>Well, GitHub started providing HTTPS even for custom domain, So I had to enable that plus there were some internal changes which were required. Which I had done. Its been almost two years since I have bought this domain But I have been away from blogging. I had setup this a good time ago using Hugo and a cactus theme still have been struck the same place not able to write what I want or I should say not able to give to write what I want.</description>
+      
     </item>
     
     <item>
@@ -124,7 +147,9 @@ kudos, bye</description>
       <pubDate>Wed, 12 Jul 2017 15:28:51 +0530</pubDate>
       
       <guid>https://BhaveshSGupta.me/blog/hasura-internship/</guid>
-      <description>Hasura Product Development Fellowship So Introduction to Modern App Development(IMAD) was one of the MOOC that is was recently part of as the title says it was basic introduction to app development where we learnt several things including node, git, Android app development, Mac app development, etc. The fellowship was offered to the top students from the IMAD course(I was one of them ;). The fellowship is all about learning how to make your own product as it is developed in the industry following development process starting from deciding about the idea then prototyping then data modeling and so on.</description>
+      
+        <description>Hasura Product Development Fellowship So Introduction to Modern App Development(IMAD) was one of the MOOC that is was recently part of as the title says it was basic introduction to app development where we learnt several things including node, git, Android app development, Mac app development, etc. The fellowship was offered to the top students from the IMAD course(I was one of them ;). The fellowship is all about learning how to make your own product as it is developed in the industry following development process starting from deciding about the idea then prototyping then data modeling and so on.</description>
+      
     </item>
     
     <item>
@@ -133,7 +158,9 @@ kudos, bye</description>
       <pubDate>Sun, 25 Jun 2017 12:00:00 +0530</pubDate>
       
       <guid>https://BhaveshSGupta.me/blog/first-post/</guid>
-      <description>So finally blog is up again I have thinking to making this up long time and finally I have yay. Well I did purchase the domain in last august, I am using hugo static site generator and currently I am using customized version of cocoa-eh theme. What I like about this theme is its very simple, plain, I dont like more fancy stuff and I could customize it as per requirement.</description>
+      
+        <description>So finally blog is up again I have thinking to making this up long time and finally I have yay. Well I did purchase the domain in last august, I am using hugo static site generator and currently I am using customized version of cocoa-eh theme. What I like about this theme is its very simple, plain, I dont like more fancy stuff and I could customize it as per requirement.</description>
+      
     </item>
     
   </channel>
