@@ -1,4 +1,3 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Everyone Has a Story</title>
@@ -6,11 +5,24 @@
     <description>Recent content on Everyone Has a Story</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sat, 20 Jun 2015 14:02:37 +0200</lastBuildDate>
+    <lastBuildDate>Fri, 24 May 2019 01:00:00 +0530</lastBuildDate>
     
         <atom:link href="https://BhaveshSGupta.me/index.xml" rel="self" type="application/rss+xml" />
     
 		
+    
+    <item>
+      <title>Birthday Week 2019</title>
+      <link>https://BhaveshSGupta.me/blog/birthday-week-2019/</link>
+      <pubDate>Fri, 24 May 2019 01:00:00 +0530</pubDate>
+      
+      <guid>https://BhaveshSGupta.me/blog/birthday-week-2019/</guid>
+      
+        <description>So another Birthday gone as-usual. Although I am not a big celebrator expect last where we had a trip to Rishikesh on my birthday PS: I am yet to write that post.
+My celebration to birthday most part has only dinner with family. We go to a fancy hotel have some food and come back. Its almost like this has become a tradition to celebrate birthday this way.
+This post was to be published on 19th May, instead I am writing now because of my laziness I don&amp;rsquo;t often write due to fear of writing or fear of making mistakes while write.</description>
+      
+    </item>
     
     <item>
       <title>#readingeveryday 2</title>

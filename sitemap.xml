@@ -1,12 +1,48 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <?xml-stylesheet type="text/xsl" href="https://BhaveshSGupta.me/sitemap.xsl"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
     <loc>https://BhaveshSGupta.me/about/</loc>
-    <lastmod>2018-08-29T09:22:35+05:30</lastmod>
+    <lastmod>2019-05-24T21:07:55+05:30</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://BhaveshSGupta.me/tags/birthday/</loc>
+    <lastmod>2019-05-24T21:59:42+05:30</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://BhaveshSGupta.me/blog/birthday-week-2019/</loc>
+    <lastmod>2019-05-24T21:59:42+05:30</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://BhaveshSGupta.me/blog/</loc>
+    <lastmod>2019-05-24T21:59:42+05:30</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://BhaveshSGupta.me/</loc>
+    <lastmod>2019-05-24T21:59:42+05:30</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://BhaveshSGupta.me/tags/</loc>
+    <lastmod>2019-05-24T21:59:42+05:30</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://BhaveshSGupta.me/tags/blog/</loc>
+    <lastmod>2019-05-24T21:59:42+05:30</lastmod>
+    <priority>0</priority>
   </url>
   
   <url>
@@ -14,6 +50,18 @@
     <lastmod>2018-08-07T23:47:15+05:30</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://BhaveshSGupta.me/tags/readingeveryday/</loc>
+    <lastmod>2018-08-07T23:47:15+05:30</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://BhaveshSGupta.me/tags/timelog/</loc>
+    <lastmod>2018-08-07T23:47:15+05:30</lastmod>
+    <priority>0</priority>
   </url>
   
   <url>
@@ -45,10 +93,46 @@
   </url>
   
   <url>
+    <loc>https://BhaveshSGupta.me/tags/character-encoding/</loc>
+    <lastmod>2018-07-17T06:22:12+05:30</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://BhaveshSGupta.me/tags/html/</loc>
+    <lastmod>2018-07-17T06:22:12+05:30</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://BhaveshSGupta.me/tags/javascript/</loc>
+    <lastmod>2018-07-17T06:22:12+05:30</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://BhaveshSGupta.me/tags/js/</loc>
+    <lastmod>2018-07-17T06:22:12+05:30</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>https://BhaveshSGupta.me/blog/update-17-jul-18/</loc>
     <lastmod>2018-07-17T05:35:53+05:30</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://BhaveshSGupta.me/tags/personal/</loc>
+    <lastmod>2018-07-17T05:35:53+05:30</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://BhaveshSGupta.me/tags/dgplug/</loc>
+    <lastmod>2019-02-13T09:59:00+00:00</lastmod>
+    <priority>0</priority>
   </url>
   
   <url>
@@ -66,10 +150,22 @@
   </url>
   
   <url>
+    <loc>https://BhaveshSGupta.me/tags/forestry/</loc>
+    <lastmod>2018-08-29T08:48:00+05:30</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>https://BhaveshSGupta.me/blog/trying-forestry-from-mobile-browser/</loc>
     <lastmod>2018-08-29T08:48:00+05:30</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://BhaveshSGupta.me/tags/blog-testing/</loc>
+    <lastmod>2018-08-29T08:48:00+05:30</lastmod>
+    <priority>0</priority>
   </url>
   
   <url>
@@ -80,10 +176,70 @@
   </url>
   
   <url>
+    <loc>https://BhaveshSGupta.me/categories/</loc>
+    <lastmod>2018-07-10T14:45:12+05:30</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://BhaveshSGupta.me/tags/mobile/</loc>
+    <lastmod>2018-07-10T14:45:12+05:30</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://BhaveshSGupta.me/categories/post/</loc>
+    <lastmod>2018-07-10T14:45:12+05:30</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://BhaveshSGupta.me/tags/post/</loc>
+    <lastmod>2018-07-10T14:45:12+05:30</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://BhaveshSGupta.me/categories/test/</loc>
+    <lastmod>2018-07-10T14:45:12+05:30</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>https://BhaveshSGupta.me/blog/finally-https/</loc>
     <lastmod>2018-07-10T14:45:12+05:30</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://BhaveshSGupta.me/tags/github/</loc>
+    <lastmod>2018-07-10T14:45:12+05:30</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://BhaveshSGupta.me/categories/fellowship/</loc>
+    <lastmod>2018-07-10T14:45:12+05:30</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://BhaveshSGupta.me/tags/fellowship/</loc>
+    <lastmod>2018-07-10T14:45:12+05:30</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://BhaveshSGupta.me/categories/hasura/</loc>
+    <lastmod>2018-07-10T14:45:12+05:30</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://BhaveshSGupta.me/tags/hasura/</loc>
+    <lastmod>2018-07-10T14:45:12+05:30</lastmod>
+    <priority>0</priority>
   </url>
   
   <url>
@@ -95,176 +251,9 @@
   
   <url>
     <loc>https://BhaveshSGupta.me/blog/first-post/</loc>
-    <lastmod>2018-07-10T14:45:12+05:30</lastmod>
+    <lastmod>2019-05-24T21:43:49+05:30</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
-  </url>
-  
-  <url>
-    <loc>https://BhaveshSGupta.me/tags/blog/</loc>
-    <lastmod>2018-08-04T04:35:11+05:30</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://BhaveshSGupta.me/tags/blog-testing/</loc>
-    <lastmod>2018-08-29T08:48:00+05:30</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://BhaveshSGupta.me/blog/</loc>
-    <lastmod>2018-08-07T23:47:15+05:30</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://BhaveshSGupta.me/categories/</loc>
-    <changefreq>weekly</changefreq>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://BhaveshSGupta.me/tags/character-encoding/</loc>
-    <lastmod>2018-07-17T06:22:12+05:30</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://BhaveshSGupta.me/tags/dgplug/</loc>
-    <lastmod>2019-02-13T09:59:00+00:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://BhaveshSGupta.me/</loc>
-    <lastmod>2018-08-29T09:22:35+05:30</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://BhaveshSGupta.me/tags/fellowship/</loc>
-    <lastmod>2018-07-10T14:45:12+05:30</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://BhaveshSGupta.me/categories/fellowship/</loc>
-    <lastmod>2018-07-10T14:45:12+05:30</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://BhaveshSGupta.me/tags/forestry/</loc>
-    <lastmod>2018-08-29T08:48:00+05:30</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://BhaveshSGupta.me/tags/github/</loc>
-    <lastmod>2018-07-10T14:45:12+05:30</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://BhaveshSGupta.me/tags/hasura/</loc>
-    <lastmod>2018-07-10T14:45:12+05:30</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://BhaveshSGupta.me/categories/hasura/</loc>
-    <lastmod>2018-07-10T14:45:12+05:30</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://BhaveshSGupta.me/tags/html/</loc>
-    <lastmod>2018-07-17T06:22:12+05:30</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://BhaveshSGupta.me/tags/javascript/</loc>
-    <lastmod>2018-07-17T06:22:12+05:30</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://BhaveshSGupta.me/tags/js/</loc>
-    <lastmod>2018-07-17T06:22:12+05:30</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://BhaveshSGupta.me/tags/mobile/</loc>
-    <lastmod>2018-07-10T14:45:12+05:30</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://BhaveshSGupta.me/tags/personal/</loc>
-    <lastmod>2018-07-17T05:35:53+05:30</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://BhaveshSGupta.me/tags/post/</loc>
-    <lastmod>2018-07-10T14:45:12+05:30</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://BhaveshSGupta.me/categories/post/</loc>
-    <lastmod>2018-07-10T14:45:12+05:30</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://BhaveshSGupta.me/tags/readingeveryday/</loc>
-    <lastmod>2018-08-07T23:47:15+05:30</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://BhaveshSGupta.me/tags/</loc>
-    <lastmod>2018-08-04T04:35:11+05:30</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://BhaveshSGupta.me/categories/test/</loc>
-    <lastmod>2018-07-10T14:45:12+05:30</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://BhaveshSGupta.me/tags/timelog/</loc>
-    <lastmod>2018-08-07T23:47:15+05:30</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0</priority>
   </url>
   
 </urlset>

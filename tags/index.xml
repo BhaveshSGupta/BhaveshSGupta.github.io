@@ -6,31 +6,49 @@
     <description>Recent content in Tags on Everyone Has a Story</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sat, 04 Aug 2018 03:58:11 +0530</lastBuildDate>
+    <lastBuildDate>Fri, 24 May 2019 01:00:00 +0530</lastBuildDate>
     
 	<atom:link href="https://BhaveshSGupta.me/tags/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
-      <title>Blog</title>
+      <title>Birthday</title>
+      <link>https://BhaveshSGupta.me/tags/birthday/</link>
+      <pubDate>Fri, 24 May 2019 01:00:00 +0530</pubDate>
+      
+      <guid>https://BhaveshSGupta.me/tags/birthday/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>blog</title>
       <link>https://BhaveshSGupta.me/tags/blog/</link>
-      <pubDate>Sat, 04 Aug 2018 03:58:11 +0530</pubDate>
+      <pubDate>Fri, 24 May 2019 01:00:00 +0530</pubDate>
       
       <guid>https://BhaveshSGupta.me/tags/blog/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>Blog Testing</title>
-      <link>https://BhaveshSGupta.me/tags/blog-testing/</link>
-      <pubDate>Tue, 15 May 2018 05:59:44 +0530</pubDate>
+      <title>readingeveryday</title>
+      <link>https://BhaveshSGupta.me/tags/readingeveryday/</link>
+      <pubDate>Tue, 07 Aug 2018 23:36:01 +0530</pubDate>
       
-      <guid>https://BhaveshSGupta.me/tags/blog-testing/</guid>
+      <guid>https://BhaveshSGupta.me/tags/readingeveryday/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>Character Encoding</title>
+      <title>timelog</title>
+      <link>https://BhaveshSGupta.me/tags/timelog/</link>
+      <pubDate>Tue, 07 Aug 2018 23:36:01 +0530</pubDate>
+      
+      <guid>https://BhaveshSGupta.me/tags/timelog/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>character-encoding</title>
       <link>https://BhaveshSGupta.me/tags/character-encoding/</link>
       <pubDate>Tue, 17 Jul 2018 05:45:40 +0530</pubDate>
       
@@ -39,20 +57,47 @@
     </item>
     
     <item>
-      <title>Dgplug</title>
-      <link>https://BhaveshSGupta.me/tags/dgplug/</link>
-      <pubDate>Tue, 17 Jul 2018 04:00:28 +0530</pubDate>
+      <title>html</title>
+      <link>https://BhaveshSGupta.me/tags/html/</link>
+      <pubDate>Tue, 17 Jul 2018 05:45:40 +0530</pubDate>
       
-      <guid>https://BhaveshSGupta.me/tags/dgplug/</guid>
+      <guid>https://BhaveshSGupta.me/tags/html/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>Fellowship</title>
-      <link>https://BhaveshSGupta.me/tags/fellowship/</link>
-      <pubDate>Wed, 12 Jul 2017 15:28:51 +0530</pubDate>
+      <title>javascript</title>
+      <link>https://BhaveshSGupta.me/tags/javascript/</link>
+      <pubDate>Tue, 17 Jul 2018 05:45:40 +0530</pubDate>
       
-      <guid>https://BhaveshSGupta.me/tags/fellowship/</guid>
+      <guid>https://BhaveshSGupta.me/tags/javascript/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>js</title>
+      <link>https://BhaveshSGupta.me/tags/js/</link>
+      <pubDate>Tue, 17 Jul 2018 05:45:40 +0530</pubDate>
+      
+      <guid>https://BhaveshSGupta.me/tags/js/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>personal</title>
+      <link>https://BhaveshSGupta.me/tags/personal/</link>
+      <pubDate>Tue, 17 Jul 2018 05:03:32 +0530</pubDate>
+      
+      <guid>https://BhaveshSGupta.me/tags/personal/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>dgplug</title>
+      <link>https://BhaveshSGupta.me/tags/dgplug/</link>
+      <pubDate>Tue, 17 Jul 2018 04:00:28 +0530</pubDate>
+      
+      <guid>https://BhaveshSGupta.me/tags/dgplug/</guid>
       <description></description>
     </item>
     
@@ -66,11 +111,47 @@
     </item>
     
     <item>
-      <title>Github</title>
+      <title>blog testing</title>
+      <link>https://BhaveshSGupta.me/tags/blog-testing/</link>
+      <pubDate>Tue, 15 May 2018 05:59:44 +0530</pubDate>
+      
+      <guid>https://BhaveshSGupta.me/tags/blog-testing/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>mobile</title>
+      <link>https://BhaveshSGupta.me/tags/mobile/</link>
+      <pubDate>Tue, 15 May 2018 05:20:55 +0530</pubDate>
+      
+      <guid>https://BhaveshSGupta.me/tags/mobile/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>post</title>
+      <link>https://BhaveshSGupta.me/tags/post/</link>
+      <pubDate>Tue, 15 May 2018 05:20:55 +0530</pubDate>
+      
+      <guid>https://BhaveshSGupta.me/tags/post/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>github</title>
       <link>https://BhaveshSGupta.me/tags/github/</link>
       <pubDate>Fri, 04 May 2018 02:22:55 +0530</pubDate>
       
       <guid>https://BhaveshSGupta.me/tags/github/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Fellowship</title>
+      <link>https://BhaveshSGupta.me/tags/fellowship/</link>
+      <pubDate>Wed, 12 Jul 2017 15:28:51 +0530</pubDate>
+      
+      <guid>https://BhaveshSGupta.me/tags/fellowship/</guid>
       <description></description>
     </item>
     
@@ -80,78 +161,6 @@
       <pubDate>Wed, 12 Jul 2017 15:28:51 +0530</pubDate>
       
       <guid>https://BhaveshSGupta.me/tags/hasura/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Html</title>
-      <link>https://BhaveshSGupta.me/tags/html/</link>
-      <pubDate>Tue, 17 Jul 2018 05:45:40 +0530</pubDate>
-      
-      <guid>https://BhaveshSGupta.me/tags/html/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Javascript</title>
-      <link>https://BhaveshSGupta.me/tags/javascript/</link>
-      <pubDate>Tue, 17 Jul 2018 05:45:40 +0530</pubDate>
-      
-      <guid>https://BhaveshSGupta.me/tags/javascript/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Js</title>
-      <link>https://BhaveshSGupta.me/tags/js/</link>
-      <pubDate>Tue, 17 Jul 2018 05:45:40 +0530</pubDate>
-      
-      <guid>https://BhaveshSGupta.me/tags/js/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Mobile</title>
-      <link>https://BhaveshSGupta.me/tags/mobile/</link>
-      <pubDate>Tue, 15 May 2018 05:20:55 +0530</pubDate>
-      
-      <guid>https://BhaveshSGupta.me/tags/mobile/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Personal</title>
-      <link>https://BhaveshSGupta.me/tags/personal/</link>
-      <pubDate>Tue, 17 Jul 2018 05:03:32 +0530</pubDate>
-      
-      <guid>https://BhaveshSGupta.me/tags/personal/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Post</title>
-      <link>https://BhaveshSGupta.me/tags/post/</link>
-      <pubDate>Tue, 15 May 2018 05:20:55 +0530</pubDate>
-      
-      <guid>https://BhaveshSGupta.me/tags/post/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Readingeveryday</title>
-      <link>https://BhaveshSGupta.me/tags/readingeveryday/</link>
-      <pubDate>Tue, 07 Aug 2018 23:36:01 +0530</pubDate>
-      
-      <guid>https://BhaveshSGupta.me/tags/readingeveryday/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Timelog</title>
-      <link>https://BhaveshSGupta.me/tags/timelog/</link>
-      <pubDate>Tue, 07 Aug 2018 23:36:01 +0530</pubDate>
-      
-      <guid>https://BhaveshSGupta.me/tags/timelog/</guid>
       <description></description>
     </item>
     
