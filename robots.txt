@@ -1,0 +1,2 @@
+User-agent: *
+Sitemap: https://BhaveshSGupta.me/sitemap.xml
