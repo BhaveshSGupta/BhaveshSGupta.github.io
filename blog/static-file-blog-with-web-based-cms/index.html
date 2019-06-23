@@ -3,7 +3,7 @@
 <head>
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <title>html · Everyone Has a Story</title>
+  <title>Static file blog using web based CMS - Everyone Has a Story</title>
   
 
 <meta name="renderer" content="webkit" />
@@ -23,6 +23,8 @@
 <meta name="mobile-web-app-capable" content="yes">
 
 <meta name="author" content="Bhavesh S. Gupta" />
+  <meta name="description" content="So a few days back I was working on a solution so that I could keep that blog updated. As this is a not-self deployable blog I actually need to deploy changes. Somebody would say instead of taking so much efforts to deploy a single post you could have set up a WordPress blog which has an awesome app to add post, n number of themes, plugins, etc. But I feel I like it this way." />
+
 
 
 
@@ -32,8 +34,7 @@
 <meta name="generator" content="Hugo 0.55.6" />
 
 
-<link rel="canonical" href="https://BhaveshSGupta.me/tags/html/" />
-<link href="%7balternate%20%7bRSS%20application/rss&#43;xml%20%20index%20alternate%20%20false%20false%20true%20false%20false%200%7d%20/tags/html/index.xml%20https://BhaveshSGupta.me/tags/html/index.xml%7d" rel="alternate" type="application/rss+xml" title="Everyone Has a Story" />
+<link rel="canonical" href="https://BhaveshSGupta.me/blog/static-file-blog-with-web-based-cms/" />
 
 
 
@@ -55,19 +56,27 @@
 
 
 
-<meta property="og:title" content="html" />
-<meta property="og:description" content="" />
-<meta property="og:type" content="website" />
-<meta property="og:url" content="https://BhaveshSGupta.me/tags/html/" />
+<meta property="og:title" content="Static file blog using web based CMS" />
+<meta property="og:description" content="So a few days back I was working on a solution so that I could keep that blog updated. As this is a not-self deployable blog I actually need to deploy changes. Somebody would say instead of taking so much efforts to deploy a single post you could have set up a WordPress blog which has an awesome app to add post, n number of themes, plugins, etc. But I feel I like it this way." />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://BhaveshSGupta.me/blog/static-file-blog-with-web-based-cms/" />
+<meta property="article:published_time" content="2018-07-10T12:44:32&#43;05:30"/>
+<meta property="article:modified_time" content="2018-07-10T14:09:33&#43;05:30"/>
 
-<meta property="og:updated_time" content="2018-07-17T05:45:40&#43;05:30"/>
+<meta itemprop="name" content="Static file blog using web based CMS">
+<meta itemprop="description" content="So a few days back I was working on a solution so that I could keep that blog updated. As this is a not-self deployable blog I actually need to deploy changes. Somebody would say instead of taking so much efforts to deploy a single post you could have set up a WordPress blog which has an awesome app to add post, n number of themes, plugins, etc. But I feel I like it this way.">
 
-<meta itemprop="name" content="html">
-<meta itemprop="description" content="">
 
+<meta itemprop="datePublished" content="2018-07-10T12:44:32&#43;05:30" />
+<meta itemprop="dateModified" content="2018-07-10T14:09:33&#43;05:30" />
+<meta itemprop="wordCount" content="500">
+
+
+
+<meta itemprop="keywords" content="blog,personal," />
 <meta name="twitter:card" content="summary"/>
-<meta name="twitter:title" content="html"/>
-<meta name="twitter:description" content=""/>
+<meta name="twitter:title" content="Static file blog using web based CMS"/>
+<meta name="twitter:description" content="So a few days back I was working on a solution so that I could keep that blog updated. As this is a not-self deployable blog I actually need to deploy changes. Somebody would say instead of taking so much efforts to deploy a single post you could have set up a WordPress blog which has an awesome app to add post, n number of themes, plugins, etc. But I feel I like it this way."/>
 
 <!--[if lte IE 9]>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/classlist/1.1.20170427/classList.min.js"></script>
@@ -193,55 +202,90 @@ if (!doNotTrack) {
     <main id="main" class="main bg-llight">
       <div class="content-wrapper">
         <div id="content" class="content container">
-          
-
-<section id="archive" class="archive">
-  
+          <article class="post bg-white">
     
-      <div class="archive-title tag">
-        <h2 class="archive-name">Tag: html</h2>
+    <header class="post-header">
+      <h1 class="post-title">Static file blog using web based CMS</h1>
+      
+      <div class="post-meta">
+        <span class="post-time"> 2018-07-10 </span>
+        
+        
+
+        
+        
+
+        
+        
       </div>
+    </header>
+
     
-  
+    
 
-  
-    <div class="archive-post">
-      <span class="archive-post-time">
-        2018-07-17
-      </span>
-      <span class="archive-post-title">
-        <a href="/blog/javascript-utf16-and-html-utf8-how-things-work-together/" class="archive-post-link">
-          Javascript uses utf16 and Html utf8, then how things work together?
-        </a>
-      </span>
+    
+    <div class="post-content">
+      
+
+<p>So a few days back I was working on a solution so that I could keep that blog updated. As this is a not-self deployable blog I actually need to deploy changes. Somebody would say instead of taking so much efforts to deploy a single post you could have set up a WordPress blog which has an awesome app to add post, n number of themes, plugins, etc. But I feel I like it this way. The geeky way of maintaining a blog :D. I was working on to find something which could help me update my blog from cell phone. For that I was able to install git on my cellphone (SU access). First how this blog actually works so there are two repo&rsquo;s using which this blog works. One is the content management part where the content stays, theme stays and other things. And there is another repo on which there whole hugo generated HTML stays which is present on github.</p>
+
+<p>As I was having git access into my cellphone I was able to update content but how to use hugo. I need to run hugo on my content repo and update the blog repo which was not possible through phone. So to do that what I was thinking was I would setup a server, when there would be a commit in content repo it would call a web-hook. The hook would work to fetch content from content repo into server, server would run hugo generate html and then it would push updates to blog repo and my blog would be live :D. This could be most tedious thing I would have thought to do for a blog. So I started again to find something which could be useful here as there are 1000&rsquo;s of blog which actually uses hugo who would have faced the issue of updating blog post from mobile. There came one such solution which was <a href="https://forestry.io">forestry.io</a>. Forestry is a static file CMS the thing I was needing to update my blog.</p>
+
+<p>The awesome thing about forestry is that it allows you to use hugo and jekyll both with an online CMS like features. Also you can configure almost everything using their platform. I remember during my college days I was not having laptop and that time I was using jekyll blog. Jekyll has a tedious path to configure, you need ruby and other things to make it work. And to work on a windows it was a whole new challenge. If there had been something like forestry back then my blog would be having much more content :D. So forestry became solution for my misery.</p>
+
+<h2 id="why-i-was-doing-above">Why I was doing above?</h2>
+
+<p>So this year for my birthday I had a sort of planned/unplanned trip to Haridwar and rishikesh. And I was thinking to keep things updated using the blog which I was not able to due to network issue, battery issue, internet issue and finally I lost my phone basically someone pick my pocket :(.</p>
+
     </div>
+
+    
+    
+
+
+    
+    
+
+    <footer class="post-footer">
+      <div class="post-tags">
+          <a href="https://BhaveshSGupta.me/tags/blog/">blog</a>
+          <a href="https://BhaveshSGupta.me/tags/personal/">personal</a>
+          
+        </div>
+
+      
+      <nav class="post-nav">
+        
+          <a class="prev" href="/blog/dgplug-start-2/">
+            <i class="iconfont icon-left"></i>
+            <span class="prev-text nav-default">dgplug Start 2</span>
+            <span class="prev-text nav-mobile">Prev</span>
+          </a>
+        
+          <a class="next" href="/blog/trying-forestry-from-mobile-browser/">
+            <span class="next-text nav-default">Trying Forestry from mobile browser</span>
+            <span class="prev-text nav-mobile">Next</span>
+            <i class="iconfont icon-right"></i>
+          </a>
+      </nav>
+    </footer>
+  </article>
+
   
-</section>
-
-
-
-
-
-
   
-  
+
   
 
   
   
 
   
-  
 
   
-  
 
   
-  
 
-
-
-
+    
 
         </div>
       </div>
