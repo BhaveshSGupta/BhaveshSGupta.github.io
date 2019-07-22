@@ -104,9 +104,10 @@ $ git log -2
 $ git log -p -2
 $ git log --stat&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
 &lt;/div&gt;
-&lt;/div&gt;
-&lt;p&gt;As part of home task we were asked to read &lt;a href=&#34;https://chris.beams.io/posts/git-commit/&#34;&gt;https://chris.beams.io/posts/git-commit/&lt;/a&gt;, which explains How to write a Git commit message.&lt;/p&gt;&lt;/li&gt;
+&lt;/div&gt;&lt;/li&gt;
 &lt;/ul&gt;
+
+&lt;p&gt;As part of home task we were asked to read &lt;a href=&#34;https://chris.beams.io/posts/git-commit/&#34;&gt;https://chris.beams.io/posts/git-commit/&lt;/a&gt;, which explains How to write a Git commit message.&lt;/p&gt;
 
 &lt;p&gt;The seven rules of a great Git commit message are:&lt;/p&gt;
 
