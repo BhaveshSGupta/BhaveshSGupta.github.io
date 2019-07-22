@@ -6,10 +6,46 @@
     <description>Recent content in Tags on Everyone Has a Story</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 23 May 2019 19:30:00 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 22 Jul 2019 12:12:00 +0530</lastBuildDate>
     
 	<atom:link href="https://BhaveshSGupta.me/tags/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>blog</title>
+      <link>https://BhaveshSGupta.me/tags/blog/</link>
+      <pubDate>Mon, 22 Jul 2019 12:12:00 +0530</pubDate>
+      
+      <guid>https://BhaveshSGupta.me/tags/blog/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>commit</title>
+      <link>https://BhaveshSGupta.me/tags/commit/</link>
+      <pubDate>Mon, 22 Jul 2019 12:12:00 +0530</pubDate>
+      
+      <guid>https://BhaveshSGupta.me/tags/commit/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>commit message</title>
+      <link>https://BhaveshSGupta.me/tags/commit-message/</link>
+      <pubDate>Mon, 22 Jul 2019 12:12:00 +0530</pubDate>
+      
+      <guid>https://BhaveshSGupta.me/tags/commit-message/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>git</title>
+      <link>https://BhaveshSGupta.me/tags/git/</link>
+      <pubDate>Mon, 22 Jul 2019 12:12:00 +0530</pubDate>
+      
+      <guid>https://BhaveshSGupta.me/tags/git/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>Birthday</title>
@@ -17,15 +53,6 @@
       <pubDate>Thu, 23 May 2019 19:30:00 +0000</pubDate>
       
       <guid>https://BhaveshSGupta.me/tags/birthday/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>blog</title>
-      <link>https://BhaveshSGupta.me/tags/blog/</link>
-      <pubDate>Thu, 23 May 2019 19:30:00 +0000</pubDate>
-      
-      <guid>https://BhaveshSGupta.me/tags/blog/</guid>
       <description></description>
     </item>
     
