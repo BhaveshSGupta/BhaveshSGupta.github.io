@@ -25,41 +25,88 @@
 
 &lt;ul&gt;
 &lt;li&gt;&lt;p&gt;git init is used initialize Git repository&lt;/p&gt;
-
-&lt;p&gt;$ git init&lt;/p&gt;&lt;/li&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
+&lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre class=&#34;chroma&#34;&gt;&lt;span class=&#34;lnt&#34;&gt;1
+&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre class=&#34;chroma&#34;&gt;$ git init&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;/li&gt;
 
 &lt;li&gt;&lt;p&gt;git config to used to configure various Git configuration using below command one can configure their Name and Email globally for Git.&lt;/p&gt;
-
-&lt;p&gt;$ git config &amp;ndash;global user.name &amp;ldquo;&lt;Name&gt;&amp;ldquo;
-  $ git config &amp;ndash;global user.email &amp;ldquo;&lt;email&gt;&amp;ldquo;&lt;/p&gt;&lt;/li&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
+&lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre class=&#34;chroma&#34;&gt;&lt;span class=&#34;lnt&#34;&gt;1
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;2
+&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre class=&#34;chroma&#34;&gt;$ git config --global user.name &amp;#34;&amp;lt;Name&amp;gt;&amp;#34;
+$ git config --global user.email &amp;#34;&amp;lt;email&amp;gt;&amp;#34;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;/li&gt;
 
 &lt;li&gt;&lt;p&gt;git add is used to add files to stage area in Git.&lt;/p&gt;
-
-&lt;p&gt;$ git add helloworld.txt
-  $ git add .
-  $ git add -u&lt;/p&gt;&lt;/li&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
+&lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre class=&#34;chroma&#34;&gt;&lt;span class=&#34;lnt&#34;&gt;1
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;2
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;3
+&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre class=&#34;chroma&#34;&gt;$ git add helloworld.txt
+$ git add .
+$ git add -u&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;/li&gt;
 
 &lt;li&gt;&lt;p&gt;git status to see status of you Git repoistory. Whether there are changes that are still not added to stage or there are changes which are added to stage but not committed.&lt;/p&gt;
-
-&lt;p&gt;$ git status&lt;/p&gt;&lt;/li&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
+&lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre class=&#34;chroma&#34;&gt;&lt;span class=&#34;lnt&#34;&gt;1
+&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre class=&#34;chroma&#34;&gt;$ git status&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;/li&gt;
 
 &lt;li&gt;&lt;p&gt;git commit is used to commit your files from stage.&lt;/p&gt;
-
-&lt;p&gt;$ git commit -m &amp;ldquo;Snapshot 2&amp;rdquo;&lt;/p&gt;&lt;/li&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
+&lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre class=&#34;chroma&#34;&gt;&lt;span class=&#34;lnt&#34;&gt;1
+&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre class=&#34;chroma&#34;&gt;$ git commit -m &amp;#34;Snapshot 2&amp;#34;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;/li&gt;
 
 &lt;li&gt;&lt;p&gt;git diff is used to difference betwen current state and previous state.&lt;/p&gt;
-
-&lt;p&gt;$ git diff&lt;/p&gt;&lt;/li&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
+&lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre class=&#34;chroma&#34;&gt;&lt;span class=&#34;lnt&#34;&gt;1
+&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre class=&#34;chroma&#34;&gt;$ git diff&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;/li&gt;
 
 &lt;li&gt;&lt;p&gt;git log is used to get commit logs.&lt;/p&gt;
-
-&lt;p&gt;$ git log
-  $ git log -2
-  $ git log -p -2
-  $ git log &amp;ndash;stat&lt;/p&gt;&lt;/li&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
+&lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre class=&#34;chroma&#34;&gt;&lt;span class=&#34;lnt&#34;&gt;1
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;2
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;3
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;4
+&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre class=&#34;chroma&#34;&gt;$ git log
+$ git log -2
+$ git log -p -2
+$ git log --stat&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;p&gt;As part of home task we were asked to read &lt;a href=&#34;https://chris.beams.io/posts/git-commit/&#34;&gt;https://chris.beams.io/posts/git-commit/&lt;/a&gt;, which explains How to write a Git commit message.&lt;/p&gt;&lt;/li&gt;
 &lt;/ul&gt;
-
-&lt;p&gt;As part of home task we were asked to read &lt;a href=&#34;https://chris.beams.io/posts/git-commit/&#34;&gt;https://chris.beams.io/posts/git-commit/&lt;/a&gt;, which explains How to write a Git commit message.&lt;/p&gt;
 
 &lt;p&gt;The seven rules of a great Git commit message are:&lt;/p&gt;
 
