@@ -6,7 +6,7 @@
     <description>Recent content in Tags on Everyone Has a Story</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 22 Jul 2019 12:12:00 +0530</lastBuildDate>
+    <lastBuildDate>Mon, 22 Jul 2019 21:59:52 +0530</lastBuildDate>
     
 	<atom:link href="https://BhaveshSGupta.me/tags/index.xml" rel="self" type="application/rss+xml" />
     
@@ -14,9 +14,36 @@
     <item>
       <title>blog</title>
       <link>https://BhaveshSGupta.me/tags/blog/</link>
-      <pubDate>Mon, 22 Jul 2019 12:12:00 +0530</pubDate>
+      <pubDate>Mon, 22 Jul 2019 21:59:52 +0530</pubDate>
       
       <guid>https://BhaveshSGupta.me/tags/blog/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>git</title>
+      <link>https://BhaveshSGupta.me/tags/git/</link>
+      <pubDate>Mon, 22 Jul 2019 21:59:52 +0530</pubDate>
+      
+      <guid>https://BhaveshSGupta.me/tags/git/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>log</title>
+      <link>https://BhaveshSGupta.me/tags/log/</link>
+      <pubDate>Mon, 22 Jul 2019 21:59:52 +0530</pubDate>
+      
+      <guid>https://BhaveshSGupta.me/tags/log/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>log arrguments</title>
+      <link>https://BhaveshSGupta.me/tags/log-arrguments/</link>
+      <pubDate>Mon, 22 Jul 2019 21:59:52 +0530</pubDate>
+      
+      <guid>https://BhaveshSGupta.me/tags/log-arrguments/</guid>
       <description></description>
     </item>
     
@@ -35,15 +62,6 @@
       <pubDate>Mon, 22 Jul 2019 12:12:00 +0530</pubDate>
       
       <guid>https://BhaveshSGupta.me/tags/commit-message/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>git</title>
-      <link>https://BhaveshSGupta.me/tags/git/</link>
-      <pubDate>Mon, 22 Jul 2019 12:12:00 +0530</pubDate>
-      
-      <guid>https://BhaveshSGupta.me/tags/git/</guid>
       <description></description>
     </item>
     
@@ -170,24 +188,6 @@
       <pubDate>Fri, 04 May 2018 02:22:55 +0530</pubDate>
       
       <guid>https://BhaveshSGupta.me/tags/github/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Fellowship</title>
-      <link>https://BhaveshSGupta.me/tags/fellowship/</link>
-      <pubDate>Wed, 12 Jul 2017 15:28:51 +0530</pubDate>
-      
-      <guid>https://BhaveshSGupta.me/tags/fellowship/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Hasura</title>
-      <link>https://BhaveshSGupta.me/tags/hasura/</link>
-      <pubDate>Wed, 12 Jul 2017 15:28:51 +0530</pubDate>
-      
-      <guid>https://BhaveshSGupta.me/tags/hasura/</guid>
       <description></description>
     </item>
     

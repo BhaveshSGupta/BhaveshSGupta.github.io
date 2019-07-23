@@ -10,19 +10,74 @@
   
   <url>
     <loc>https://BhaveshSGupta.me/blog/</loc>
-    <lastmod>2019-07-22T20:44:38+05:30</lastmod>
+    <lastmod>2019-07-23T23:02:50+05:30</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>https://BhaveshSGupta.me/categories/</loc>
-    <lastmod>2019-07-22T20:44:38+05:30</lastmod>
+    <lastmod>2019-07-23T23:02:50+05:30</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>https://BhaveshSGupta.me/</loc>
-    <lastmod>2019-07-22T20:44:38+05:30</lastmod>
+    <lastmod>2019-07-23T23:02:50+05:30</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://BhaveshSGupta.me/blog/more-information-about-git-log-command/</loc>
+    <lastmod>2019-07-23T23:02:50+05:30</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://BhaveshSGupta.me/tags/</loc>
+    <lastmod>2019-07-23T23:02:50+05:30</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://BhaveshSGupta.me/categories/blog/</loc>
+    <lastmod>2019-07-23T23:02:50+05:30</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://BhaveshSGupta.me/tags/blog/</loc>
+    <lastmod>2019-07-23T23:02:50+05:30</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://BhaveshSGupta.me/categories/dgplug/</loc>
+    <lastmod>2019-07-23T23:02:50+05:30</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://BhaveshSGupta.me/tags/git/</loc>
+    <lastmod>2019-07-23T23:02:50+05:30</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://BhaveshSGupta.me/categories/git/</loc>
+    <lastmod>2019-07-23T23:02:50+05:30</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://BhaveshSGupta.me/tags/log/</loc>
+    <lastmod>2019-07-23T23:02:50+05:30</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://BhaveshSGupta.me/tags/log-arrguments/</loc>
+    <lastmod>2019-07-23T23:02:50+05:30</lastmod>
     <priority>0</priority>
   </url>
   
@@ -34,24 +89,6 @@
   </url>
   
   <url>
-    <loc>https://BhaveshSGupta.me/tags/</loc>
-    <lastmod>2019-07-22T20:44:38+05:30</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://BhaveshSGupta.me/categories/blog/</loc>
-    <lastmod>2019-07-22T20:44:38+05:30</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://BhaveshSGupta.me/tags/blog/</loc>
-    <lastmod>2019-07-22T20:44:38+05:30</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
     <loc>https://BhaveshSGupta.me/tags/commit/</loc>
     <lastmod>2019-07-22T20:44:38+05:30</lastmod>
     <priority>0</priority>
@@ -59,24 +96,6 @@
   
   <url>
     <loc>https://BhaveshSGupta.me/tags/commit-message/</loc>
-    <lastmod>2019-07-22T20:44:38+05:30</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://BhaveshSGupta.me/categories/dgplug/</loc>
-    <lastmod>2019-07-22T20:44:38+05:30</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://BhaveshSGupta.me/tags/git/</loc>
-    <lastmod>2019-07-22T20:44:38+05:30</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://BhaveshSGupta.me/categories/git/</loc>
     <lastmod>2019-07-22T20:44:38+05:30</lastmod>
     <priority>0</priority>
   </url>
