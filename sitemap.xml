@@ -10,19 +10,26 @@
   
   <url>
     <loc>https://BhaveshSGupta.me/blog/</loc>
-    <lastmod>2019-07-23T23:02:50+05:30</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://BhaveshSGupta.me/categories/</loc>
-    <lastmod>2019-07-23T23:02:50+05:30</lastmod>
+    <lastmod>2019-07-26T08:41:39+05:30</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>https://BhaveshSGupta.me/</loc>
-    <lastmod>2019-07-25T18:26:10+00:00</lastmod>
+    <lastmod>2019-07-26T08:41:39+05:30</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://BhaveshSGupta.me/blog/hellofromtermux/</loc>
+    <lastmod>2019-07-26T08:41:39+05:30</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://BhaveshSGupta.me/categories/</loc>
+    <lastmod>2019-07-23T23:02:50+05:30</lastmod>
     <priority>0</priority>
   </url>
   
@@ -40,13 +47,13 @@
   </url>
   
   <url>
-    <loc>https://BhaveshSGupta.me/categories/blog/</loc>
+    <loc>https://BhaveshSGupta.me/tags/blog/</loc>
     <lastmod>2019-07-23T23:02:50+05:30</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://BhaveshSGupta.me/tags/blog/</loc>
+    <loc>https://BhaveshSGupta.me/categories/blog/</loc>
     <lastmod>2019-07-23T23:02:50+05:30</lastmod>
     <priority>0</priority>
   </url>
@@ -262,13 +269,13 @@
   </url>
   
   <url>
-    <loc>https://BhaveshSGupta.me/categories/post/</loc>
+    <loc>https://BhaveshSGupta.me/tags/post/</loc>
     <lastmod>2018-07-10T14:45:12+05:30</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://BhaveshSGupta.me/tags/post/</loc>
+    <loc>https://BhaveshSGupta.me/categories/post/</loc>
     <lastmod>2018-07-10T14:45:12+05:30</lastmod>
     <priority>0</priority>
   </url>
@@ -293,25 +300,25 @@
   </url>
   
   <url>
-    <loc>https://BhaveshSGupta.me/categories/fellowship/</loc>
-    <lastmod>2018-07-10T14:45:12+05:30</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
     <loc>https://BhaveshSGupta.me/tags/fellowship/</loc>
     <lastmod>2018-07-10T14:45:12+05:30</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://BhaveshSGupta.me/categories/hasura/</loc>
+    <loc>https://BhaveshSGupta.me/categories/fellowship/</loc>
     <lastmod>2018-07-10T14:45:12+05:30</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>https://BhaveshSGupta.me/tags/hasura/</loc>
+    <lastmod>2018-07-10T14:45:12+05:30</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://BhaveshSGupta.me/categories/hasura/</loc>
     <lastmod>2018-07-10T14:45:12+05:30</lastmod>
     <priority>0</priority>
   </url>
