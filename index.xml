@@ -6,11 +6,37 @@
     <description>Recent content on Everyone Has a Story</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 22 Jul 2019 21:59:52 +0530</lastBuildDate>
+    <lastBuildDate>Mon, 29 Jul 2019 16:56:15 +0530</lastBuildDate>
     
         <atom:link href="https://BhaveshSGupta.me/index.xml" rel="self" type="application/rss+xml" />
     
 		
+    
+    <item>
+      <title>Object-Oriented Programming With JS (part 1)</title>
+      <link>https://BhaveshSGupta.me/blog/oop-with-js-part-1/</link>
+      <pubDate>Mon, 29 Jul 2019 16:56:15 +0530</pubDate>
+      
+      <guid>https://BhaveshSGupta.me/blog/oop-with-js-part-1/</guid>
+      
+        <description>&lt;p&gt;I started to learn Object-oriented Programming in JavaScript using this &lt;a href=&#34;https://udemy.com/javascript-object-oriented-programming/&#34;&gt;course&lt;/a&gt;. This post is more of notes for the course I am taking.&lt;/p&gt;
+
+&lt;p&gt;Object-oriented programming is a programming paradigm or style of programming which is centered around objects and not on founctions.&lt;/p&gt;
+
+&lt;h2 id=&#34;four-core-concept-or-pillars-of-object-oriented-programming-language&#34;&gt;Four core concept or pillars of Object-oriented programming language&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Encapsulation&lt;/li&gt;
+&lt;li&gt;Abstraction&lt;/li&gt;
+&lt;li&gt;Inheritance&lt;/li&gt;
+&lt;li&gt;Polymorphism&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;In Object-oriented programming we combine related functions and variables and call them as object.&lt;/p&gt;
+
+&lt;p&gt;Before Object-oriented programming we had procedural programming, which divided program into set of functions.&lt;/p&gt;</description>
+      
+    </item>
     
     <item>
       <title>More information about git log command</title>

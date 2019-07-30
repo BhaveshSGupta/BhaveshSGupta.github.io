@@ -6,10 +6,28 @@
     <description>Recent content in Tags on Everyone Has a Story</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 22 Jul 2019 21:59:52 +0530</lastBuildDate>
+    <lastBuildDate>Mon, 29 Jul 2019 16:56:15 +0530</lastBuildDate>
     
 	<atom:link href="https://BhaveshSGupta.me/tags/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>js</title>
+      <link>https://BhaveshSGupta.me/tags/js/</link>
+      <pubDate>Mon, 29 Jul 2019 16:56:15 +0530</pubDate>
+      
+      <guid>https://BhaveshSGupta.me/tags/js/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>udemy</title>
+      <link>https://BhaveshSGupta.me/tags/udemy/</link>
+      <pubDate>Mon, 29 Jul 2019 16:56:15 +0530</pubDate>
+      
+      <guid>https://BhaveshSGupta.me/tags/udemy/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>blog</title>
@@ -120,15 +138,6 @@
     </item>
     
     <item>
-      <title>js</title>
-      <link>https://BhaveshSGupta.me/tags/js/</link>
-      <pubDate>Tue, 17 Jul 2018 05:45:40 +0530</pubDate>
-      
-      <guid>https://BhaveshSGupta.me/tags/js/</guid>
-      <description></description>
-    </item>
-    
-    <item>
       <title>personal</title>
       <link>https://BhaveshSGupta.me/tags/personal/</link>
       <pubDate>Tue, 17 Jul 2018 05:03:32 +0530</pubDate>
@@ -179,15 +188,6 @@
       <pubDate>Tue, 15 May 2018 05:20:55 +0530</pubDate>
       
       <guid>https://BhaveshSGupta.me/tags/post/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>github</title>
-      <link>https://BhaveshSGupta.me/tags/github/</link>
-      <pubDate>Fri, 04 May 2018 02:22:55 +0530</pubDate>
-      
-      <guid>https://BhaveshSGupta.me/tags/github/</guid>
       <description></description>
     </item>
     
