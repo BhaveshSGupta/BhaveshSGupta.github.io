@@ -13,10 +13,10 @@
     
     <item>
       <title>Learn python through pym 10-08-2019</title>
-      <link>https://BhaveshSGupta.me/blog/pym-10-08-2019/</link>
+      <link>https://BhaveshSGupta.me/blog/learn-python-through-pym-10-08-2019/</link>
       <pubDate>Sat, 10 Aug 2019 17:59:22 +0530</pubDate>
       
-      <guid>https://BhaveshSGupta.me/blog/pym-10-08-2019/</guid>
+      <guid>https://BhaveshSGupta.me/blog/learn-python-through-pym-10-08-2019/</guid>
       <description>Day 1 Installing python one can install python using package manager depending upon the operating system you are using. As I have a windows machine and unbuntu using linux on windows subsystem. I can install python from https://python.org. And Ubuntu I can use below command to install python.
 1  sudo apt-get install python3   Running python To run python you would call python3 which open Python interpreter. On that you can type print(&amp;ldquo;Hello World&amp;rdquo;) to run your first python code which would print Hello World in next line.</description>
     </item>
