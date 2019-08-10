@@ -6,11 +6,107 @@
     <description>Recent content on Everyone Has a Story</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 29 Jul 2019 16:56:15 +0530</lastBuildDate>
+    <lastBuildDate>Sat, 10 Aug 2019 17:59:22 +0530</lastBuildDate>
     
         <atom:link href="https://BhaveshSGupta.me/index.xml" rel="self" type="application/rss+xml" />
     
 		
+    
+    <item>
+      <title>Learn python through pym 10-08-2019</title>
+      <link>https://BhaveshSGupta.me/blog/pym-10-08-2019/</link>
+      <pubDate>Sat, 10 Aug 2019 17:59:22 +0530</pubDate>
+      
+      <guid>https://BhaveshSGupta.me/blog/pym-10-08-2019/</guid>
+      
+        <description>
+
+&lt;h2 id=&#34;day-1&#34;&gt;Day 1&lt;/h2&gt;
+
+&lt;h3 id=&#34;installing-python&#34;&gt;Installing python&lt;/h3&gt;
+
+&lt;p&gt;one can install python using package manager depending upon the operating system you are using.
+As I have a windows machine and unbuntu using linux on windows subsystem. I can install python from &lt;a href=&#34;https://python.org&#34;&gt;https://python.org&lt;/a&gt;. And Ubuntu I can use below command to install python.&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
+&lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span class=&#34;lnt&#34;&gt;1
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;sudo apt-get install python3&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;h3 id=&#34;running-python&#34;&gt;Running python&lt;/h3&gt;
+
+&lt;p&gt;To run python you would call python3 which open Python interpreter. On that you can type print(&amp;ldquo;Hello World&amp;rdquo;) to run your first python code which would print Hello World in next line.&lt;/p&gt;
+
+&lt;p&gt;To run python code from a file I would need to below text into a file, save suppose as hello.py&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
+&lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-py&#34; data-lang=&#34;py&#34;&gt;&lt;span class=&#34;lnt&#34;&gt;1
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;2
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-py&#34; data-lang=&#34;py&#34;&gt;&lt;span class=&#34;ch&#34;&gt;#!/usr/bin/env python3&lt;/span&gt;
+&lt;span class=&#34;k&#34;&gt;print&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;s2&#34;&gt;&amp;#34;Hello World!&amp;#34;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;)&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;p&gt;The file &amp;ldquo;hello.py&amp;rdquo; needs to be executable to be run the code. If file is not executable we can do it by &lt;code&gt;chmod +x hello.py&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;then we can run file by calling it as &lt;code&gt;./hello.py&lt;/code&gt;&lt;/p&gt;
+
+&lt;h3 id=&#34;white-space-and-indentation&#34;&gt;White space and indentation&lt;/h3&gt;
+
+&lt;p&gt;Whitespace and indentation should be perfect for python. If a line is not correctly indented python interpreter would Indentation error.
+There are few basic rule to follow,
+- Use 4 spaces for indentation
+- Never mix tab and spaces
+- One line blank after functions
+- two lines blank after classees.
+- add a space after &amp;ldquo;,&amp;rdquo; in dicts, lists, tuples and argument list and after &amp;ldquo;:&amp;rdquo; in dicts
+- Spaces around assignments and comparirs
+- no spaces after starting and before ending () brackets/parentheses&lt;/p&gt;
+
+&lt;h3 id=&#34;comments&#34;&gt;Comments&lt;/h3&gt;
+
+&lt;p&gt;In python on can write comments starting with &amp;lsquo;#&amp;rsquo;
+Still gonna check whether to use &amp;ldquo;&amp;rsquo; for multiline comments or not.
+links:
+- &lt;a href=&#34;https://pymbook.readthedocs.io/en/latest/thebeginning.html#comments&#34;&gt;https://pymbook.readthedocs.io/en/latest/thebeginning.html#comments&lt;/a&gt;
+- &lt;a href=&#34;https://stackoverflow.com/questions/7696924/way-to-create-multiline-comments-in-python&#34;&gt;https://stackoverflow.com/questions/7696924/way-to-create-multiline-comments-in-python&lt;/a&gt;
+- &lt;a href=&#34;https://twitter.com/gvanrossum/status/112670605505077248&#34;&gt;https://twitter.com/gvanrossum/status/112670605505077248&lt;/a&gt;&lt;/p&gt;
+
+&lt;h3 id=&#34;modules&#34;&gt;Modules&lt;/h3&gt;
+
+&lt;p&gt;Modules are link library which you can in import and run function from it.&lt;/p&gt;
+
+&lt;h3 id=&#34;keywords-and-indentifier&#34;&gt;Keywords and Indentifier&lt;/h3&gt;
+
+&lt;p&gt;As any other language there are reserved keywords in python which cannot be used as ordinary identifiers.
+Below is the list of identifiers. Note: Identifiers are case sensitive they should be used with same casing.&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
+&lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-py&#34; data-lang=&#34;py&#34;&gt;&lt;span class=&#34;lnt&#34;&gt;1
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;2
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;3
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;4
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;5
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;6
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;7
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-py&#34; data-lang=&#34;py&#34;&gt;&lt;span class=&#34;ow&#34;&gt;and&lt;/span&gt;       &lt;span class=&#34;k&#34;&gt;del&lt;/span&gt;      &lt;span class=&#34;kn&#34;&gt;from&lt;/span&gt;      &lt;span class=&#34;nn&#34;&gt;not&lt;/span&gt;   &lt;span class=&#34;nn&#34;&gt;while&lt;/span&gt; 
+&lt;span class=&#34;k&#34;&gt;as&lt;/span&gt;        &lt;span class=&#34;k&#34;&gt;elif&lt;/span&gt;     &lt;span class=&#34;k&#34;&gt;global&lt;/span&gt;    &lt;span class=&#34;ow&#34;&gt;or&lt;/span&gt;    &lt;span class=&#34;k&#34;&gt;with&lt;/span&gt; 
+&lt;span class=&#34;k&#34;&gt;assert&lt;/span&gt;    &lt;span class=&#34;k&#34;&gt;else&lt;/span&gt;     &lt;span class=&#34;k&#34;&gt;if&lt;/span&gt;        &lt;span class=&#34;k&#34;&gt;pass&lt;/span&gt;  &lt;span class=&#34;k&#34;&gt;yield&lt;/span&gt; 
+&lt;span class=&#34;k&#34;&gt;break&lt;/span&gt;     &lt;span class=&#34;k&#34;&gt;except&lt;/span&gt;   &lt;span class=&#34;kn&#34;&gt;import&lt;/span&gt;    &lt;span class=&#34;nn&#34;&gt;print&lt;/span&gt; 
+&lt;span class=&#34;k&#34;&gt;class&lt;/span&gt;     &lt;span class=&#34;nc&#34;&gt;exec&lt;/span&gt;     &lt;span class=&#34;ow&#34;&gt;in&lt;/span&gt;        &lt;span class=&#34;k&#34;&gt;raise&lt;/span&gt; 
+&lt;span class=&#34;k&#34;&gt;continue&lt;/span&gt;  &lt;span class=&#34;k&#34;&gt;finally&lt;/span&gt;  &lt;span class=&#34;ow&#34;&gt;is&lt;/span&gt;        &lt;span class=&#34;k&#34;&gt;return&lt;/span&gt; 
+&lt;span class=&#34;k&#34;&gt;def&lt;/span&gt;       &lt;span class=&#34;nf&#34;&gt;for&lt;/span&gt;      &lt;span class=&#34;k&#34;&gt;lambda&lt;/span&gt;    &lt;span class=&#34;k&#34;&gt;try&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;p&gt;We dont need specify data type with python something similar to javascript where we use var for every type of variable.&lt;/p&gt;
+</description>
+      
+    </item>
     
     <item>
       <title>Object-Oriented Programming With JavaScript (part 1)</title>

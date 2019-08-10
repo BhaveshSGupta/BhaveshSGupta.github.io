@@ -6,10 +6,28 @@
     <description>Recent content in Categories on Everyone Has a Story</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 29 Jul 2019 16:56:15 +0530</lastBuildDate>
+    <lastBuildDate>Sat, 10 Aug 2019 17:59:22 +0530</lastBuildDate>
     
 	<atom:link href="https://BhaveshSGupta.me/categories/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>dgplug</title>
+      <link>https://BhaveshSGupta.me/categories/dgplug/</link>
+      <pubDate>Sat, 10 Aug 2019 17:59:22 +0530</pubDate>
+      
+      <guid>https://BhaveshSGupta.me/categories/dgplug/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>pym</title>
+      <link>https://BhaveshSGupta.me/categories/pym/</link>
+      <pubDate>Sat, 10 Aug 2019 17:59:22 +0530</pubDate>
+      
+      <guid>https://BhaveshSGupta.me/categories/pym/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>js</title>
@@ -35,15 +53,6 @@
       <pubDate>Mon, 22 Jul 2019 21:59:52 +0530</pubDate>
       
       <guid>https://BhaveshSGupta.me/categories/blog/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>dgplug</title>
-      <link>https://BhaveshSGupta.me/categories/dgplug/</link>
-      <pubDate>Mon, 22 Jul 2019 21:59:52 +0530</pubDate>
-      
-      <guid>https://BhaveshSGupta.me/categories/dgplug/</guid>
       <description></description>
     </item>
     
