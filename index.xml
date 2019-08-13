@@ -537,23 +537,29 @@ As I have a windows machine and unbuntu using linux on windows subsystem. I can 
 &lt;h3 id=&#34;white-space-and-indentation&#34;&gt;White space and indentation&lt;/h3&gt;
 
 &lt;p&gt;Whitespace and indentation should be perfect for python. If a line is not correctly indented python interpreter would Indentation error.
-There are few basic rule to follow,
-- Use 4 spaces for indentation
-- Never mix tab and spaces
-- One line blank after functions
-- two lines blank after classees.
-- add a space after &amp;ldquo;,&amp;rdquo; in dicts, lists, tuples and argument list and after &amp;ldquo;:&amp;rdquo; in dicts
-- Spaces around assignments and comparirs
-- no spaces after starting and before ending () brackets/parentheses&lt;/p&gt;
+There are few basic rule to follow,&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Use 4 spaces for indentation&lt;/li&gt;
+&lt;li&gt;Never mix tab and spaces&lt;/li&gt;
+&lt;li&gt;One line blank after functions&lt;/li&gt;
+&lt;li&gt;two lines blank after classees.&lt;/li&gt;
+&lt;li&gt;add a space after &amp;ldquo;,&amp;rdquo; in dicts, lists, tuples and argument list and after &amp;ldquo;:&amp;rdquo; in dicts&lt;/li&gt;
+&lt;li&gt;Spaces around assignments and comparirs&lt;/li&gt;
+&lt;li&gt;no spaces after starting and before ending () brackets/parentheses&lt;/li&gt;
+&lt;/ul&gt;
 
 &lt;h3 id=&#34;comments&#34;&gt;Comments&lt;/h3&gt;
 
 &lt;p&gt;In python on can write comments starting with &amp;lsquo;#&amp;rsquo;
 Still gonna check whether to use &amp;ldquo;&amp;rsquo; for multiline comments or not.
-links:
-- &lt;a href=&#34;https://pymbook.readthedocs.io/en/latest/thebeginning.html#comments&#34;&gt;https://pymbook.readthedocs.io/en/latest/thebeginning.html#comments&lt;/a&gt;
-- &lt;a href=&#34;https://stackoverflow.com/questions/7696924/way-to-create-multiline-comments-in-python&#34;&gt;https://stackoverflow.com/questions/7696924/way-to-create-multiline-comments-in-python&lt;/a&gt;
-- &lt;a href=&#34;https://twitter.com/gvanrossum/status/112670605505077248&#34;&gt;https://twitter.com/gvanrossum/status/112670605505077248&lt;/a&gt;&lt;/p&gt;
+links:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://pymbook.readthedocs.io/en/latest/thebeginning.html#comments&#34;&gt;https://pymbook.readthedocs.io/en/latest/thebeginning.html#comments&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://stackoverflow.com/questions/7696924/way-to-create-multiline-comments-in-python&#34;&gt;https://stackoverflow.com/questions/7696924/way-to-create-multiline-comments-in-python&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://twitter.com/gvanrossum/status/112670605505077248&#34;&gt;https://twitter.com/gvanrossum/status/112670605505077248&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
 
 &lt;h3 id=&#34;modules&#34;&gt;Modules&lt;/h3&gt;
 
