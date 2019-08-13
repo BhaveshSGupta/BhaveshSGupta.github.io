@@ -10,7 +10,18 @@
     
         <atom:link href="https://BhaveshSGupta.me/index.xml" rel="self" type="application/rss+xml" />
     
-		
+    
+    <item>
+      <title>About</title>
+      <link>https://BhaveshSGupta.me/about/</link>
+      <pubDate>Sat, 20 Jun 2015 14:02:37 +0200</pubDate>
+      
+      <guid>https://BhaveshSGupta.me/about/</guid>
+      
+        <description>&lt;p&gt;Currently working as Sr. Web Producer at &lt;a href=&#34;https://Investisdigital.com&#34;&gt;InvestisDigital&lt;/a&gt;. I am an OpenSource Enthusiast who is trying to contribute to make people&amp;rsquo;s life better. I love to program and I am learning how to develop. I have tried my hands on several technologies whenever I got a chance to work with them. I have fare amount of experience Front-End Web Technologies HTML5, CSS3, JavaScript, JQuery. I try to learn bits about languages/technologies whenever I can.&lt;/p&gt;
+</description>
+      
+    </item>
     
     <item>
       <title>Learning python through pym 12-08-2019</title>
