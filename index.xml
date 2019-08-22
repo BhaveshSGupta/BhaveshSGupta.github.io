@@ -6,7 +6,7 @@
     <description>Recent content on Everyone Has a Story</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 14 Aug 2019 16:57:26 +0530</lastBuildDate>
+    <lastBuildDate>Mon, 19 Aug 2019 21:13:07 +0530</lastBuildDate>
     
         <atom:link href="https://BhaveshSGupta.me/index.xml" rel="self" type="application/rss+xml" />
     
@@ -19,6 +19,20 @@
       <guid>https://BhaveshSGupta.me/about/</guid>
       
         <description>&lt;p&gt;Currently working as Sr. Web Producer at &lt;a href=&#34;https://Investisdigital.com&#34;&gt;InvestisDigital&lt;/a&gt;. I am an OpenSource Enthusiast who is trying to contribute to make people&amp;rsquo;s life better. I love to program and I am learning how to develop. I have tried my hands on several technologies whenever I got a chance to work with them. I have fare amount of experience Front-End Web Technologies HTML5, CSS3, JavaScript, JQuery. I try to learn bits about languages/technologies whenever I can.&lt;/p&gt;
+</description>
+      
+    </item>
+    
+    <item>
+      <title>An attempt to Write Yourself a Git</title>
+      <link>https://BhaveshSGupta.me/blog/an-attempt-to-write-yourself-a-git/</link>
+      <pubDate>Mon, 19 Aug 2019 21:13:07 +0530</pubDate>
+      
+      <guid>https://BhaveshSGupta.me/blog/an-attempt-to-write-yourself-a-git/</guid>
+      
+        <description>&lt;p&gt;So I tried to follow &lt;a href=&#34;https://wyag.thb.lt/&#34;&gt;wyag&lt;/a&gt; at &lt;a href=&#34;https://github.com/BhaveshSGupta/wyag&#34;&gt;here&lt;/a&gt; but I was not able to. This tutorial is great but I was not able follow it because may be I am not still not much clear with python and how it works. So after much thought I have decided that I would try to create my own blog post series where I would take learnings from &lt;a href=&#34;https://wyag.thb.lt/&#34;&gt;wyag&lt;/a&gt; and try to do it in my way.&lt;/p&gt;
+
+&lt;p&gt;Our first step would be to create repository and write init function. And then we would see how we can follow along.&lt;/p&gt;
 </description>
       
     </item>
@@ -1516,22 +1530,6 @@ Bhavesh Gupta&lt;/p&gt;
 
 &lt;p&gt;kudos,
 bye&lt;/p&gt;
-</description>
-      
-    </item>
-    
-    <item>
-      <title>Finally HTTPS</title>
-      <link>https://BhaveshSGupta.me/blog/finally-https/</link>
-      <pubDate>Fri, 04 May 2018 02:22:55 +0530</pubDate>
-      
-      <guid>https://BhaveshSGupta.me/blog/finally-https/</guid>
-      
-        <description>&lt;p&gt;Well, GitHub started providing HTTPS even for custom domain, So I had to enable that plus there were some internal changes which were required. Which I had done. Its been almost two years since I have bought this domain But I have been away from blogging. I had setup this a good time ago using Hugo and a cactus theme still have been struck the same place not able to write what I want or I should say not able to give to write what I want.&lt;/p&gt;
-
-&lt;p&gt;Lately, there is a lot been going in with me, in personal and professional life. I am going to spend a bit of more time here, in writing things both technical and personal, would try to write down more and more stuff so that I can take my mind of that.&lt;/p&gt;
-
-&lt;p&gt;Cool, this is, for now, let us see whether is this setup work fine and would do more config if require. Till then peace out.&lt;/p&gt;
 </description>
       
     </item>

@@ -9,19 +9,26 @@
   </url>
   
   <url>
-    <loc>https://BhaveshSGupta.me/blog/</loc>
-    <lastmod>2019-08-14T23:50:41+05:30</lastmod>
-    <priority>0</priority>
+    <loc>https://BhaveshSGupta.me/blog/an-attempt-to-write-yourself-a-git/</loc>
+    <lastmod>2019-08-22T10:47:13+05:30</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>https://BhaveshSGupta.me/categories/</loc>
-    <lastmod>2019-08-14T23:50:41+05:30</lastmod>
+    <loc>https://BhaveshSGupta.me/blog/</loc>
+    <lastmod>2019-08-22T10:47:13+05:30</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>https://BhaveshSGupta.me/</loc>
+    <lastmod>2019-08-22T10:47:13+05:30</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://BhaveshSGupta.me/categories/</loc>
     <lastmod>2019-08-14T23:50:41+05:30</lastmod>
     <priority>0</priority>
   </url>
