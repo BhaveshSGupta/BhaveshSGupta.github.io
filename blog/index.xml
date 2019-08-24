@@ -6,10 +6,21 @@
     <description>Recent content in Blogs on Everyone Has a Story</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 22 Aug 2019 20:50:56 +0530</lastBuildDate>
+    <lastBuildDate>Sat, 24 Aug 2019 15:32:32 +0530</lastBuildDate>
     
 	<atom:link href="https://BhaveshSGupta.me/blog/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Another Attempt at Wag 2</title>
+      <link>https://BhaveshSGupta.me/blog/another-attempt-at-wag-2/</link>
+      <pubDate>Sat, 24 Aug 2019 15:32:32 +0530</pubDate>
+      
+      <guid>https://BhaveshSGupta.me/blog/another-attempt-at-wag-2/</guid>
+      <description>Last time we had created `cmd_init(args)` function. We add more functionality to cmd_init(args).
+This was our code till last time.
+1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18  import sys import argparse argparser = argparse.ArgumentParser(description=&amp;#34;Another Content Tracker&amp;#34;) argsubparsers = argparser.add_subparsers(title=&amp;#34;Commands&amp;#34;, dest=&amp;#34;command&amp;#34;) argsubparsers.required = True argsp = argsubparsers.add_parser(&amp;#34;init&amp;#34;, help=&amp;#34;Initialize a new, empty repository.&amp;#34;) argsp.add_argument(&amp;#34;path&amp;#34;,metavar=&amp;#34;directory&amp;#34;, nargs=&amp;#34;?&amp;#34;, default=&amp;#34;.&amp;#34;, help=&amp;#34;Where to create the repository.</description>
+    </item>
     
     <item>
       <title>Another Attempt to write a git</title>
@@ -207,16 +218,6 @@ Technically summer trainings are usually for college students but during my coll
 Bbye
 Kudos
 Bhavesh Gupta</description>
-    </item>
-    
-    <item>
-      <title>Bloging from mobile</title>
-      <link>https://BhaveshSGupta.me/blog/mobile-test-post/</link>
-      <pubDate>Tue, 15 May 2018 05:20:55 +0530</pubDate>
-      
-      <guid>https://BhaveshSGupta.me/blog/mobile-test-post/</guid>
-      <description>This is the solution test for the question how to create static site generator blog from mobile with an ease this is a test post of everything works out a how to post is comming down soon.
-kudos, bye</description>
     </item>
     
   </channel>
