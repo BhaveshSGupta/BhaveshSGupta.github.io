@@ -17,7 +17,7 @@
       <pubDate>Sat, 24 Aug 2019 15:32:32 +0530</pubDate>
       
       <guid>https://BhaveshSGupta.me/blog/another-attempt-at-wag-2/</guid>
-      <description>Last time we had created `cmd_init(args)` function. We add more functionality to cmd_init(args).
+      <description>Last time we had created cmd_init(args) function. We add more functionality to cmd_init(args).
 This was our code till last time.
 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18  import sys import argparse argparser = argparse.ArgumentParser(description=&amp;#34;Another Content Tracker&amp;#34;) argsubparsers = argparser.add_subparsers(title=&amp;#34;Commands&amp;#34;, dest=&amp;#34;command&amp;#34;) argsubparsers.required = True argsp = argsubparsers.add_parser(&amp;#34;init&amp;#34;, help=&amp;#34;Initialize a new, empty repository.&amp;#34;) argsp.add_argument(&amp;#34;path&amp;#34;,metavar=&amp;#34;directory&amp;#34;, nargs=&amp;#34;?&amp;#34;, default=&amp;#34;.&amp;#34;, help=&amp;#34;Where to create the repository.</description>
     </item>

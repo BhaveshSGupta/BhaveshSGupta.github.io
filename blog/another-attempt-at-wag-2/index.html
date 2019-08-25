@@ -23,7 +23,7 @@
 <meta name="mobile-web-app-capable" content="yes">
 
 <meta name="author" content="Bhavesh S. Gupta" />
-  <meta name="description" content="Last time we had created `cmd_init(args)` function. We add more functionality to cmd_init(args).
+  <meta name="description" content="Last time we had created cmd_init(args) function. We add more functionality to cmd_init(args).
 This was our code till last time.
 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18  import sys import argparse argparser = argparse.ArgumentParser(description=&amp;#34;Another Content Tracker&amp;#34;) argsubparsers = argparser.add_subparsers(title=&amp;#34;Commands&amp;#34;, dest=&amp;#34;command&amp;#34;) argsubparsers.required = True argsp = argsubparsers.add_parser(&amp;#34;init&amp;#34;, help=&amp;#34;Initialize a new, empty repository.&amp;#34;) argsp.add_argument(&amp;#34;path&amp;#34;,metavar=&amp;#34;directory&amp;#34;, nargs=&amp;#34;?&amp;#34;, default=&amp;#34;.&amp;#34;, help=&amp;#34;Where to create the repository." />
 
@@ -59,30 +59,30 @@ This was our code till last time.
 
 
 <meta property="og:title" content="Another Attempt at Wag 2" />
-<meta property="og:description" content="Last time we had created `cmd_init(args)` function. We add more functionality to cmd_init(args).
+<meta property="og:description" content="Last time we had created cmd_init(args) function. We add more functionality to cmd_init(args).
 This was our code till last time.
 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18  import sys import argparse argparser = argparse.ArgumentParser(description=&#34;Another Content Tracker&#34;) argsubparsers = argparser.add_subparsers(title=&#34;Commands&#34;, dest=&#34;command&#34;) argsubparsers.required = True argsp = argsubparsers.add_parser(&#34;init&#34;, help=&#34;Initialize a new, empty repository.&#34;) argsp.add_argument(&#34;path&#34;,metavar=&#34;directory&#34;, nargs=&#34;?&#34;, default=&#34;.&#34;, help=&#34;Where to create the repository." />
 <meta property="og:type" content="article" />
 <meta property="og:url" content="https://BhaveshSGupta.me/blog/another-attempt-at-wag-2/" />
 <meta property="article:published_time" content="2019-08-24T15:32:32&#43;05:30"/>
-<meta property="article:modified_time" content="2019-08-24T20:43:36&#43;05:30"/>
+<meta property="article:modified_time" content="2019-08-25T17:43:51&#43;05:30"/>
 
 <meta itemprop="name" content="Another Attempt at Wag 2">
-<meta itemprop="description" content="Last time we had created `cmd_init(args)` function. We add more functionality to cmd_init(args).
+<meta itemprop="description" content="Last time we had created cmd_init(args) function. We add more functionality to cmd_init(args).
 This was our code till last time.
 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18  import sys import argparse argparser = argparse.ArgumentParser(description=&#34;Another Content Tracker&#34;) argsubparsers = argparser.add_subparsers(title=&#34;Commands&#34;, dest=&#34;command&#34;) argsubparsers.required = True argsp = argsubparsers.add_parser(&#34;init&#34;, help=&#34;Initialize a new, empty repository.&#34;) argsp.add_argument(&#34;path&#34;,metavar=&#34;directory&#34;, nargs=&#34;?&#34;, default=&#34;.&#34;, help=&#34;Where to create the repository.">
 
 
 <meta itemprop="datePublished" content="2019-08-24T15:32:32&#43;05:30" />
-<meta itemprop="dateModified" content="2019-08-24T20:43:36&#43;05:30" />
-<meta itemprop="wordCount" content="524">
+<meta itemprop="dateModified" content="2019-08-25T17:43:51&#43;05:30" />
+<meta itemprop="wordCount" content="523">
 
 
 
 <meta itemprop="keywords" content="" />
 <meta name="twitter:card" content="summary"/>
 <meta name="twitter:title" content="Another Attempt at Wag 2"/>
-<meta name="twitter:description" content="Last time we had created `cmd_init(args)` function. We add more functionality to cmd_init(args).
+<meta name="twitter:description" content="Last time we had created cmd_init(args) function. We add more functionality to cmd_init(args).
 This was our code till last time.
 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18  import sys import argparse argparser = argparse.ArgumentParser(description=&#34;Another Content Tracker&#34;) argsubparsers = argparser.add_subparsers(title=&#34;Commands&#34;, dest=&#34;command&#34;) argsubparsers.required = True argsp = argsubparsers.add_parser(&#34;init&#34;, help=&#34;Initialize a new, empty repository.&#34;) argsp.add_argument(&#34;path&#34;,metavar=&#34;directory&#34;, nargs=&#34;?&#34;, default=&#34;.&#34;, help=&#34;Where to create the repository."/>
 
@@ -286,7 +286,7 @@ if (!doNotTrack) {
           24-08-2019
         </time>
         
-        <span class="more-meta"> 524 words </span>
+        <span class="more-meta"> 523 words </span>
           <span class="more-meta"> 3 min read </span>
 
         
@@ -302,7 +302,7 @@ if (!doNotTrack) {
 
     
     <div class="post-content">
-      <p>Last time we had created <code>`cmd_init(args)`</code> function. We add more functionality to cmd_init(args).</p>
+      <p>Last time we had created <code>cmd_init(args)</code> function. We add more functionality to cmd_init(args).</p>
 
 <p>This was our code till last time.</p>
 <div class="highlight"><div class="chroma">
@@ -386,7 +386,7 @@ So first let's import configparser and os, start creating a class to get this re
     <span class="n">gitdir</span> <span class="o">=</span> <span class="bp">None</span>
     <span class="n">conf</span> <span class="o">=</span> <span class="bp">None</span>
     
-    <span class="k">def</span> <span class="fm">__init__</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">path</span><span class="p">,</span> <span class="n">force</span><span class="o">=</span><span class="bp">False</span><span class="p">):</span>
+    <span class="k">def</span> <span class="fm">__init__</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">path</span><span class="p">):</span>
         <span class="bp">self</span><span class="o">.</span><span class="n">worktree</span> <span class="o">=</span> <span class="n">path</span>
         <span class="bp">self</span><span class="o">.</span><span class="n">gitdir</span> <span class="o">=</span> <span class="n">os</span><span class="o">.</span><span class="n">path</span><span class="o">.</span><span class="n">join</span><span class="p">(</span><span class="n">path</span><span class="p">,</span> <span class="s2">&#34;.git&#34;</span><span class="p">)</span>
     </code></pre></td></tr></table>
