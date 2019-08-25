@@ -6,10 +6,20 @@
     <description>Recent content in Blogs on Everyone Has a Story</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sat, 24 Aug 2019 15:32:32 +0530</lastBuildDate>
+    <lastBuildDate>Sun, 25 Aug 2019 16:57:46 +0530</lastBuildDate>
     
 	<atom:link href="https://BhaveshSGupta.me/blog/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Another Attempt at Wag3</title>
+      <link>https://BhaveshSGupta.me/blog/another-attempt-at-wag3/</link>
+      <pubDate>Sun, 25 Aug 2019 16:57:46 +0530</pubDate>
+      
+      <guid>https://BhaveshSGupta.me/blog/another-attempt-at-wag3/</guid>
+      <description>Uptill now we had done as of following code. We would create couples of more functions which would help us in managing our application. As discussed earliear we would now we creating different directories and files present inside .git directory along with directory itself. More or less we would something like following directory structure after doing wag init
+ .git is the git directory itself, which contains:  .git/objects/ : the object store, which we’ll introduce in the next section.</description>
+    </item>
     
     <item>
       <title>Another Attempt at Wag 2</title>
@@ -206,18 +216,6 @@ Technically summer trainings are usually for college students but during my coll
       
       <guid>https://BhaveshSGupta.me/blog/static-file-blog-with-web-based-cms/</guid>
       <description>So a few days back I was working on a solution so that I could keep that blog updated. As this is a not-self deployable blog I actually need to deploy changes. Somebody would say instead of taking so much efforts to deploy a single post you could have set up a WordPress blog which has an awesome app to add post, n number of themes, plugins, etc. But I feel I like it this way.</description>
-    </item>
-    
-    <item>
-      <title>Trying Forestry from mobile browser</title>
-      <link>https://BhaveshSGupta.me/blog/trying-forestry-from-mobile-browser/</link>
-      <pubDate>Tue, 15 May 2018 05:59:44 +0530</pubDate>
-      
-      <guid>https://BhaveshSGupta.me/blog/trying-forestry-from-mobile-browser/</guid>
-      <description>This is the first post using forestry I have actually setup git for android and other stuff for my blog this is another approach which can be used let see how&amp;rsquo;s this work. There would be more test post to check the overall working.
-Bbye
-Kudos
-Bhavesh Gupta</description>
     </item>
     
   </channel>
