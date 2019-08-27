@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>git on Everyone Has a Story</title>
-    <link>https://BhaveshSGupta.me/tags/git/</link>
-    <description>Recent content in git on Everyone Has a Story</description>
+    <title>wag on Everyone Has a Story</title>
+    <link>https://BhaveshSGupta.me/categories/wag/</link>
+    <description>Recent content in wag on Everyone Has a Story</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Sun, 25 Aug 2019 16:57:46 +0530</lastBuildDate>
     
-	<atom:link href="https://BhaveshSGupta.me/tags/git/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://BhaveshSGupta.me/categories/wag/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
@@ -42,28 +42,6 @@ This was our code till last time.
 So first we would be creating a lib file and excuting file.
 Let&amp;rsquo;s create a file called wag which would have following code.
 1 2 3 4  #!/usr/bin/env python3 import libwag libwag.main()   Then we would create another file which would be libwag.</description>
-    </item>
-    
-    <item>
-      <title>More information about git log command</title>
-      <link>https://BhaveshSGupta.me/blog/more-information-about-git-log-command/</link>
-      <pubDate>Mon, 22 Jul 2019 21:59:52 +0530</pubDate>
-      
-      <guid>https://BhaveshSGupta.me/blog/more-information-about-git-log-command/</guid>
-      <description>As part of home task part 2, we were asked to read about git log command. So this blog post is dedicated to that. To get more info about git log command I had gone through Git pro book available at https://git-scm.com/book/en/v2/. From this book I had followed chapter https://git-scm.com/book/en/v2/Git-Basics-Viewing-the-Commit-History to study more about git log command.
-When git log is used without any argument, it displays all previous commit&amp;rsquo;s in reverse cronological order.</description>
-    </item>
-    
-    <item>
-      <title>Introduction to Git and seven rules of great Git Commit Message</title>
-      <link>https://BhaveshSGupta.me/blog/introduction-to-git-and-seven-rules-of-a-great-git-commit-message/</link>
-      <pubDate>Mon, 22 Jul 2019 12:12:00 +0530</pubDate>
-      
-      <guid>https://BhaveshSGupta.me/blog/introduction-to-git-and-seven-rules-of-a-great-git-commit-message/</guid>
-      <description>As part of summer training at #dgplug, Sayan took our basics to Git session. We were introduced to basics of VCS(Version Control System), need to use a VCS and introduction to Git.
-These were some of commands we learn during the session conducted over the course of two days,
- git init is used initialize Git repository
-1  $ git init   git config to used to configure various Git configuration using below command one can configure their Name and Email globally for Git.</description>
     </item>
     
   </channel>
