@@ -6,10 +6,20 @@
     <description>Recent content in Blogs on Everyone Has a Story</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 25 Aug 2019 16:57:46 +0530</lastBuildDate>
+    <lastBuildDate>Sat, 14 Sep 2019 19:54:55 +0530</lastBuildDate>
     
 	<atom:link href="https://BhaveshSGupta.me/blog/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Convert Excel to Json</title>
+      <link>https://BhaveshSGupta.me/blog/convert-excel-to-json/</link>
+      <pubDate>Sat, 14 Sep 2019 19:54:55 +0530</pubDate>
+      
+      <guid>https://BhaveshSGupta.me/blog/convert-excel-to-json/</guid>
+      <description>Some time in our projects we need data in json files(mostly web projects). But collecting and managing data in json files is harder(At least this is what I feel) compared to excel. I had recently ran into a similar situation where I need some data. Data is going to be provided by a non-technical person/client. And there going to be several rounds of it.
+So I was looking for options what can be done here, where I found several online tools which could be used for same.</description>
+    </item>
     
     <item>
       <title>Another Attempt at Wag3</title>
@@ -207,15 +217,6 @@ Pending Posts This blog came to life again due to dgplug summer training where w
       <guid>https://BhaveshSGupta.me/blog/dgplug-start-2/</guid>
       <description>So Last year in some Facebook group or somewhere I read about summer training offered by dgplug on IRC chat. I had heard about IRC chat before and had tried to use it once or twice but never tried to use it or understand it.
 Technically summer trainings are usually for college students but during my college time I was too busy being in and around Microsoft Student Partner that I didn&amp;rsquo;t knew about many things around.</description>
-    </item>
-    
-    <item>
-      <title>Static file blog using web based CMS</title>
-      <link>https://BhaveshSGupta.me/blog/static-file-blog-with-web-based-cms/</link>
-      <pubDate>Tue, 10 Jul 2018 12:44:32 +0530</pubDate>
-      
-      <guid>https://BhaveshSGupta.me/blog/static-file-blog-with-web-based-cms/</guid>
-      <description>So a few days back I was working on a solution so that I could keep that blog updated. As this is a not-self deployable blog I actually need to deploy changes. Somebody would say instead of taking so much efforts to deploy a single post you could have set up a WordPress blog which has an awesome app to add post, n number of themes, plugins, etc. But I feel I like it this way.</description>
     </item>
     
   </channel>
