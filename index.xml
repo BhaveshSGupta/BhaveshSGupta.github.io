@@ -606,7 +606,7 @@ So first let&#39;s import configparser and os, start creating a class to get thi
 
 &lt;p&gt;We would be trying to create a mini git clone from this tutorial. I aspect this to go long. In general git is awesome source code manager which is wieldy use.&lt;/p&gt;
 
-&lt;p&gt;So first we would be creating a lib file and excuting file.&lt;/p&gt;
+&lt;p&gt;So first we would be creating a lib file and executing file.&lt;/p&gt;
 
 &lt;p&gt;Let&amp;rsquo;s create a file called wag which would have following code.&lt;/p&gt;
 &lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
@@ -692,7 +692,7 @@ So first let&#39;s import configparser and os, start creating a class to get thi
 &lt;/div&gt;
 &lt;p&gt;If you would try to run above code as &lt;code&gt;./wag init&lt;/code&gt; it would print init and &amp;ldquo;Hello from libwag&amp;rdquo;. We would have multiple commands so, we would write a control flow to call different functions we make.&lt;/p&gt;
 
-&lt;p&gt;To keep things consistant we would use same nomenclature to define our functions. In our main function we would use a control flow statment then call function as per requirement. We would need to define the function we are calling.&lt;/p&gt;
+&lt;p&gt;To keep things consistent we would use same nomenclature to define our functions. In our main function we would use a control flow statement then call function as per requirement. We would need to define the function we are calling.&lt;/p&gt;
 &lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
 &lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
 &lt;pre class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-py&#34; data-lang=&#34;py&#34;&gt;&lt;span class=&#34;lnt&#34;&gt;1
