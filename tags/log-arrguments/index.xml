@@ -18,7 +18,7 @@
       
       <guid>https://BhaveshSGupta.me/blog/more-information-about-git-log-command/</guid>
       <description>As part of home task part 2, we were asked to read about git log command. So this blog post is dedicated to that. To get more info about git log command I had gone through Git pro book available at https://git-scm.com/book/en/v2/. From this book I had followed chapter https://git-scm.com/book/en/v2/Git-Basics-Viewing-the-Commit-History to study more about git log command.
-When git log is used without any argument, it displays all previous commit&amp;rsquo;s in reverse cronological order.</description>
+When git log is used without any argument, it displays all previous commits in reverse chronological order.</description>
     </item>
     
   </channel>

@@ -23,7 +23,7 @@
 <meta name="mobile-web-app-capable" content="yes">
 
 <meta name="author" content="Bhavesh S. Gupta" />
-  <meta name="description" content="Uptill now we had done as of following code. We would create couples of more functions which would help us in managing our application. As discussed earliear we would now we creating different directories and files present inside .git directory along with directory itself. More or less we would something like following directory structure after doing wag init
+  <meta name="description" content="Until now we had done as of following code. We would create couples of more functions which would help us in managing our application. As discussed earlier we would now we creating different directories and files present inside .git directory along with directory itself. More or less we would something like following directory structure after doing wag init
  .git is the git directory itself, which contains:  .git/objects/ : the object store, which we’ll introduce in the next section." />
 <meta name="keywords" content="wag, dgplug, git" />
 
@@ -59,20 +59,20 @@
 
 
 <meta property="og:title" content="Another Attempt at Wag3" />
-<meta property="og:description" content="Uptill now we had done as of following code. We would create couples of more functions which would help us in managing our application. As discussed earliear we would now we creating different directories and files present inside .git directory along with directory itself. More or less we would something like following directory structure after doing wag init
+<meta property="og:description" content="Until now we had done as of following code. We would create couples of more functions which would help us in managing our application. As discussed earlier we would now we creating different directories and files present inside .git directory along with directory itself. More or less we would something like following directory structure after doing wag init
  .git is the git directory itself, which contains:  .git/objects/ : the object store, which we’ll introduce in the next section." />
 <meta property="og:type" content="article" />
 <meta property="og:url" content="https://BhaveshSGupta.me/blog/another-attempt-at-wag3/" />
 <meta property="article:published_time" content="2019-08-25T16:57:46&#43;05:30"/>
-<meta property="article:modified_time" content="2019-08-27T20:51:27&#43;05:30"/>
+<meta property="article:modified_time" content="2019-09-14T18:03:22&#43;05:30"/>
 
 <meta itemprop="name" content="Another Attempt at Wag3">
-<meta itemprop="description" content="Uptill now we had done as of following code. We would create couples of more functions which would help us in managing our application. As discussed earliear we would now we creating different directories and files present inside .git directory along with directory itself. More or less we would something like following directory structure after doing wag init
+<meta itemprop="description" content="Until now we had done as of following code. We would create couples of more functions which would help us in managing our application. As discussed earlier we would now we creating different directories and files present inside .git directory along with directory itself. More or less we would something like following directory structure after doing wag init
  .git is the git directory itself, which contains:  .git/objects/ : the object store, which we’ll introduce in the next section.">
 
 
 <meta itemprop="datePublished" content="2019-08-25T16:57:46&#43;05:30" />
-<meta itemprop="dateModified" content="2019-08-27T20:51:27&#43;05:30" />
+<meta itemprop="dateModified" content="2019-09-14T18:03:22&#43;05:30" />
 <meta itemprop="wordCount" content="1265">
 
 
@@ -80,7 +80,7 @@
 <meta itemprop="keywords" content="wag,dgplug,git," />
 <meta name="twitter:card" content="summary"/>
 <meta name="twitter:title" content="Another Attempt at Wag3"/>
-<meta name="twitter:description" content="Uptill now we had done as of following code. We would create couples of more functions which would help us in managing our application. As discussed earliear we would now we creating different directories and files present inside .git directory along with directory itself. More or less we would something like following directory structure after doing wag init
+<meta name="twitter:description" content="Until now we had done as of following code. We would create couples of more functions which would help us in managing our application. As discussed earlier we would now we creating different directories and files present inside .git directory along with directory itself. More or less we would something like following directory structure after doing wag init
  .git is the git directory itself, which contains:  .git/objects/ : the object store, which we’ll introduce in the next section."/>
 
 <!--[if lte IE 9]>
@@ -304,7 +304,7 @@ if (!doNotTrack) {
 
     
     <div class="post-content">
-      <p>Uptill now we had done as of following code. We would create couples of more functions which would help us in managing our application. As discussed earliear we would now we creating different directories and files present inside .git directory along with directory itself. More or less we would something like following directory structure after doing <code>wag init</code></p>
+      <p>Until now we had done as of following code. We would create couples of more functions which would help us in managing our application. As discussed earlier we would now we creating different directories and files present inside .git directory along with directory itself. More or less we would something like following directory structure after doing <code>wag init</code></p>
 
 <ul>
 <li>.git is the git directory itself, which contains:
@@ -417,7 +417,7 @@ if (!doNotTrack) {
         <span class="n">os</span><span class="o">.</span><span class="n">makedirs</span><span class="p">(</span><span class="n">repo</span><span class="o">.</span><span class="n">worktree</span><span class="p">)</span></code></pre></td></tr></table>
 </div>
 </div>
-<p>Now let&rsquo;s create function which would give&rsquo;s us path of directory after verifying that the directory exist and if it doesn&rsquo;t it should give&rsquo;s us an error. We would also require mechanism to check whether we need to create the directory or not if it doesn&rsquo;t exsits.</p>
+<p>Now let&rsquo;s create function which would gives us path of directory after verifying that the directory exist and if it doesn&rsquo;t it should gives us an error. We would also require mechanism to check whether we need to create the directory or not if it doesn&rsquo;t exists.</p>
 <div class="highlight"><div class="chroma">
 <table class="lntable"><tr><td class="lntd">
 <pre class="chroma"><code class="language-py" data-lang="py"><span class="lnt"> 1
@@ -456,14 +456,14 @@ if (!doNotTrack) {
     <span class="c1"># this function would give us path we want to check if it exist or not</span>
     <span class="n">path</span> <span class="o">=</span> <span class="n">repo_path</span><span class="p">(</span><span class="n">repo</span><span class="p">,</span> <span class="o">*</span><span class="n">path</span><span class="p">)</span>
 
-    <span class="c1"># This would check whether path exists and if it does then it would check if it is a direcoty or not</span>
+    <span class="c1"># This would check whether path exists and if it does then it would check if it is a directory or not</span>
     <span class="k">if</span> <span class="n">os</span><span class="o">.</span><span class="n">path</span><span class="o">.</span><span class="n">exists</span><span class="p">(</span><span class="n">path</span><span class="p">):</span>
         <span class="k">if</span> <span class="p">(</span><span class="n">os</span><span class="o">.</span><span class="n">path</span><span class="o">.</span><span class="n">isdir</span><span class="p">(</span><span class="n">path</span><span class="p">)):</span>
             <span class="k">return</span> <span class="n">path</span>
         <span class="k">else</span><span class="p">:</span>
             <span class="k">raise</span> <span class="ne">Exception</span><span class="p">(</span><span class="s2">&#34;Not a directory </span><span class="si">%s</span><span class="s2">&#34;</span> <span class="o">%</span> <span class="n">path</span><span class="p">)</span>
 
-    <span class="c1"># This would check if we need to create directory as it doesn&#39;t exsits</span>
+    <span class="c1"># This would check if we need to create directory as it doesn&#39;t exists</span>
     <span class="k">if</span> <span class="n">mkdir</span><span class="p">:</span>
         <span class="n">os</span><span class="o">.</span><span class="n">makedirs</span><span class="p">(</span><span class="n">path</span><span class="p">)</span>
         <span class="k">return</span> <span class="n">path</span>
@@ -505,12 +505,12 @@ if (!doNotTrack) {
 <pre class="chroma"><code class="language-py" data-lang="py"><span class="k">def</span> <span class="nf">repo_create</span><span class="p">(</span><span class="n">path</span><span class="p">):</span>
     <span class="s2">&#34;&#34;&#34;Create a new repository at path.&#34;&#34;&#34;</span>
     <span class="n">repo</span> <span class="o">=</span> <span class="n">GitRepository</span><span class="p">(</span><span class="n">path</span><span class="p">)</span>
-    <span class="c1"># We check whether there exsits a path of worktree</span>
+    <span class="c1"># We check whether there exists a path of worktree</span>
     <span class="k">if</span> <span class="n">os</span><span class="o">.</span><span class="n">path</span><span class="o">.</span><span class="n">exists</span><span class="p">(</span><span class="n">repo</span><span class="o">.</span><span class="n">worktree</span><span class="p">):</span>
-        <span class="c1"># if path exsits its a directory or not</span>
+        <span class="c1"># if path exists its a directory or not</span>
         <span class="k">if</span> <span class="ow">not</span> <span class="n">os</span><span class="o">.</span><span class="n">path</span><span class="o">.</span><span class="n">isdir</span><span class="p">(</span><span class="n">repo</span><span class="o">.</span><span class="n">worktree</span><span class="p">):</span>
             <span class="k">raise</span> <span class="ne">Exception</span><span class="p">(</span><span class="s2">&#34;</span><span class="si">%s</span><span class="s2"> is not a directory!&#34;</span> <span class="o">%</span> <span class="n">path</span><span class="p">)</span>
-        <span class="c1"># if path exsits its empty or not</span>
+        <span class="c1"># if path exists its empty or not</span>
         <span class="k">if</span> <span class="n">os</span><span class="o">.</span><span class="n">listdir</span><span class="p">(</span><span class="n">repo</span><span class="o">.</span><span class="n">worktree</span><span class="p">):</span>
             <span class="k">raise</span> <span class="ne">Exception</span><span class="p">(</span><span class="s2">&#34;</span><span class="si">%s</span><span class="s2"> is not empty!&#34;</span> <span class="o">%</span> <span class="n">path</span><span class="p">)</span>
     <span class="k">else</span><span class="p">:</span>
@@ -544,7 +544,7 @@ if (!doNotTrack) {
 
 <p><code>Assert()</code> helps us to identify that all these directories are created. If there is some issue and we return None from function it would show assertation error.</p>
 
-<p>Besides directories there are few files which are also created when you do a git init, so those also needs to be created when we <code>wag init</code>. Those files are config, HEAD and description others too but for now we would concentrete on these three.</p>
+<p>Besides directories there are few files which are also created when you do a git init, so those also needs to be created when we <code>wag init</code>. Those files are config, HEAD and description others too but for now we would concentrate on these three.</p>
 
 <p>Now these files could be created anywhere and that directory may or may not exist so we would so let&rsquo;s create a function which would create these directories if require. Also lets open description file and write &ldquo;Unnamed repository; edit this file &lsquo;description&rsquo; to name the repository.&rdquo; into that. We need to change this in our <code>repo_create</code> function</p>
 <div class="highlight"><div class="chroma">
@@ -581,12 +581,12 @@ if (!doNotTrack) {
 <pre class="chroma"><code class="language-py" data-lang="py"><span class="k">def</span> <span class="nf">repo_create</span><span class="p">(</span><span class="n">path</span><span class="p">):</span>
     <span class="s2">&#34;&#34;&#34;Create a new repository at path.&#34;&#34;&#34;</span>
     <span class="n">repo</span> <span class="o">=</span> <span class="n">GitRepository</span><span class="p">(</span><span class="n">path</span><span class="p">)</span>
-    <span class="c1"># We check whether there exsits a path of worktree</span>
+    <span class="c1"># We check whether there exists a path of worktree</span>
     <span class="k">if</span> <span class="n">os</span><span class="o">.</span><span class="n">path</span><span class="o">.</span><span class="n">exists</span><span class="p">(</span><span class="n">repo</span><span class="o">.</span><span class="n">worktree</span><span class="p">):</span>
-        <span class="c1"># if path exsits its a directory or not</span>
+        <span class="c1"># if path exists its a directory or not</span>
         <span class="k">if</span> <span class="ow">not</span> <span class="n">os</span><span class="o">.</span><span class="n">path</span><span class="o">.</span><span class="n">isdir</span><span class="p">(</span><span class="n">repo</span><span class="o">.</span><span class="n">worktree</span><span class="p">):</span>
             <span class="k">raise</span> <span class="ne">Exception</span><span class="p">(</span><span class="s2">&#34;</span><span class="si">%s</span><span class="s2"> is not a directory!&#34;</span> <span class="o">%</span> <span class="n">path</span><span class="p">)</span>
-        <span class="c1"># if path exsits its empty or not</span>
+        <span class="c1"># if path exists its empty or not</span>
         <span class="k">if</span> <span class="n">os</span><span class="o">.</span><span class="n">listdir</span><span class="p">(</span><span class="n">repo</span><span class="o">.</span><span class="n">worktree</span><span class="p">):</span>
             <span class="k">raise</span> <span class="ne">Exception</span><span class="p">(</span><span class="s2">&#34;</span><span class="si">%s</span><span class="s2"> is not empty!&#34;</span> <span class="o">%</span> <span class="n">path</span><span class="p">)</span>
     <span class="k">else</span><span class="p">:</span>

@@ -17,7 +17,7 @@
       <pubDate>Sun, 25 Aug 2019 16:57:46 +0530</pubDate>
       
       <guid>https://BhaveshSGupta.me/blog/another-attempt-at-wag3/</guid>
-      <description>Uptill now we had done as of following code. We would create couples of more functions which would help us in managing our application. As discussed earliear we would now we creating different directories and files present inside .git directory along with directory itself. More or less we would something like following directory structure after doing wag init
+      <description>Until now we had done as of following code. We would create couples of more functions which would help us in managing our application. As discussed earlier we would now we creating different directories and files present inside .git directory along with directory itself. More or less we would something like following directory structure after doing wag init
  .git is the git directory itself, which contains:  .git/objects/ : the object store, which we’ll introduce in the next section.</description>
     </item>
     
@@ -51,7 +51,7 @@ Let&amp;rsquo;s create a file called wag which would have following code.
       
       <guid>https://BhaveshSGupta.me/blog/more-information-about-git-log-command/</guid>
       <description>As part of home task part 2, we were asked to read about git log command. So this blog post is dedicated to that. To get more info about git log command I had gone through Git pro book available at https://git-scm.com/book/en/v2/. From this book I had followed chapter https://git-scm.com/book/en/v2/Git-Basics-Viewing-the-Commit-History to study more about git log command.
-When git log is used without any argument, it displays all previous commit&amp;rsquo;s in reverse cronological order.</description>
+When git log is used without any argument, it displays all previous commits in reverse chronological order.</description>
     </item>
     
     <item>

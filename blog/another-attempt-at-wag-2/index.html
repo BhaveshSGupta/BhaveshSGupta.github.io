@@ -66,7 +66,7 @@ This was our code till last time.
 <meta property="og:type" content="article" />
 <meta property="og:url" content="https://BhaveshSGupta.me/blog/another-attempt-at-wag-2/" />
 <meta property="article:published_time" content="2019-08-24T15:32:32&#43;05:30"/>
-<meta property="article:modified_time" content="2019-08-27T20:51:27&#43;05:30"/>
+<meta property="article:modified_time" content="2019-09-14T18:03:22&#43;05:30"/>
 
 <meta itemprop="name" content="Another Attempt at Wag 2">
 <meta itemprop="description" content="Last time we had created cmd_init(args) function. We add more functionality to cmd_init(args).
@@ -75,7 +75,7 @@ This was our code till last time.
 
 
 <meta itemprop="datePublished" content="2019-08-24T15:32:32&#43;05:30" />
-<meta itemprop="dateModified" content="2019-08-27T20:51:27&#43;05:30" />
+<meta itemprop="dateModified" content="2019-09-14T18:03:22&#43;05:30" />
 <meta itemprop="wordCount" content="524">
 
 
@@ -353,9 +353,9 @@ if (!doNotTrack) {
     </code></pre></td></tr></table>
 </div>
 </div>
-<p>We had added an argument to your sub parser called path. If the value of path is not specified it would be &lsquo;.&rsquo; current directory or it would whatever specfied. This would help us</p>
+<p>We had added an argument to your sub parser called path. If the value of path is not specified it would be &lsquo;.&rsquo; current directory or it would whatever specified. This would help us</p>
 
-<p>A repository in git is consit to two things a work tree where we have our files are there for version control and the git directory i.e. <code>.git</code> directory where Git stores its own data. In regular pratice our work tree is a regular directory and git directory is child of that directory. Git supports all cases also our program would work in this case only.</p>
+<p>A repository in git is consist to two things a work tree where we have our files are there for version control and the git directory i.e. <code>.git</code> directory where Git stores its own data. In regular practice our work tree is a regular directory and git directory is child of that directory. Git supports all cases also our program would work in this case only.</p>
 
 <p>For any command we run related to git there would be in git repo. So we create an object which would help us manage things. We would be working with lot of files we need to import another python module os.</p>
 
@@ -441,8 +441,8 @@ So first let's import configparser and os, start creating a class to get this re
 <pre class="chroma"><code class="language-py" data-lang="py"><span class="k">def</span> <span class="nf">repo_create</span><span class="p">(</span><span class="n">path</span><span class="p">):</span>
 	<span class="s2">&#34;&#34;&#34;Create a new repository at path.&#34;&#34;&#34;</span>
 	<span class="n">repo</span> <span class="o">=</span> <span class="n">GitRepository</span><span class="p">(</span><span class="n">path</span><span class="p">)</span>
-	<span class="k">if</span> <span class="n">os</span><span class="o">.</span><span class="n">path</span><span class="o">.</span><span class="n">exists</span><span class="p">(</span><span class="n">repo</span><span class="o">.</span><span class="n">worktree</span><span class="p">):</span> <span class="c1"># We check whether there exsits a path of worktree</span>
-		<span class="k">if</span> <span class="ow">not</span> <span class="n">os</span><span class="o">.</span><span class="n">path</span><span class="o">.</span><span class="n">isdir</span><span class="p">(</span><span class="n">repo</span><span class="o">.</span><span class="n">worktree</span><span class="p">):</span><span class="c1"># if path exsits its a directory or not</span>
+	<span class="k">if</span> <span class="n">os</span><span class="o">.</span><span class="n">path</span><span class="o">.</span><span class="n">exists</span><span class="p">(</span><span class="n">repo</span><span class="o">.</span><span class="n">worktree</span><span class="p">):</span> <span class="c1"># We check whether there exists a path of worktree</span>
+		<span class="k">if</span> <span class="ow">not</span> <span class="n">os</span><span class="o">.</span><span class="n">path</span><span class="o">.</span><span class="n">isdir</span><span class="p">(</span><span class="n">repo</span><span class="o">.</span><span class="n">worktree</span><span class="p">):</span><span class="c1"># if path exists its a directory or not</span>
 			<span class="k">raise</span> <span class="ne">Exception</span><span class="p">(</span><span class="s2">&#34;</span><span class="si">%s</span><span class="s2"> is not a directory!&#34;</span> <span class="o">%</span> <span class="n">path</span><span class="p">)</span>
 		<span class="k">if</span> <span class="n">os</span><span class="o">.</span><span class="n">listdir</span><span class="p">(</span><span class="n">repo</span><span class="o">.</span><span class="n">worktree</span><span class="p">):</span><span class="c1"># if path exsits its empty or not</span>
 			<span class="k">raise</span> <span class="ne">Exception</span><span class="p">(</span><span class="s2">&#34;</span><span class="si">%s</span><span class="s2"> is not empty!&#34;</span> <span class="o">%</span> <span class="n">path</span><span class="p">)</span>

@@ -17,7 +17,7 @@
       <pubDate>Sun, 25 Aug 2019 16:57:46 +0530</pubDate>
       
       <guid>https://BhaveshSGupta.me/blog/another-attempt-at-wag3/</guid>
-      <description>Uptill now we had done as of following code. We would create couples of more functions which would help us in managing our application. As discussed earliear we would now we creating different directories and files present inside .git directory along with directory itself. More or less we would something like following directory structure after doing wag init
+      <description>Until now we had done as of following code. We would create couples of more functions which would help us in managing our application. As discussed earlier we would now we creating different directories and files present inside .git directory along with directory itself. More or less we would something like following directory structure after doing wag init
  .git is the git directory itself, which contains:  .git/objects/ : the object store, which we’ll introduce in the next section.</description>
     </item>
     
