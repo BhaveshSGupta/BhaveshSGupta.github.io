@@ -10,50 +10,80 @@
   
   <url>
     <loc>https://BhaveshSGupta.me/blog/</loc>
-    <lastmod>2019-09-14T20:16:20+05:30</lastmod>
+    <lastmod>2019-09-14T20:24:55+05:30</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://BhaveshSGupta.me/categories/</loc>
+    <lastmod>2019-09-14T20:24:55+05:30</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>https://BhaveshSGupta.me/blog/convert-excel-to-json/</loc>
-    <lastmod>2019-09-14T20:16:20+05:30</lastmod>
+    <lastmod>2019-09-14T20:24:55+05:30</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
     <loc>https://BhaveshSGupta.me/</loc>
-    <lastmod>2019-09-14T20:16:20+05:30</lastmod>
+    <lastmod>2019-09-14T20:24:55+05:30</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>https://BhaveshSGupta.me/tags/</loc>
-    <lastmod>2019-09-14T20:16:20+05:30</lastmod>
+    <lastmod>2019-09-14T20:24:55+05:30</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://BhaveshSGupta.me/categories/excel/</loc>
+    <lastmod>2019-09-14T20:24:55+05:30</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>https://BhaveshSGupta.me/tags/excel/</loc>
-    <lastmod>2019-09-14T20:16:20+05:30</lastmod>
+    <lastmod>2019-09-14T20:24:55+05:30</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://BhaveshSGupta.me/categories/js/</loc>
+    <lastmod>2019-09-14T20:24:55+05:30</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>https://BhaveshSGupta.me/tags/js/</loc>
-    <lastmod>2019-09-14T20:16:20+05:30</lastmod>
+    <lastmod>2019-09-14T20:24:55+05:30</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://BhaveshSGupta.me/categories/json/</loc>
+    <lastmod>2019-09-14T20:24:55+05:30</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>https://BhaveshSGupta.me/tags/json/</loc>
-    <lastmod>2019-09-14T20:16:20+05:30</lastmod>
+    <lastmod>2019-09-14T20:24:55+05:30</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://BhaveshSGupta.me/categories/nodejs/</loc>
+    <lastmod>2019-09-14T20:24:55+05:30</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>https://BhaveshSGupta.me/tags/nodejs/</loc>
-    <lastmod>2019-09-14T20:16:20+05:30</lastmod>
+    <lastmod>2019-09-14T20:24:55+05:30</lastmod>
     <priority>0</priority>
   </url>
   
@@ -62,12 +92,6 @@
     <lastmod>2019-09-14T18:03:22+05:30</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
-  </url>
-  
-  <url>
-    <loc>https://BhaveshSGupta.me/categories/</loc>
-    <lastmod>2019-09-14T18:03:22+05:30</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
@@ -172,12 +196,6 @@
     <lastmod>2019-09-14T18:03:22+05:30</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
-  </url>
-  
-  <url>
-    <loc>https://BhaveshSGupta.me/categories/js/</loc>
-    <lastmod>2019-09-14T18:03:22+05:30</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
