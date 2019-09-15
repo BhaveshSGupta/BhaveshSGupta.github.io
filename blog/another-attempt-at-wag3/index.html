@@ -64,7 +64,7 @@
 <meta property="og:type" content="article" />
 <meta property="og:url" content="https://BhaveshSGupta.me/blog/another-attempt-at-wag3/" />
 <meta property="article:published_time" content="2019-08-25T16:57:46&#43;05:30"/>
-<meta property="article:modified_time" content="2019-09-14T18:03:22&#43;05:30"/>
+<meta property="article:modified_time" content="2019-09-15T15:50:47&#43;05:30"/>
 
 <meta itemprop="name" content="Another Attempt at Wag3">
 <meta itemprop="description" content="Until now we had done as of following code. We would create couples of more functions which would help us in managing our application. As discussed earlier we would now we creating different directories and files present inside .git directory along with directory itself. More or less we would something like following directory structure after doing wag init
@@ -72,8 +72,8 @@
 
 
 <meta itemprop="datePublished" content="2019-08-25T16:57:46&#43;05:30" />
-<meta itemprop="dateModified" content="2019-09-14T18:03:22&#43;05:30" />
-<meta itemprop="wordCount" content="1265">
+<meta itemprop="dateModified" content="2019-09-15T15:50:47&#43;05:30" />
+<meta itemprop="wordCount" content="1264">
 
 
 
@@ -288,7 +288,7 @@ if (!doNotTrack) {
             <a href="https://BhaveshSGupta.me/categories/git/"> git </a>
             
           </div>
-        <span class="more-meta"> 1265 words </span>
+        <span class="more-meta"> 1264 words </span>
           <span class="more-meta"> 6 min read </span>
 
         
@@ -499,7 +499,6 @@ if (!doNotTrack) {
 </span><span class="lnt">18
 </span><span class="lnt">19
 </span><span class="lnt">20
-</span><span class="lnt">21
 </span></code></pre></td>
 <td class="lntd">
 <pre class="chroma"><code class="language-py" data-lang="py"><span class="k">def</span> <span class="nf">repo_create</span><span class="p">(</span><span class="n">path</span><span class="p">):</span>
@@ -517,12 +516,11 @@ if (!doNotTrack) {
         <span class="c1"># Create directory as nothing exist with same path</span>
         <span class="n">os</span><span class="o">.</span><span class="n">makedirs</span><span class="p">(</span><span class="n">repo</span><span class="o">.</span><span class="n">worktree</span><span class="p">)</span>
         <span class="n">repo_path</span><span class="p">(</span><span class="n">repo</span><span class="p">,</span> <span class="s2">&#34;branches&#34;</span><span class="p">)</span>
-    
+
     <span class="k">assert</span><span class="p">(</span><span class="n">repo_dir</span><span class="p">(</span><span class="n">repo</span><span class="p">,</span> <span class="s2">&#34;branches&#34;</span><span class="p">,</span> <span class="n">mkdir</span><span class="o">=</span><span class="bp">True</span><span class="p">))</span>
     <span class="k">assert</span><span class="p">(</span><span class="n">repo_dir</span><span class="p">(</span><span class="n">repo</span><span class="p">,</span> <span class="s2">&#34;objects&#34;</span><span class="p">,</span> <span class="n">mkdir</span><span class="o">=</span><span class="bp">True</span><span class="p">))</span>
     <span class="k">assert</span><span class="p">(</span><span class="n">repo_dir</span><span class="p">(</span><span class="n">repo</span><span class="p">,</span> <span class="s2">&#34;refs&#34;</span><span class="p">,</span> <span class="s2">&#34;tags&#34;</span><span class="p">,</span> <span class="n">mkdir</span><span class="o">=</span><span class="bp">True</span><span class="p">))</span>
-    <span class="k">assert</span><span class="p">(</span><span class="n">repo_dir</span><span class="p">(</span><span class="n">repo</span><span class="p">,</span> <span class="s2">&#34;refs&#34;</span><span class="p">,</span> <span class="s2">&#34;heads&#34;</span><span class="p">,</span> <span class="n">mkdir</span><span class="o">=</span><span class="bp">True</span><span class="p">))</span>
-    </code></pre></td></tr></table>
+    <span class="k">assert</span><span class="p">(</span><span class="n">repo_dir</span><span class="p">(</span><span class="n">repo</span><span class="p">,</span> <span class="s2">&#34;refs&#34;</span><span class="p">,</span> <span class="s2">&#34;heads&#34;</span><span class="p">,</span> <span class="n">mkdir</span><span class="o">=</span><span class="bp">True</span><span class="p">))</span></code></pre></td></tr></table>
 </div>
 </div>
 <p>Above would create <code>.git</code> directory with <code>braches</code>, <code>objects</code> and <code>refs</code> directory with <code>tags</code> and <code>heads</code> under it. It would look as follows:</p>
@@ -593,17 +591,17 @@ if (!doNotTrack) {
         <span class="c1"># Create directory as nothing exist with same path</span>
         <span class="n">os</span><span class="o">.</span><span class="n">makedirs</span><span class="p">(</span><span class="n">repo</span><span class="o">.</span><span class="n">worktree</span><span class="p">)</span>
         <span class="n">repo_path</span><span class="p">(</span><span class="n">repo</span><span class="p">,</span> <span class="s2">&#34;branches&#34;</span><span class="p">)</span>
-    
+
     <span class="k">assert</span><span class="p">(</span><span class="n">repo_dir</span><span class="p">(</span><span class="n">repo</span><span class="p">,</span> <span class="s2">&#34;branches&#34;</span><span class="p">,</span> <span class="n">mkdir</span><span class="o">=</span><span class="bp">True</span><span class="p">))</span>
     <span class="k">assert</span><span class="p">(</span><span class="n">repo_dir</span><span class="p">(</span><span class="n">repo</span><span class="p">,</span> <span class="s2">&#34;objects&#34;</span><span class="p">,</span> <span class="n">mkdir</span><span class="o">=</span><span class="bp">True</span><span class="p">))</span>
     <span class="k">assert</span><span class="p">(</span><span class="n">repo_dir</span><span class="p">(</span><span class="n">repo</span><span class="p">,</span> <span class="s2">&#34;refs&#34;</span><span class="p">,</span> <span class="s2">&#34;tags&#34;</span><span class="p">,</span> <span class="n">mkdir</span><span class="o">=</span><span class="bp">True</span><span class="p">))</span>
     <span class="k">assert</span><span class="p">(</span><span class="n">repo_dir</span><span class="p">(</span><span class="n">repo</span><span class="p">,</span> <span class="s2">&#34;refs&#34;</span><span class="p">,</span> <span class="s2">&#34;heads&#34;</span><span class="p">,</span> <span class="n">mkdir</span><span class="o">=</span><span class="bp">True</span><span class="p">))</span>
-		
-		<span class="k">with</span> <span class="nb">open</span><span class="p">(</span><span class="n">repo_file</span><span class="p">(</span><span class="n">repo</span><span class="p">,</span> <span class="s2">&#34;description&#34;</span><span class="p">),</span> <span class="s2">&#34;w&#34;</span><span class="p">)</span> <span class="k">as</span> <span class="n">f</span><span class="p">:</span>
-			<span class="n">f</span><span class="o">.</span><span class="n">write</span><span class="p">(</span><span class="s2">&#34;Unnamed repository; edit this file &#39;description&#39; to name the repository.</span><span class="se">\n</span><span class="s2">&#34;</span><span class="p">)</span>
+
+    <span class="k">with</span> <span class="nb">open</span><span class="p">(</span><span class="n">repo_file</span><span class="p">(</span><span class="n">repo</span><span class="p">,</span> <span class="s2">&#34;description&#34;</span><span class="p">),</span> <span class="s2">&#34;w&#34;</span><span class="p">)</span> <span class="k">as</span> <span class="n">f</span><span class="p">:</span>
+        <span class="n">f</span><span class="o">.</span><span class="n">write</span><span class="p">(</span><span class="s2">&#34;Unnamed repository; edit this file &#39;description&#39; to name the repository.</span><span class="se">\n</span><span class="s2">&#34;</span><span class="p">)</span>
 
 <span class="k">def</span> <span class="nf">repo_file</span><span class="p">(</span><span class="n">repo</span><span class="p">,</span> <span class="o">*</span><span class="n">path</span><span class="p">,</span> <span class="n">mkdir</span><span class="o">=</span><span class="bp">False</span><span class="p">):</span>
-	<span class="k">if</span> <span class="n">repo_dir</span><span class="p">(</span><span class="n">repo</span><span class="p">,</span> <span class="o">*</span><span class="n">path</span><span class="p">[:</span><span class="o">-</span><span class="mi">1</span><span class="p">],</span> <span class="n">mkdir</span><span class="o">=</span><span class="n">mkdir</span><span class="p">):</span>
+    <span class="k">if</span> <span class="n">repo_dir</span><span class="p">(</span><span class="n">repo</span><span class="p">,</span> <span class="o">*</span><span class="n">path</span><span class="p">[:</span><span class="o">-</span><span class="mi">1</span><span class="p">],</span> <span class="n">mkdir</span><span class="o">=</span><span class="n">mkdir</span><span class="p">):</span>
     <span class="k">return</span> <span class="n">repo_path</span><span class="p">(</span><span class="n">repo</span><span class="p">,</span> <span class="o">*</span><span class="n">path</span><span class="p">)</span></code></pre></td></tr></table>
 </div>
 </div>
@@ -691,7 +689,7 @@ In default config there are thing fields,</p>
         <span class="c1"># Create directory as nothing exist with same path</span>
         <span class="n">os</span><span class="o">.</span><span class="n">makedirs</span><span class="p">(</span><span class="n">repo</span><span class="o">.</span><span class="n">worktree</span><span class="p">)</span>
         <span class="n">repo_path</span><span class="p">(</span><span class="n">repo</span><span class="p">,</span> <span class="s2">&#34;branches&#34;</span><span class="p">)</span>
-    
+
     <span class="k">assert</span><span class="p">(</span><span class="n">repo_dir</span><span class="p">(</span><span class="n">repo</span><span class="p">,</span> <span class="s2">&#34;branches&#34;</span><span class="p">,</span> <span class="n">mkdir</span><span class="o">=</span><span class="bp">True</span><span class="p">))</span>
     <span class="k">assert</span><span class="p">(</span><span class="n">repo_dir</span><span class="p">(</span><span class="n">repo</span><span class="p">,</span> <span class="s2">&#34;objects&#34;</span><span class="p">,</span> <span class="n">mkdir</span><span class="o">=</span><span class="bp">True</span><span class="p">))</span>
     <span class="k">assert</span><span class="p">(</span><span class="n">repo_dir</span><span class="p">(</span><span class="n">repo</span><span class="p">,</span> <span class="s2">&#34;refs&#34;</span><span class="p">,</span> <span class="s2">&#34;tags&#34;</span><span class="p">,</span> <span class="n">mkdir</span><span class="o">=</span><span class="bp">True</span><span class="p">))</span>
@@ -700,7 +698,7 @@ In default config there are thing fields,</p>
     <span class="k">with</span> <span class="nb">open</span><span class="p">(</span><span class="n">repo_file</span><span class="p">(</span><span class="n">repo</span><span class="p">,</span> <span class="s2">&#34;description&#34;</span><span class="p">),</span> <span class="s2">&#34;w&#34;</span><span class="p">)</span> <span class="k">as</span> <span class="n">f</span><span class="p">:</span>
         <span class="n">f</span><span class="o">.</span><span class="n">write</span><span class="p">(</span><span class="s2">&#34;Unnamed repository; edit this file &#39;description&#39; to name the repository.</span><span class="se">\n</span><span class="s2">&#34;</span><span class="p">)</span>
 
-		<span class="k">with</span> <span class="nb">open</span><span class="p">(</span><span class="n">repo_file</span><span class="p">(</span><span class="n">repo</span><span class="p">,</span> <span class="s2">&#34;HEAD&#34;</span><span class="p">),</span> <span class="s2">&#34;w&#34;</span><span class="p">)</span> <span class="k">as</span> <span class="n">f</span><span class="p">:</span>
+    <span class="k">with</span> <span class="nb">open</span><span class="p">(</span><span class="n">repo_file</span><span class="p">(</span><span class="n">repo</span><span class="p">,</span> <span class="s2">&#34;HEAD&#34;</span><span class="p">),</span> <span class="s2">&#34;w&#34;</span><span class="p">)</span> <span class="k">as</span> <span class="n">f</span><span class="p">:</span>
         <span class="n">f</span><span class="o">.</span><span class="n">write</span><span class="p">(</span><span class="s2">&#34;ref: refs/heads/master</span><span class="se">\n</span><span class="s2">&#34;</span><span class="p">)</span>
 
     <span class="k">with</span> <span class="nb">open</span><span class="p">(</span><span class="n">repo_file</span><span class="p">(</span><span class="n">repo</span><span class="p">,</span> <span class="s2">&#34;config&#34;</span><span class="p">),</span> <span class="s2">&#34;w&#34;</span><span class="p">)</span> <span class="k">as</span> <span class="n">f</span><span class="p">:</span>

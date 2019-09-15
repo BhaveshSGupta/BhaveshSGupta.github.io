@@ -64,7 +64,7 @@ So I was looking for options what can be done here, where I found several online
 <meta property="og:type" content="article" />
 <meta property="og:url" content="https://BhaveshSGupta.me/blog/convert-excel-to-json/" />
 <meta property="article:published_time" content="2019-09-14T19:54:55&#43;05:30"/>
-<meta property="article:modified_time" content="2019-09-14T20:24:55&#43;05:30"/>
+<meta property="article:modified_time" content="2019-09-15T15:50:47&#43;05:30"/>
 
 <meta itemprop="name" content="Convert Excel to Json">
 <meta itemprop="description" content="Some time in our projects we need data in json files(mostly web projects). But collecting and managing data in json files is harder(At least this is what I feel) compared to excel. I had recently ran into a similar situation where I need some data. Data is going to be provided by a non-technical person/client. And there going to be several rounds of it.
@@ -72,7 +72,7 @@ So I was looking for options what can be done here, where I found several online
 
 
 <meta itemprop="datePublished" content="2019-09-14T19:54:55&#43;05:30" />
-<meta itemprop="dateModified" content="2019-09-14T20:24:55&#43;05:30" />
+<meta itemprop="dateModified" content="2019-09-15T15:50:47&#43;05:30" />
 <meta itemprop="wordCount" content="233">
 
 
@@ -324,7 +324,7 @@ if (!doNotTrack) {
 </span></code></pre></td>
 <td class="lntd">
 <pre class="chroma"><code class="language-js" data-lang="js"><span class="kd">var</span> <span class="nx">parser</span> <span class="o">=</span> <span class="nx">require</span><span class="p">(</span><span class="s1">&#39;simple-excel-to-json&#39;</span><span class="p">)</span>
-<span class="kd">var</span> <span class="nx">doc</span> <span class="o">=</span> <span class="nx">parser</span><span class="p">.</span><span class="nx">parseXls2Json</span><span class="p">(</span><span class="s1">&#39;sample.xlsx&#39;</span><span class="p">,</span> <span class="p">{</span> <span class="nx">isNested</span><span class="o">:</span> <span class="kc">true</span> <span class="p">});</span> 
+<span class="kd">var</span> <span class="nx">doc</span> <span class="o">=</span> <span class="nx">parser</span><span class="p">.</span><span class="nx">parseXls2Json</span><span class="p">(</span><span class="s1">&#39;sample.xlsx&#39;</span><span class="p">,</span> <span class="p">{</span> <span class="nx">isNested</span><span class="o">:</span> <span class="kc">true</span> <span class="p">});</span>
 <span class="k">const</span> <span class="nx">fs</span> <span class="o">=</span> <span class="nx">require</span><span class="p">(</span><span class="s1">&#39;fs&#39;</span><span class="p">);</span>
 <span class="nx">fs</span><span class="p">.</span><span class="nx">writeFileSync</span><span class="p">(</span><span class="s2">&#34;sample.json&#34;</span><span class="p">,</span><span class="nx">JSON</span><span class="p">.</span><span class="nx">stringify</span><span class="p">(</span><span class="nx">doc</span><span class="p">[</span><span class="mi">0</span><span class="p">],</span> <span class="kc">null</span><span class="p">,</span> <span class="mi">2</span><span class="p">),</span> <span class="kd">function</span><span class="p">(</span><span class="nx">err</span><span class="p">)</span> <span class="p">{</span>
     <span class="k">if</span><span class="p">(</span><span class="nx">err</span><span class="p">)</span> <span class="p">{</span>
