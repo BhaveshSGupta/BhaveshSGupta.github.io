@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>blog on Everyone Has a Story</title>
@@ -29,8 +29,7 @@ When git log is used without any argument, it displays all previous commits in r
       <guid>https://BhaveshSGupta.me/blog/introduction-to-git-and-seven-rules-of-a-great-git-commit-message/</guid>
       <description>As part of summer training at #dgplug, Sayan took our basics to Git session. We were introduced to basics of VCS(Version Control System), need to use a VCS and introduction to Git.
 These were some of commands we learn during the session conducted over the course of two days,
- git init is used initialize Git repository
-1  $ git init   git config to used to configure various Git configuration using below command one can configure their Name and Email globally for Git.</description>
+ git init is used initialize Git repository 1  $ git init      git config to used to configure various Git configuration using below command one can configure their Name and Email globally for Git.</description>
     </item>
     
     <item>
