@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>github on Everyone Has a Story</title>
+    <link>https://BhaveshSGupta.me/tags/github/</link>
+    <description>Recent content in github on Everyone Has a Story</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Fri, 04 May 2018 02:22:55 +0530</lastBuildDate>
+    
+	<atom:link href="https://BhaveshSGupta.me/tags/github/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Finally HTTPS</title>
+      <link>https://BhaveshSGupta.me/blog/finally-https/</link>
+      <pubDate>Fri, 04 May 2018 02:22:55 +0530</pubDate>
+      
+      <guid>https://BhaveshSGupta.me/blog/finally-https/</guid>
+      <description>Well, GitHub started providing HTTPS even for custom domain, So I had to enable that plus there were some internal changes which were required. Which I had done. Its been almost two years since I have bought this domain But I have been away from blogging. I had setup this a good time ago using Hugo and a cactus theme still have been struck the same place not able to write what I want or I should say not able to give to write what I want.</description>
+    </item>
+    
+  </channel>
+</rss>

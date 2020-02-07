@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>personal on Everyone Has a Story</title>
+    <link>https://BhaveshSGupta.me/tags/personal/</link>
+    <description>Recent content in personal on Everyone Has a Story</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Tue, 17 Jul 2018 05:03:32 +0530</lastBuildDate>
+    
+	<atom:link href="https://BhaveshSGupta.me/tags/personal/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Update 17 Jul 18</title>
+      <link>https://BhaveshSGupta.me/blog/update-17-jul-18/</link>
+      <pubDate>Tue, 17 Jul 2018 05:03:32 +0530</pubDate>
+      
+      <guid>https://BhaveshSGupta.me/blog/update-17-jul-18/</guid>
+      <description>This update post was actually created on 10th july, But as usual due to some x reason it is not yet complete. There are several things which are running into my life right now out of them on is to update this blog on regular bases to get align with things.
+Pending Posts This blog came to life again due to dgplug summer training where we were taught to write blog post about things you are doing or learning(PS: I am yet to read logs to that class :p).</description>
+    </item>
+    
+    <item>
+      <title>Static file blog using web based CMS</title>
+      <link>https://BhaveshSGupta.me/blog/static-file-blog-with-web-based-cms/</link>
+      <pubDate>Tue, 10 Jul 2018 12:44:32 +0530</pubDate>
+      
+      <guid>https://BhaveshSGupta.me/blog/static-file-blog-with-web-based-cms/</guid>
+      <description>So a few days back I was working on a solution so that I could keep that blog updated. As this is a not-self deployable blog I actually need to deploy changes. Somebody would say instead of taking so much efforts to deploy a single post you could have set up a WordPress blog which has an awesome app to add post, n number of themes, plugins, etc. But I feel I like it this way.</description>
+    </item>
+    
+  </channel>
+</rss>
