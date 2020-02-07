@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>commit on Everyone Has a Story</title>
+    <link>https://BhaveshSGupta.me/tags/commit/</link>
+    <description>Recent content in commit on Everyone Has a Story</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Mon, 22 Jul 2019 12:12:00 +0530</lastBuildDate>
+    
+	<atom:link href="https://BhaveshSGupta.me/tags/commit/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Introduction to Git and seven rules of great Git Commit Message</title>
+      <link>https://BhaveshSGupta.me/blog/introduction-to-git-and-seven-rules-of-a-great-git-commit-message/</link>
+      <pubDate>Mon, 22 Jul 2019 12:12:00 +0530</pubDate>
+      
+      <guid>https://BhaveshSGupta.me/blog/introduction-to-git-and-seven-rules-of-a-great-git-commit-message/</guid>
+      <description>As part of summer training at #dgplug, Sayan took our basics to Git session. We were introduced to basics of VCS(Version Control System), need to use a VCS and introduction to Git.
+These were some of commands we learn during the session conducted over the course of two days,
+ git init is used initialize Git repository 1  $ git init      git config to used to configure various Git configuration using below command one can configure their Name and Email globally for Git.</description>
+    </item>
+    
+  </channel>
+</rss>
