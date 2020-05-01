@@ -33,7 +33,7 @@ So I was looking for options what can be done here, where I found several online
 
 
 
-<meta name="generator" content="Hugo 0.64.0" />
+<meta name="generator" content="Hugo 0.69.1" />
 
 
 <link rel="canonical" href="https://BhaveshSGupta.me/blog/convert-excel-to-json/" />
@@ -298,14 +298,14 @@ if (!doNotTrack) {
 </span></code></pre></td>
 <td class="lntd">
 <pre class="chroma"><code class="language-js" data-lang="js"><span class="kd">var</span> <span class="nx">parser</span> <span class="o">=</span> <span class="nx">require</span><span class="p">(</span><span class="s1">&#39;simple-excel-to-json&#39;</span><span class="p">)</span>
-<span class="kd">var</span> <span class="nx">doc</span> <span class="o">=</span> <span class="nx">parser</span><span class="p">.</span><span class="nx">parseXls2Json</span><span class="p">(</span><span class="s1">&#39;sample.xlsx&#39;</span><span class="p">,</span> <span class="p">{</span> <span class="nx">isNested</span><span class="o">:</span> <span class="kc">true</span> <span class="p">}</span><span class="p">)</span><span class="p">;</span>
-<span class="kr">const</span> <span class="nx">fs</span> <span class="o">=</span> <span class="nx">require</span><span class="p">(</span><span class="s1">&#39;fs&#39;</span><span class="p">)</span><span class="p">;</span>
-<span class="nx">fs</span><span class="p">.</span><span class="nx">writeFileSync</span><span class="p">(</span><span class="s2">&#34;sample.json&#34;</span><span class="p">,</span><span class="nx">JSON</span><span class="p">.</span><span class="nx">stringify</span><span class="p">(</span><span class="nx">doc</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span><span class="p">,</span> <span class="kc">null</span><span class="p">,</span> <span class="mi">2</span><span class="p">)</span><span class="p">,</span> <span class="kd">function</span><span class="p">(</span><span class="nx">err</span><span class="p">)</span> <span class="p">{</span>
+<span class="kd">var</span> <span class="nx">doc</span> <span class="o">=</span> <span class="nx">parser</span><span class="p">.</span><span class="nx">parseXls2Json</span><span class="p">(</span><span class="s1">&#39;sample.xlsx&#39;</span><span class="p">,</span> <span class="p">{</span> <span class="nx">isNested</span><span class="o">:</span> <span class="kc">true</span> <span class="p">});</span>
+<span class="kr">const</span> <span class="nx">fs</span> <span class="o">=</span> <span class="nx">require</span><span class="p">(</span><span class="s1">&#39;fs&#39;</span><span class="p">);</span>
+<span class="nx">fs</span><span class="p">.</span><span class="nx">writeFileSync</span><span class="p">(</span><span class="s2">&#34;sample.json&#34;</span><span class="p">,</span><span class="nx">JSON</span><span class="p">.</span><span class="nx">stringify</span><span class="p">(</span><span class="nx">doc</span><span class="p">[</span><span class="mi">0</span><span class="p">],</span> <span class="kc">null</span><span class="p">,</span> <span class="mi">2</span><span class="p">),</span> <span class="kd">function</span><span class="p">(</span><span class="nx">err</span><span class="p">)</span> <span class="p">{</span>
     <span class="k">if</span><span class="p">(</span><span class="nx">err</span><span class="p">)</span> <span class="p">{</span>
-        <span class="nx">console</span><span class="p">.</span><span class="nx">log</span><span class="p">(</span><span class="s2">&#34;There was an error!&#34;</span><span class="p">)</span><span class="p">;</span>
-        <span class="k">return</span> <span class="nx">console</span><span class="p">.</span><span class="nx">log</span><span class="p">(</span><span class="nx">err</span><span class="p">)</span><span class="p">;</span>
+        <span class="nx">console</span><span class="p">.</span><span class="nx">log</span><span class="p">(</span><span class="s2">&#34;There was an error!&#34;</span><span class="p">);</span>
+        <span class="k">return</span> <span class="nx">console</span><span class="p">.</span><span class="nx">log</span><span class="p">(</span><span class="nx">err</span><span class="p">);</span>
     <span class="p">}</span>
-<span class="p">}</span><span class="p">)</span><span class="p">;</span>
+<span class="p">});</span>
 </code></pre></td></tr></table>
 </div>
 </div><p>So <a href="https://github.com/BhaveshSGupta/excel-to-json-demo">here</a> is a repository link to source code. To run this you would need nodejs in your system.</p>

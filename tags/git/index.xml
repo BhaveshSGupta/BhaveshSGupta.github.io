@@ -29,7 +29,7 @@
       <guid>https://BhaveshSGupta.me/blog/another-attempt-at-wag-2/</guid>
       <description>Last time we had created cmd_init(args) function. We add more functionality to cmd_init(args).
 This was our code till last time.
-1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18  import sysimport argparseargparser = argparse.ArgumentParser(description=&amp;#34;Another Content Tracker&amp;#34;)argsubparsers = argparser.add_subparsers(title=&amp;#34;Commands&amp;#34;, dest=&amp;#34;command&amp;#34;)argsubparsers.required = Trueargsp = argsubparsers.add_parser(&amp;#34;init&amp;#34;, help=&amp;#34;Initialize a new, empty repository.&amp;#34;)argsp.add_argument(&amp;#34;path&amp;#34;, metavar=&amp;#34;directory&amp;#34;, nargs=&amp;#34;?&amp;#34;, default=&amp;#34;.&amp;#34;, help=&amp;#34;Where to create the repository.</description>
+1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18  import sys import argparse argparser = argparse.ArgumentParser(description=&amp;#34;Another Content Tracker&amp;#34;) argsubparsers = argparser.add_subparsers(title=&amp;#34;Commands&amp;#34;, dest=&amp;#34;command&amp;#34;) argsubparsers.required = True argsp = argsubparsers.add_parser(&amp;#34;init&amp;#34;, help=&amp;#34;Initialize a new, empty repository.&amp;#34;) argsp.add_argument(&amp;#34;path&amp;#34;, metavar=&amp;#34;directory&amp;#34;, nargs=&amp;#34;?&amp;#34;, default=&amp;#34;.&amp;#34;, help=&amp;#34;Where to create the repository.</description>
     </item>
     
     <item>
@@ -41,7 +41,7 @@ This was our code till last time.
       <description>Second Try We would be trying to create a mini git clone from this tutorial. I aspect this to go long. In general git is awesome source code manager which is wieldy use.
 So first we would be creating a lib file and executing file.
 Let&amp;rsquo;s create a file called wag which would have following code.
-1 2 3 4  #!/usr/bin/env python3 import libwaglibwag.main()  Then we would create another file which would be libwag.</description>
+1 2 3 4  #!/usr/bin/env python3 import libwag libwag.main()   Then we would create another file which would be libwag.</description>
     </item>
     
     <item>
@@ -62,7 +62,7 @@ When git log is used without any argument, it displays all previous commits in r
       <guid>https://BhaveshSGupta.me/blog/introduction-to-git-and-seven-rules-of-a-great-git-commit-message/</guid>
       <description>As part of summer training at #dgplug, Sayan took our basics to Git session. We were introduced to basics of VCS(Version Control System), need to use a VCS and introduction to Git.
 These were some of commands we learn during the session conducted over the course of two days,
- git init is used initialize Git repository 1  $ git init      git config to used to configure various Git configuration using below command one can configure their Name and Email globally for Git.</description>
+ git init is used initialize Git repository 1  $ git init       git config to used to configure various Git configuration using below command one can configure their Name and Email globally for Git.</description>
     </item>
     
   </channel>

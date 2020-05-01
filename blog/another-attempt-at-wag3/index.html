@@ -33,7 +33,7 @@
 
 
 
-<meta name="generator" content="Hugo 0.64.0" />
+<meta name="generator" content="Hugo 0.69.1" />
 
 
 <link rel="canonical" href="https://BhaveshSGupta.me/blog/another-attempt-at-wag3/" />
@@ -72,7 +72,7 @@
  .git is the git directory itself, which contains:  .git/objects/ : the object store, which we’ll introduce in the next section.">
 <meta itemprop="datePublished" content="2019-08-25T16:57:46&#43;05:30" />
 <meta itemprop="dateModified" content="2019-09-15T15:50:47&#43;05:30" />
-<meta itemprop="wordCount" content="1263">
+<meta itemprop="wordCount" content="1265">
 
 
 
@@ -264,7 +264,7 @@ if (!doNotTrack) {
             <a href="https://BhaveshSGupta.me/categories/git/"> git </a>
             
           </div>
-        <span class="more-meta"> 1263 words </span>
+        <span class="more-meta"> 1265 words </span>
           <span class="more-meta"> 6 min read </span>
 
         
@@ -347,48 +347,48 @@ if (!doNotTrack) {
 <span class="kn">import</span> <span class="nn">argparse</span>
 <span class="kn">import</span> <span class="nn">os</span>
 
-<span class="n">argparser</span> <span class="o">=</span> <span class="n">argparse</span><span class="o">.</span><span class="n">ArgumentParser</span><span class="p">(</span><span class="n">description</span><span class="o">=</span><span class="sa"></span><span class="s2">&#34;</span><span class="s2">Another Content Tracker</span><span class="s2">&#34;</span><span class="p">)</span>
-<span class="n">argsubparsers</span> <span class="o">=</span> <span class="n">argparser</span><span class="o">.</span><span class="n">add_subparsers</span><span class="p">(</span><span class="n">title</span><span class="o">=</span><span class="sa"></span><span class="s2">&#34;</span><span class="s2">Commands</span><span class="s2">&#34;</span><span class="p">,</span> <span class="n">dest</span><span class="o">=</span><span class="sa"></span><span class="s2">&#34;</span><span class="s2">command</span><span class="s2">&#34;</span><span class="p">)</span>
+<span class="n">argparser</span> <span class="o">=</span> <span class="n">argparse</span><span class="o">.</span><span class="n">ArgumentParser</span><span class="p">(</span><span class="n">description</span><span class="o">=</span><span class="s2">&#34;Another Content Tracker&#34;</span><span class="p">)</span>
+<span class="n">argsubparsers</span> <span class="o">=</span> <span class="n">argparser</span><span class="o">.</span><span class="n">add_subparsers</span><span class="p">(</span><span class="n">title</span><span class="o">=</span><span class="s2">&#34;Commands&#34;</span><span class="p">,</span> <span class="n">dest</span><span class="o">=</span><span class="s2">&#34;command&#34;</span><span class="p">)</span>
 <span class="n">argsubparsers</span><span class="o">.</span><span class="n">required</span> <span class="o">=</span> <span class="bp">True</span>
 <span class="n">argsp</span> <span class="o">=</span> <span class="n">argsubparsers</span><span class="o">.</span><span class="n">add_parser</span><span class="p">(</span>
-    <span class="sa"></span><span class="s2">&#34;</span><span class="s2">init</span><span class="s2">&#34;</span><span class="p">,</span> <span class="n">help</span><span class="o">=</span><span class="sa"></span><span class="s2">&#34;</span><span class="s2">Initialize a new, empty repository.</span><span class="s2">&#34;</span><span class="p">)</span>
-<span class="n">argsp</span><span class="o">.</span><span class="n">add_argument</span><span class="p">(</span><span class="sa"></span><span class="s2">&#34;</span><span class="s2">path</span><span class="s2">&#34;</span><span class="p">,</span> <span class="n">metavar</span><span class="o">=</span><span class="sa"></span><span class="s2">&#34;</span><span class="s2">directory</span><span class="s2">&#34;</span><span class="p">,</span> <span class="n">nargs</span><span class="o">=</span><span class="sa"></span><span class="s2">&#34;</span><span class="s2">?</span><span class="s2">&#34;</span><span class="p">,</span>
-                   <span class="n">default</span><span class="o">=</span><span class="sa"></span><span class="s2">&#34;</span><span class="s2">.</span><span class="s2">&#34;</span><span class="p">,</span> <span class="n">help</span><span class="o">=</span><span class="sa"></span><span class="s2">&#34;</span><span class="s2">Where to create the repository.</span><span class="s2">&#34;</span><span class="p">)</span>
+    <span class="s2">&#34;init&#34;</span><span class="p">,</span> <span class="n">help</span><span class="o">=</span><span class="s2">&#34;Initialize a new, empty repository.&#34;</span><span class="p">)</span>
+<span class="n">argsp</span><span class="o">.</span><span class="n">add_argument</span><span class="p">(</span><span class="s2">&#34;path&#34;</span><span class="p">,</span> <span class="n">metavar</span><span class="o">=</span><span class="s2">&#34;directory&#34;</span><span class="p">,</span> <span class="n">nargs</span><span class="o">=</span><span class="s2">&#34;?&#34;</span><span class="p">,</span>
+                   <span class="n">default</span><span class="o">=</span><span class="s2">&#34;.&#34;</span><span class="p">,</span> <span class="n">help</span><span class="o">=</span><span class="s2">&#34;Where to create the repository.&#34;</span><span class="p">)</span>
 
 
-<span class="k">def</span> <span class="nf">main</span><span class="p">(</span><span class="n">argv</span><span class="o">=</span><span class="n">sys</span><span class="o">.</span><span class="n">argv</span><span class="p">[</span><span class="mi">1</span><span class="p">:</span><span class="p">]</span><span class="p">)</span><span class="p">:</span>
+<span class="k">def</span> <span class="nf">main</span><span class="p">(</span><span class="n">argv</span><span class="o">=</span><span class="n">sys</span><span class="o">.</span><span class="n">argv</span><span class="p">[</span><span class="mi">1</span><span class="p">:]):</span>
     <span class="n">args</span> <span class="o">=</span> <span class="n">argparser</span><span class="o">.</span><span class="n">parse_args</span><span class="p">(</span><span class="n">argv</span><span class="p">)</span>
-    <span class="k">if</span> <span class="n">args</span><span class="o">.</span><span class="n">command</span> <span class="o">==</span> <span class="sa"></span><span class="s2">&#34;</span><span class="s2">init</span><span class="s2">&#34;</span><span class="p">:</span>
+    <span class="k">if</span> <span class="n">args</span><span class="o">.</span><span class="n">command</span> <span class="o">==</span> <span class="s2">&#34;init&#34;</span><span class="p">:</span>
         <span class="n">cmd_init</span><span class="p">(</span><span class="n">args</span><span class="p">)</span>
 
 
-<span class="k">def</span> <span class="nf">cmd_init</span><span class="p">(</span><span class="n">args</span><span class="p">)</span><span class="p">:</span>
+<span class="k">def</span> <span class="nf">cmd_init</span><span class="p">(</span><span class="n">args</span><span class="p">):</span>
     <span class="n">repo_create</span><span class="p">(</span><span class="n">args</span><span class="o">.</span><span class="n">path</span><span class="p">)</span>
 
 
-<span class="k">class</span> <span class="nc">GitRepository</span><span class="p">(</span><span class="nb">object</span><span class="p">)</span><span class="p">:</span>
-    <span class="sa"></span><span class="s2">&#34;&#34;&#34;</span><span class="s2">A git repository</span><span class="s2">&#34;&#34;&#34;</span>
+<span class="k">class</span> <span class="nc">GitRepository</span><span class="p">(</span><span class="nb">object</span><span class="p">):</span>
+    <span class="s2">&#34;&#34;&#34;A git repository&#34;&#34;&#34;</span>
     <span class="n">worktree</span> <span class="o">=</span> <span class="bp">None</span>
     <span class="n">gitdir</span> <span class="o">=</span> <span class="bp">None</span>
 
-    <span class="k">def</span> <span class="fm">__init__</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">path</span><span class="p">,</span> <span class="n">force</span><span class="o">=</span><span class="bp">False</span><span class="p">)</span><span class="p">:</span>
+    <span class="k">def</span> <span class="fm">__init__</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">path</span><span class="p">,</span> <span class="n">force</span><span class="o">=</span><span class="bp">False</span><span class="p">):</span>
         <span class="bp">self</span><span class="o">.</span><span class="n">worktree</span> <span class="o">=</span> <span class="n">path</span>
-        <span class="bp">self</span><span class="o">.</span><span class="n">gitdir</span> <span class="o">=</span> <span class="n">os</span><span class="o">.</span><span class="n">path</span><span class="o">.</span><span class="n">join</span><span class="p">(</span><span class="n">path</span><span class="p">,</span> <span class="sa"></span><span class="s2">&#34;</span><span class="s2">.git</span><span class="s2">&#34;</span><span class="p">)</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">gitdir</span> <span class="o">=</span> <span class="n">os</span><span class="o">.</span><span class="n">path</span><span class="o">.</span><span class="n">join</span><span class="p">(</span><span class="n">path</span><span class="p">,</span> <span class="s2">&#34;.git&#34;</span><span class="p">)</span>
 
 
-<span class="k">def</span> <span class="nf">repo_create</span><span class="p">(</span><span class="n">path</span><span class="p">)</span><span class="p">:</span>
-    <span class="sa"></span><span class="s2">&#34;&#34;&#34;</span><span class="s2">Create a new repository at path.</span><span class="s2">&#34;&#34;&#34;</span>
+<span class="k">def</span> <span class="nf">repo_create</span><span class="p">(</span><span class="n">path</span><span class="p">):</span>
+    <span class="s2">&#34;&#34;&#34;Create a new repository at path.&#34;&#34;&#34;</span>
     <span class="n">repo</span> <span class="o">=</span> <span class="n">GitRepository</span><span class="p">(</span><span class="n">path</span><span class="p">)</span>
-    <span class="c1"># We check whether there exsits a path of worktree</span>
-    <span class="k">if</span> <span class="n">os</span><span class="o">.</span><span class="n">path</span><span class="o">.</span><span class="n">exists</span><span class="p">(</span><span class="n">repo</span><span class="o">.</span><span class="n">worktree</span><span class="p">)</span><span class="p">:</span>
-        <span class="c1"># if path exsits its a directory or not</span>
-        <span class="k">if</span> <span class="ow">not</span> <span class="n">os</span><span class="o">.</span><span class="n">path</span><span class="o">.</span><span class="n">isdir</span><span class="p">(</span><span class="n">repo</span><span class="o">.</span><span class="n">worktree</span><span class="p">)</span><span class="p">:</span>
-            <span class="k">raise</span> <span class="ne">Exception</span><span class="p">(</span><span class="sa"></span><span class="s2">&#34;</span><span class="si">%s</span><span class="s2"> is not a directory!</span><span class="s2">&#34;</span> <span class="o">%</span> <span class="n">path</span><span class="p">)</span>
-        <span class="c1"># if path exsits its empty or not</span>
-        <span class="k">if</span> <span class="n">os</span><span class="o">.</span><span class="n">listdir</span><span class="p">(</span><span class="n">repo</span><span class="o">.</span><span class="n">worktree</span><span class="p">)</span><span class="p">:</span>
-            <span class="k">raise</span> <span class="ne">Exception</span><span class="p">(</span><span class="sa"></span><span class="s2">&#34;</span><span class="si">%s</span><span class="s2"> is not empty!</span><span class="s2">&#34;</span> <span class="o">%</span> <span class="n">path</span><span class="p">)</span>
+    <span class="c1"># We check whether there exsits a path of worktree</span>
+    <span class="k">if</span> <span class="n">os</span><span class="o">.</span><span class="n">path</span><span class="o">.</span><span class="n">exists</span><span class="p">(</span><span class="n">repo</span><span class="o">.</span><span class="n">worktree</span><span class="p">):</span>
+        <span class="c1"># if path exsits its a directory or not</span>
+        <span class="k">if</span> <span class="ow">not</span> <span class="n">os</span><span class="o">.</span><span class="n">path</span><span class="o">.</span><span class="n">isdir</span><span class="p">(</span><span class="n">repo</span><span class="o">.</span><span class="n">worktree</span><span class="p">):</span>
+            <span class="k">raise</span> <span class="ne">Exception</span><span class="p">(</span><span class="s2">&#34;</span><span class="si">%s</span><span class="s2"> is not a directory!&#34;</span> <span class="o">%</span> <span class="n">path</span><span class="p">)</span>
+        <span class="c1"># if path exsits its empty or not</span>
+        <span class="k">if</span> <span class="n">os</span><span class="o">.</span><span class="n">listdir</span><span class="p">(</span><span class="n">repo</span><span class="o">.</span><span class="n">worktree</span><span class="p">):</span>
+            <span class="k">raise</span> <span class="ne">Exception</span><span class="p">(</span><span class="s2">&#34;</span><span class="si">%s</span><span class="s2"> is not empty!&#34;</span> <span class="o">%</span> <span class="n">path</span><span class="p">)</span>
     <span class="k">else</span><span class="p">:</span>
-        <span class="c1"># Create directory as nothing exist with same path</span>
+        <span class="c1"># Create directory as nothing exist with same path</span>
         <span class="n">os</span><span class="o">.</span><span class="n">makedirs</span><span class="p">(</span><span class="n">repo</span><span class="o">.</span><span class="n">worktree</span><span class="p">)</span>
 </code></pre></td></tr></table>
 </div>
@@ -424,22 +424,22 @@ if (!doNotTrack) {
 </span><span class="lnt">27
 </span></code></pre></td>
 <td class="lntd">
-<pre class="chroma"><code class="language-py" data-lang="py"><span class="k">def</span> <span class="nf">repo_dir</span><span class="p">(</span><span class="n">repo</span><span class="p">,</span> <span class="o">*</span><span class="n">path</span><span class="p">,</span> <span class="n">mkdir</span><span class="o">=</span><span class="bp">False</span><span class="p">)</span><span class="p">:</span>
-    <span class="c1"># repo is for our GitRepository object as we want to work with repository.</span>
-    <span class="c1"># *path is the path we want to check</span>
-    <span class="c1"># mkdir to specify whether we want to create directory or not.</span>
+<pre class="chroma"><code class="language-py" data-lang="py"><span class="k">def</span> <span class="nf">repo_dir</span><span class="p">(</span><span class="n">repo</span><span class="p">,</span> <span class="o">*</span><span class="n">path</span><span class="p">,</span> <span class="n">mkdir</span><span class="o">=</span><span class="bp">False</span><span class="p">):</span>
+    <span class="c1"># repo is for our GitRepository object as we want to work with repository.</span>
+    <span class="c1"># *path is the path we want to check</span>
+    <span class="c1"># mkdir to specify whether we want to create directory or not.</span>
 
-    <span class="c1"># this function would give us path we want to check if it exist or not</span>
+    <span class="c1"># this function would give us path we want to check if it exist or not</span>
     <span class="n">path</span> <span class="o">=</span> <span class="n">repo_path</span><span class="p">(</span><span class="n">repo</span><span class="p">,</span> <span class="o">*</span><span class="n">path</span><span class="p">)</span>
 
-    <span class="c1"># This would check whether path exists and if it does then it would check if it is a directory or not</span>
-    <span class="k">if</span> <span class="n">os</span><span class="o">.</span><span class="n">path</span><span class="o">.</span><span class="n">exists</span><span class="p">(</span><span class="n">path</span><span class="p">)</span><span class="p">:</span>
-        <span class="k">if</span> <span class="p">(</span><span class="n">os</span><span class="o">.</span><span class="n">path</span><span class="o">.</span><span class="n">isdir</span><span class="p">(</span><span class="n">path</span><span class="p">)</span><span class="p">)</span><span class="p">:</span>
+    <span class="c1"># This would check whether path exists and if it does then it would check if it is a directory or not</span>
+    <span class="k">if</span> <span class="n">os</span><span class="o">.</span><span class="n">path</span><span class="o">.</span><span class="n">exists</span><span class="p">(</span><span class="n">path</span><span class="p">):</span>
+        <span class="k">if</span> <span class="p">(</span><span class="n">os</span><span class="o">.</span><span class="n">path</span><span class="o">.</span><span class="n">isdir</span><span class="p">(</span><span class="n">path</span><span class="p">)):</span>
             <span class="k">return</span> <span class="n">path</span>
         <span class="k">else</span><span class="p">:</span>
-            <span class="k">raise</span> <span class="ne">Exception</span><span class="p">(</span><span class="sa"></span><span class="s2">&#34;</span><span class="s2">Not a directory </span><span class="si">%s</span><span class="s2">&#34;</span> <span class="o">%</span> <span class="n">path</span><span class="p">)</span>
+            <span class="k">raise</span> <span class="ne">Exception</span><span class="p">(</span><span class="s2">&#34;Not a directory </span><span class="si">%s</span><span class="s2">&#34;</span> <span class="o">%</span> <span class="n">path</span><span class="p">)</span>
 
-    <span class="c1"># This would check if we need to create directory as it doesn&#39;t exists</span>
+    <span class="c1"># This would check if we need to create directory as it doesn&#39;t exists</span>
     <span class="k">if</span> <span class="n">mkdir</span><span class="p">:</span>
         <span class="n">os</span><span class="o">.</span><span class="n">makedirs</span><span class="p">(</span><span class="n">path</span><span class="p">)</span>
         <span class="k">return</span> <span class="n">path</span>
@@ -447,8 +447,8 @@ if (!doNotTrack) {
         <span class="k">return</span> <span class="bp">None</span>
 
 
-<span class="k">def</span> <span class="nf">repo_path</span><span class="p">(</span><span class="n">repo</span><span class="p">,</span> <span class="o">*</span><span class="n">path</span><span class="p">)</span><span class="p">:</span>
-    <span class="c1"># This would return us path under repository git directory</span>
+<span class="k">def</span> <span class="nf">repo_path</span><span class="p">(</span><span class="n">repo</span><span class="p">,</span> <span class="o">*</span><span class="n">path</span><span class="p">):</span>
+    <span class="c1"># This would return us path under repository git directory</span>
     <span class="k">return</span> <span class="n">os</span><span class="o">.</span><span class="n">path</span><span class="o">.</span><span class="n">join</span><span class="p">(</span><span class="n">repo</span><span class="o">.</span><span class="n">gitdir</span><span class="p">,</span> <span class="o">*</span><span class="n">path</span><span class="p">)</span>
 
 </code></pre></td></tr></table>
@@ -478,26 +478,26 @@ if (!doNotTrack) {
 </span><span class="lnt">20
 </span></code></pre></td>
 <td class="lntd">
-<pre class="chroma"><code class="language-py" data-lang="py"><span class="k">def</span> <span class="nf">repo_create</span><span class="p">(</span><span class="n">path</span><span class="p">)</span><span class="p">:</span>
-    <span class="sa"></span><span class="s2">&#34;&#34;&#34;</span><span class="s2">Create a new repository at path.</span><span class="s2">&#34;&#34;&#34;</span>
+<pre class="chroma"><code class="language-py" data-lang="py"><span class="k">def</span> <span class="nf">repo_create</span><span class="p">(</span><span class="n">path</span><span class="p">):</span>
+    <span class="s2">&#34;&#34;&#34;Create a new repository at path.&#34;&#34;&#34;</span>
     <span class="n">repo</span> <span class="o">=</span> <span class="n">GitRepository</span><span class="p">(</span><span class="n">path</span><span class="p">)</span>
-    <span class="c1"># We check whether there exists a path of worktree</span>
-    <span class="k">if</span> <span class="n">os</span><span class="o">.</span><span class="n">path</span><span class="o">.</span><span class="n">exists</span><span class="p">(</span><span class="n">repo</span><span class="o">.</span><span class="n">worktree</span><span class="p">)</span><span class="p">:</span>
-        <span class="c1"># if path exists its a directory or not</span>
-        <span class="k">if</span> <span class="ow">not</span> <span class="n">os</span><span class="o">.</span><span class="n">path</span><span class="o">.</span><span class="n">isdir</span><span class="p">(</span><span class="n">repo</span><span class="o">.</span><span class="n">worktree</span><span class="p">)</span><span class="p">:</span>
-            <span class="k">raise</span> <span class="ne">Exception</span><span class="p">(</span><span class="sa"></span><span class="s2">&#34;</span><span class="si">%s</span><span class="s2"> is not a directory!</span><span class="s2">&#34;</span> <span class="o">%</span> <span class="n">path</span><span class="p">)</span>
-        <span class="c1"># if path exists its empty or not</span>
-        <span class="k">if</span> <span class="n">os</span><span class="o">.</span><span class="n">listdir</span><span class="p">(</span><span class="n">repo</span><span class="o">.</span><span class="n">worktree</span><span class="p">)</span><span class="p">:</span>
-            <span class="k">raise</span> <span class="ne">Exception</span><span class="p">(</span><span class="sa"></span><span class="s2">&#34;</span><span class="si">%s</span><span class="s2"> is not empty!</span><span class="s2">&#34;</span> <span class="o">%</span> <span class="n">path</span><span class="p">)</span>
+    <span class="c1"># We check whether there exists a path of worktree</span>
+    <span class="k">if</span> <span class="n">os</span><span class="o">.</span><span class="n">path</span><span class="o">.</span><span class="n">exists</span><span class="p">(</span><span class="n">repo</span><span class="o">.</span><span class="n">worktree</span><span class="p">):</span>
+        <span class="c1"># if path exists its a directory or not</span>
+        <span class="k">if</span> <span class="ow">not</span> <span class="n">os</span><span class="o">.</span><span class="n">path</span><span class="o">.</span><span class="n">isdir</span><span class="p">(</span><span class="n">repo</span><span class="o">.</span><span class="n">worktree</span><span class="p">):</span>
+            <span class="k">raise</span> <span class="ne">Exception</span><span class="p">(</span><span class="s2">&#34;</span><span class="si">%s</span><span class="s2"> is not a directory!&#34;</span> <span class="o">%</span> <span class="n">path</span><span class="p">)</span>
+        <span class="c1"># if path exists its empty or not</span>
+        <span class="k">if</span> <span class="n">os</span><span class="o">.</span><span class="n">listdir</span><span class="p">(</span><span class="n">repo</span><span class="o">.</span><span class="n">worktree</span><span class="p">):</span>
+            <span class="k">raise</span> <span class="ne">Exception</span><span class="p">(</span><span class="s2">&#34;</span><span class="si">%s</span><span class="s2"> is not empty!&#34;</span> <span class="o">%</span> <span class="n">path</span><span class="p">)</span>
     <span class="k">else</span><span class="p">:</span>
-        <span class="c1"># Create directory as nothing exist with same path</span>
+        <span class="c1"># Create directory as nothing exist with same path</span>
         <span class="n">os</span><span class="o">.</span><span class="n">makedirs</span><span class="p">(</span><span class="n">repo</span><span class="o">.</span><span class="n">worktree</span><span class="p">)</span>
-        <span class="n">repo_path</span><span class="p">(</span><span class="n">repo</span><span class="p">,</span> <span class="sa"></span><span class="s2">&#34;</span><span class="s2">branches</span><span class="s2">&#34;</span><span class="p">)</span>
+        <span class="n">repo_path</span><span class="p">(</span><span class="n">repo</span><span class="p">,</span> <span class="s2">&#34;branches&#34;</span><span class="p">)</span>
 
-    <span class="k">assert</span><span class="p">(</span><span class="n">repo_dir</span><span class="p">(</span><span class="n">repo</span><span class="p">,</span> <span class="sa"></span><span class="s2">&#34;</span><span class="s2">branches</span><span class="s2">&#34;</span><span class="p">,</span> <span class="n">mkdir</span><span class="o">=</span><span class="bp">True</span><span class="p">)</span><span class="p">)</span>
-    <span class="k">assert</span><span class="p">(</span><span class="n">repo_dir</span><span class="p">(</span><span class="n">repo</span><span class="p">,</span> <span class="sa"></span><span class="s2">&#34;</span><span class="s2">objects</span><span class="s2">&#34;</span><span class="p">,</span> <span class="n">mkdir</span><span class="o">=</span><span class="bp">True</span><span class="p">)</span><span class="p">)</span>
-    <span class="k">assert</span><span class="p">(</span><span class="n">repo_dir</span><span class="p">(</span><span class="n">repo</span><span class="p">,</span> <span class="sa"></span><span class="s2">&#34;</span><span class="s2">refs</span><span class="s2">&#34;</span><span class="p">,</span> <span class="sa"></span><span class="s2">&#34;</span><span class="s2">tags</span><span class="s2">&#34;</span><span class="p">,</span> <span class="n">mkdir</span><span class="o">=</span><span class="bp">True</span><span class="p">)</span><span class="p">)</span>
-    <span class="k">assert</span><span class="p">(</span><span class="n">repo_dir</span><span class="p">(</span><span class="n">repo</span><span class="p">,</span> <span class="sa"></span><span class="s2">&#34;</span><span class="s2">refs</span><span class="s2">&#34;</span><span class="p">,</span> <span class="sa"></span><span class="s2">&#34;</span><span class="s2">heads</span><span class="s2">&#34;</span><span class="p">,</span> <span class="n">mkdir</span><span class="o">=</span><span class="bp">True</span><span class="p">)</span><span class="p">)</span>
+    <span class="k">assert</span><span class="p">(</span><span class="n">repo_dir</span><span class="p">(</span><span class="n">repo</span><span class="p">,</span> <span class="s2">&#34;branches&#34;</span><span class="p">,</span> <span class="n">mkdir</span><span class="o">=</span><span class="bp">True</span><span class="p">))</span>
+    <span class="k">assert</span><span class="p">(</span><span class="n">repo_dir</span><span class="p">(</span><span class="n">repo</span><span class="p">,</span> <span class="s2">&#34;objects&#34;</span><span class="p">,</span> <span class="n">mkdir</span><span class="o">=</span><span class="bp">True</span><span class="p">))</span>
+    <span class="k">assert</span><span class="p">(</span><span class="n">repo_dir</span><span class="p">(</span><span class="n">repo</span><span class="p">,</span> <span class="s2">&#34;refs&#34;</span><span class="p">,</span> <span class="s2">&#34;tags&#34;</span><span class="p">,</span> <span class="n">mkdir</span><span class="o">=</span><span class="bp">True</span><span class="p">))</span>
+    <span class="k">assert</span><span class="p">(</span><span class="n">repo_dir</span><span class="p">(</span><span class="n">repo</span><span class="p">,</span> <span class="s2">&#34;refs&#34;</span><span class="p">,</span> <span class="s2">&#34;heads&#34;</span><span class="p">,</span> <span class="n">mkdir</span><span class="o">=</span><span class="bp">True</span><span class="p">))</span>
 </code></pre></td></tr></table>
 </div>
 </div><p>Above would create <code>.git</code> directory with <code>braches</code>, <code>objects</code> and <code>refs</code> directory with <code>tags</code> and <code>heads</code> under it. It would look as follows:</p>
@@ -549,32 +549,32 @@ if (!doNotTrack) {
 </span><span class="lnt">27
 </span></code></pre></td>
 <td class="lntd">
-<pre class="chroma"><code class="language-py" data-lang="py"><span class="k">def</span> <span class="nf">repo_create</span><span class="p">(</span><span class="n">path</span><span class="p">)</span><span class="p">:</span>
-    <span class="sa"></span><span class="s2">&#34;&#34;&#34;</span><span class="s2">Create a new repository at path.</span><span class="s2">&#34;&#34;&#34;</span>
+<pre class="chroma"><code class="language-py" data-lang="py"><span class="k">def</span> <span class="nf">repo_create</span><span class="p">(</span><span class="n">path</span><span class="p">):</span>
+    <span class="s2">&#34;&#34;&#34;Create a new repository at path.&#34;&#34;&#34;</span>
     <span class="n">repo</span> <span class="o">=</span> <span class="n">GitRepository</span><span class="p">(</span><span class="n">path</span><span class="p">)</span>
-    <span class="c1"># We check whether there exists a path of worktree</span>
-    <span class="k">if</span> <span class="n">os</span><span class="o">.</span><span class="n">path</span><span class="o">.</span><span class="n">exists</span><span class="p">(</span><span class="n">repo</span><span class="o">.</span><span class="n">worktree</span><span class="p">)</span><span class="p">:</span>
-        <span class="c1"># if path exists its a directory or not</span>
-        <span class="k">if</span> <span class="ow">not</span> <span class="n">os</span><span class="o">.</span><span class="n">path</span><span class="o">.</span><span class="n">isdir</span><span class="p">(</span><span class="n">repo</span><span class="o">.</span><span class="n">worktree</span><span class="p">)</span><span class="p">:</span>
-            <span class="k">raise</span> <span class="ne">Exception</span><span class="p">(</span><span class="sa"></span><span class="s2">&#34;</span><span class="si">%s</span><span class="s2"> is not a directory!</span><span class="s2">&#34;</span> <span class="o">%</span> <span class="n">path</span><span class="p">)</span>
-        <span class="c1"># if path exists its empty or not</span>
-        <span class="k">if</span> <span class="n">os</span><span class="o">.</span><span class="n">listdir</span><span class="p">(</span><span class="n">repo</span><span class="o">.</span><span class="n">worktree</span><span class="p">)</span><span class="p">:</span>
-            <span class="k">raise</span> <span class="ne">Exception</span><span class="p">(</span><span class="sa"></span><span class="s2">&#34;</span><span class="si">%s</span><span class="s2"> is not empty!</span><span class="s2">&#34;</span> <span class="o">%</span> <span class="n">path</span><span class="p">)</span>
+    <span class="c1"># We check whether there exists a path of worktree</span>
+    <span class="k">if</span> <span class="n">os</span><span class="o">.</span><span class="n">path</span><span class="o">.</span><span class="n">exists</span><span class="p">(</span><span class="n">repo</span><span class="o">.</span><span class="n">worktree</span><span class="p">):</span>
+        <span class="c1"># if path exists its a directory or not</span>
+        <span class="k">if</span> <span class="ow">not</span> <span class="n">os</span><span class="o">.</span><span class="n">path</span><span class="o">.</span><span class="n">isdir</span><span class="p">(</span><span class="n">repo</span><span class="o">.</span><span class="n">worktree</span><span class="p">):</span>
+            <span class="k">raise</span> <span class="ne">Exception</span><span class="p">(</span><span class="s2">&#34;</span><span class="si">%s</span><span class="s2"> is not a directory!&#34;</span> <span class="o">%</span> <span class="n">path</span><span class="p">)</span>
+        <span class="c1"># if path exists its empty or not</span>
+        <span class="k">if</span> <span class="n">os</span><span class="o">.</span><span class="n">listdir</span><span class="p">(</span><span class="n">repo</span><span class="o">.</span><span class="n">worktree</span><span class="p">):</span>
+            <span class="k">raise</span> <span class="ne">Exception</span><span class="p">(</span><span class="s2">&#34;</span><span class="si">%s</span><span class="s2"> is not empty!&#34;</span> <span class="o">%</span> <span class="n">path</span><span class="p">)</span>
     <span class="k">else</span><span class="p">:</span>
-        <span class="c1"># Create directory as nothing exist with same path</span>
+        <span class="c1"># Create directory as nothing exist with same path</span>
         <span class="n">os</span><span class="o">.</span><span class="n">makedirs</span><span class="p">(</span><span class="n">repo</span><span class="o">.</span><span class="n">worktree</span><span class="p">)</span>
-        <span class="n">repo_path</span><span class="p">(</span><span class="n">repo</span><span class="p">,</span> <span class="sa"></span><span class="s2">&#34;</span><span class="s2">branches</span><span class="s2">&#34;</span><span class="p">)</span>
+        <span class="n">repo_path</span><span class="p">(</span><span class="n">repo</span><span class="p">,</span> <span class="s2">&#34;branches&#34;</span><span class="p">)</span>
 
-    <span class="k">assert</span><span class="p">(</span><span class="n">repo_dir</span><span class="p">(</span><span class="n">repo</span><span class="p">,</span> <span class="sa"></span><span class="s2">&#34;</span><span class="s2">branches</span><span class="s2">&#34;</span><span class="p">,</span> <span class="n">mkdir</span><span class="o">=</span><span class="bp">True</span><span class="p">)</span><span class="p">)</span>
-    <span class="k">assert</span><span class="p">(</span><span class="n">repo_dir</span><span class="p">(</span><span class="n">repo</span><span class="p">,</span> <span class="sa"></span><span class="s2">&#34;</span><span class="s2">objects</span><span class="s2">&#34;</span><span class="p">,</span> <span class="n">mkdir</span><span class="o">=</span><span class="bp">True</span><span class="p">)</span><span class="p">)</span>
-    <span class="k">assert</span><span class="p">(</span><span class="n">repo_dir</span><span class="p">(</span><span class="n">repo</span><span class="p">,</span> <span class="sa"></span><span class="s2">&#34;</span><span class="s2">refs</span><span class="s2">&#34;</span><span class="p">,</span> <span class="sa"></span><span class="s2">&#34;</span><span class="s2">tags</span><span class="s2">&#34;</span><span class="p">,</span> <span class="n">mkdir</span><span class="o">=</span><span class="bp">True</span><span class="p">)</span><span class="p">)</span>
-    <span class="k">assert</span><span class="p">(</span><span class="n">repo_dir</span><span class="p">(</span><span class="n">repo</span><span class="p">,</span> <span class="sa"></span><span class="s2">&#34;</span><span class="s2">refs</span><span class="s2">&#34;</span><span class="p">,</span> <span class="sa"></span><span class="s2">&#34;</span><span class="s2">heads</span><span class="s2">&#34;</span><span class="p">,</span> <span class="n">mkdir</span><span class="o">=</span><span class="bp">True</span><span class="p">)</span><span class="p">)</span>
+    <span class="k">assert</span><span class="p">(</span><span class="n">repo_dir</span><span class="p">(</span><span class="n">repo</span><span class="p">,</span> <span class="s2">&#34;branches&#34;</span><span class="p">,</span> <span class="n">mkdir</span><span class="o">=</span><span class="bp">True</span><span class="p">))</span>
+    <span class="k">assert</span><span class="p">(</span><span class="n">repo_dir</span><span class="p">(</span><span class="n">repo</span><span class="p">,</span> <span class="s2">&#34;objects&#34;</span><span class="p">,</span> <span class="n">mkdir</span><span class="o">=</span><span class="bp">True</span><span class="p">))</span>
+    <span class="k">assert</span><span class="p">(</span><span class="n">repo_dir</span><span class="p">(</span><span class="n">repo</span><span class="p">,</span> <span class="s2">&#34;refs&#34;</span><span class="p">,</span> <span class="s2">&#34;tags&#34;</span><span class="p">,</span> <span class="n">mkdir</span><span class="o">=</span><span class="bp">True</span><span class="p">))</span>
+    <span class="k">assert</span><span class="p">(</span><span class="n">repo_dir</span><span class="p">(</span><span class="n">repo</span><span class="p">,</span> <span class="s2">&#34;refs&#34;</span><span class="p">,</span> <span class="s2">&#34;heads&#34;</span><span class="p">,</span> <span class="n">mkdir</span><span class="o">=</span><span class="bp">True</span><span class="p">))</span>
 
-    <span class="k">with</span> <span class="nb">open</span><span class="p">(</span><span class="n">repo_file</span><span class="p">(</span><span class="n">repo</span><span class="p">,</span> <span class="sa"></span><span class="s2">&#34;</span><span class="s2">description</span><span class="s2">&#34;</span><span class="p">)</span><span class="p">,</span> <span class="sa"></span><span class="s2">&#34;</span><span class="s2">w</span><span class="s2">&#34;</span><span class="p">)</span> <span class="k">as</span> <span class="n">f</span><span class="p">:</span>
-        <span class="n">f</span><span class="o">.</span><span class="n">write</span><span class="p">(</span><span class="sa"></span><span class="s2">&#34;</span><span class="s2">Unnamed repository; edit this file </span><span class="s2">&#39;</span><span class="s2">description</span><span class="s2">&#39;</span><span class="s2"> to name the repository.</span><span class="se">\n</span><span class="s2">&#34;</span><span class="p">)</span>
+    <span class="k">with</span> <span class="nb">open</span><span class="p">(</span><span class="n">repo_file</span><span class="p">(</span><span class="n">repo</span><span class="p">,</span> <span class="s2">&#34;description&#34;</span><span class="p">),</span> <span class="s2">&#34;w&#34;</span><span class="p">)</span> <span class="k">as</span> <span class="n">f</span><span class="p">:</span>
+        <span class="n">f</span><span class="o">.</span><span class="n">write</span><span class="p">(</span><span class="s2">&#34;Unnamed repository; edit this file &#39;description&#39; to name the repository.</span><span class="se">\n</span><span class="s2">&#34;</span><span class="p">)</span>
 
-<span class="k">def</span> <span class="nf">repo_file</span><span class="p">(</span><span class="n">repo</span><span class="p">,</span> <span class="o">*</span><span class="n">path</span><span class="p">,</span> <span class="n">mkdir</span><span class="o">=</span><span class="bp">False</span><span class="p">)</span><span class="p">:</span>
-    <span class="k">if</span> <span class="n">repo_dir</span><span class="p">(</span><span class="n">repo</span><span class="p">,</span> <span class="o">*</span><span class="n">path</span><span class="p">[</span><span class="p">:</span><span class="o">-</span><span class="mi">1</span><span class="p">]</span><span class="p">,</span> <span class="n">mkdir</span><span class="o">=</span><span class="n">mkdir</span><span class="p">)</span><span class="p">:</span>
+<span class="k">def</span> <span class="nf">repo_file</span><span class="p">(</span><span class="n">repo</span><span class="p">,</span> <span class="o">*</span><span class="n">path</span><span class="p">,</span> <span class="n">mkdir</span><span class="o">=</span><span class="bp">False</span><span class="p">):</span>
+    <span class="k">if</span> <span class="n">repo_dir</span><span class="p">(</span><span class="n">repo</span><span class="p">,</span> <span class="o">*</span><span class="n">path</span><span class="p">[:</span><span class="o">-</span><span class="mi">1</span><span class="p">],</span> <span class="n">mkdir</span><span class="o">=</span><span class="n">mkdir</span><span class="p">):</span>
     <span class="k">return</span> <span class="n">repo_path</span><span class="p">(</span><span class="n">repo</span><span class="p">,</span> <span class="o">*</span><span class="n">path</span><span class="p">)</span>
 </code></pre></td></tr></table>
 </div>
@@ -599,13 +599,13 @@ In default config there are thing fields,</p>
 </span><span class="lnt">9
 </span></code></pre></td>
 <td class="lntd">
-<pre class="chroma"><code class="language-py" data-lang="py"><span class="k">def</span> <span class="nf">repo_default_config</span><span class="p">(</span><span class="p">)</span><span class="p">:</span>
-    <span class="n">ret</span> <span class="o">=</span> <span class="n">configparser</span><span class="o">.</span><span class="n">ConfigParser</span><span class="p">(</span><span class="p">)</span>
+<pre class="chroma"><code class="language-py" data-lang="py"><span class="k">def</span> <span class="nf">repo_default_config</span><span class="p">():</span>
+    <span class="n">ret</span> <span class="o">=</span> <span class="n">configparser</span><span class="o">.</span><span class="n">ConfigParser</span><span class="p">()</span>
 
-    <span class="n">ret</span><span class="o">.</span><span class="n">add_section</span><span class="p">(</span><span class="sa"></span><span class="s2">&#34;</span><span class="s2">core</span><span class="s2">&#34;</span><span class="p">)</span>
-    <span class="n">ret</span><span class="o">.</span><span class="n">set</span><span class="p">(</span><span class="sa"></span><span class="s2">&#34;</span><span class="s2">core</span><span class="s2">&#34;</span><span class="p">,</span> <span class="sa"></span><span class="s2">&#34;</span><span class="s2">repositoryformatversion</span><span class="s2">&#34;</span><span class="p">,</span> <span class="sa"></span><span class="s2">&#34;</span><span class="s2">0</span><span class="s2">&#34;</span><span class="p">)</span>
-    <span class="n">ret</span><span class="o">.</span><span class="n">set</span><span class="p">(</span><span class="sa"></span><span class="s2">&#34;</span><span class="s2">core</span><span class="s2">&#34;</span><span class="p">,</span> <span class="sa"></span><span class="s2">&#34;</span><span class="s2">filemode</span><span class="s2">&#34;</span><span class="p">,</span> <span class="sa"></span><span class="s2">&#34;</span><span class="s2">false</span><span class="s2">&#34;</span><span class="p">)</span>
-    <span class="n">ret</span><span class="o">.</span><span class="n">set</span><span class="p">(</span><span class="sa"></span><span class="s2">&#34;</span><span class="s2">core</span><span class="s2">&#34;</span><span class="p">,</span> <span class="sa"></span><span class="s2">&#34;</span><span class="s2">bare</span><span class="s2">&#34;</span><span class="p">,</span> <span class="sa"></span><span class="s2">&#34;</span><span class="s2">false</span><span class="s2">&#34;</span><span class="p">)</span>
+    <span class="n">ret</span><span class="o">.</span><span class="n">add_section</span><span class="p">(</span><span class="s2">&#34;core&#34;</span><span class="p">)</span>
+    <span class="n">ret</span><span class="o">.</span><span class="n">set</span><span class="p">(</span><span class="s2">&#34;core&#34;</span><span class="p">,</span> <span class="s2">&#34;repositoryformatversion&#34;</span><span class="p">,</span> <span class="s2">&#34;0&#34;</span><span class="p">)</span>
+    <span class="n">ret</span><span class="o">.</span><span class="n">set</span><span class="p">(</span><span class="s2">&#34;core&#34;</span><span class="p">,</span> <span class="s2">&#34;filemode&#34;</span><span class="p">,</span> <span class="s2">&#34;false&#34;</span><span class="p">)</span>
+    <span class="n">ret</span><span class="o">.</span><span class="n">set</span><span class="p">(</span><span class="s2">&#34;core&#34;</span><span class="p">,</span> <span class="s2">&#34;bare&#34;</span><span class="p">,</span> <span class="s2">&#34;false&#34;</span><span class="p">)</span>
 
     <span class="k">return</span> <span class="n">ret</span>
 </code></pre></td></tr></table>
@@ -645,35 +645,35 @@ In default config there are thing fields,</p>
 </span><span class="lnt">30
 </span></code></pre></td>
 <td class="lntd">
-<pre class="chroma"><code class="language-py" data-lang="py"><span class="k">def</span> <span class="nf">repo_create</span><span class="p">(</span><span class="n">path</span><span class="p">)</span><span class="p">:</span>
-    <span class="sa"></span><span class="s2">&#34;&#34;&#34;</span><span class="s2">Create a new repository at path.</span><span class="s2">&#34;&#34;&#34;</span>
+<pre class="chroma"><code class="language-py" data-lang="py"><span class="k">def</span> <span class="nf">repo_create</span><span class="p">(</span><span class="n">path</span><span class="p">):</span>
+    <span class="s2">&#34;&#34;&#34;Create a new repository at path.&#34;&#34;&#34;</span>
     <span class="n">repo</span> <span class="o">=</span> <span class="n">GitRepository</span><span class="p">(</span><span class="n">path</span><span class="p">)</span>
-    <span class="c1"># We check whether there exsits a path of worktree</span>
-    <span class="k">if</span> <span class="n">os</span><span class="o">.</span><span class="n">path</span><span class="o">.</span><span class="n">exists</span><span class="p">(</span><span class="n">repo</span><span class="o">.</span><span class="n">worktree</span><span class="p">)</span><span class="p">:</span>
-        <span class="c1"># if path exsits its a directory or not</span>
-        <span class="k">if</span> <span class="ow">not</span> <span class="n">os</span><span class="o">.</span><span class="n">path</span><span class="o">.</span><span class="n">isdir</span><span class="p">(</span><span class="n">repo</span><span class="o">.</span><span class="n">worktree</span><span class="p">)</span><span class="p">:</span>
-            <span class="k">raise</span> <span class="ne">Exception</span><span class="p">(</span><span class="sa"></span><span class="s2">&#34;</span><span class="si">%s</span><span class="s2"> is not a directory!</span><span class="s2">&#34;</span> <span class="o">%</span> <span class="n">path</span><span class="p">)</span>
-        <span class="c1"># if path exsits its empty or not</span>
-        <span class="k">if</span> <span class="n">os</span><span class="o">.</span><span class="n">listdir</span><span class="p">(</span><span class="n">repo</span><span class="o">.</span><span class="n">worktree</span><span class="p">)</span><span class="p">:</span>
-            <span class="k">raise</span> <span class="ne">Exception</span><span class="p">(</span><span class="sa"></span><span class="s2">&#34;</span><span class="si">%s</span><span class="s2"> is not empty!</span><span class="s2">&#34;</span> <span class="o">%</span> <span class="n">path</span><span class="p">)</span>
+    <span class="c1"># We check whether there exsits a path of worktree</span>
+    <span class="k">if</span> <span class="n">os</span><span class="o">.</span><span class="n">path</span><span class="o">.</span><span class="n">exists</span><span class="p">(</span><span class="n">repo</span><span class="o">.</span><span class="n">worktree</span><span class="p">):</span>
+        <span class="c1"># if path exsits its a directory or not</span>
+        <span class="k">if</span> <span class="ow">not</span> <span class="n">os</span><span class="o">.</span><span class="n">path</span><span class="o">.</span><span class="n">isdir</span><span class="p">(</span><span class="n">repo</span><span class="o">.</span><span class="n">worktree</span><span class="p">):</span>
+            <span class="k">raise</span> <span class="ne">Exception</span><span class="p">(</span><span class="s2">&#34;</span><span class="si">%s</span><span class="s2"> is not a directory!&#34;</span> <span class="o">%</span> <span class="n">path</span><span class="p">)</span>
+        <span class="c1"># if path exsits its empty or not</span>
+        <span class="k">if</span> <span class="n">os</span><span class="o">.</span><span class="n">listdir</span><span class="p">(</span><span class="n">repo</span><span class="o">.</span><span class="n">worktree</span><span class="p">):</span>
+            <span class="k">raise</span> <span class="ne">Exception</span><span class="p">(</span><span class="s2">&#34;</span><span class="si">%s</span><span class="s2"> is not empty!&#34;</span> <span class="o">%</span> <span class="n">path</span><span class="p">)</span>
     <span class="k">else</span><span class="p">:</span>
-        <span class="c1"># Create directory as nothing exist with same path</span>
+        <span class="c1"># Create directory as nothing exist with same path</span>
         <span class="n">os</span><span class="o">.</span><span class="n">makedirs</span><span class="p">(</span><span class="n">repo</span><span class="o">.</span><span class="n">worktree</span><span class="p">)</span>
-        <span class="n">repo_path</span><span class="p">(</span><span class="n">repo</span><span class="p">,</span> <span class="sa"></span><span class="s2">&#34;</span><span class="s2">branches</span><span class="s2">&#34;</span><span class="p">)</span>
+        <span class="n">repo_path</span><span class="p">(</span><span class="n">repo</span><span class="p">,</span> <span class="s2">&#34;branches&#34;</span><span class="p">)</span>
 
-    <span class="k">assert</span><span class="p">(</span><span class="n">repo_dir</span><span class="p">(</span><span class="n">repo</span><span class="p">,</span> <span class="sa"></span><span class="s2">&#34;</span><span class="s2">branches</span><span class="s2">&#34;</span><span class="p">,</span> <span class="n">mkdir</span><span class="o">=</span><span class="bp">True</span><span class="p">)</span><span class="p">)</span>
-    <span class="k">assert</span><span class="p">(</span><span class="n">repo_dir</span><span class="p">(</span><span class="n">repo</span><span class="p">,</span> <span class="sa"></span><span class="s2">&#34;</span><span class="s2">objects</span><span class="s2">&#34;</span><span class="p">,</span> <span class="n">mkdir</span><span class="o">=</span><span class="bp">True</span><span class="p">)</span><span class="p">)</span>
-    <span class="k">assert</span><span class="p">(</span><span class="n">repo_dir</span><span class="p">(</span><span class="n">repo</span><span class="p">,</span> <span class="sa"></span><span class="s2">&#34;</span><span class="s2">refs</span><span class="s2">&#34;</span><span class="p">,</span> <span class="sa"></span><span class="s2">&#34;</span><span class="s2">tags</span><span class="s2">&#34;</span><span class="p">,</span> <span class="n">mkdir</span><span class="o">=</span><span class="bp">True</span><span class="p">)</span><span class="p">)</span>
-    <span class="k">assert</span><span class="p">(</span><span class="n">repo_dir</span><span class="p">(</span><span class="n">repo</span><span class="p">,</span> <span class="sa"></span><span class="s2">&#34;</span><span class="s2">refs</span><span class="s2">&#34;</span><span class="p">,</span> <span class="sa"></span><span class="s2">&#34;</span><span class="s2">heads</span><span class="s2">&#34;</span><span class="p">,</span> <span class="n">mkdir</span><span class="o">=</span><span class="bp">True</span><span class="p">)</span><span class="p">)</span>
+    <span class="k">assert</span><span class="p">(</span><span class="n">repo_dir</span><span class="p">(</span><span class="n">repo</span><span class="p">,</span> <span class="s2">&#34;branches&#34;</span><span class="p">,</span> <span class="n">mkdir</span><span class="o">=</span><span class="bp">True</span><span class="p">))</span>
+    <span class="k">assert</span><span class="p">(</span><span class="n">repo_dir</span><span class="p">(</span><span class="n">repo</span><span class="p">,</span> <span class="s2">&#34;objects&#34;</span><span class="p">,</span> <span class="n">mkdir</span><span class="o">=</span><span class="bp">True</span><span class="p">))</span>
+    <span class="k">assert</span><span class="p">(</span><span class="n">repo_dir</span><span class="p">(</span><span class="n">repo</span><span class="p">,</span> <span class="s2">&#34;refs&#34;</span><span class="p">,</span> <span class="s2">&#34;tags&#34;</span><span class="p">,</span> <span class="n">mkdir</span><span class="o">=</span><span class="bp">True</span><span class="p">))</span>
+    <span class="k">assert</span><span class="p">(</span><span class="n">repo_dir</span><span class="p">(</span><span class="n">repo</span><span class="p">,</span> <span class="s2">&#34;refs&#34;</span><span class="p">,</span> <span class="s2">&#34;heads&#34;</span><span class="p">,</span> <span class="n">mkdir</span><span class="o">=</span><span class="bp">True</span><span class="p">))</span>
 
-    <span class="k">with</span> <span class="nb">open</span><span class="p">(</span><span class="n">repo_file</span><span class="p">(</span><span class="n">repo</span><span class="p">,</span> <span class="sa"></span><span class="s2">&#34;</span><span class="s2">description</span><span class="s2">&#34;</span><span class="p">)</span><span class="p">,</span> <span class="sa"></span><span class="s2">&#34;</span><span class="s2">w</span><span class="s2">&#34;</span><span class="p">)</span> <span class="k">as</span> <span class="n">f</span><span class="p">:</span>
-        <span class="n">f</span><span class="o">.</span><span class="n">write</span><span class="p">(</span><span class="sa"></span><span class="s2">&#34;</span><span class="s2">Unnamed repository; edit this file </span><span class="s2">&#39;</span><span class="s2">description</span><span class="s2">&#39;</span><span class="s2"> to name the repository.</span><span class="se">\n</span><span class="s2">&#34;</span><span class="p">)</span>
+    <span class="k">with</span> <span class="nb">open</span><span class="p">(</span><span class="n">repo_file</span><span class="p">(</span><span class="n">repo</span><span class="p">,</span> <span class="s2">&#34;description&#34;</span><span class="p">),</span> <span class="s2">&#34;w&#34;</span><span class="p">)</span> <span class="k">as</span> <span class="n">f</span><span class="p">:</span>
+        <span class="n">f</span><span class="o">.</span><span class="n">write</span><span class="p">(</span><span class="s2">&#34;Unnamed repository; edit this file &#39;description&#39; to name the repository.</span><span class="se">\n</span><span class="s2">&#34;</span><span class="p">)</span>
 
-    <span class="k">with</span> <span class="nb">open</span><span class="p">(</span><span class="n">repo_file</span><span class="p">(</span><span class="n">repo</span><span class="p">,</span> <span class="sa"></span><span class="s2">&#34;</span><span class="s2">HEAD</span><span class="s2">&#34;</span><span class="p">)</span><span class="p">,</span> <span class="sa"></span><span class="s2">&#34;</span><span class="s2">w</span><span class="s2">&#34;</span><span class="p">)</span> <span class="k">as</span> <span class="n">f</span><span class="p">:</span>
-        <span class="n">f</span><span class="o">.</span><span class="n">write</span><span class="p">(</span><span class="sa"></span><span class="s2">&#34;</span><span class="s2">ref: refs/heads/master</span><span class="se">\n</span><span class="s2">&#34;</span><span class="p">)</span>
+    <span class="k">with</span> <span class="nb">open</span><span class="p">(</span><span class="n">repo_file</span><span class="p">(</span><span class="n">repo</span><span class="p">,</span> <span class="s2">&#34;HEAD&#34;</span><span class="p">),</span> <span class="s2">&#34;w&#34;</span><span class="p">)</span> <span class="k">as</span> <span class="n">f</span><span class="p">:</span>
+        <span class="n">f</span><span class="o">.</span><span class="n">write</span><span class="p">(</span><span class="s2">&#34;ref: refs/heads/master</span><span class="se">\n</span><span class="s2">&#34;</span><span class="p">)</span>
 
-    <span class="k">with</span> <span class="nb">open</span><span class="p">(</span><span class="n">repo_file</span><span class="p">(</span><span class="n">repo</span><span class="p">,</span> <span class="sa"></span><span class="s2">&#34;</span><span class="s2">config</span><span class="s2">&#34;</span><span class="p">)</span><span class="p">,</span> <span class="sa"></span><span class="s2">&#34;</span><span class="s2">w</span><span class="s2">&#34;</span><span class="p">)</span> <span class="k">as</span> <span class="n">f</span><span class="p">:</span>
-        <span class="n">config</span> <span class="o">=</span> <span class="n">repo_default_config</span><span class="p">(</span><span class="p">)</span>
+    <span class="k">with</span> <span class="nb">open</span><span class="p">(</span><span class="n">repo_file</span><span class="p">(</span><span class="n">repo</span><span class="p">,</span> <span class="s2">&#34;config&#34;</span><span class="p">),</span> <span class="s2">&#34;w&#34;</span><span class="p">)</span> <span class="k">as</span> <span class="n">f</span><span class="p">:</span>
+        <span class="n">config</span> <span class="o">=</span> <span class="n">repo_default_config</span><span class="p">()</span>
         <span class="n">config</span><span class="o">.</span><span class="n">write</span><span class="p">(</span><span class="n">f</span><span class="p">)</span>
 </code></pre></td></tr></table>
 </div>

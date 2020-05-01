@@ -19,7 +19,7 @@
       <guid>https://BhaveshSGupta.me/blog/learning-python-through-pym-14-08-2019/</guid>
       <description>Day 4 PS: These are notes, there could be grammar error and spelling errors.
 for loops For loop over a list goes as follows:
-1 2 3 4 5 6 7 8  &amp;gt;&amp;gt;&amp;gt; a = [&amp;#39;Fedora&amp;#39;, &amp;#39;is&amp;#39;, &amp;#39;powerful&amp;#39;]&amp;gt;&amp;gt;&amp;gt; for x in a:... print(x)...# these ... are automatically created by python interpreter Fedoraispowerful  range() function range function creates lists based on parameter passed in function``py</description>
+1 2 3 4 5 6 7 8  &amp;gt;&amp;gt;&amp;gt; a = [&amp;#39;Fedora&amp;#39;, &amp;#39;is&amp;#39;, &amp;#39;powerful&amp;#39;] &amp;gt;&amp;gt;&amp;gt; for x in a: ... print(x) ... # these ... are automatically created by python interpreter Fedora is powerful   range() function range function creates lists based on parameter passed in function``py</description>
     </item>
     
     <item>
@@ -32,7 +32,7 @@ for loops For loop over a list goes as follows:
 Last time we were just starting with If else, the control flow,
 if-else , the control flow Control flow is used when we need to do some decisive task
 if, if else, if elif else statement If statement is simple as it is other language
-1 2  if expression:do this  1 2 3 4  if expression:do thiselse:do this  1 2 3 4 5 6  if expression:do thiselif expression:do thiselse:do this  Things to note:</description>
+1 2  if expression: do this   1 2 3 4  if expression: do this else: do this   1 2 3 4 5 6  if expression: do this elif expression: do this else: do this   Things to note:</description>
     </item>
     
     <item>
@@ -45,7 +45,7 @@ if, if else, if elif else statement If statement is simple as it is other langua
 Last time had got until here,
 We don&amp;rsquo;t need specify data type with python something similar to javascript where we use var for every type of variable.(const and let are new ES6 standards, although they are not new but new)
 So basically
-1 2 3  a = 10b = 1.0c = &amp;#34;test&amp;#34;  in above a become integer, b becomes float and c becomes string.</description>
+1 2 3  a = 10 b = 1.0 c = &amp;#34;test&amp;#34;   in above a become integer, b becomes float and c becomes string.</description>
     </item>
     
     <item>
@@ -55,7 +55,7 @@ So basically
       
       <guid>https://BhaveshSGupta.me/blog/learning-python-through-pym-10-08-2019/</guid>
       <description>Day 1 Installing python one can install python using package manager depending upon the operating system you are using. As I have a windows machine and ubuntu using linux on windows subsystem. I can install python from https://python.org. And Ubuntu I can use below command to install python.
-1  sudo apt-get install python3  Running python To run python you would call python3 which open Python interpreter. On that you can type print(&amp;ldquo;Hello World&amp;rdquo;) to run your first python code which would print Hello World in next line.</description>
+1  sudo apt-get install python3   Running python To run python you would call python3 which open Python interpreter. On that you can type print(&amp;ldquo;Hello World&amp;rdquo;) to run your first python code which would print Hello World in next line.</description>
     </item>
     
   </channel>

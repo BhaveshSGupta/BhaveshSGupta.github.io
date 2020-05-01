@@ -25,7 +25,7 @@
 <meta name="author" content="Bhavesh S. Gupta" />
   <meta name="description" content="Last time we had created cmd_init(args) function. We add more functionality to cmd_init(args).
 This was our code till last time.
-1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18  import sysimport argparseargparser = argparse.ArgumentParser(description=&amp;#34;Another Content Tracker&amp;#34;)argsubparsers = argparser.add_subparsers(title=&amp;#34;Commands&amp;#34;, dest=&amp;#34;command&amp;#34;)argsubparsers.required = Trueargsp = argsubparsers.add_parser(&amp;#34;init&amp;#34;, help=&amp;#34;Initialize a new, empty repository.&amp;#34;)argsp.add_argument(&amp;#34;path&amp;#34;, metavar=&amp;#34;directory&amp;#34;, nargs=&amp;#34;?&amp;#34;, default=&amp;#34;.&amp;#34;, help=&amp;#34;Where to create the repository." />
+1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18  import sys import argparse argparser = argparse.ArgumentParser(description=&amp;#34;Another Content Tracker&amp;#34;) argsubparsers = argparser.add_subparsers(title=&amp;#34;Commands&amp;#34;, dest=&amp;#34;command&amp;#34;) argsubparsers.required = True argsp = argsubparsers.add_parser(&amp;#34;init&amp;#34;, help=&amp;#34;Initialize a new, empty repository.&amp;#34;) argsp.add_argument(&amp;#34;path&amp;#34;, metavar=&amp;#34;directory&amp;#34;, nargs=&amp;#34;?&amp;#34;, default=&amp;#34;.&amp;#34;, help=&amp;#34;Where to create the repository." />
 <meta name="keywords" content="wag, dgplug, git" />
 
 
@@ -34,7 +34,7 @@ This was our code till last time.
 
 
 
-<meta name="generator" content="Hugo 0.64.0" />
+<meta name="generator" content="Hugo 0.69.1" />
 
 
 <link rel="canonical" href="https://BhaveshSGupta.me/blog/another-attempt-at-wag-2/" />
@@ -64,7 +64,7 @@ This was our code till last time.
 <meta property="og:title" content="Another Attempt at Wag 2" />
 <meta property="og:description" content="Last time we had created cmd_init(args) function. We add more functionality to cmd_init(args).
 This was our code till last time.
-1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18  import sysimport argparseargparser = argparse.ArgumentParser(description=&#34;Another Content Tracker&#34;)argsubparsers = argparser.add_subparsers(title=&#34;Commands&#34;, dest=&#34;command&#34;)argsubparsers.required = Trueargsp = argsubparsers.add_parser(&#34;init&#34;, help=&#34;Initialize a new, empty repository.&#34;)argsp.add_argument(&#34;path&#34;, metavar=&#34;directory&#34;, nargs=&#34;?&#34;, default=&#34;.&#34;, help=&#34;Where to create the repository." />
+1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18  import sys import argparse argparser = argparse.ArgumentParser(description=&#34;Another Content Tracker&#34;) argsubparsers = argparser.add_subparsers(title=&#34;Commands&#34;, dest=&#34;command&#34;) argsubparsers.required = True argsp = argsubparsers.add_parser(&#34;init&#34;, help=&#34;Initialize a new, empty repository.&#34;) argsp.add_argument(&#34;path&#34;, metavar=&#34;directory&#34;, nargs=&#34;?&#34;, default=&#34;.&#34;, help=&#34;Where to create the repository." />
 <meta property="og:type" content="article" />
 <meta property="og:url" content="https://BhaveshSGupta.me/blog/another-attempt-at-wag-2/" />
 <meta property="article:published_time" content="2019-08-24T15:32:32+05:30" />
@@ -72,7 +72,7 @@ This was our code till last time.
 <meta itemprop="name" content="Another Attempt at Wag 2">
 <meta itemprop="description" content="Last time we had created cmd_init(args) function. We add more functionality to cmd_init(args).
 This was our code till last time.
-1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18  import sysimport argparseargparser = argparse.ArgumentParser(description=&#34;Another Content Tracker&#34;)argsubparsers = argparser.add_subparsers(title=&#34;Commands&#34;, dest=&#34;command&#34;)argsubparsers.required = Trueargsp = argsubparsers.add_parser(&#34;init&#34;, help=&#34;Initialize a new, empty repository.&#34;)argsp.add_argument(&#34;path&#34;, metavar=&#34;directory&#34;, nargs=&#34;?&#34;, default=&#34;.&#34;, help=&#34;Where to create the repository.">
+1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18  import sys import argparse argparser = argparse.ArgumentParser(description=&#34;Another Content Tracker&#34;) argsubparsers = argparser.add_subparsers(title=&#34;Commands&#34;, dest=&#34;command&#34;) argsubparsers.required = True argsp = argsubparsers.add_parser(&#34;init&#34;, help=&#34;Initialize a new, empty repository.&#34;) argsp.add_argument(&#34;path&#34;, metavar=&#34;directory&#34;, nargs=&#34;?&#34;, default=&#34;.&#34;, help=&#34;Where to create the repository.">
 <meta itemprop="datePublished" content="2019-08-24T15:32:32&#43;05:30" />
 <meta itemprop="dateModified" content="2020-02-08T00:43:00&#43;05:30" />
 <meta itemprop="wordCount" content="525">
@@ -83,7 +83,7 @@ This was our code till last time.
 <meta name="twitter:title" content="Another Attempt at Wag 2"/>
 <meta name="twitter:description" content="Last time we had created cmd_init(args) function. We add more functionality to cmd_init(args).
 This was our code till last time.
-1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18  import sysimport argparseargparser = argparse.ArgumentParser(description=&#34;Another Content Tracker&#34;)argsubparsers = argparser.add_subparsers(title=&#34;Commands&#34;, dest=&#34;command&#34;)argsubparsers.required = Trueargsp = argsubparsers.add_parser(&#34;init&#34;, help=&#34;Initialize a new, empty repository.&#34;)argsp.add_argument(&#34;path&#34;, metavar=&#34;directory&#34;, nargs=&#34;?&#34;, default=&#34;.&#34;, help=&#34;Where to create the repository."/>
+1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18  import sys import argparse argparser = argparse.ArgumentParser(description=&#34;Another Content Tracker&#34;) argsubparsers = argparser.add_subparsers(title=&#34;Commands&#34;, dest=&#34;command&#34;) argsubparsers.required = True argsp = argsubparsers.add_parser(&#34;init&#34;, help=&#34;Initialize a new, empty repository.&#34;) argsp.add_argument(&#34;path&#34;, metavar=&#34;directory&#34;, nargs=&#34;?&#34;, default=&#34;.&#34;, help=&#34;Where to create the repository."/>
 
 <!--[if lte IE 9]>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/classlist/1.1.20170427/classList.min.js"></script>
@@ -311,20 +311,20 @@ if (!doNotTrack) {
 <pre class="chroma"><code class="language-py" data-lang="py"><span class="kn">import</span> <span class="nn">sys</span>
 <span class="kn">import</span> <span class="nn">argparse</span>
 
-<span class="n">argparser</span> <span class="o">=</span> <span class="n">argparse</span><span class="o">.</span><span class="n">ArgumentParser</span><span class="p">(</span><span class="n">description</span><span class="o">=</span><span class="sa"></span><span class="s2">&#34;</span><span class="s2">Another Content Tracker</span><span class="s2">&#34;</span><span class="p">)</span>
-<span class="n">argsubparsers</span> <span class="o">=</span> <span class="n">argparser</span><span class="o">.</span><span class="n">add_subparsers</span><span class="p">(</span><span class="n">title</span><span class="o">=</span><span class="sa"></span><span class="s2">&#34;</span><span class="s2">Commands</span><span class="s2">&#34;</span><span class="p">,</span> <span class="n">dest</span><span class="o">=</span><span class="sa"></span><span class="s2">&#34;</span><span class="s2">command</span><span class="s2">&#34;</span><span class="p">)</span>
+<span class="n">argparser</span> <span class="o">=</span> <span class="n">argparse</span><span class="o">.</span><span class="n">ArgumentParser</span><span class="p">(</span><span class="n">description</span><span class="o">=</span><span class="s2">&#34;Another Content Tracker&#34;</span><span class="p">)</span>
+<span class="n">argsubparsers</span> <span class="o">=</span> <span class="n">argparser</span><span class="o">.</span><span class="n">add_subparsers</span><span class="p">(</span><span class="n">title</span><span class="o">=</span><span class="s2">&#34;Commands&#34;</span><span class="p">,</span> <span class="n">dest</span><span class="o">=</span><span class="s2">&#34;command&#34;</span><span class="p">)</span>
 <span class="n">argsubparsers</span><span class="o">.</span><span class="n">required</span> <span class="o">=</span> <span class="bp">True</span>
-<span class="n">argsp</span> <span class="o">=</span> <span class="n">argsubparsers</span><span class="o">.</span><span class="n">add_parser</span><span class="p">(</span><span class="sa"></span><span class="s2">&#34;</span><span class="s2">init</span><span class="s2">&#34;</span><span class="p">,</span> <span class="n">help</span><span class="o">=</span><span class="sa"></span><span class="s2">&#34;</span><span class="s2">Initialize a new, empty repository.</span><span class="s2">&#34;</span><span class="p">)</span>
-<span class="n">argsp</span><span class="o">.</span><span class="n">add_argument</span><span class="p">(</span><span class="sa"></span><span class="s2">&#34;</span><span class="s2">path</span><span class="s2">&#34;</span><span class="p">,</span> <span class="n">metavar</span><span class="o">=</span><span class="sa"></span><span class="s2">&#34;</span><span class="s2">directory</span><span class="s2">&#34;</span><span class="p">,</span> <span class="n">nargs</span><span class="o">=</span><span class="sa"></span><span class="s2">&#34;</span><span class="s2">?</span><span class="s2">&#34;</span><span class="p">,</span> <span class="n">default</span><span class="o">=</span><span class="sa"></span><span class="s2">&#34;</span><span class="s2">.</span><span class="s2">&#34;</span><span class="p">,</span> <span class="n">help</span><span class="o">=</span><span class="sa"></span><span class="s2">&#34;</span><span class="s2">Where to create the repository.</span><span class="s2">&#34;</span><span class="p">)</span>
+<span class="n">argsp</span> <span class="o">=</span> <span class="n">argsubparsers</span><span class="o">.</span><span class="n">add_parser</span><span class="p">(</span><span class="s2">&#34;init&#34;</span><span class="p">,</span> <span class="n">help</span><span class="o">=</span><span class="s2">&#34;Initialize a new, empty repository.&#34;</span><span class="p">)</span>
+<span class="n">argsp</span><span class="o">.</span><span class="n">add_argument</span><span class="p">(</span><span class="s2">&#34;path&#34;</span><span class="p">,</span> <span class="n">metavar</span><span class="o">=</span><span class="s2">&#34;directory&#34;</span><span class="p">,</span> <span class="n">nargs</span><span class="o">=</span><span class="s2">&#34;?&#34;</span><span class="p">,</span> <span class="n">default</span><span class="o">=</span><span class="s2">&#34;.&#34;</span><span class="p">,</span> <span class="n">help</span><span class="o">=</span><span class="s2">&#34;Where to create the repository.&#34;</span><span class="p">)</span>
 
-<span class="k">def</span> <span class="nf">main</span><span class="p">(</span><span class="n">argv</span><span class="o">=</span><span class="n">sys</span><span class="o">.</span><span class="n">argv</span><span class="p">[</span><span class="mi">1</span><span class="p">:</span><span class="p">]</span><span class="p">)</span><span class="p">:</span>
+<span class="k">def</span> <span class="nf">main</span><span class="p">(</span><span class="n">argv</span><span class="o">=</span><span class="n">sys</span><span class="o">.</span><span class="n">argv</span><span class="p">[</span><span class="mi">1</span><span class="p">:]):</span>
     <span class="n">args</span> <span class="o">=</span> <span class="n">argparser</span><span class="o">.</span><span class="n">parse_args</span><span class="p">(</span><span class="n">argv</span><span class="p">)</span>
-    <span class="k">if</span> <span class="n">args</span><span class="o">.</span><span class="n">command</span> <span class="o">==</span> <span class="sa"></span><span class="s2">&#34;</span><span class="s2">init</span><span class="s2">&#34;</span><span class="p">:</span>
+    <span class="k">if</span> <span class="n">args</span><span class="o">.</span><span class="n">command</span> <span class="o">==</span> <span class="s2">&#34;init&#34;</span><span class="p">:</span>
         <span class="n">cmd_init</span><span class="p">(</span><span class="n">args</span><span class="p">)</span>
     
 
-<span class="k">def</span> <span class="nf">cmd_init</span><span class="p">(</span><span class="n">args</span><span class="p">)</span><span class="p">:</span>
-    <span class="k">print</span><span class="p">(</span><span class="sa"></span><span class="s2">&#34;</span><span class="s2">Hello from init</span><span class="s2">&#34;</span><span class="p">)</span>
+<span class="k">def</span> <span class="nf">cmd_init</span><span class="p">(</span><span class="n">args</span><span class="p">):</span>
+    <span class="k">print</span><span class="p">(</span><span class="s2">&#34;Hello from init&#34;</span><span class="p">)</span>
     
 </code></pre></td></tr></table>
 </div>
@@ -349,16 +349,16 @@ if (!doNotTrack) {
 </span><span class="lnt">11
 </span></code></pre></td>
 <td class="lntd">
-<pre class="chroma"><code class="language-py" data-lang="py"><span class="k">class</span> <span class="nc">GitRepository</span><span class="p">(</span><span class="nb">object</span><span class="p">)</span><span class="p">:</span>
-    <span class="sa"></span><span class="s2">&#34;&#34;&#34;</span><span class="s2">A git repository</span><span class="s2">&#34;&#34;&#34;</span>
+<pre class="chroma"><code class="language-py" data-lang="py"><span class="k">class</span> <span class="nc">GitRepository</span><span class="p">(</span><span class="nb">object</span><span class="p">):</span>
+    <span class="s2">&#34;&#34;&#34;A git repository&#34;&#34;&#34;</span>
     
     <span class="n">worktree</span> <span class="o">=</span> <span class="bp">None</span>
     <span class="n">gitdir</span> <span class="o">=</span> <span class="bp">None</span>
     <span class="n">conf</span> <span class="o">=</span> <span class="bp">None</span>
     
-    <span class="k">def</span> <span class="fm">__init__</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">path</span><span class="p">)</span><span class="p">:</span>
+    <span class="k">def</span> <span class="fm">__init__</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">path</span><span class="p">):</span>
         <span class="bp">self</span><span class="o">.</span><span class="n">worktree</span> <span class="o">=</span> <span class="n">path</span>
-        <span class="bp">self</span><span class="o">.</span><span class="n">gitdir</span> <span class="o">=</span> <span class="n">os</span><span class="o">.</span><span class="n">path</span><span class="o">.</span><span class="n">join</span><span class="p">(</span><span class="n">path</span><span class="p">,</span> <span class="sa"></span><span class="s2">&#34;</span><span class="s2">.git</span><span class="s2">&#34;</span><span class="p">)</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">gitdir</span> <span class="o">=</span> <span class="n">os</span><span class="o">.</span><span class="n">path</span><span class="o">.</span><span class="n">join</span><span class="p">(</span><span class="n">path</span><span class="p">,</span> <span class="s2">&#34;.git&#34;</span><span class="p">)</span>
     
 </code></pre></td></tr></table>
 </div>
@@ -375,11 +375,11 @@ if (!doNotTrack) {
 </span><span class="lnt">8
 </span></code></pre></td>
 <td class="lntd">
-<pre class="chroma"><code class="language-py" data-lang="py"><span class="k">def</span> <span class="nf">cmd_init</span><span class="p">(</span><span class="n">args</span><span class="p">)</span><span class="p">:</span>
+<pre class="chroma"><code class="language-py" data-lang="py"><span class="k">def</span> <span class="nf">cmd_init</span><span class="p">(</span><span class="n">args</span><span class="p">):</span>
 	<span class="n">repo_create</span><span class="p">(</span><span class="n">args</span><span class="o">.</span><span class="n">path</span><span class="p">)</span>
     
-<span class="k">def</span> <span class="nf">repo_create</span><span class="p">(</span><span class="n">path</span><span class="p">)</span><span class="p">:</span>
-	<span class="sa"></span><span class="s2">&#34;&#34;&#34;</span><span class="s2">Create a new repository at path.</span><span class="s2">&#34;&#34;&#34;</span>
+<span class="k">def</span> <span class="nf">repo_create</span><span class="p">(</span><span class="n">path</span><span class="p">):</span>
+	<span class="s2">&#34;&#34;&#34;Create a new repository at path.&#34;&#34;&#34;</span>
 	<span class="n">repo</span> <span class="o">=</span> <span class="n">GitRepository</span><span class="p">(</span><span class="n">path</span><span class="p">)</span>
 	<span class="k">print</span><span class="p">(</span><span class="n">repo</span><span class="o">.</span><span class="n">worktree</span><span class="p">,</span> <span class="n">repo</span><span class="o">.</span><span class="n">gitdir</span><span class="p">)</span>
     
@@ -401,16 +401,16 @@ if (!doNotTrack) {
 </span><span class="lnt">10
 </span></code></pre></td>
 <td class="lntd">
-<pre class="chroma"><code class="language-py" data-lang="py"><span class="k">def</span> <span class="nf">repo_create</span><span class="p">(</span><span class="n">path</span><span class="p">)</span><span class="p">:</span>
-	<span class="sa"></span><span class="s2">&#34;&#34;&#34;</span><span class="s2">Create a new repository at path.</span><span class="s2">&#34;&#34;&#34;</span>
+<pre class="chroma"><code class="language-py" data-lang="py"><span class="k">def</span> <span class="nf">repo_create</span><span class="p">(</span><span class="n">path</span><span class="p">):</span>
+	<span class="s2">&#34;&#34;&#34;Create a new repository at path.&#34;&#34;&#34;</span>
 	<span class="n">repo</span> <span class="o">=</span> <span class="n">GitRepository</span><span class="p">(</span><span class="n">path</span><span class="p">)</span>
-	<span class="k">if</span> <span class="n">os</span><span class="o">.</span><span class="n">path</span><span class="o">.</span><span class="n">exists</span><span class="p">(</span><span class="n">repo</span><span class="o">.</span><span class="n">worktree</span><span class="p">)</span><span class="p">:</span> <span class="c1"># We check whether there exists a path of worktree</span>
-		<span class="k">if</span> <span class="ow">not</span> <span class="n">os</span><span class="o">.</span><span class="n">path</span><span class="o">.</span><span class="n">isdir</span><span class="p">(</span><span class="n">repo</span><span class="o">.</span><span class="n">worktree</span><span class="p">)</span><span class="p">:</span><span class="c1"># if path exists it is a directory or not</span>
-			<span class="k">raise</span> <span class="ne">Exception</span><span class="p">(</span><span class="sa"></span><span class="s2">&#34;</span><span class="si">%s</span><span class="s2"> is not a directory!</span><span class="s2">&#34;</span> <span class="o">%</span> <span class="n">path</span><span class="p">)</span>
-		<span class="k">if</span> <span class="n">os</span><span class="o">.</span><span class="n">listdir</span><span class="p">(</span><span class="n">repo</span><span class="o">.</span><span class="n">worktree</span><span class="p">)</span><span class="p">:</span><span class="c1"># if path exsits its empty or not</span>
-			<span class="k">raise</span> <span class="ne">Exception</span><span class="p">(</span><span class="sa"></span><span class="s2">&#34;</span><span class="si">%s</span><span class="s2"> is not empty!</span><span class="s2">&#34;</span> <span class="o">%</span> <span class="n">path</span><span class="p">)</span>
+	<span class="k">if</span> <span class="n">os</span><span class="o">.</span><span class="n">path</span><span class="o">.</span><span class="n">exists</span><span class="p">(</span><span class="n">repo</span><span class="o">.</span><span class="n">worktree</span><span class="p">):</span> <span class="c1"># We check whether there exists a path of worktree</span>
+		<span class="k">if</span> <span class="ow">not</span> <span class="n">os</span><span class="o">.</span><span class="n">path</span><span class="o">.</span><span class="n">isdir</span><span class="p">(</span><span class="n">repo</span><span class="o">.</span><span class="n">worktree</span><span class="p">):</span><span class="c1"># if path exists it is a directory or not</span>
+			<span class="k">raise</span> <span class="ne">Exception</span><span class="p">(</span><span class="s2">&#34;</span><span class="si">%s</span><span class="s2"> is not a directory!&#34;</span> <span class="o">%</span> <span class="n">path</span><span class="p">)</span>
+		<span class="k">if</span> <span class="n">os</span><span class="o">.</span><span class="n">listdir</span><span class="p">(</span><span class="n">repo</span><span class="o">.</span><span class="n">worktree</span><span class="p">):</span><span class="c1"># if path exsits its empty or not</span>
+			<span class="k">raise</span> <span class="ne">Exception</span><span class="p">(</span><span class="s2">&#34;</span><span class="si">%s</span><span class="s2"> is not empty!&#34;</span> <span class="o">%</span> <span class="n">path</span><span class="p">)</span>
 	<span class="k">else</span><span class="p">:</span>
-		<span class="n">os</span><span class="o">.</span><span class="n">makedirs</span><span class="p">(</span><span class="n">repo</span><span class="o">.</span><span class="n">worktree</span><span class="p">)</span> <span class="c1"># Create directory as nothing exist with same path</span>
+		<span class="n">os</span><span class="o">.</span><span class="n">makedirs</span><span class="p">(</span><span class="n">repo</span><span class="o">.</span><span class="n">worktree</span><span class="p">)</span> <span class="c1"># Create directory as nothing exist with same path</span>
 </code></pre></td></tr></table>
 </div>
 </div><p>In wag, we would only allow to init git if already existing repository is empty otherwise we won&rsquo;t. Now we need to create <code>.git</code> directory and other directories inside it.</p>
