@@ -30,6 +30,13 @@
   </url>
   
   <url>
+    <loc>https://BhaveshSGupta.me/</loc>
+    <lastmod>2020-02-08T00:43:00+05:30</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
     <loc>https://BhaveshSGupta.me/tags/excel/</loc>
     <lastmod>2019-09-15T15:50:47+05:30</lastmod>
     <changefreq>weekly</changefreq>
@@ -522,13 +529,6 @@
   <url>
     <loc>https://BhaveshSGupta.me/blog/first-post/</loc>
     <lastmod>2019-09-16T10:47:53+05:30</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
-    <loc>https://BhaveshSGupta.me/</loc>
-    <lastmod>2019-08-29T09:58:12+05:30</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
