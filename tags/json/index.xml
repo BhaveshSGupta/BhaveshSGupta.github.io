@@ -1,2 +1,21 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>json on Everyone Has a Story</title><link>https://BhaveshSGupta.me/tags/json/</link><description>Recent content in json on Everyone Has a Story</description><generator>Hugo -- gohugo.io</generator><language>en</language><lastBuildDate>Sat, 14 Sep 2019 19:54:55 +0530</lastBuildDate><atom:link href="https://BhaveshSGupta.me/tags/json/index.xml" rel="self" type="application/rss+xml"/><item><title>Convert Excel to Json</title><link>https://BhaveshSGupta.me/blog/convert-excel-to-json/</link><pubDate>Sat, 14 Sep 2019 19:54:55 +0530</pubDate><guid>https://BhaveshSGupta.me/blog/convert-excel-to-json/</guid><description>Some time in our projects we need data in json files(mostly web projects). But collecting and managing data in json files is harder(At least this is what I feel) compared to excel. I had recently ran into a similar situation where I need some data. Data is going to be provided by a non-technical person/client. And there going to be several rounds of it.
-So I was looking for options what can be done here, where I found several online tools which could be used for same.</description></item></channel></rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>json on Everyone Has a Story</title>
+    <link>https://BhaveshSGupta.me/tags/json/</link>
+    <description>Recent content in json on Everyone Has a Story</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Sat, 14 Sep 2019 19:54:55 +0530</lastBuildDate><atom:link href="https://BhaveshSGupta.me/tags/json/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Convert Excel to Json</title>
+      <link>https://BhaveshSGupta.me/blog/convert-excel-to-json/</link>
+      <pubDate>Sat, 14 Sep 2019 19:54:55 +0530</pubDate>
+      
+      <guid>https://BhaveshSGupta.me/blog/convert-excel-to-json/</guid>
+      <description>Some time in our projects we need data in json files(mostly web projects). But collecting and managing data in json files is harder(At least this is what I feel) compared to excel. I had recently ran into a similar situation where I need some data. Data is going to be provided by a non-technical person/client. And there going to be several rounds of it.
+So I was looking for options what can be done here, where I found several online tools which could be used for same.</description>
+    </item>
+    
+  </channel>
+</rss>

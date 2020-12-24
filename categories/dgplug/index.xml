@@ -1,21 +1,112 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>dgplug on Everyone Has a Story</title><link>https://BhaveshSGupta.me/categories/dgplug/</link><description>Recent content in dgplug on Everyone Has a Story</description><generator>Hugo -- gohugo.io</generator><language>en</language><lastBuildDate>Sun, 25 Aug 2019 16:57:46 +0530</lastBuildDate><atom:link href="https://BhaveshSGupta.me/categories/dgplug/index.xml" rel="self" type="application/rss+xml"/><item><title>Another Attempt at Wag3</title><link>https://BhaveshSGupta.me/blog/another-attempt-at-wag3/</link><pubDate>Sun, 25 Aug 2019 16:57:46 +0530</pubDate><guid>https://BhaveshSGupta.me/blog/another-attempt-at-wag3/</guid><description>Until now we had done as of following code. We would create couples of more functions which would help us in managing our application. As discussed earlier we would now we creating different directories and files present inside .git directory along with directory itself. More or less we would something like following directory structure after doing wag init
-.git is the git directory itself, which contains: .git/objects/ : the object store, which we’ll introduce in the next section.</description></item><item><title>Another Attempt at Wag 2</title><link>https://BhaveshSGupta.me/blog/another-attempt-at-wag-2/</link><pubDate>Sat, 24 Aug 2019 15:32:32 +0530</pubDate><guid>https://BhaveshSGupta.me/blog/another-attempt-at-wag-2/</guid><description>Last time we had created cmd_init(args) function. We add more functionality to cmd_init(args).
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>dgplug on Everyone Has a Story</title>
+    <link>https://BhaveshSGupta.me/categories/dgplug/</link>
+    <description>Recent content in dgplug on Everyone Has a Story</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Sun, 25 Aug 2019 16:57:46 +0530</lastBuildDate><atom:link href="https://BhaveshSGupta.me/categories/dgplug/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Another Attempt at Wag3</title>
+      <link>https://BhaveshSGupta.me/blog/another-attempt-at-wag3/</link>
+      <pubDate>Sun, 25 Aug 2019 16:57:46 +0530</pubDate>
+      
+      <guid>https://BhaveshSGupta.me/blog/another-attempt-at-wag3/</guid>
+      <description>Until now we had done as of following code. We would create couples of more functions which would help us in managing our application. As discussed earlier we would now we creating different directories and files present inside .git directory along with directory itself. More or less we would something like following directory structure after doing wag init
+ .git is the git directory itself, which contains:  .git/objects/ : the object store, which we’ll introduce in the next section.</description>
+    </item>
+    
+    <item>
+      <title>Another Attempt at Wag 2</title>
+      <link>https://BhaveshSGupta.me/blog/another-attempt-at-wag-2/</link>
+      <pubDate>Sat, 24 Aug 2019 15:32:32 +0530</pubDate>
+      
+      <guid>https://BhaveshSGupta.me/blog/another-attempt-at-wag-2/</guid>
+      <description>Last time we had created cmd_init(args) function. We add more functionality to cmd_init(args).
 This was our code till last time.
-1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 import sys import argparse argparser = argparse.ArgumentParser(description=&amp;#34;Another Content Tracker&amp;#34;) argsubparsers = argparser.add_subparsers(title=&amp;#34;Commands&amp;#34;, dest=&amp;#34;command&amp;#34;) argsubparsers.required = True argsp = argsubparsers.add_parser(&amp;#34;init&amp;#34;, help=&amp;#34;Initialize a new, empty repository.&amp;#34;) argsp.add_argument(&amp;#34;path&amp;#34;, metavar=&amp;#34;directory&amp;#34;, nargs=&amp;#34;?&amp;#34;, default=&amp;#34;.&amp;#34;, help=&amp;#34;Where to create the repository.</description></item><item><title>Another Attempt to write a git</title><link>https://BhaveshSGupta.me/blog/another-attempt-at-wag/</link><pubDate>Thu, 22 Aug 2019 20:50:56 +0530</pubDate><guid>https://BhaveshSGupta.me/blog/another-attempt-at-wag/</guid><description>Second Try We would be trying to create a mini git clone from this tutorial. I aspect this to go long. In general git is awesome source code manager which is wieldy use.
+1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18  import sys import argparse argparser = argparse.ArgumentParser(description=&amp;#34;Another Content Tracker&amp;#34;) argsubparsers = argparser.add_subparsers(title=&amp;#34;Commands&amp;#34;, dest=&amp;#34;command&amp;#34;) argsubparsers.required = True argsp = argsubparsers.add_parser(&amp;#34;init&amp;#34;, help=&amp;#34;Initialize a new, empty repository.&amp;#34;) argsp.add_argument(&amp;#34;path&amp;#34;, metavar=&amp;#34;directory&amp;#34;, nargs=&amp;#34;?&amp;#34;, default=&amp;#34;.&amp;#34;, help=&amp;#34;Where to create the repository.</description>
+    </item>
+    
+    <item>
+      <title>Another Attempt to write a git</title>
+      <link>https://BhaveshSGupta.me/blog/another-attempt-at-wag/</link>
+      <pubDate>Thu, 22 Aug 2019 20:50:56 +0530</pubDate>
+      
+      <guid>https://BhaveshSGupta.me/blog/another-attempt-at-wag/</guid>
+      <description>Second Try We would be trying to create a mini git clone from this tutorial. I aspect this to go long. In general git is awesome source code manager which is wieldy use.
 So first we would be creating a lib file and executing file.
 Let&amp;rsquo;s create a file called wag which would have following code.
-1 2 3 4 #!/usr/bin/env python3 import libwag libwag.main() Then we would create another file which would be libwag.</description></item><item><title>Learning python through pym 14-08-2019</title><link>https://BhaveshSGupta.me/blog/learning-python-through-pym-14-08-2019/</link><pubDate>Wed, 14 Aug 2019 16:57:26 +0530</pubDate><guid>https://BhaveshSGupta.me/blog/learning-python-through-pym-14-08-2019/</guid><description>Day 4 PS: These are notes, there could be grammar error and spelling errors.
+1 2 3 4  #!/usr/bin/env python3 import libwag libwag.main()   Then we would create another file which would be libwag.</description>
+    </item>
+    
+    <item>
+      <title>Learning python through pym 14-08-2019</title>
+      <link>https://BhaveshSGupta.me/blog/learning-python-through-pym-14-08-2019/</link>
+      <pubDate>Wed, 14 Aug 2019 16:57:26 +0530</pubDate>
+      
+      <guid>https://BhaveshSGupta.me/blog/learning-python-through-pym-14-08-2019/</guid>
+      <description>Day 4 PS: These are notes, there could be grammar error and spelling errors.
 for loops For loop over a list goes as follows:
-1 2 3 4 5 6 7 8 &amp;gt;&amp;gt;&amp;gt; a = [&amp;#39;Fedora&amp;#39;, &amp;#39;is&amp;#39;, &amp;#39;powerful&amp;#39;] &amp;gt;&amp;gt;&amp;gt; for x in a: ... print(x) ... # these ... are automatically created by python interpreter Fedora is powerful range() function range function creates lists based on parameter passed in function``py</description></item><item><title>Learning python through pym 13-08-2019</title><link>https://BhaveshSGupta.me/blog/learning-python-through-pym-13-08-2019/</link><pubDate>Tue, 13 Aug 2019 20:57:26 +0530</pubDate><guid>https://BhaveshSGupta.me/blog/learning-python-through-pym-13-08-2019/</guid><description>Day 3 PS: These are notes, there could be grammar error and spelling errors.
+1 2 3 4 5 6 7 8  &amp;gt;&amp;gt;&amp;gt; a = [&amp;#39;Fedora&amp;#39;, &amp;#39;is&amp;#39;, &amp;#39;powerful&amp;#39;] &amp;gt;&amp;gt;&amp;gt; for x in a: ... print(x) ... # these ... are automatically created by python interpreter Fedora is powerful   range() function range function creates lists based on parameter passed in function``py</description>
+    </item>
+    
+    <item>
+      <title>Learning python through pym 13-08-2019</title>
+      <link>https://BhaveshSGupta.me/blog/learning-python-through-pym-13-08-2019/</link>
+      <pubDate>Tue, 13 Aug 2019 20:57:26 +0530</pubDate>
+      
+      <guid>https://BhaveshSGupta.me/blog/learning-python-through-pym-13-08-2019/</guid>
+      <description>Day 3 PS: These are notes, there could be grammar error and spelling errors.
 Last time we were just starting with If else, the control flow,
 if-else , the control flow Control flow is used when we need to do some decisive task
 if, if else, if elif else statement If statement is simple as it is other language
-1 2 if expression: do this 1 2 3 4 if expression: do this else: do this 1 2 3 4 5 6 if expression: do this elif expression: do this else: do this Things to note:</description></item><item><title>Learning python through pym 12-08-2019</title><link>https://BhaveshSGupta.me/blog/learning-python-through-pym-12-08-2019/</link><pubDate>Mon, 12 Aug 2019 20:57:26 +0530</pubDate><guid>https://BhaveshSGupta.me/blog/learning-python-through-pym-12-08-2019/</guid><description>Day 2 PS: These are notes, there could be grammar error and spelling errors.
+1 2  if expression: do this   1 2 3 4  if expression: do this else: do this   1 2 3 4 5 6  if expression: do this elif expression: do this else: do this   Things to note:</description>
+    </item>
+    
+    <item>
+      <title>Learning python through pym 12-08-2019</title>
+      <link>https://BhaveshSGupta.me/blog/learning-python-through-pym-12-08-2019/</link>
+      <pubDate>Mon, 12 Aug 2019 20:57:26 +0530</pubDate>
+      
+      <guid>https://BhaveshSGupta.me/blog/learning-python-through-pym-12-08-2019/</guid>
+      <description>Day 2 PS: These are notes, there could be grammar error and spelling errors.
 Last time had got until here,
 We don&amp;rsquo;t need specify data type with python something similar to javascript where we use var for every type of variable.(const and let are new ES6 standards, although they are not new but new)
 So basically
-1 2 3 a = 10 b = 1.0 c = &amp;#34;test&amp;#34; in above a become integer, b becomes float and c becomes string.</description></item><item><title>Learning python through pym 10-08-2019</title><link>https://BhaveshSGupta.me/blog/learning-python-through-pym-10-08-2019/</link><pubDate>Sat, 10 Aug 2019 17:59:22 +0530</pubDate><guid>https://BhaveshSGupta.me/blog/learning-python-through-pym-10-08-2019/</guid><description>Day 1 Installing python one can install python using package manager depending upon the operating system you are using. As I have a windows machine and ubuntu using linux on windows subsystem. I can install python from https://python.org. And Ubuntu I can use below command to install python.
-1 sudo apt-get install python3 Running python To run python you would call python3 which open Python interpreter. On that you can type print(&amp;ldquo;Hello World&amp;rdquo;) to run your first python code which would print Hello World in next line.</description></item><item><title>More information about git log command</title><link>https://BhaveshSGupta.me/blog/more-information-about-git-log-command/</link><pubDate>Mon, 22 Jul 2019 21:59:52 +0530</pubDate><guid>https://BhaveshSGupta.me/blog/more-information-about-git-log-command/</guid><description>As part of home task part 2, we were asked to read about git log command. So this blog post is dedicated to that. To get more info about git log command I had gone through Git pro book available at https://git-scm.com/book/en/v2/. From this book I had followed chapter https://git-scm.com/book/en/v2/Git-Basics-Viewing-the-Commit-History to study more about git log command.
-When git log is used without any argument, it displays all previous commits in reverse chronological order.</description></item><item><title>Introduction to Git and seven rules of great Git Commit Message</title><link>https://BhaveshSGupta.me/blog/introduction-to-git-and-seven-rules-of-a-great-git-commit-message/</link><pubDate>Mon, 22 Jul 2019 12:12:00 +0530</pubDate><guid>https://BhaveshSGupta.me/blog/introduction-to-git-and-seven-rules-of-a-great-git-commit-message/</guid><description>As part of summer training at #dgplug, Sayan took our basics to Git session. We were introduced to basics of VCS(Version Control System), need to use a VCS and introduction to Git.
+1 2 3  a = 10 b = 1.0 c = &amp;#34;test&amp;#34;   in above a become integer, b becomes float and c becomes string.</description>
+    </item>
+    
+    <item>
+      <title>Learning python through pym 10-08-2019</title>
+      <link>https://BhaveshSGupta.me/blog/learning-python-through-pym-10-08-2019/</link>
+      <pubDate>Sat, 10 Aug 2019 17:59:22 +0530</pubDate>
+      
+      <guid>https://BhaveshSGupta.me/blog/learning-python-through-pym-10-08-2019/</guid>
+      <description>Day 1 Installing python one can install python using package manager depending upon the operating system you are using. As I have a windows machine and ubuntu using linux on windows subsystem. I can install python from https://python.org. And Ubuntu I can use below command to install python.
+1  sudo apt-get install python3   Running python To run python you would call python3 which open Python interpreter. On that you can type print(&amp;ldquo;Hello World&amp;rdquo;) to run your first python code which would print Hello World in next line.</description>
+    </item>
+    
+    <item>
+      <title>More information about git log command</title>
+      <link>https://BhaveshSGupta.me/blog/more-information-about-git-log-command/</link>
+      <pubDate>Mon, 22 Jul 2019 21:59:52 +0530</pubDate>
+      
+      <guid>https://BhaveshSGupta.me/blog/more-information-about-git-log-command/</guid>
+      <description>As part of home task part 2, we were asked to read about git log command. So this blog post is dedicated to that. To get more info about git log command I had gone through Git pro book available at https://git-scm.com/book/en/v2/. From this book I had followed chapter https://git-scm.com/book/en/v2/Git-Basics-Viewing-the-Commit-History to study more about git log command.
+When git log is used without any argument, it displays all previous commits in reverse chronological order.</description>
+    </item>
+    
+    <item>
+      <title>Introduction to Git and seven rules of great Git Commit Message</title>
+      <link>https://BhaveshSGupta.me/blog/introduction-to-git-and-seven-rules-of-a-great-git-commit-message/</link>
+      <pubDate>Mon, 22 Jul 2019 12:12:00 +0530</pubDate>
+      
+      <guid>https://BhaveshSGupta.me/blog/introduction-to-git-and-seven-rules-of-a-great-git-commit-message/</guid>
+      <description>As part of summer training at #dgplug, Sayan took our basics to Git session. We were introduced to basics of VCS(Version Control System), need to use a VCS and introduction to Git.
 These were some of commands we learn during the session conducted over the course of two days,
-git init is used initialize Git repository 1 $ git init git config to used to configure various Git configuration using below command one can configure their Name and Email globally for Git.</description></item></channel></rss>
+ git init is used initialize Git repository 1  $ git init       git config to used to configure various Git configuration using below command one can configure their Name and Email globally for Git.</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,12 +1,58 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>pym on Everyone Has a Story</title><link>https://BhaveshSGupta.me/categories/pym/</link><description>Recent content in pym on Everyone Has a Story</description><generator>Hugo -- gohugo.io</generator><language>en</language><lastBuildDate>Wed, 14 Aug 2019 16:57:26 +0530</lastBuildDate><atom:link href="https://BhaveshSGupta.me/categories/pym/index.xml" rel="self" type="application/rss+xml"/><item><title>Learning python through pym 14-08-2019</title><link>https://BhaveshSGupta.me/blog/learning-python-through-pym-14-08-2019/</link><pubDate>Wed, 14 Aug 2019 16:57:26 +0530</pubDate><guid>https://BhaveshSGupta.me/blog/learning-python-through-pym-14-08-2019/</guid><description>Day 4 PS: These are notes, there could be grammar error and spelling errors.
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>pym on Everyone Has a Story</title>
+    <link>https://BhaveshSGupta.me/categories/pym/</link>
+    <description>Recent content in pym on Everyone Has a Story</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Wed, 14 Aug 2019 16:57:26 +0530</lastBuildDate><atom:link href="https://BhaveshSGupta.me/categories/pym/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Learning python through pym 14-08-2019</title>
+      <link>https://BhaveshSGupta.me/blog/learning-python-through-pym-14-08-2019/</link>
+      <pubDate>Wed, 14 Aug 2019 16:57:26 +0530</pubDate>
+      
+      <guid>https://BhaveshSGupta.me/blog/learning-python-through-pym-14-08-2019/</guid>
+      <description>Day 4 PS: These are notes, there could be grammar error and spelling errors.
 for loops For loop over a list goes as follows:
-1 2 3 4 5 6 7 8 &amp;gt;&amp;gt;&amp;gt; a = [&amp;#39;Fedora&amp;#39;, &amp;#39;is&amp;#39;, &amp;#39;powerful&amp;#39;] &amp;gt;&amp;gt;&amp;gt; for x in a: ... print(x) ... # these ... are automatically created by python interpreter Fedora is powerful range() function range function creates lists based on parameter passed in function``py</description></item><item><title>Learning python through pym 13-08-2019</title><link>https://BhaveshSGupta.me/blog/learning-python-through-pym-13-08-2019/</link><pubDate>Tue, 13 Aug 2019 20:57:26 +0530</pubDate><guid>https://BhaveshSGupta.me/blog/learning-python-through-pym-13-08-2019/</guid><description>Day 3 PS: These are notes, there could be grammar error and spelling errors.
+1 2 3 4 5 6 7 8  &amp;gt;&amp;gt;&amp;gt; a = [&amp;#39;Fedora&amp;#39;, &amp;#39;is&amp;#39;, &amp;#39;powerful&amp;#39;] &amp;gt;&amp;gt;&amp;gt; for x in a: ... print(x) ... # these ... are automatically created by python interpreter Fedora is powerful   range() function range function creates lists based on parameter passed in function``py</description>
+    </item>
+    
+    <item>
+      <title>Learning python through pym 13-08-2019</title>
+      <link>https://BhaveshSGupta.me/blog/learning-python-through-pym-13-08-2019/</link>
+      <pubDate>Tue, 13 Aug 2019 20:57:26 +0530</pubDate>
+      
+      <guid>https://BhaveshSGupta.me/blog/learning-python-through-pym-13-08-2019/</guid>
+      <description>Day 3 PS: These are notes, there could be grammar error and spelling errors.
 Last time we were just starting with If else, the control flow,
 if-else , the control flow Control flow is used when we need to do some decisive task
 if, if else, if elif else statement If statement is simple as it is other language
-1 2 if expression: do this 1 2 3 4 if expression: do this else: do this 1 2 3 4 5 6 if expression: do this elif expression: do this else: do this Things to note:</description></item><item><title>Learning python through pym 12-08-2019</title><link>https://BhaveshSGupta.me/blog/learning-python-through-pym-12-08-2019/</link><pubDate>Mon, 12 Aug 2019 20:57:26 +0530</pubDate><guid>https://BhaveshSGupta.me/blog/learning-python-through-pym-12-08-2019/</guid><description>Day 2 PS: These are notes, there could be grammar error and spelling errors.
+1 2  if expression: do this   1 2 3 4  if expression: do this else: do this   1 2 3 4 5 6  if expression: do this elif expression: do this else: do this   Things to note:</description>
+    </item>
+    
+    <item>
+      <title>Learning python through pym 12-08-2019</title>
+      <link>https://BhaveshSGupta.me/blog/learning-python-through-pym-12-08-2019/</link>
+      <pubDate>Mon, 12 Aug 2019 20:57:26 +0530</pubDate>
+      
+      <guid>https://BhaveshSGupta.me/blog/learning-python-through-pym-12-08-2019/</guid>
+      <description>Day 2 PS: These are notes, there could be grammar error and spelling errors.
 Last time had got until here,
 We don&amp;rsquo;t need specify data type with python something similar to javascript where we use var for every type of variable.(const and let are new ES6 standards, although they are not new but new)
 So basically
-1 2 3 a = 10 b = 1.0 c = &amp;#34;test&amp;#34; in above a become integer, b becomes float and c becomes string.</description></item><item><title>Learning python through pym 10-08-2019</title><link>https://BhaveshSGupta.me/blog/learning-python-through-pym-10-08-2019/</link><pubDate>Sat, 10 Aug 2019 17:59:22 +0530</pubDate><guid>https://BhaveshSGupta.me/blog/learning-python-through-pym-10-08-2019/</guid><description>Day 1 Installing python one can install python using package manager depending upon the operating system you are using. As I have a windows machine and ubuntu using linux on windows subsystem. I can install python from https://python.org. And Ubuntu I can use below command to install python.
-1 sudo apt-get install python3 Running python To run python you would call python3 which open Python interpreter. On that you can type print(&amp;ldquo;Hello World&amp;rdquo;) to run your first python code which would print Hello World in next line.</description></item></channel></rss>
+1 2 3  a = 10 b = 1.0 c = &amp;#34;test&amp;#34;   in above a become integer, b becomes float and c becomes string.</description>
+    </item>
+    
+    <item>
+      <title>Learning python through pym 10-08-2019</title>
+      <link>https://BhaveshSGupta.me/blog/learning-python-through-pym-10-08-2019/</link>
+      <pubDate>Sat, 10 Aug 2019 17:59:22 +0530</pubDate>
+      
+      <guid>https://BhaveshSGupta.me/blog/learning-python-through-pym-10-08-2019/</guid>
+      <description>Day 1 Installing python one can install python using package manager depending upon the operating system you are using. As I have a windows machine and ubuntu using linux on windows subsystem. I can install python from https://python.org. And Ubuntu I can use below command to install python.
+1  sudo apt-get install python3   Running python To run python you would call python3 which open Python interpreter. On that you can type print(&amp;ldquo;Hello World&amp;rdquo;) to run your first python code which would print Hello World in next line.</description>
+    </item>
+    
+  </channel>
+</rss>
