@@ -6,7 +6,7 @@
     <description>Recent content on Everyone Has a Story</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Sat, 14 Sep 2019 19:54:55 +0530</lastBuildDate>
+    <lastBuildDate>Thu, 31 Dec 2020 23:11:46 +0530</lastBuildDate>
     
         <atom:link href="https://BhaveshSGupta.me/index.xml" rel="self" type="application/rss+xml" />
     
@@ -19,6 +19,22 @@
       <guid>https://BhaveshSGupta.me/about/</guid>
       
         <description>&lt;p&gt;Currently working as Sr. Web Producer at &lt;a href=&#34;https://Investisdigital.com&#34;&gt;InvestisDigital&lt;/a&gt;. I am an OpenSource Enthusiast who is trying to contribute to make people&amp;rsquo;s life better. I love to program and I am learning how to develop better. I have tried my hands on several technologies whenever I got a chance to work with them. I have fare amount of experience Front-End Web Technologies HTML5, CSS3, JavaScript, JQuery. I try to learn bits about languages/technologies whenever I can.&lt;/p&gt;
+</description>
+      
+    </item>
+    
+    <item>
+      <title>First and Last post of 2020</title>
+      <link>https://BhaveshSGupta.me/blog/first-and-last-2020/</link>
+      <pubDate>Thu, 31 Dec 2020 23:11:46 +0530</pubDate>
+      
+      <guid>https://BhaveshSGupta.me/blog/first-and-last-2020/</guid>
+      
+        <description>&lt;h2 id=&#34;2020&#34;&gt;2020&lt;/h2&gt;
+&lt;p&gt;2020, has been amazing year by far. Have experience so much this year which is unbelievable. Although I have not written anything then these two lines. But this would a memorable year in lot of sense.&lt;/p&gt;
+&lt;p&gt;Cheers, 
+Happy New Year everyone, 
+Happy 2021&lt;/p&gt;
 </description>
       
     </item>
@@ -2098,26 +2114,6 @@ $ git log --stat
         <description>&lt;p&gt;This was part of one the discussion of dgplug discussion, that javascript uses utf-16 and html we usually use utf-8 as character encoding then how things work out.&lt;/p&gt;
 &lt;p&gt;This was quite interesting on how things work around because of this. So I was reading around to find answers for the above question and I landed upon &lt;a href=&#34;https://stackoverflow.com/questions/12114477/how-do-i-correctly-insert-unicode-in-an-html-title-using-javascript/12114520#12114520&#34;&gt;this&lt;/a&gt;. And this text from the answer in the link helps understand how things work. &amp;ldquo;JavaScript string constants are parsed by the JavaScript parser. Text inside HTML tags is parsed by the HTML parser. The two languages (and, by extension, their parsers) are different, and in particular they have different ways of representing characters by character code.&amp;rdquo; Basically they won&amp;rsquo;t have issue with different character encoding as they would render same character. More over javascript parser would parse the character into the html when you use innerHTML method.&lt;/p&gt;
 &lt;p&gt;I would have to read more and update this post again.&lt;/p&gt;
-</description>
-      
-    </item>
-    
-    <item>
-      <title>Update 17 Jul 18</title>
-      <link>https://BhaveshSGupta.me/blog/update-17-jul-18/</link>
-      <pubDate>Tue, 17 Jul 2018 05:03:32 +0530</pubDate>
-      
-      <guid>https://BhaveshSGupta.me/blog/update-17-jul-18/</guid>
-      
-        <description>&lt;p&gt;This update post was actually created on 10th july, But as usual due to some x reason it is not yet complete. There are several things which are running into my life right now out of them on is to update this blog on regular bases to get align with things.&lt;/p&gt;
-&lt;h2 id=&#34;pending-posts&#34;&gt;Pending Posts&lt;/h2&gt;
-&lt;p&gt;This blog came to life again due to dgplug summer training where we were taught to write blog post about things you are doing or learning(PS: I am yet to read logs to that class :p).&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;Although I was thinking to update this as regularly as much as possible even before the training started I had planned to write down as many as things possible starting from the birthday post. I am yet to write that which would be up soon.&lt;/li&gt;
-&lt;li&gt;I need to coverup summer training so this time I don&amp;rsquo;t get leave behind many.&lt;/li&gt;
-&lt;li&gt;One of the biggest confusion I have is about my career, as of now I am working as Front End Developer but I think I can&amp;rsquo;t do that for whole life moreover I don&amp;rsquo;t want to. I remember my college when I was not even aware about properties of body and div:P&lt;/li&gt;
-&lt;li&gt;My competitive coding is also left behind, because of all the things around and me. I should work on that to asap tp get things align.&lt;/li&gt;
-&lt;/ul&gt;
 </description>
       
     </item>

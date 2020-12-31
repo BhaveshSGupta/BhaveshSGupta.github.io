@@ -10,7 +10,21 @@
   
   <url>
     <loc>https://BhaveshSGupta.me/blog/</loc>
-    <lastmod>2020-02-08T00:43:00+05:30</lastmod>
+    <lastmod>2020-12-31T23:57:51+05:30</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://BhaveshSGupta.me/</loc>
+    <lastmod>2020-12-31T23:57:51+05:30</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://BhaveshSGupta.me/blog/first-and-last-2020/</loc>
+    <lastmod>2020-12-31T23:57:51+05:30</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
@@ -25,13 +39,6 @@
   <url>
     <loc>https://BhaveshSGupta.me/blog/convert-excel-to-json/</loc>
     <lastmod>2019-09-15T15:50:47+05:30</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
-    <loc>https://BhaveshSGupta.me/</loc>
-    <lastmod>2020-02-08T00:43:00+05:30</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>

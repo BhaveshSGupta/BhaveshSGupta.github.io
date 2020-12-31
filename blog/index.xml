@@ -6,7 +6,17 @@
     <description>Recent content in Blogs on Everyone Has a Story</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Sat, 14 Sep 2019 19:54:55 +0530</lastBuildDate><atom:link href="https://BhaveshSGupta.me/blog/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 31 Dec 2020 23:11:46 +0530</lastBuildDate><atom:link href="https://BhaveshSGupta.me/blog/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>First and Last post of 2020</title>
+      <link>https://BhaveshSGupta.me/blog/first-and-last-2020/</link>
+      <pubDate>Thu, 31 Dec 2020 23:11:46 +0530</pubDate>
+      
+      <guid>https://BhaveshSGupta.me/blog/first-and-last-2020/</guid>
+      <description>2020 2020, has been amazing year by far. Have experience so much this year which is unbelievable. Although I have not written anything then these two lines. But this would a memorable year in lot of sense.
+Cheers, Happy New Year everyone, Happy 2021</description>
+    </item>
+    
     <item>
       <title>Convert Excel to Json</title>
       <link>https://BhaveshSGupta.me/blog/convert-excel-to-json/</link>
@@ -202,16 +212,6 @@ This was quite interesting on how things work around because of this. So I was r
       <guid>https://BhaveshSGupta.me/blog/update-17-jul-18/</guid>
       <description>This update post was actually created on 10th july, But as usual due to some x reason it is not yet complete. There are several things which are running into my life right now out of them on is to update this blog on regular bases to get align with things.
 Pending Posts This blog came to life again due to dgplug summer training where we were taught to write blog post about things you are doing or learning(PS: I am yet to read logs to that class :p).</description>
-    </item>
-    
-    <item>
-      <title>dgplug Start 2</title>
-      <link>https://BhaveshSGupta.me/blog/dgplug-start-2/</link>
-      <pubDate>Mon, 16 Jul 2018 22:30:28 +0000</pubDate>
-      
-      <guid>https://BhaveshSGupta.me/blog/dgplug-start-2/</guid>
-      <description>So Last year in some Facebook group or somewhere I read about summer training offered by dgplug on IRC chat. I had heard about IRC chat before and had tried to use it once or twice but never tried to use it or understand it.
-Technically summer trainings are usually for college students but during my college time I was too busy being in and around Microsoft Student Partner that I didn&amp;rsquo;t knew about many things around.</description>
     </item>
     
   </channel>
