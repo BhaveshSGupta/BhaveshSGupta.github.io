@@ -223,7 +223,7 @@ In previous approach lets say number is 5, then there would 3 modulo operation w
 &lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
 &lt;/div&gt;
 &lt;/div&gt;&lt;p&gt;PS: There has been some newer development on optimizing code and the newer approach we took. I had a brief discussion with Vijay aka Punnysher and Anop aka manchurian/potato :D.
-There would be another update to this&lt;/p&gt;
+There would be another update to this.&lt;/p&gt;
 &lt;!-- 
 Uptill this is how someone can optimize for development interviews.
 
