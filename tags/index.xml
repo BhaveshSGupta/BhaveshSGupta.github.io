@@ -6,22 +6,85 @@
     <description>Recent content in Tags on Everyone Has a Story</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Sat, 14 Sep 2019 19:54:55 +0530</lastBuildDate><atom:link href="https://BhaveshSGupta.me/tags/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 31 Jan 2021 16:42:25 +0530</lastBuildDate><atom:link href="https://BhaveshSGupta.me/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>excel</title>
-      <link>https://BhaveshSGupta.me/tags/excel/</link>
-      <pubDate>Sat, 14 Sep 2019 19:54:55 +0530</pubDate>
+      <title>buzz</title>
+      <link>https://BhaveshSGupta.me/tags/buzz/</link>
+      <pubDate>Sun, 31 Jan 2021 16:42:25 +0530</pubDate>
       
-      <guid>https://BhaveshSGupta.me/tags/excel/</guid>
+      <guid>https://BhaveshSGupta.me/tags/buzz/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>fizz</title>
+      <link>https://BhaveshSGupta.me/tags/fizz/</link>
+      <pubDate>Sun, 31 Jan 2021 16:42:25 +0530</pubDate>
+      
+      <guid>https://BhaveshSGupta.me/tags/fizz/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>fizzbuzz</title>
+      <link>https://BhaveshSGupta.me/tags/fizzbuzz/</link>
+      <pubDate>Sun, 31 Jan 2021 16:42:25 +0530</pubDate>
+      
+      <guid>https://BhaveshSGupta.me/tags/fizzbuzz/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Interview Questions</title>
+      <link>https://BhaveshSGupta.me/tags/interview-questions/</link>
+      <pubDate>Sun, 31 Jan 2021 16:42:25 +0530</pubDate>
+      
+      <guid>https://BhaveshSGupta.me/tags/interview-questions/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>javascript</title>
+      <link>https://BhaveshSGupta.me/tags/javascript/</link>
+      <pubDate>Sun, 31 Jan 2021 16:42:25 +0530</pubDate>
+      
+      <guid>https://BhaveshSGupta.me/tags/javascript/</guid>
       <description></description>
     </item>
     
     <item>
       <title>js</title>
       <link>https://BhaveshSGupta.me/tags/js/</link>
-      <pubDate>Sat, 14 Sep 2019 19:54:55 +0530</pubDate>
+      <pubDate>Sun, 31 Jan 2021 16:42:25 +0530</pubDate>
       
       <guid>https://BhaveshSGupta.me/tags/js/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>py</title>
+      <link>https://BhaveshSGupta.me/tags/py/</link>
+      <pubDate>Sun, 31 Jan 2021 16:42:25 +0530</pubDate>
+      
+      <guid>https://BhaveshSGupta.me/tags/py/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>python</title>
+      <link>https://BhaveshSGupta.me/tags/python/</link>
+      <pubDate>Sun, 31 Jan 2021 16:42:25 +0530</pubDate>
+      
+      <guid>https://BhaveshSGupta.me/tags/python/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>excel</title>
+      <link>https://BhaveshSGupta.me/tags/excel/</link>
+      <pubDate>Sat, 14 Sep 2019 19:54:55 +0530</pubDate>
+      
+      <guid>https://BhaveshSGupta.me/tags/excel/</guid>
       <description></description>
     </item>
     
@@ -121,69 +184,6 @@
       <pubDate>Mon, 22 Jul 2019 12:12:00 +0530</pubDate>
       
       <guid>https://BhaveshSGupta.me/tags/commit/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>commit message</title>
-      <link>https://BhaveshSGupta.me/tags/commit-message/</link>
-      <pubDate>Mon, 22 Jul 2019 12:12:00 +0530</pubDate>
-      
-      <guid>https://BhaveshSGupta.me/tags/commit-message/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>birthday</title>
-      <link>https://BhaveshSGupta.me/tags/birthday/</link>
-      <pubDate>Thu, 23 May 2019 19:30:00 +0000</pubDate>
-      
-      <guid>https://BhaveshSGupta.me/tags/birthday/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>trips</title>
-      <link>https://BhaveshSGupta.me/tags/trips/</link>
-      <pubDate>Thu, 23 May 2019 19:30:00 +0000</pubDate>
-      
-      <guid>https://BhaveshSGupta.me/tags/trips/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>readingeveryday</title>
-      <link>https://BhaveshSGupta.me/tags/readingeveryday/</link>
-      <pubDate>Tue, 07 Aug 2018 18:06:01 +0000</pubDate>
-      
-      <guid>https://BhaveshSGupta.me/tags/readingeveryday/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>timelog</title>
-      <link>https://BhaveshSGupta.me/tags/timelog/</link>
-      <pubDate>Tue, 07 Aug 2018 18:06:01 +0000</pubDate>
-      
-      <guid>https://BhaveshSGupta.me/tags/timelog/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>character-encoding</title>
-      <link>https://BhaveshSGupta.me/tags/character-encoding/</link>
-      <pubDate>Tue, 17 Jul 2018 05:45:40 +0530</pubDate>
-      
-      <guid>https://BhaveshSGupta.me/tags/character-encoding/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>html</title>
-      <link>https://BhaveshSGupta.me/tags/html/</link>
-      <pubDate>Tue, 17 Jul 2018 05:45:40 +0530</pubDate>
-      
-      <guid>https://BhaveshSGupta.me/tags/html/</guid>
       <description></description>
     </item>
     

@@ -6,7 +6,16 @@
     <description>Recent content in Blogs on Everyone Has a Story</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Thu, 31 Dec 2020 23:11:46 +0530</lastBuildDate><atom:link href="https://BhaveshSGupta.me/blog/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 31 Jan 2021 16:42:25 +0530</lastBuildDate><atom:link href="https://BhaveshSGupta.me/blog/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>The Fizzbuzz Problem</title>
+      <link>https://BhaveshSGupta.me/blog/the-fizzbuzz-problem/</link>
+      <pubDate>Sun, 31 Jan 2021 16:42:25 +0530</pubDate>
+      
+      <guid>https://BhaveshSGupta.me/blog/the-fizzbuzz-problem/</guid>
+      <description>&lt;p&gt;Recently I have been giving few interviews and I have faced this problem twice or thrice I guess where an interviewer asks me this problem.&lt;/p&gt;</description>
+    </item>
+    
     <item>
       <title>First and Last post of 2020</title>
       <link>https://BhaveshSGupta.me/blog/first-and-last-2020/</link>
@@ -202,16 +211,6 @@ So trying to follow above I started reading books still non-technical but as a f
       <guid>https://BhaveshSGupta.me/blog/javascript-utf16-and-html-utf8-how-things-work-together/</guid>
       <description>This was part of one the discussion of dgplug discussion, that javascript uses utf-16 and html we usually use utf-8 as character encoding then how things work out.
 This was quite interesting on how things work around because of this. So I was reading around to find answers for the above question and I landed upon this. And this text from the answer in the link helps understand how things work.</description>
-    </item>
-    
-    <item>
-      <title>Update 17 Jul 18</title>
-      <link>https://BhaveshSGupta.me/blog/update-17-jul-18/</link>
-      <pubDate>Tue, 17 Jul 2018 05:03:32 +0530</pubDate>
-      
-      <guid>https://BhaveshSGupta.me/blog/update-17-jul-18/</guid>
-      <description>This update post was actually created on 10th july, But as usual due to some x reason it is not yet complete. There are several things which are running into my life right now out of them on is to update this blog on regular bases to get align with things.
-Pending Posts This blog came to life again due to dgplug summer training where we were taught to write blog post about things you are doing or learning(PS: I am yet to read logs to that class :p).</description>
     </item>
     
   </channel>
