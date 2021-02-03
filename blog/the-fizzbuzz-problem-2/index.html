@@ -65,11 +65,11 @@
 <meta property="og:type" content="article" />
 <meta property="og:url" content="https://BhaveshSGupta.me/blog/the-fizzbuzz-problem-2/" />
 <meta property="article:published_time" content="2021-02-02T08:56:01+05:30" />
-<meta property="article:modified_time" content="2021-02-03T10:33:06+05:30" />
+<meta property="article:modified_time" content="2021-02-03T16:11:40+05:30" />
 <meta itemprop="name" content="The Fizzbuzz Problem 2">
 <meta itemprop="description" content="Last time I had stopped optimizing this the problem more because we were having a discussion where string concatination is a costly opperation. So yesterday I was talking with Nishchay how can about the previous blog and other things at that point we started on optimizing this further avoiding string contactination as well.">
 <meta itemprop="datePublished" content="2021-02-02T08:56:01+05:30" />
-<meta itemprop="dateModified" content="2021-02-03T10:33:06+05:30" />
+<meta itemprop="dateModified" content="2021-02-03T16:11:40+05:30" />
 <meta itemprop="wordCount" content="536">
 
 
@@ -416,7 +416,7 @@ if (!doNotTrack) {
 <td class="lntd">
 <pre class="chroma"><code class="language-js" data-lang="js"><span class="kd">var</span> <span class="nx">c3</span> <span class="o">=</span> <span class="mi">3</span><span class="p">;</span>
 <span class="kd">var</span> <span class="nx">c5</span> <span class="o">=</span> <span class="mi">5</span><span class="p">;</span>
-<span class="k">for</span><span class="p">(</span><span class="nx">number</span> <span class="o">=</span> <span class="mi">1</span><span class="p">;</span> <span class="nx">number</span> <span class="o">&lt;=</span><span class="mi">100</span><span class="p">;</span> <span class="nx">num</span><span class="o">++</span><span class="p">){</span>
+<span class="k">for</span><span class="p">(</span><span class="nx">number</span> <span class="o">=</span> <span class="mi">1</span><span class="p">;</span> <span class="nx">number</span> <span class="o">&lt;=</span><span class="mi">100</span><span class="p">;</span> <span class="nx">number</span><span class="o">++</span><span class="p">){</span>
   <span class="k">if</span><span class="p">(</span><span class="nx">number</span> <span class="o">==</span> <span class="nx">c5</span> <span class="o">&amp;&amp;</span> <span class="nx">number</span> <span class="o">==</span> <span class="nx">c3</span><span class="p">){</span>
     <span class="nx">console</span><span class="p">.</span><span class="nx">log</span><span class="p">(</span><span class="s2">&#34;fizzbuzz&#34;</span><span class="p">);</span>
     <span class="nx">c3</span> <span class="o">+=</span> <span class="mi">3</span><span class="p">;</span>
@@ -427,7 +427,7 @@ if (!doNotTrack) {
   <span class="p">}</span> <span class="k">else</span> <span class="k">if</span><span class="p">(</span><span class="nx">number</span> <span class="o">==</span> <span class="nx">c5</span><span class="p">){</span>
     <span class="nx">console</span><span class="p">.</span><span class="nx">log</span><span class="p">(</span><span class="s2">&#34;buzz&#34;</span><span class="p">);</span>
     <span class="nx">c5</span> <span class="o">+=</span> <span class="mi">5</span><span class="p">;</span>
-  <span class="p">}</span> <span class="k">else</span> <span class="nx">console</span><span class="p">.</span><span class="nx">log</span><span class="p">(</span><span class="nx">num</span><span class="p">);</span>
+  <span class="p">}</span> <span class="k">else</span> <span class="nx">console</span><span class="p">.</span><span class="nx">log</span><span class="p">(</span><span class="nx">number</span><span class="p">);</span>
 <span class="p">}</span>
 </code></pre></td></tr></table>
 </div>
