@@ -31,9 +31,9 @@
       <guid>https://BhaveshSGupta.me/blog/the-coin-weight-problem/</guid>
       
         <description>&lt;p&gt;The problem resolves around find which of the coin is uneven in weight of all other coins. Suppose there are around 8 coin out of them one is heavy/light then others and we have one scale where we can compare two things&lt;/p&gt;
-&lt;p&gt;This is an interesting another problem which I had found while dicussing with Vatsal another friend of mine, which was asked in his interview for some company.&lt;/p&gt;
+&lt;p&gt;This is an interesting another problem which I had found while dicussing with &lt;a href=&#34;https://www.linkedin.com/in/vatsalsura/&#34;&gt;Vatsal&lt;/a&gt; another friend of mine, which was asked in his interview for some company.&lt;/p&gt;
 &lt;p&gt;Suppose out of eight we know that one of them is of higher weight then others. The simplest way to achieve the solution for this problem would be doing a binary search like approach where you would divide in two equal half check which side is higher then again divde in two equal half and then look for higher side where you can reach finally to a conclusion on which coin is higher&lt;/p&gt;
-&lt;p&gt;Same approach can be taken when one of coin is lighter then others. For eight coin it would take atleast 3 round.&lt;/p&gt;
+&lt;p&gt;Same approach can be taken when one of coin is lighter then others. For eight coin it would take atleast 3 round for above solution.&lt;/p&gt;
 &lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
 &lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
 &lt;pre class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt;1
@@ -74,7 +74,7 @@
 &lt;/span&gt;&lt;span class=&#34;se&#34;&gt;&lt;/span&gt;    &lt;span class=&#34;m&#34;&gt;7&lt;/span&gt; &lt;span class=&#34;m&#34;&gt;8&lt;/span&gt;
 &lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
 &lt;/div&gt;
-&lt;/div&gt;&lt;p&gt;As in above we are sure that one of the coin is higher in weight then others. In this case we can do something like this. We can take two coin aside and equally divide rest 6 coins. Then we can compare three with other three. If weight of one of side is higher then we can discard all other coin then this three as we are aware that only one coin is of higher weight then other. Now we have three coins left. We can weight two of them, if one of side is higher then we have found then coin. If both are equal then the one which we didnt weigh is coin with higher weight.&lt;/p&gt;
+&lt;/div&gt;&lt;p&gt;Now to optimize the solution we can look into another approach. Here as in above we are sure that one of the coin is higher in weight then others. In this case we can do something like this. We can take two coin aside and equally divide rest 6 coins. Then we can compare three with other three. If weight of one of side is higher then we can discard all other coin then this three as we are aware that only one coin is of higher weight then other. Now we have three coins left. We can weight two of them, if one of side is higher then we have found then coin. If both are equal then the one which we didnt weigh is coin with higher weight.&lt;/p&gt;
 &lt;p&gt;Other secenario could be where when we had compare 3 - 3 coins on each side they would have been of equal weigh. In that case we can weigh left two coins and get which one is higher.&lt;/p&gt;
 &lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
 &lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
@@ -124,7 +124,8 @@
 &lt;/span&gt;&lt;span class=&#34;se&#34;&gt;&lt;/span&gt;        &lt;span class=&#34;m&#34;&gt;9&lt;/span&gt; &lt;span class=&#34;m&#34;&gt;8&lt;/span&gt;
 &lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
 &lt;/div&gt;
-&lt;/div&gt;&lt;p&gt;The intresting problem here would be when we would not be aware whether a coin is lighter or heavier. In that case how we can optimize it. Whose solution we can try to find may in another blog post.&lt;/p&gt;</description>
+&lt;/div&gt;&lt;p&gt;In above solution we have optimized it further such that instead of three operation we are doing just two opertation.&lt;/p&gt;
+&lt;p&gt;The intresting problem here would be when we would not be aware whether a coin is lighter or heavier. In that case how we can optimize it. Whose solution we can try to find may in another blog post.&lt;/p&gt;</description>
       
     </item>
     
