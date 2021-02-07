@@ -31,7 +31,7 @@
       <guid>https://BhaveshSGupta.me/blog/the-coin-weight-problem/</guid>
       
         <description>&lt;p&gt;The problem resolves around find which of the coin is uneven in weight of all other coins. Suppose there are around 8 coin out of them one is heavy/light then others and we have one scale where we can compare two things&lt;/p&gt;
-&lt;p&gt;This is an interesting another problem which I had found while dicussing with &lt;a href=&#34;https://www.linkedin.com/in/vatsalsura/&#34;&gt;Vatsal&lt;/a&gt; another friend of mine, which was asked in his interview for some company.&lt;/p&gt;
+&lt;p&gt;This is an interesting another problem which I had found while dicussing with &lt;a href=&#34;https://www.linkedin.com/in/vatsalsura/&#34;&gt;Vatsal&lt;/a&gt; a friend of mine, which was asked in his interview for some company.&lt;/p&gt;
 &lt;p&gt;Suppose out of eight we know that one of them is of higher weight then others. The simplest way to achieve the solution for this problem would be doing a binary search like approach where you would divide in two equal half check which side is higher then again divde in two equal half and then look for higher side where you can reach finally to a conclusion on which coin is higher&lt;/p&gt;
 &lt;p&gt;Same approach can be taken when one of coin is lighter then others. For eight coin it would take atleast 3 round for above solution.&lt;/p&gt;
 &lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
