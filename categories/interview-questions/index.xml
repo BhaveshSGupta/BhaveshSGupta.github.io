@@ -6,7 +6,16 @@
     <description>Recent content in Interview Questions on Everyone Has a Story</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Tue, 02 Feb 2021 08:56:01 +0530</lastBuildDate><atom:link href="https://BhaveshSGupta.me/categories/interview-questions/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 03 Feb 2021 11:06:14 +0530</lastBuildDate><atom:link href="https://BhaveshSGupta.me/categories/interview-questions/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>The Coin Weight Problem</title>
+      <link>https://BhaveshSGupta.me/blog/the-coin-weight-problem/</link>
+      <pubDate>Wed, 03 Feb 2021 11:06:14 +0530</pubDate>
+      
+      <guid>https://BhaveshSGupta.me/blog/the-coin-weight-problem/</guid>
+      <description>&lt;p&gt;The problem resolves around find which of the coin is uneven in weight of all other coins. Suppose there are around 8 coin out of them one is heavy/light then others and we have one scale where we can compare two things&lt;/p&gt;</description>
+    </item>
+    
     <item>
       <title>The Fizzbuzz Problem 2</title>
       <link>https://BhaveshSGupta.me/blog/the-fizzbuzz-problem-2/</link>
