@@ -1,0 +1,4 @@
+This is a Brave Rewards publisher verification file.
+
+Domain: bhaveshsgupta.me
+Token: f76c312464a6ba09459c05dde53bfe8f1832e4dabdb6c9bb611dd7c62d3a9758
