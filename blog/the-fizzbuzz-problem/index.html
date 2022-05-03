@@ -33,7 +33,7 @@
 
 
 
-<meta name="generator" content="Hugo 0.82.1" />
+<meta name="generator" content="Hugo 0.98.0" />
 
 
 <link rel="canonical" href="https://BhaveshSGupta.me/blog/the-fizzbuzz-problem/" />
@@ -54,7 +54,7 @@
 
 
 
-<link rel="stylesheet" href="/sass/jane.min.f7440b5c0d223f47a09bf5853465434e6f91d80a591c2f8d2d5e8220e5db0580.css" integrity="sha256-90QLXA0iP0egm/WFNGVDTm&#43;R2ApZHC&#43;NLV6CIOXbBYA=" media="screen" crossorigin="anonymous">
+<link rel="stylesheet" href="/sass/jane.min.fa4b2b9f31b5c6d0b683db81157a9226e17b06e61911791ab547242a4a0556f2.css" integrity="sha256-&#43;ksrnzG1xtC2g9uBFXqSJuF7BuYZEXkatUckKkoFVvI=" media="screen" crossorigin="anonymous">
 
 
 
@@ -64,12 +64,12 @@
 <meta property="og:description" content="Recently I have been giving few interviews and I have faced this problem twice or thrice I guess where an interviewer asks me this problem." />
 <meta property="og:type" content="article" />
 <meta property="og:url" content="https://BhaveshSGupta.me/blog/the-fizzbuzz-problem/" /><meta property="article:section" content="blog" />
-<meta property="article:published_time" content="2021-01-31T16:42:25&#43;05:30" />
-<meta property="article:modified_time" content="2021-02-03T10:33:06&#43;05:30" />
+<meta property="article:published_time" content="2021-01-31T16:42:25+05:30" />
+<meta property="article:modified_time" content="2021-02-03T10:33:06+05:30" />
 
 <meta itemprop="name" content="The Fizzbuzz Problem">
-<meta itemprop="description" content="Recently I have been giving few interviews and I have faced this problem twice or thrice I guess where an interviewer asks me this problem."><meta itemprop="datePublished" content="2021-01-31T16:42:25&#43;05:30" />
-<meta itemprop="dateModified" content="2021-02-03T10:33:06&#43;05:30" />
+<meta itemprop="description" content="Recently I have been giving few interviews and I have faced this problem twice or thrice I guess where an interviewer asks me this problem."><meta itemprop="datePublished" content="2021-01-31T16:42:25+05:30" />
+<meta itemprop="dateModified" content="2021-02-03T10:33:06+05:30" />
 <meta itemprop="wordCount" content="683">
 <meta itemprop="keywords" content="Interview Questions,fizz,buzz,fizzbuzz,js,py,javascript,python," /><meta name="twitter:card" content="summary"/>
 <meta name="twitter:title" content="The Fizzbuzz Problem"/>
@@ -277,7 +277,7 @@ if (!doNotTrack) {
 <p>Lets see output when N is let say 15:</p>
 <div class="highlight"><div class="chroma">
 <table class="lntable"><tr><td class="lntd">
-<pre class="chroma"><code><span class="lnt"> 1
+<pre tabindex="0" class="chroma"><code><span class="lnt"> 1
 </span><span class="lnt"> 2
 </span><span class="lnt"> 3
 </span><span class="lnt"> 4
@@ -294,28 +294,28 @@ if (!doNotTrack) {
 </span><span class="lnt">15
 </span></code></pre></td>
 <td class="lntd">
-<pre class="chroma"><code class="language-sh" data-lang="sh"><span class="m">1</span>
-<span class="m">2</span>
-fizz
-<span class="m">4</span>
-buzz
-fizz
-<span class="m">7</span>
-<span class="m">8</span>
-fizz
-buzz
-<span class="m">11</span>
-fizz
-<span class="m">13</span>
-<span class="m">14</span>
-fizzbuzz
-</code></pre></td></tr></table>
+<pre tabindex="0" class="chroma"><code class="language-sh" data-lang="sh"><span class="line"><span class="cl"><span class="m">1</span>
+</span></span><span class="line"><span class="cl"><span class="m">2</span>
+</span></span><span class="line"><span class="cl">fizz
+</span></span><span class="line"><span class="cl"><span class="m">4</span>
+</span></span><span class="line"><span class="cl">buzz
+</span></span><span class="line"><span class="cl">fizz
+</span></span><span class="line"><span class="cl"><span class="m">7</span>
+</span></span><span class="line"><span class="cl"><span class="m">8</span>
+</span></span><span class="line"><span class="cl">fizz
+</span></span><span class="line"><span class="cl">buzz
+</span></span><span class="line"><span class="cl"><span class="m">11</span>
+</span></span><span class="line"><span class="cl">fizz
+</span></span><span class="line"><span class="cl"><span class="m">13</span>
+</span></span><span class="line"><span class="cl"><span class="m">14</span>
+</span></span><span class="line"><span class="cl">fizzbuzz
+</span></span></code></pre></td></tr></table>
 </div>
 </div><p>The problem seems very simple in nature but it is an interesting problem to try when you are learning a new language. As I have been giving interviews in Javascript and python I would try to put of solution in both language.</p>
 <p>PS: Here I am considering N to be 100 ;)</p>
 <div class="highlight"><div class="chroma">
 <table class="lntable"><tr><td class="lntd">
-<pre class="chroma"><code><span class="lnt">1
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
 </span><span class="lnt">2
 </span><span class="lnt">3
 </span><span class="lnt">4
@@ -323,35 +323,35 @@ fizzbuzz
 </span><span class="lnt">6
 </span></code></pre></td>
 <td class="lntd">
-<pre class="chroma"><code class="language-js" data-lang="js"><span class="k">for</span> <span class="p">(</span><span class="nx">number</span> <span class="o">=</span> <span class="mi">1</span><span class="p">;</span> <span class="nx">number</span> <span class="o">&lt;=</span> <span class="mi">100</span><span class="p">;</span> <span class="nx">number</span><span class="o">++</span><span class="p">)</span> <span class="p">{</span>
-  <span class="k">if</span><span class="p">(</span><span class="nx">number</span> <span class="o">%</span> <span class="mi">3</span> <span class="o">==</span> <span class="mi">0</span> <span class="o">&amp;&amp;</span> <span class="nx">number</span> <span class="o">%</span> <span class="mi">5</span> <span class="o">==</span> <span class="mi">0</span><span class="p">)</span> <span class="nx">console</span><span class="p">.</span><span class="nx">log</span><span class="p">(</span><span class="s2">&#34;fizzbuzz&#34;</span><span class="p">)</span>
-  <span class="k">else</span> <span class="k">if</span><span class="p">(</span><span class="nx">number</span> <span class="o">%</span> <span class="mi">3</span> <span class="o">==</span> <span class="mi">0</span><span class="p">)</span> <span class="nx">console</span><span class="p">.</span><span class="nx">log</span><span class="p">(</span><span class="s2">&#34;fizz&#34;</span><span class="p">)</span>
-  <span class="k">else</span> <span class="k">if</span><span class="p">(</span><span class="nx">number</span> <span class="o">%</span> <span class="mi">5</span> <span class="o">==</span> <span class="mi">0</span><span class="p">)</span> <span class="nx">console</span><span class="p">.</span><span class="nx">log</span><span class="p">(</span><span class="s2">&#34;buzz&#34;</span><span class="p">)</span>
-  <span class="k">else</span> <span class="nx">console</span><span class="p">.</span><span class="nx">log</span><span class="p">(</span><span class="nx">number</span><span class="p">)</span>
-<span class="p">}</span>
-</code></pre></td></tr></table>
+<pre tabindex="0" class="chroma"><code class="language-js" data-lang="js"><span class="line"><span class="cl"><span class="k">for</span> <span class="p">(</span><span class="nx">number</span> <span class="o">=</span> <span class="mi">1</span><span class="p">;</span> <span class="nx">number</span> <span class="o">&lt;=</span> <span class="mi">100</span><span class="p">;</span> <span class="nx">number</span><span class="o">++</span><span class="p">)</span> <span class="p">{</span>
+</span></span><span class="line"><span class="cl">  <span class="k">if</span><span class="p">(</span><span class="nx">number</span> <span class="o">%</span> <span class="mi">3</span> <span class="o">==</span> <span class="mi">0</span> <span class="o">&amp;&amp;</span> <span class="nx">number</span> <span class="o">%</span> <span class="mi">5</span> <span class="o">==</span> <span class="mi">0</span><span class="p">)</span> <span class="nx">console</span><span class="p">.</span><span class="nx">log</span><span class="p">(</span><span class="s2">&#34;fizzbuzz&#34;</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl">  <span class="k">else</span> <span class="k">if</span><span class="p">(</span><span class="nx">number</span> <span class="o">%</span> <span class="mi">3</span> <span class="o">==</span> <span class="mi">0</span><span class="p">)</span> <span class="nx">console</span><span class="p">.</span><span class="nx">log</span><span class="p">(</span><span class="s2">&#34;fizz&#34;</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl">  <span class="k">else</span> <span class="k">if</span><span class="p">(</span><span class="nx">number</span> <span class="o">%</span> <span class="mi">5</span> <span class="o">==</span> <span class="mi">0</span><span class="p">)</span> <span class="nx">console</span><span class="p">.</span><span class="nx">log</span><span class="p">(</span><span class="s2">&#34;buzz&#34;</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl">  <span class="k">else</span> <span class="nx">console</span><span class="p">.</span><span class="nx">log</span><span class="p">(</span><span class="nx">number</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl"><span class="p">}</span>
+</span></span></code></pre></td></tr></table>
 </div>
 </div><div class="highlight"><div class="chroma">
 <table class="lntable"><tr><td class="lntd">
-<pre class="chroma"><code><span class="lnt">1
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
 </span><span class="lnt">2
 </span><span class="lnt">3
 </span><span class="lnt">4
 </span><span class="lnt">5
 </span></code></pre></td>
 <td class="lntd">
-<pre class="chroma"><code class="language-py" data-lang="py"><span class="k">for</span> <span class="n">number</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="mi">1</span><span class="p">,</span> <span class="mi">101</span><span class="p">):</span>
-  <span class="k">if</span><span class="p">(</span><span class="n">number</span> <span class="o">%</span> <span class="mi">3</span> <span class="o">==</span> <span class="mi">0</span> <span class="ow">and</span> <span class="n">number</span> <span class="o">%</span> <span class="mi">5</span> <span class="o">==</span> <span class="mi">0</span><span class="p">):</span> <span class="k">print</span><span class="p">(</span><span class="s1">&#39;fizzbuzz&#39;</span><span class="p">)</span>
-  <span class="k">elif</span><span class="p">(</span><span class="n">number</span> <span class="o">%</span> <span class="mi">3</span> <span class="o">==</span> <span class="mi">0</span><span class="p">):</span> <span class="k">print</span><span class="p">(</span><span class="s1">&#39;fizz&#39;</span><span class="p">)</span>
-  <span class="k">elif</span><span class="p">(</span><span class="n">number</span> <span class="o">%</span> <span class="mi">5</span> <span class="o">==</span> <span class="mi">0</span><span class="p">):</span> <span class="k">print</span><span class="p">(</span><span class="s1">&#39;buzz&#39;</span><span class="p">)</span>
-  <span class="k">else</span><span class="p">:</span> <span class="k">print</span><span class="p">(</span><span class="n">number</span><span class="p">)</span>
-</code></pre></td></tr></table>
+<pre tabindex="0" class="chroma"><code class="language-py" data-lang="py"><span class="line"><span class="cl"><span class="k">for</span> <span class="n">number</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="mi">1</span><span class="p">,</span> <span class="mi">101</span><span class="p">):</span>
+</span></span><span class="line"><span class="cl">  <span class="k">if</span><span class="p">(</span><span class="n">number</span> <span class="o">%</span> <span class="mi">3</span> <span class="o">==</span> <span class="mi">0</span> <span class="ow">and</span> <span class="n">number</span> <span class="o">%</span> <span class="mi">5</span> <span class="o">==</span> <span class="mi">0</span><span class="p">):</span> <span class="nb">print</span><span class="p">(</span><span class="s1">&#39;fizzbuzz&#39;</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl">  <span class="k">elif</span><span class="p">(</span><span class="n">number</span> <span class="o">%</span> <span class="mi">3</span> <span class="o">==</span> <span class="mi">0</span><span class="p">):</span> <span class="nb">print</span><span class="p">(</span><span class="s1">&#39;fizz&#39;</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl">  <span class="k">elif</span><span class="p">(</span><span class="n">number</span> <span class="o">%</span> <span class="mi">5</span> <span class="o">==</span> <span class="mi">0</span><span class="p">):</span> <span class="nb">print</span><span class="p">(</span><span class="s1">&#39;buzz&#39;</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl">  <span class="k">else</span><span class="p">:</span> <span class="nb">print</span><span class="p">(</span><span class="n">number</span><span class="p">)</span>
+</span></span></code></pre></td></tr></table>
 </div>
 </div><p>Above solution are correct, but if we see it from optimizing prospective then it is not optimize. We are doing same operation multiple times i.e. we are taking modulo of 3 and 5 twice, first in common case then again in else if cases.</p>
 <p>First step towards optimizing it could be as follows</p>
 <div class="highlight"><div class="chroma">
 <table class="lntable"><tr><td class="lntd">
-<pre class="chroma"><code><span class="lnt">1
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
 </span><span class="lnt">2
 </span><span class="lnt">3
 </span><span class="lnt">4
@@ -361,19 +361,19 @@ fizzbuzz
 </span><span class="lnt">8
 </span></code></pre></td>
 <td class="lntd">
-<pre class="chroma"><code class="language-js" data-lang="js"><span class="k">for</span> <span class="p">(</span><span class="nx">number</span> <span class="o">=</span> <span class="mi">1</span><span class="p">;</span> <span class="nx">number</span> <span class="o">&lt;=</span> <span class="mi">100</span><span class="p">;</span> <span class="nx">number</span><span class="o">++</span><span class="p">)</span> <span class="p">{</span>
-  <span class="kd">let</span> <span class="nx">modulo3</span> <span class="o">=</span> <span class="nx">number</span> <span class="o">%</span> <span class="mi">3</span> <span class="o">==</span> <span class="mi">0</span>
-  <span class="kd">let</span> <span class="nx">modulo5</span> <span class="o">=</span> <span class="nx">number</span> <span class="o">%</span> <span class="mi">5</span> <span class="o">==</span> <span class="mi">0</span>
-  <span class="k">if</span><span class="p">(</span><span class="nx">modulo3</span> <span class="o">&amp;&amp;</span> <span class="nx">modulo5</span><span class="p">)</span> <span class="nx">console</span><span class="p">.</span><span class="nx">log</span><span class="p">(</span><span class="s2">&#34;fizzbuzz&#34;</span><span class="p">)</span>
-  <span class="k">else</span> <span class="k">if</span><span class="p">(</span><span class="nx">modulo3</span><span class="p">)</span> <span class="nx">console</span><span class="p">.</span><span class="nx">log</span><span class="p">(</span><span class="s2">&#34;fizz&#34;</span><span class="p">)</span>
-  <span class="k">else</span> <span class="k">if</span><span class="p">(</span><span class="nx">modulo5</span><span class="p">)</span> <span class="nx">console</span><span class="p">.</span><span class="nx">log</span><span class="p">(</span><span class="s2">&#34;buzz&#34;</span><span class="p">)</span>
-  <span class="k">else</span> <span class="nx">console</span><span class="p">.</span><span class="nx">log</span><span class="p">(</span><span class="nx">number</span><span class="p">)</span>
-<span class="p">}</span>
-</code></pre></td></tr></table>
+<pre tabindex="0" class="chroma"><code class="language-js" data-lang="js"><span class="line"><span class="cl"><span class="k">for</span> <span class="p">(</span><span class="nx">number</span> <span class="o">=</span> <span class="mi">1</span><span class="p">;</span> <span class="nx">number</span> <span class="o">&lt;=</span> <span class="mi">100</span><span class="p">;</span> <span class="nx">number</span><span class="o">++</span><span class="p">)</span> <span class="p">{</span>
+</span></span><span class="line"><span class="cl">  <span class="kd">let</span> <span class="nx">modulo3</span> <span class="o">=</span> <span class="nx">number</span> <span class="o">%</span> <span class="mi">3</span> <span class="o">==</span> <span class="mi">0</span>
+</span></span><span class="line"><span class="cl">  <span class="kd">let</span> <span class="nx">modulo5</span> <span class="o">=</span> <span class="nx">number</span> <span class="o">%</span> <span class="mi">5</span> <span class="o">==</span> <span class="mi">0</span>
+</span></span><span class="line"><span class="cl">  <span class="k">if</span><span class="p">(</span><span class="nx">modulo3</span> <span class="o">&amp;&amp;</span> <span class="nx">modulo5</span><span class="p">)</span> <span class="nx">console</span><span class="p">.</span><span class="nx">log</span><span class="p">(</span><span class="s2">&#34;fizzbuzz&#34;</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl">  <span class="k">else</span> <span class="k">if</span><span class="p">(</span><span class="nx">modulo3</span><span class="p">)</span> <span class="nx">console</span><span class="p">.</span><span class="nx">log</span><span class="p">(</span><span class="s2">&#34;fizz&#34;</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl">  <span class="k">else</span> <span class="k">if</span><span class="p">(</span><span class="nx">modulo5</span><span class="p">)</span> <span class="nx">console</span><span class="p">.</span><span class="nx">log</span><span class="p">(</span><span class="s2">&#34;buzz&#34;</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl">  <span class="k">else</span> <span class="nx">console</span><span class="p">.</span><span class="nx">log</span><span class="p">(</span><span class="nx">number</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl"><span class="p">}</span>
+</span></span></code></pre></td></tr></table>
 </div>
 </div><div class="highlight"><div class="chroma">
 <table class="lntable"><tr><td class="lntd">
-<pre class="chroma"><code><span class="lnt">1
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
 </span><span class="lnt">2
 </span><span class="lnt">3
 </span><span class="lnt">4
@@ -382,14 +382,14 @@ fizzbuzz
 </span><span class="lnt">7
 </span></code></pre></td>
 <td class="lntd">
-<pre class="chroma"><code class="language-py" data-lang="py"><span class="k">for</span> <span class="n">number</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="mi">1</span><span class="p">,</span> <span class="mi">101</span><span class="p">):</span>
-  <span class="n">modulo3</span> <span class="o">=</span> <span class="n">number</span> <span class="o">%</span> <span class="mi">3</span> <span class="o">==</span> <span class="mi">0</span>
-  <span class="n">modulo5</span> <span class="o">=</span> <span class="n">number</span> <span class="o">%</span> <span class="mi">5</span> <span class="o">==</span> <span class="mi">0</span>
-  <span class="k">if</span><span class="p">(</span><span class="n">modulo3</span> <span class="ow">and</span> <span class="n">modulo5</span><span class="p">):</span> <span class="k">print</span><span class="p">(</span><span class="s1">&#39;fizzbuzz&#39;</span><span class="p">)</span>
-  <span class="k">elif</span><span class="p">(</span><span class="n">modulo3</span><span class="p">):</span> <span class="k">print</span><span class="p">(</span><span class="s1">&#39;fizz&#39;</span><span class="p">)</span>
-  <span class="k">elif</span><span class="p">(</span><span class="n">modulo5</span><span class="p">):</span> <span class="k">print</span><span class="p">(</span><span class="s1">&#39;buzz&#39;</span><span class="p">)</span>
-  <span class="k">else</span><span class="p">:</span> <span class="k">print</span><span class="p">(</span><span class="n">number</span><span class="p">)</span>
-</code></pre></td></tr></table>
+<pre tabindex="0" class="chroma"><code class="language-py" data-lang="py"><span class="line"><span class="cl"><span class="k">for</span> <span class="n">number</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="mi">1</span><span class="p">,</span> <span class="mi">101</span><span class="p">):</span>
+</span></span><span class="line"><span class="cl">  <span class="n">modulo3</span> <span class="o">=</span> <span class="n">number</span> <span class="o">%</span> <span class="mi">3</span> <span class="o">==</span> <span class="mi">0</span>
+</span></span><span class="line"><span class="cl">  <span class="n">modulo5</span> <span class="o">=</span> <span class="n">number</span> <span class="o">%</span> <span class="mi">5</span> <span class="o">==</span> <span class="mi">0</span>
+</span></span><span class="line"><span class="cl">  <span class="k">if</span><span class="p">(</span><span class="n">modulo3</span> <span class="ow">and</span> <span class="n">modulo5</span><span class="p">):</span> <span class="nb">print</span><span class="p">(</span><span class="s1">&#39;fizzbuzz&#39;</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl">  <span class="k">elif</span><span class="p">(</span><span class="n">modulo3</span><span class="p">):</span> <span class="nb">print</span><span class="p">(</span><span class="s1">&#39;fizz&#39;</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl">  <span class="k">elif</span><span class="p">(</span><span class="n">modulo5</span><span class="p">):</span> <span class="nb">print</span><span class="p">(</span><span class="s1">&#39;buzz&#39;</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl">  <span class="k">else</span><span class="p">:</span> <span class="nb">print</span><span class="p">(</span><span class="n">number</span><span class="p">)</span>
+</span></span></code></pre></td></tr></table>
 </div>
 </div><p>How above approach is more optimize then previous one can be said by, 
 In previous approach lets say number is 5, then there would 3 modulo operation would be runnning while in the newer approach for any case there would just two modulo operation and we are storing two number.</p>
@@ -397,7 +397,7 @@ In previous approach lets say number is 5, then there would 3 modulo operation w
 <p>In above video he showed on of the way to optimize it even better with two modulo and single storage the example he had shown was in kotlin and it goes as follows.</p>
 <div class="highlight"><div class="chroma">
 <table class="lntable"><tr><td class="lntd">
-<pre class="chroma"><code><span class="lnt"> 1
+<pre tabindex="0" class="chroma"><code><span class="lnt"> 1
 </span><span class="lnt"> 2
 </span><span class="lnt"> 3
 </span><span class="lnt"> 4
@@ -411,24 +411,24 @@ In previous approach lets say number is 5, then there would 3 modulo operation w
 </span><span class="lnt">12
 </span></code></pre></td>
 <td class="lntd">
-<pre class="chroma"><code class="language-kotlin" data-lang="kotlin"><span class="k">fun</span> <span class="nf">main</span> <span class="p">(){</span>
-  <span class="k">for</span> <span class="p">(</span><span class="n">i</span> <span class="k">in</span> <span class="m">1.</span><span class="p">.</span><span class="m">100</span><span class="p">)</span> <span class="p">{</span>
-    <span class="k">var</span> <span class="py">d</span> <span class="p">=</span> <span class="s2">&#34;&#34;</span>
-    <span class="k">if</span><span class="p">(</span><span class="n">i</span> <span class="p">%</span> <span class="m">3</span> <span class="o">==</span> <span class="m">0</span><span class="p">)</span> <span class="p">{</span> <span class="n">d</span><span class="o">+=</span> <span class="s2">&#34;fizz&#34;</span> <span class="p">}</span>
-    <span class="k">if</span><span class="p">(</span><span class="n">i</span> <span class="p">%</span> <span class="m">5</span> <span class="o">==</span> <span class="m">0</span><span class="p">)</span> <span class="p">{</span> <span class="n">d</span><span class="o">+=</span> <span class="s2">&#34;buzz&#34;</span> <span class="p">}</span>
-    <span class="k">if</span><span class="p">(</span><span class="n">d</span> <span class="o">==</span> <span class="s2">&#34;&#34;</span> <span class="p">)</span> <span class="p">{</span>
-      <span class="n">println</span><span class="p">(</span><span class="n">i</span><span class="p">)</span>
-    <span class="p">}</span> <span class="k">else</span> <span class="p">{</span>
-      <span class="n">println</span><span class="p">(</span><span class="n">d</span><span class="p">)</span>
-    <span class="p">}</span>
-  <span class="p">}</span>
-<span class="p">}</span>
-</code></pre></td></tr></table>
+<pre tabindex="0" class="chroma"><code class="language-kotlin" data-lang="kotlin"><span class="line"><span class="cl"><span class="k">fun</span> <span class="nf">main</span> <span class="p">(){</span>
+</span></span><span class="line"><span class="cl">  <span class="k">for</span> <span class="p">(</span><span class="n">i</span> <span class="k">in</span> <span class="m">1.</span><span class="p">.</span><span class="m">100</span><span class="p">)</span> <span class="p">{</span>
+</span></span><span class="line"><span class="cl">    <span class="k">var</span> <span class="py">d</span> <span class="p">=</span> <span class="s2">&#34;&#34;</span>
+</span></span><span class="line"><span class="cl">    <span class="k">if</span><span class="p">(</span><span class="n">i</span> <span class="p">%</span> <span class="m">3</span> <span class="o">==</span> <span class="m">0</span><span class="p">)</span> <span class="p">{</span> <span class="n">d</span><span class="o">+=</span> <span class="s2">&#34;fizz&#34;</span> <span class="p">}</span>
+</span></span><span class="line"><span class="cl">    <span class="k">if</span><span class="p">(</span><span class="n">i</span> <span class="p">%</span> <span class="m">5</span> <span class="o">==</span> <span class="m">0</span><span class="p">)</span> <span class="p">{</span> <span class="n">d</span><span class="o">+=</span> <span class="s2">&#34;buzz&#34;</span> <span class="p">}</span>
+</span></span><span class="line"><span class="cl">    <span class="k">if</span><span class="p">(</span><span class="n">d</span> <span class="o">==</span> <span class="s2">&#34;&#34;</span> <span class="p">)</span> <span class="p">{</span>
+</span></span><span class="line"><span class="cl">      <span class="n">println</span><span class="p">(</span><span class="n">i</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl">    <span class="p">}</span> <span class="k">else</span> <span class="p">{</span>
+</span></span><span class="line"><span class="cl">      <span class="n">println</span><span class="p">(</span><span class="n">d</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl">    <span class="p">}</span>
+</span></span><span class="line"><span class="cl">  <span class="p">}</span>
+</span></span><span class="line"><span class="cl"><span class="p">}</span>
+</span></span></code></pre></td></tr></table>
 </div>
 </div><p>We can optimize our solution even better with above approach lets try that as well.</p>
 <div class="highlight"><div class="chroma">
 <table class="lntable"><tr><td class="lntd">
-<pre class="chroma"><code><span class="lnt">1
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
 </span><span class="lnt">2
 </span><span class="lnt">3
 </span><span class="lnt">4
@@ -437,18 +437,18 @@ In previous approach lets say number is 5, then there would 3 modulo operation w
 </span><span class="lnt">7
 </span></code></pre></td>
 <td class="lntd">
-<pre class="chroma"><code class="language-js" data-lang="js"><span class="k">for</span> <span class="p">(</span><span class="nx">number</span> <span class="o">=</span> <span class="mi">1</span><span class="p">;</span> <span class="nx">number</span> <span class="o">&lt;=</span> <span class="mi">100</span><span class="p">;</span> <span class="nx">number</span><span class="o">++</span><span class="p">)</span> <span class="p">{</span>
-  <span class="kd">let</span> <span class="nx">outcome</span> <span class="o">=</span> <span class="s2">&#34;&#34;</span>
-  <span class="k">if</span><span class="p">(</span><span class="nx">number</span> <span class="o">%</span> <span class="mi">3</span> <span class="o">==</span> <span class="mi">0</span><span class="p">)</span> <span class="nx">outcome</span> <span class="o">+=</span> <span class="s2">&#34;fizz&#34;</span>
-  <span class="k">if</span><span class="p">(</span><span class="nx">number</span> <span class="o">%</span> <span class="mi">5</span> <span class="o">==</span> <span class="mi">0</span><span class="p">)</span> <span class="nx">outcome</span> <span class="o">+=</span> <span class="s2">&#34;buzz&#34;</span>
-  <span class="k">if</span><span class="p">(</span><span class="nx">outcome</span><span class="p">)</span> <span class="nx">console</span><span class="p">.</span><span class="nx">log</span><span class="p">(</span><span class="nx">outcome</span><span class="p">)</span>
-  <span class="k">else</span> <span class="nx">console</span><span class="p">.</span><span class="nx">log</span><span class="p">(</span><span class="nx">number</span><span class="p">)</span>
-<span class="p">}</span>
-</code></pre></td></tr></table>
+<pre tabindex="0" class="chroma"><code class="language-js" data-lang="js"><span class="line"><span class="cl"><span class="k">for</span> <span class="p">(</span><span class="nx">number</span> <span class="o">=</span> <span class="mi">1</span><span class="p">;</span> <span class="nx">number</span> <span class="o">&lt;=</span> <span class="mi">100</span><span class="p">;</span> <span class="nx">number</span><span class="o">++</span><span class="p">)</span> <span class="p">{</span>
+</span></span><span class="line"><span class="cl">  <span class="kd">let</span> <span class="nx">outcome</span> <span class="o">=</span> <span class="s2">&#34;&#34;</span>
+</span></span><span class="line"><span class="cl">  <span class="k">if</span><span class="p">(</span><span class="nx">number</span> <span class="o">%</span> <span class="mi">3</span> <span class="o">==</span> <span class="mi">0</span><span class="p">)</span> <span class="nx">outcome</span> <span class="o">+=</span> <span class="s2">&#34;fizz&#34;</span>
+</span></span><span class="line"><span class="cl">  <span class="k">if</span><span class="p">(</span><span class="nx">number</span> <span class="o">%</span> <span class="mi">5</span> <span class="o">==</span> <span class="mi">0</span><span class="p">)</span> <span class="nx">outcome</span> <span class="o">+=</span> <span class="s2">&#34;buzz&#34;</span>
+</span></span><span class="line"><span class="cl">  <span class="k">if</span><span class="p">(</span><span class="nx">outcome</span><span class="p">)</span> <span class="nx">console</span><span class="p">.</span><span class="nx">log</span><span class="p">(</span><span class="nx">outcome</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl">  <span class="k">else</span> <span class="nx">console</span><span class="p">.</span><span class="nx">log</span><span class="p">(</span><span class="nx">number</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl"><span class="p">}</span>
+</span></span></code></pre></td></tr></table>
 </div>
 </div><div class="highlight"><div class="chroma">
 <table class="lntable"><tr><td class="lntd">
-<pre class="chroma"><code><span class="lnt">1
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
 </span><span class="lnt">2
 </span><span class="lnt">3
 </span><span class="lnt">4
@@ -456,13 +456,13 @@ In previous approach lets say number is 5, then there would 3 modulo operation w
 </span><span class="lnt">6
 </span></code></pre></td>
 <td class="lntd">
-<pre class="chroma"><code class="language-py" data-lang="py"><span class="k">for</span> <span class="n">number</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="mi">1</span><span class="p">,</span> <span class="mi">101</span><span class="p">):</span>
-  <span class="n">outcome</span> <span class="o">=</span> <span class="s2">&#34;&#34;</span>
-  <span class="k">if</span><span class="p">(</span><span class="n">number</span> <span class="o">%</span> <span class="mi">3</span> <span class="o">==</span> <span class="mi">0</span><span class="p">)</span> <span class="p">:</span> <span class="n">outcome</span> <span class="o">+=</span> <span class="s1">&#39;fizz&#39;</span>
-  <span class="k">if</span><span class="p">(</span><span class="n">number</span> <span class="o">%</span> <span class="mi">5</span> <span class="o">==</span> <span class="mi">0</span><span class="p">)</span> <span class="p">:</span> <span class="n">outcome</span> <span class="o">+=</span> <span class="s1">&#39;buzz&#39;</span>
-  <span class="k">if</span><span class="p">(</span><span class="n">outcome</span> <span class="o">!=</span> <span class="s2">&#34;&#34;</span><span class="p">)</span> <span class="p">:</span> <span class="k">print</span><span class="p">(</span><span class="n">outcome</span><span class="p">)</span>
-  <span class="k">else</span><span class="p">:</span> <span class="k">print</span><span class="p">(</span><span class="n">number</span><span class="p">)</span>
-</code></pre></td></tr></table>
+<pre tabindex="0" class="chroma"><code class="language-py" data-lang="py"><span class="line"><span class="cl"><span class="k">for</span> <span class="n">number</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="mi">1</span><span class="p">,</span> <span class="mi">101</span><span class="p">):</span>
+</span></span><span class="line"><span class="cl">  <span class="n">outcome</span> <span class="o">=</span> <span class="s2">&#34;&#34;</span>
+</span></span><span class="line"><span class="cl">  <span class="k">if</span><span class="p">(</span><span class="n">number</span> <span class="o">%</span> <span class="mi">3</span> <span class="o">==</span> <span class="mi">0</span><span class="p">)</span> <span class="p">:</span> <span class="n">outcome</span> <span class="o">+=</span> <span class="s1">&#39;fizz&#39;</span>
+</span></span><span class="line"><span class="cl">  <span class="k">if</span><span class="p">(</span><span class="n">number</span> <span class="o">%</span> <span class="mi">5</span> <span class="o">==</span> <span class="mi">0</span><span class="p">)</span> <span class="p">:</span> <span class="n">outcome</span> <span class="o">+=</span> <span class="s1">&#39;buzz&#39;</span>
+</span></span><span class="line"><span class="cl">  <span class="k">if</span><span class="p">(</span><span class="n">outcome</span> <span class="o">!=</span> <span class="s2">&#34;&#34;</span><span class="p">)</span> <span class="p">:</span> <span class="nb">print</span><span class="p">(</span><span class="n">outcome</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl">  <span class="k">else</span><span class="p">:</span> <span class="nb">print</span><span class="p">(</span><span class="n">number</span><span class="p">)</span>
+</span></span></code></pre></td></tr></table>
 </div>
 </div><p>PS: There has been some newer development on optimizing code and the newer approach we took. I had a brief discussion with Vijay aka Punnysher and Anop aka manchurian/potato :D.
 There would be another update to this.</p>
