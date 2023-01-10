@@ -46,11 +46,11 @@ So basically
 
 
 <link rel="icon" href="/favicon.png" />
-
-
-
-
-
+<link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+<link rel="manifest" href="/manifest.json">
+<link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5">
 
 
 
@@ -74,15 +74,15 @@ So basically
 <meta property="og:type" content="article" />
 <meta property="og:url" content="https://BhaveshSGupta.me/blog/learning-python-through-pym-12-08-2019/" /><meta property="article:section" content="blog" />
 <meta property="article:published_time" content="2019-08-12T20:57:26+05:30" />
-<meta property="article:modified_time" content="2019-09-14T18:03:22+05:30" />
+<meta property="article:modified_time" content="2023-01-10T11:28:59+05:30" />
 <meta itemprop="name" content="Learning python through pym 12-08-2019">
 <meta itemprop="description" content="Day 2 PS: These are notes, there could be grammar error and spelling errors.
 Last time had got until here,
 We don&rsquo;t need specify data type with python something similar to javascript where we use var for every type of variable.(const and let are new ES6 standards, although they are not new but new)
 So basically
 1 2 3 a = 10 b = 1.0 c = &#34;test&#34; in above a become integer, b becomes float and c becomes string."><meta itemprop="datePublished" content="2019-08-12T20:57:26+05:30" />
-<meta itemprop="dateModified" content="2019-09-14T18:03:22+05:30" />
-<meta itemprop="wordCount" content="1151">
+<meta itemprop="dateModified" content="2023-01-10T11:28:59+05:30" />
+<meta itemprop="wordCount" content="1133">
 <meta itemprop="keywords" content="pym,dgplug," /><meta name="twitter:card" content="summary"/>
 <meta name="twitter:title" content="Learning python through pym 12-08-2019"/>
 <meta name="twitter:description" content="Day 2 PS: These are notes, there could be grammar error and spelling errors.
@@ -267,27 +267,57 @@ if (!doNotTrack) {
       
 
       <div class="post-meta">
-        <time datetime="2019-08-12" class="post-time">
-          12-08-2019
-        </time>
-        <div class="post-category">
-            <a href="https://BhaveshSGupta.me/categories/pym/"> pym </a>
-            <a href="https://BhaveshSGupta.me/categories/dgplug/"> dgplug </a>
-            
-          </div>
-        <span class="more-meta"> 1151 words </span>
-          <span class="more-meta"> 6 min read </span>
+  <div class="post-meta-author">
+    by
+      <a href="/about">
+        <span class="post-meta-author-name">
+          Bhavesh S. Gupta
+        </span>
+      </a>
+    
+  </div>
 
-        
-        
+  <div class="post-meta-time">
+    <time datetime="2019-08-12">
+      12-08-2019
+    </time>
+  </div>
 
-        
-        
+  
+    <div class="post-meta-lastmod">
+      (LastMod:
+      10-01-2023)
+    </div>
+  
+
+
+  <div class="post-meta__right">
+    <span class="post-meta-more">
+        1133 words -
+        6 min read
+      </span>
+
+    <div class="post-meta-category">
+        <a href="https://BhaveshSGupta.me/categories/pym/"> pym </a>
+          <a href="https://BhaveshSGupta.me/categories/dgplug/"> dgplug </a>
+          
       </div>
+
+
+    
+    
+
+
+    
+    
+  </div>
+</div>
+
     </header>
 
     
     
+
 
     
     <div class="post-content">
@@ -296,16 +326,16 @@ if (!doNotTrack) {
 <p>Last time had got until here,</p>
 <p>We don&rsquo;t need specify data type with python something similar to javascript where we use var for every type of variable.(const and let are new ES6 standards, although they are not new but new)</p>
 <p>So basically</p>
-<div class="highlight"><div class="chroma">
-<table class="lntable"><tr><td class="lntd">
-<pre tabindex="0" class="chroma"><code><span class="lnt">1
-</span><span class="lnt">2
-</span><span class="lnt">3
+<div class="highlight"><div style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">
+<table style="border-spacing:0;padding:0;margin:0;border:0;"><tr><td style="vertical-align:top;padding:0;margin:0;border:0;">
+<pre tabindex="0" style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code><span style="white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-0-1"><a style="outline:none;text-decoration:none;color:inherit" href="#hl-0-1">1</a>
+</span><span style="white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-0-2"><a style="outline:none;text-decoration:none;color:inherit" href="#hl-0-2">2</a>
+</span><span style="white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-0-3"><a style="outline:none;text-decoration:none;color:inherit" href="#hl-0-3">3</a>
 </span></code></pre></td>
-<td class="lntd">
-<pre tabindex="0" class="chroma"><code class="language-py" data-lang="py"><span class="line"><span class="cl"><span class="n">a</span> <span class="o">=</span> <span class="mi">10</span>
-</span></span><span class="line"><span class="cl"><span class="n">b</span> <span class="o">=</span> <span class="mf">1.0</span>
-</span></span><span class="line"><span class="cl"><span class="n">c</span> <span class="o">=</span> <span class="s2">&#34;test&#34;</span>
+<td style="vertical-align:top;padding:0;margin:0;border:0;;width:100%">
+<pre tabindex="0" style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-py" data-lang="py"><span style="display:flex;"><span>a <span style="color:#666">=</span> <span style="color:#40a070">10</span>
+</span></span><span style="display:flex;"><span>b <span style="color:#666">=</span> <span style="color:#40a070">1.0</span>
+</span></span><span style="display:flex;"><span>c <span style="color:#666">=</span> <span style="color:#4070a0">&#34;test&#34;</span>
 </span></span></code></pre></td></tr></table>
 </div>
 </div><p>in above a become integer, b becomes float and c becomes string.</p>
@@ -315,68 +345,68 @@ if (!doNotTrack) {
 <p>python operations would follow BODMAS, and we can evaluate any operations as follows:
 We would create si.py file with below text.
 Please note <code>#!/usr/bin/env python3</code> is very important line without which you would get an error in your code while running file.(Saying with experience)</p>
-<div class="highlight"><div class="chroma">
-<table class="lntable"><tr><td class="lntd">
-<pre tabindex="0" class="chroma"><code><span class="lnt">1
-</span><span class="lnt">2
-</span><span class="lnt">3
-</span><span class="lnt">4
-</span><span class="lnt">5
-</span><span class="lnt">6
+<div class="highlight"><div style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">
+<table style="border-spacing:0;padding:0;margin:0;border:0;"><tr><td style="vertical-align:top;padding:0;margin:0;border:0;">
+<pre tabindex="0" style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code><span style="white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-1-1"><a style="outline:none;text-decoration:none;color:inherit" href="#hl-1-1">1</a>
+</span><span style="white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-1-2"><a style="outline:none;text-decoration:none;color:inherit" href="#hl-1-2">2</a>
+</span><span style="white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-1-3"><a style="outline:none;text-decoration:none;color:inherit" href="#hl-1-3">3</a>
+</span><span style="white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-1-4"><a style="outline:none;text-decoration:none;color:inherit" href="#hl-1-4">4</a>
+</span><span style="white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-1-5"><a style="outline:none;text-decoration:none;color:inherit" href="#hl-1-5">5</a>
+</span><span style="white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-1-6"><a style="outline:none;text-decoration:none;color:inherit" href="#hl-1-6">6</a>
 </span></code></pre></td>
-<td class="lntd">
-<pre tabindex="0" class="chroma"><code class="language-py" data-lang="py"><span class="line"><span class="cl"><span class="ch">#!/usr/bin/env python3</span>
-</span></span><span class="line"><span class="cl"><span class="n">p</span> <span class="o">=</span> <span class="nb">float</span><span class="p">(</span><span class="nb">input</span><span class="p">(</span><span class="s2">&#34;Enter amount: &#34;</span><span class="p">))</span>
-</span></span><span class="line"><span class="cl"><span class="n">r</span> <span class="o">=</span> <span class="nb">float</span><span class="p">(</span><span class="nb">input</span><span class="p">(</span><span class="s2">&#34;Enter Interest rate: &#34;</span><span class="p">))</span>
-</span></span><span class="line"><span class="cl"><span class="n">n</span> <span class="o">=</span>  <span class="nb">int</span><span class="p">(</span><span class="nb">input</span><span class="p">(</span><span class="s2">&#34;Enter period: &#34;</span><span class="p">))</span>
-</span></span><span class="line"><span class="cl"><span class="n">si</span> <span class="o">=</span> <span class="p">(</span><span class="n">p</span><span class="o">*</span><span class="n">r</span><span class="o">*</span><span class="n">n</span><span class="p">)</span><span class="o">/</span><span class="mi">100</span>
-</span></span><span class="line"><span class="cl"><span class="nb">print</span><span class="p">(</span><span class="s2">&#34;Simple Interest: </span><span class="si">%.2f</span><span class="s2">&#34;</span> <span class="o">%</span> <span class="n">si</span><span class="p">)</span>
+<td style="vertical-align:top;padding:0;margin:0;border:0;;width:100%">
+<pre tabindex="0" style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-py" data-lang="py"><span style="display:flex;"><span><span style="color:#60a0b0;font-style:italic">#!/usr/bin/env python3</span>
+</span></span><span style="display:flex;"><span>p <span style="color:#666">=</span> <span style="color:#007020">float</span>(<span style="color:#007020">input</span>(<span style="color:#4070a0">&#34;Enter amount: &#34;</span>))
+</span></span><span style="display:flex;"><span>r <span style="color:#666">=</span> <span style="color:#007020">float</span>(<span style="color:#007020">input</span>(<span style="color:#4070a0">&#34;Enter Interest rate: &#34;</span>))
+</span></span><span style="display:flex;"><span>n <span style="color:#666">=</span>  <span style="color:#007020">int</span>(<span style="color:#007020">input</span>(<span style="color:#4070a0">&#34;Enter period: &#34;</span>))
+</span></span><span style="display:flex;"><span>si <span style="color:#666">=</span> (p<span style="color:#666">*</span>r<span style="color:#666">*</span>n)<span style="color:#666">/</span><span style="color:#40a070">100</span>
+</span></span><span style="display:flex;"><span><span style="color:#007020">print</span>(<span style="color:#4070a0">&#34;Simple Interest: </span><span style="color:#70a0d0">%.2f</span><span style="color:#4070a0">&#34;</span> <span style="color:#666">%</span> si)
 </span></span></code></pre></td></tr></table>
 </div>
 </div><h3 id="multiple-assignments-on-variable">Multiple assignments on variable</h3>
 <p>Is a way to assign value to multiple in a single go(Title itself makes it clear)</p>
-<div class="highlight"><div class="chroma">
-<table class="lntable"><tr><td class="lntd">
-<pre tabindex="0" class="chroma"><code><span class="lnt">1
-</span><span class="lnt">2
-</span><span class="lnt">3
-</span><span class="lnt">4
-</span><span class="lnt">5
+<div class="highlight"><div style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">
+<table style="border-spacing:0;padding:0;margin:0;border:0;"><tr><td style="vertical-align:top;padding:0;margin:0;border:0;">
+<pre tabindex="0" style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code><span style="white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-2-1"><a style="outline:none;text-decoration:none;color:inherit" href="#hl-2-1">1</a>
+</span><span style="white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-2-2"><a style="outline:none;text-decoration:none;color:inherit" href="#hl-2-2">2</a>
+</span><span style="white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-2-3"><a style="outline:none;text-decoration:none;color:inherit" href="#hl-2-3">3</a>
+</span><span style="white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-2-4"><a style="outline:none;text-decoration:none;color:inherit" href="#hl-2-4">4</a>
+</span><span style="white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-2-5"><a style="outline:none;text-decoration:none;color:inherit" href="#hl-2-5">5</a>
 </span></code></pre></td>
-<td class="lntd">
-<pre tabindex="0" class="chroma"><code class="language-py" data-lang="py"><span class="line"><span class="cl"><span class="o">&gt;&gt;&gt;</span> <span class="n">a</span> <span class="p">,</span> <span class="n">b</span> <span class="o">=</span> <span class="s2">&#34;test&#34;</span><span class="p">,</span> <span class="s2">&#34;test1&#34;</span>
-</span></span><span class="line"><span class="cl"><span class="o">&gt;&gt;&gt;</span> <span class="n">a</span>
-</span></span><span class="line"><span class="cl"><span class="s1">&#39;test&#39;</span>
-</span></span><span class="line"><span class="cl"><span class="o">&gt;&gt;&gt;</span> <span class="n">b</span>
-</span></span><span class="line"><span class="cl"><span class="s1">&#39;test1&#39;</span>
+<td style="vertical-align:top;padding:0;margin:0;border:0;;width:100%">
+<pre tabindex="0" style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-py" data-lang="py"><span style="display:flex;"><span><span style="color:#666">&gt;&gt;&gt;</span> a , b <span style="color:#666">=</span> <span style="color:#4070a0">&#34;test&#34;</span>, <span style="color:#4070a0">&#34;test1&#34;</span>
+</span></span><span style="display:flex;"><span><span style="color:#666">&gt;&gt;&gt;</span> a
+</span></span><span style="display:flex;"><span><span style="color:#4070a0">&#39;test&#39;</span>
+</span></span><span style="display:flex;"><span><span style="color:#666">&gt;&gt;&gt;</span> b
+</span></span><span style="display:flex;"><span><span style="color:#4070a0">&#39;test1&#39;</span>
 </span></span></code></pre></td></tr></table>
 </div>
 </div><p>A question which is always part of any programming language you learn in college, how to swap two number with and without using third variable.
 In python because of multiple assignment approach things becomes easy.</p>
-<div class="highlight"><div class="chroma">
-<table class="lntable"><tr><td class="lntd">
-<pre tabindex="0" class="chroma"><code><span class="lnt"> 1
-</span><span class="lnt"> 2
-</span><span class="lnt"> 3
-</span><span class="lnt"> 4
-</span><span class="lnt"> 5
-</span><span class="lnt"> 6
-</span><span class="lnt"> 7
-</span><span class="lnt"> 8
-</span><span class="lnt"> 9
-</span><span class="lnt">10
+<div class="highlight"><div style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">
+<table style="border-spacing:0;padding:0;margin:0;border:0;"><tr><td style="vertical-align:top;padding:0;margin:0;border:0;">
+<pre tabindex="0" style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code><span style="white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-3-1"><a style="outline:none;text-decoration:none;color:inherit" href="#hl-3-1"> 1</a>
+</span><span style="white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-3-2"><a style="outline:none;text-decoration:none;color:inherit" href="#hl-3-2"> 2</a>
+</span><span style="white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-3-3"><a style="outline:none;text-decoration:none;color:inherit" href="#hl-3-3"> 3</a>
+</span><span style="white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-3-4"><a style="outline:none;text-decoration:none;color:inherit" href="#hl-3-4"> 4</a>
+</span><span style="white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-3-5"><a style="outline:none;text-decoration:none;color:inherit" href="#hl-3-5"> 5</a>
+</span><span style="white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-3-6"><a style="outline:none;text-decoration:none;color:inherit" href="#hl-3-6"> 6</a>
+</span><span style="white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-3-7"><a style="outline:none;text-decoration:none;color:inherit" href="#hl-3-7"> 7</a>
+</span><span style="white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-3-8"><a style="outline:none;text-decoration:none;color:inherit" href="#hl-3-8"> 8</a>
+</span><span style="white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-3-9"><a style="outline:none;text-decoration:none;color:inherit" href="#hl-3-9"> 9</a>
+</span><span style="white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-3-10"><a style="outline:none;text-decoration:none;color:inherit" href="#hl-3-10">10</a>
 </span></code></pre></td>
-<td class="lntd">
-<pre tabindex="0" class="chroma"><code class="language-py" data-lang="py"><span class="line"><span class="cl"><span class="o">&gt;&gt;&gt;</span> <span class="n">a</span> <span class="p">,</span> <span class="n">b</span> <span class="o">=</span> <span class="s2">&#34;test&#34;</span><span class="p">,</span> <span class="s2">&#34;test1&#34;</span>
-</span></span><span class="line"><span class="cl"><span class="o">&gt;&gt;&gt;</span> <span class="n">a</span>
-</span></span><span class="line"><span class="cl"><span class="s1">&#39;test&#39;</span>
-</span></span><span class="line"><span class="cl"><span class="o">&gt;&gt;&gt;</span> <span class="n">b</span>
-</span></span><span class="line"><span class="cl"><span class="s1">&#39;test1&#39;</span>
-</span></span><span class="line"><span class="cl"><span class="o">&gt;&gt;&gt;</span> <span class="n">a</span> <span class="p">,</span> <span class="n">b</span> <span class="o">=</span> <span class="n">b</span><span class="p">,</span> <span class="n">a</span>
-</span></span><span class="line"><span class="cl"><span class="o">&gt;&gt;&gt;</span> <span class="n">a</span>
-</span></span><span class="line"><span class="cl"><span class="s1">&#39;test1&#39;</span>
-</span></span><span class="line"><span class="cl"><span class="o">&gt;&gt;&gt;</span> <span class="n">b</span>
-</span></span><span class="line"><span class="cl"><span class="s1">&#39;test&#39;</span>
+<td style="vertical-align:top;padding:0;margin:0;border:0;;width:100%">
+<pre tabindex="0" style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-py" data-lang="py"><span style="display:flex;"><span><span style="color:#666">&gt;&gt;&gt;</span> a , b <span style="color:#666">=</span> <span style="color:#4070a0">&#34;test&#34;</span>, <span style="color:#4070a0">&#34;test1&#34;</span>
+</span></span><span style="display:flex;"><span><span style="color:#666">&gt;&gt;&gt;</span> a
+</span></span><span style="display:flex;"><span><span style="color:#4070a0">&#39;test&#39;</span>
+</span></span><span style="display:flex;"><span><span style="color:#666">&gt;&gt;&gt;</span> b
+</span></span><span style="display:flex;"><span><span style="color:#4070a0">&#39;test1&#39;</span>
+</span></span><span style="display:flex;"><span><span style="color:#666">&gt;&gt;&gt;</span> a , b <span style="color:#666">=</span> b, a
+</span></span><span style="display:flex;"><span><span style="color:#666">&gt;&gt;&gt;</span> a
+</span></span><span style="display:flex;"><span><span style="color:#4070a0">&#39;test1&#39;</span>
+</span></span><span style="display:flex;"><span><span style="color:#666">&gt;&gt;&gt;</span> b
+</span></span><span style="display:flex;"><span><span style="color:#4070a0">&#39;test&#39;</span>
 </span></span></code></pre></td></tr></table>
 </div>
 </div><h3 id="formating-our-printed-strings">Formating our printed strings</h3>
@@ -384,50 +414,50 @@ In python because of multiple assignment approach things becomes easy.</p>
 <ul>
 <li>using %</li>
 </ul>
-<div class="highlight"><div class="chroma">
-<table class="lntable"><tr><td class="lntd">
-<pre tabindex="0" class="chroma"><code><span class="lnt">1
+<div class="highlight"><div style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">
+<table style="border-spacing:0;padding:0;margin:0;border:0;"><tr><td style="vertical-align:top;padding:0;margin:0;border:0;">
+<pre tabindex="0" style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code><span style="white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-4-1"><a style="outline:none;text-decoration:none;color:inherit" href="#hl-4-1">1</a>
 </span></code></pre></td>
-<td class="lntd">
-<pre tabindex="0" class="chroma"><code class="language-py" data-lang="py"><span class="line"><span class="cl"><span class="nb">print</span><span class="p">(</span><span class="s2">&#34;Simple Interest: </span><span class="si">%.2f</span><span class="s2">&#34;</span> <span class="o">%</span> <span class="n">si</span><span class="p">)</span>
+<td style="vertical-align:top;padding:0;margin:0;border:0;;width:100%">
+<pre tabindex="0" style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-py" data-lang="py"><span style="display:flex;"><span><span style="color:#007020">print</span>(<span style="color:#4070a0">&#34;Simple Interest: </span><span style="color:#70a0d0">%.2f</span><span style="color:#4070a0">&#34;</span> <span style="color:#666">%</span> si)
 </span></span></code></pre></td></tr></table>
 </div>
 </div><ul>
 <li>using .format</li>
 </ul>
-<div class="highlight"><div class="chroma">
-<table class="lntable"><tr><td class="lntd">
-<pre tabindex="0" class="chroma"><code><span class="lnt">1
-</span><span class="lnt">2
-</span><span class="lnt">3
-</span><span class="lnt">4
-</span><span class="lnt">5
+<div class="highlight"><div style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">
+<table style="border-spacing:0;padding:0;margin:0;border:0;"><tr><td style="vertical-align:top;padding:0;margin:0;border:0;">
+<pre tabindex="0" style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code><span style="white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-5-1"><a style="outline:none;text-decoration:none;color:inherit" href="#hl-5-1">1</a>
+</span><span style="white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-5-2"><a style="outline:none;text-decoration:none;color:inherit" href="#hl-5-2">2</a>
+</span><span style="white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-5-3"><a style="outline:none;text-decoration:none;color:inherit" href="#hl-5-3">3</a>
+</span><span style="white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-5-4"><a style="outline:none;text-decoration:none;color:inherit" href="#hl-5-4">4</a>
+</span><span style="white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-5-5"><a style="outline:none;text-decoration:none;color:inherit" href="#hl-5-5">5</a>
 </span></code></pre></td>
-<td class="lntd">
-<pre tabindex="0" class="chroma"><code class="language-py" data-lang="py"><span class="line"><span class="cl"><span class="o">&gt;&gt;&gt;</span> <span class="n">name</span> <span class="o">=</span> <span class="s2">&#34;Python&#34;</span>
-</span></span><span class="line"><span class="cl"><span class="o">&gt;&gt;&gt;</span> <span class="n">typeof</span> <span class="o">=</span> <span class="s2">&#34;snake&#34;</span>
-</span></span><span class="line"><span class="cl"><span class="o">&gt;&gt;&gt;</span> <span class="n">msg</span> <span class="o">=</span> <span class="s2">&#34;</span><span class="si">{0}</span><span class="s2"> is </span><span class="si">{1}</span><span class="s2">.&#34;</span><span class="o">.</span><span class="n">format</span><span class="p">(</span><span class="n">name</span><span class="p">,</span> <span class="n">typeof</span><span class="p">)</span>
-</span></span><span class="line"><span class="cl"><span class="o">&gt;&gt;&gt;</span> <span class="nb">print</span><span class="p">(</span><span class="n">msg</span><span class="p">)</span>
-</span></span><span class="line"><span class="cl"><span class="n">Python</span> <span class="ow">is</span> <span class="n">snake</span><span class="o">.</span>
+<td style="vertical-align:top;padding:0;margin:0;border:0;;width:100%">
+<pre tabindex="0" style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-py" data-lang="py"><span style="display:flex;"><span><span style="color:#666">&gt;&gt;&gt;</span> name <span style="color:#666">=</span> <span style="color:#4070a0">&#34;Python&#34;</span>
+</span></span><span style="display:flex;"><span><span style="color:#666">&gt;&gt;&gt;</span> typeof <span style="color:#666">=</span> <span style="color:#4070a0">&#34;snake&#34;</span>
+</span></span><span style="display:flex;"><span><span style="color:#666">&gt;&gt;&gt;</span> msg <span style="color:#666">=</span> <span style="color:#4070a0">&#34;</span><span style="color:#70a0d0">{0}</span><span style="color:#4070a0"> is </span><span style="color:#70a0d0">{1}</span><span style="color:#4070a0">.&#34;</span><span style="color:#666">.</span>format(name, typeof)
+</span></span><span style="display:flex;"><span><span style="color:#666">&gt;&gt;&gt;</span> <span style="color:#007020">print</span>(msg)
+</span></span><span style="display:flex;"><span>Python <span style="color:#007020;font-weight:bold">is</span> snake<span style="color:#666">.</span>
 </span></span></code></pre></td></tr></table>
 </div>
 </div><ul>
 <li>using f-strings(More to read:<a href="https://www.python.org/dev/peps/pep-0498/%5D">link</a>)</li>
 </ul>
-<div class="highlight"><div class="chroma">
-<table class="lntable"><tr><td class="lntd">
-<pre tabindex="0" class="chroma"><code><span class="lnt">1
-</span><span class="lnt">2
-</span><span class="lnt">3
-</span><span class="lnt">4
-</span><span class="lnt">5
+<div class="highlight"><div style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">
+<table style="border-spacing:0;padding:0;margin:0;border:0;"><tr><td style="vertical-align:top;padding:0;margin:0;border:0;">
+<pre tabindex="0" style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code><span style="white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-6-1"><a style="outline:none;text-decoration:none;color:inherit" href="#hl-6-1">1</a>
+</span><span style="white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-6-2"><a style="outline:none;text-decoration:none;color:inherit" href="#hl-6-2">2</a>
+</span><span style="white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-6-3"><a style="outline:none;text-decoration:none;color:inherit" href="#hl-6-3">3</a>
+</span><span style="white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-6-4"><a style="outline:none;text-decoration:none;color:inherit" href="#hl-6-4">4</a>
+</span><span style="white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-6-5"><a style="outline:none;text-decoration:none;color:inherit" href="#hl-6-5">5</a>
 </span></code></pre></td>
-<td class="lntd">
-<pre tabindex="0" class="chroma"><code class="language-py" data-lang="py"><span class="line"><span class="cl"><span class="o">&gt;&gt;&gt;</span> <span class="n">name</span> <span class="o">=</span> <span class="s2">&#34;Python&#34;</span>
-</span></span><span class="line"><span class="cl"><span class="o">&gt;&gt;&gt;</span> <span class="n">typeof</span> <span class="o">=</span> <span class="s2">&#34;snake&#34;</span>
-</span></span><span class="line"><span class="cl"><span class="o">&gt;&gt;&gt;</span> <span class="n">msg</span> <span class="o">=</span> <span class="sa">f</span><span class="s2">&#34;</span><span class="si">{</span><span class="n">name</span><span class="si">}</span><span class="s2"> is </span><span class="si">{</span><span class="n">typeof</span><span class="si">}</span><span class="s2">.&#34;</span>
-</span></span><span class="line"><span class="cl"><span class="o">&gt;&gt;&gt;</span> <span class="nb">print</span><span class="p">(</span><span class="n">msg</span><span class="p">)</span>
-</span></span><span class="line"><span class="cl"><span class="n">Python</span> <span class="ow">is</span> <span class="n">snake</span><span class="o">.</span>
+<td style="vertical-align:top;padding:0;margin:0;border:0;;width:100%">
+<pre tabindex="0" style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-py" data-lang="py"><span style="display:flex;"><span><span style="color:#666">&gt;&gt;&gt;</span> name <span style="color:#666">=</span> <span style="color:#4070a0">&#34;Python&#34;</span>
+</span></span><span style="display:flex;"><span><span style="color:#666">&gt;&gt;&gt;</span> typeof <span style="color:#666">=</span> <span style="color:#4070a0">&#34;snake&#34;</span>
+</span></span><span style="display:flex;"><span><span style="color:#666">&gt;&gt;&gt;</span> msg <span style="color:#666">=</span> <span style="color:#4070a0">f</span><span style="color:#4070a0">&#34;</span><span style="color:#70a0d0">{</span>name<span style="color:#70a0d0">}</span><span style="color:#4070a0"> is </span><span style="color:#70a0d0">{</span>typeof<span style="color:#70a0d0">}</span><span style="color:#4070a0">.&#34;</span>
+</span></span><span style="display:flex;"><span><span style="color:#666">&gt;&gt;&gt;</span> <span style="color:#007020">print</span>(msg)
+</span></span><span style="display:flex;"><span>Python <span style="color:#007020;font-weight:bold">is</span> snake<span style="color:#666">.</span>
 </span></span></code></pre></td></tr></table>
 </div>
 </div><p>I find f-string more easy because it somewhat similar syntax to template string in javascript.</p>
@@ -435,66 +465,66 @@ In python because of multiple assignment approach things becomes easy.</p>
 <p>In Python most of the lines you will write will be expressions. Expressions are made of operators and operands. An expression is like 2 + 3 .</p>
 <h3 id="operators">Operators</h3>
 <p>Operators are symbols which tell python interpreter to do mathematical or logical operations ie. addition, subtraction and etc.</p>
-<div class="highlight"><div class="chroma">
-<table class="lntable"><tr><td class="lntd">
-<pre tabindex="0" class="chroma"><code><span class="lnt"> 1
-</span><span class="lnt"> 2
-</span><span class="lnt"> 3
-</span><span class="lnt"> 4
-</span><span class="lnt"> 5
-</span><span class="lnt"> 6
-</span><span class="lnt"> 7
-</span><span class="lnt"> 8
-</span><span class="lnt"> 9
-</span><span class="lnt">10
-</span><span class="lnt">11
-</span><span class="lnt">12
+<div class="highlight"><div style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">
+<table style="border-spacing:0;padding:0;margin:0;border:0;"><tr><td style="vertical-align:top;padding:0;margin:0;border:0;">
+<pre tabindex="0" style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code><span style="white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-7-1"><a style="outline:none;text-decoration:none;color:inherit" href="#hl-7-1"> 1</a>
+</span><span style="white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-7-2"><a style="outline:none;text-decoration:none;color:inherit" href="#hl-7-2"> 2</a>
+</span><span style="white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-7-3"><a style="outline:none;text-decoration:none;color:inherit" href="#hl-7-3"> 3</a>
+</span><span style="white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-7-4"><a style="outline:none;text-decoration:none;color:inherit" href="#hl-7-4"> 4</a>
+</span><span style="white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-7-5"><a style="outline:none;text-decoration:none;color:inherit" href="#hl-7-5"> 5</a>
+</span><span style="white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-7-6"><a style="outline:none;text-decoration:none;color:inherit" href="#hl-7-6"> 6</a>
+</span><span style="white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-7-7"><a style="outline:none;text-decoration:none;color:inherit" href="#hl-7-7"> 7</a>
+</span><span style="white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-7-8"><a style="outline:none;text-decoration:none;color:inherit" href="#hl-7-8"> 8</a>
+</span><span style="white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-7-9"><a style="outline:none;text-decoration:none;color:inherit" href="#hl-7-9"> 9</a>
+</span><span style="white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-7-10"><a style="outline:none;text-decoration:none;color:inherit" href="#hl-7-10">10</a>
+</span><span style="white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-7-11"><a style="outline:none;text-decoration:none;color:inherit" href="#hl-7-11">11</a>
+</span><span style="white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-7-12"><a style="outline:none;text-decoration:none;color:inherit" href="#hl-7-12">12</a>
 </span></code></pre></td>
-<td class="lntd">
-<pre tabindex="0" class="chroma"><code class="language-py" data-lang="py"><span class="line"><span class="cl"><span class="c1"># addition</span>
-</span></span><span class="line"><span class="cl"><span class="o">&gt;&gt;&gt;</span> <span class="mi">2</span> <span class="o">+</span> <span class="mi">3</span>
-</span></span><span class="line"><span class="cl"><span class="mi">5</span>
-</span></span><span class="line"><span class="cl"><span class="c1"># subtraction</span>
-</span></span><span class="line"><span class="cl"><span class="o">&gt;&gt;&gt;</span> <span class="mi">23</span> <span class="o">-</span> <span class="mi">3</span>
-</span></span><span class="line"><span class="cl"><span class="mi">20</span>
-</span></span><span class="line"><span class="cl"><span class="c1"># divide</span>
-</span></span><span class="line"><span class="cl"><span class="o">&gt;&gt;&gt;</span> <span class="mf">22.0</span> <span class="o">/</span> <span class="mi">12</span>
-</span></span><span class="line"><span class="cl"><span class="mf">1.8333333333333333</span>
-</span></span><span class="line"><span class="cl"><span class="c1"># modulo</span>
-</span></span><span class="line"><span class="cl"><span class="o">&gt;&gt;&gt;</span> <span class="mi">14</span> <span class="o">%</span> <span class="mi">3</span>
-</span></span><span class="line"><span class="cl"><span class="mi">2</span>
+<td style="vertical-align:top;padding:0;margin:0;border:0;;width:100%">
+<pre tabindex="0" style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-py" data-lang="py"><span style="display:flex;"><span><span style="color:#60a0b0;font-style:italic"># addition</span>
+</span></span><span style="display:flex;"><span><span style="color:#666">&gt;&gt;&gt;</span> <span style="color:#40a070">2</span> <span style="color:#666">+</span> <span style="color:#40a070">3</span>
+</span></span><span style="display:flex;"><span><span style="color:#40a070">5</span>
+</span></span><span style="display:flex;"><span><span style="color:#60a0b0;font-style:italic"># subtraction</span>
+</span></span><span style="display:flex;"><span><span style="color:#666">&gt;&gt;&gt;</span> <span style="color:#40a070">23</span> <span style="color:#666">-</span> <span style="color:#40a070">3</span>
+</span></span><span style="display:flex;"><span><span style="color:#40a070">20</span>
+</span></span><span style="display:flex;"><span><span style="color:#60a0b0;font-style:italic"># divide</span>
+</span></span><span style="display:flex;"><span><span style="color:#666">&gt;&gt;&gt;</span> <span style="color:#40a070">22.0</span> <span style="color:#666">/</span> <span style="color:#40a070">12</span>
+</span></span><span style="display:flex;"><span><span style="color:#40a070">1.8333333333333333</span>
+</span></span><span style="display:flex;"><span><span style="color:#60a0b0;font-style:italic"># modulo</span>
+</span></span><span style="display:flex;"><span><span style="color:#666">&gt;&gt;&gt;</span> <span style="color:#40a070">14</span> <span style="color:#666">%</span> <span style="color:#40a070">3</span>
+</span></span><span style="display:flex;"><span><span style="color:#40a070">2</span>
 </span></span></code></pre></td></tr></table>
 </div>
 </div><h3 id="example-why-python-is-awesome">Example why python is awesome</h3>
-<div class="highlight"><div class="chroma">
-<table class="lntable"><tr><td class="lntd">
-<pre tabindex="0" class="chroma"><code><span class="lnt">1
-</span><span class="lnt">2
-</span><span class="lnt">3
+<div class="highlight"><div style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">
+<table style="border-spacing:0;padding:0;margin:0;border:0;"><tr><td style="vertical-align:top;padding:0;margin:0;border:0;">
+<pre tabindex="0" style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code><span style="white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-8-1"><a style="outline:none;text-decoration:none;color:inherit" href="#hl-8-1">1</a>
+</span><span style="white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-8-2"><a style="outline:none;text-decoration:none;color:inherit" href="#hl-8-2">2</a>
+</span><span style="white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-8-3"><a style="outline:none;text-decoration:none;color:inherit" href="#hl-8-3">3</a>
 </span></code></pre></td>
-<td class="lntd">
-<pre tabindex="0" class="chroma"><code class="language-py" data-lang="py"><span class="line"><span class="cl"><span class="ch">#!/usr/bin/env python3</span>
-</span></span><span class="line"><span class="cl"><span class="n">days</span> <span class="o">=</span> <span class="nb">int</span><span class="p">(</span><span class="nb">input</span><span class="p">(</span><span class="s2">&#34;Enter days: &#34;</span><span class="p">))</span>
-</span></span><span class="line"><span class="cl"><span class="nb">print</span><span class="p">(</span><span class="s2">&#34;Months = </span><span class="si">%d</span><span class="s2"> Days = </span><span class="si">%d</span><span class="s2">&#34;</span> <span class="o">%</span> <span class="p">(</span><span class="nb">divmod</span><span class="p">(</span><span class="n">days</span><span class="p">,</span> <span class="mi">30</span><span class="p">)))</span>
+<td style="vertical-align:top;padding:0;margin:0;border:0;;width:100%">
+<pre tabindex="0" style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-py" data-lang="py"><span style="display:flex;"><span><span style="color:#60a0b0;font-style:italic">#!/usr/bin/env python3</span>
+</span></span><span style="display:flex;"><span>days <span style="color:#666">=</span> <span style="color:#007020">int</span>(<span style="color:#007020">input</span>(<span style="color:#4070a0">&#34;Enter days: &#34;</span>))
+</span></span><span style="display:flex;"><span><span style="color:#007020">print</span>(<span style="color:#4070a0">&#34;Months = </span><span style="color:#70a0d0">%d</span><span style="color:#4070a0"> Days = </span><span style="color:#70a0d0">%d</span><span style="color:#4070a0">&#34;</span> <span style="color:#666">%</span> (<span style="color:#007020">divmod</span>(days, <span style="color:#40a070">30</span>)))
 </span></span></code></pre></td></tr></table>
 </div>
 </div><p>Save above code in days.py file. When you run this file as ./days.py it would ask you to enter days you enter let say 50 then it would print both months and remaining days with single function
 because the divmod(num1, num2) function returns two values , first is the division of num1 and num2 and in second the modulo of num1 and num2.</p>
 <p>Above code could also be written as follows the longer way:</p>
-<div class="highlight"><div class="chroma">
-<table class="lntable"><tr><td class="lntd">
-<pre tabindex="0" class="chroma"><code><span class="lnt">1
-</span><span class="lnt">2
-</span><span class="lnt">3
-</span><span class="lnt">4
-</span><span class="lnt">5
+<div class="highlight"><div style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">
+<table style="border-spacing:0;padding:0;margin:0;border:0;"><tr><td style="vertical-align:top;padding:0;margin:0;border:0;">
+<pre tabindex="0" style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code><span style="white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-9-1"><a style="outline:none;text-decoration:none;color:inherit" href="#hl-9-1">1</a>
+</span><span style="white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-9-2"><a style="outline:none;text-decoration:none;color:inherit" href="#hl-9-2">2</a>
+</span><span style="white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-9-3"><a style="outline:none;text-decoration:none;color:inherit" href="#hl-9-3">3</a>
+</span><span style="white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-9-4"><a style="outline:none;text-decoration:none;color:inherit" href="#hl-9-4">4</a>
+</span><span style="white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-9-5"><a style="outline:none;text-decoration:none;color:inherit" href="#hl-9-5">5</a>
 </span></code></pre></td>
-<td class="lntd">
-<pre tabindex="0" class="chroma"><code class="language-py" data-lang="py"><span class="line"><span class="cl"><span class="ch">#!/usr/bin/env python3</span>
-</span></span><span class="line"><span class="cl"><span class="n">days</span> <span class="o">=</span> <span class="nb">int</span><span class="p">(</span><span class="nb">input</span><span class="p">(</span><span class="s2">&#34;Enter days: &#34;</span><span class="p">))</span>
-</span></span><span class="line"><span class="cl"><span class="n">months</span> <span class="o">=</span> <span class="n">days</span> <span class="o">/</span> <span class="mi">30</span>
-</span></span><span class="line"><span class="cl"><span class="n">days</span> <span class="o">=</span> <span class="n">days</span> <span class="o">%</span> <span class="mi">30</span>
-</span></span><span class="line"><span class="cl"><span class="nb">print</span><span class="p">(</span><span class="s2">&#34;Months = </span><span class="si">%d</span><span class="s2"> Days = </span><span class="si">%d</span><span class="s2">&#34;</span> <span class="o">%</span> <span class="p">(</span><span class="n">months</span><span class="p">,</span> <span class="n">days</span><span class="p">))</span>
+<td style="vertical-align:top;padding:0;margin:0;border:0;;width:100%">
+<pre tabindex="0" style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-py" data-lang="py"><span style="display:flex;"><span><span style="color:#60a0b0;font-style:italic">#!/usr/bin/env python3</span>
+</span></span><span style="display:flex;"><span>days <span style="color:#666">=</span> <span style="color:#007020">int</span>(<span style="color:#007020">input</span>(<span style="color:#4070a0">&#34;Enter days: &#34;</span>))
+</span></span><span style="display:flex;"><span>months <span style="color:#666">=</span> days <span style="color:#666">/</span> <span style="color:#40a070">30</span>
+</span></span><span style="display:flex;"><span>days <span style="color:#666">=</span> days <span style="color:#666">%</span> <span style="color:#40a070">30</span>
+</span></span><span style="display:flex;"><span><span style="color:#007020">print</span>(<span style="color:#4070a0">&#34;Months = </span><span style="color:#70a0d0">%d</span><span style="color:#4070a0"> Days = </span><span style="color:#70a0d0">%d</span><span style="color:#4070a0">&#34;</span> <span style="color:#666">%</span> (months, days))
 </span></span></code></pre></td></tr></table>
 </div>
 </div><h3 id="relational-operators">Relational Operators</h3>
@@ -534,189 +564,153 @@ because the divmod(num1, num2) function returns two values , first is the divisi
 </tbody>
 </table>
 <p>Some examples also:</p>
-<div class="highlight"><div class="chroma">
-<table class="lntable"><tr><td class="lntd">
-<pre tabindex="0" class="chroma"><code><span class="lnt"> 1
-</span><span class="lnt"> 2
-</span><span class="lnt"> 3
-</span><span class="lnt"> 4
-</span><span class="lnt"> 5
-</span><span class="lnt"> 6
-</span><span class="lnt"> 7
-</span><span class="lnt"> 8
-</span><span class="lnt"> 9
-</span><span class="lnt">10
-</span><span class="lnt">11
-</span><span class="lnt">12
-</span><span class="lnt">13
+<div class="highlight"><div style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">
+<table style="border-spacing:0;padding:0;margin:0;border:0;"><tr><td style="vertical-align:top;padding:0;margin:0;border:0;">
+<pre tabindex="0" style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code><span style="white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-10-1"><a style="outline:none;text-decoration:none;color:inherit" href="#hl-10-1"> 1</a>
+</span><span style="white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-10-2"><a style="outline:none;text-decoration:none;color:inherit" href="#hl-10-2"> 2</a>
+</span><span style="white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-10-3"><a style="outline:none;text-decoration:none;color:inherit" href="#hl-10-3"> 3</a>
+</span><span style="white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-10-4"><a style="outline:none;text-decoration:none;color:inherit" href="#hl-10-4"> 4</a>
+</span><span style="white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-10-5"><a style="outline:none;text-decoration:none;color:inherit" href="#hl-10-5"> 5</a>
+</span><span style="white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-10-6"><a style="outline:none;text-decoration:none;color:inherit" href="#hl-10-6"> 6</a>
+</span><span style="white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-10-7"><a style="outline:none;text-decoration:none;color:inherit" href="#hl-10-7"> 7</a>
+</span><span style="white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-10-8"><a style="outline:none;text-decoration:none;color:inherit" href="#hl-10-8"> 8</a>
+</span><span style="white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-10-9"><a style="outline:none;text-decoration:none;color:inherit" href="#hl-10-9"> 9</a>
+</span><span style="white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-10-10"><a style="outline:none;text-decoration:none;color:inherit" href="#hl-10-10">10</a>
+</span><span style="white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-10-11"><a style="outline:none;text-decoration:none;color:inherit" href="#hl-10-11">11</a>
+</span><span style="white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-10-12"><a style="outline:none;text-decoration:none;color:inherit" href="#hl-10-12">12</a>
+</span><span style="white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-10-13"><a style="outline:none;text-decoration:none;color:inherit" href="#hl-10-13">13</a>
 </span></code></pre></td>
-<td class="lntd">
-<pre tabindex="0" class="chroma"><code class="language-py" data-lang="py"><span class="line"><span class="cl"><span class="o">&gt;&gt;&gt;</span> <span class="mi">1</span> <span class="o">&lt;</span> <span class="mi">2</span>
-</span></span><span class="line"><span class="cl"><span class="kc">True</span>
-</span></span><span class="line"><span class="cl"><span class="o">&gt;&gt;&gt;</span> <span class="mi">3</span> <span class="o">&gt;</span> <span class="mi">34</span>
-</span></span><span class="line"><span class="cl"><span class="kc">False</span>
-</span></span><span class="line"><span class="cl"><span class="o">&gt;&gt;&gt;</span> <span class="mi">23</span> <span class="o">==</span> <span class="mi">45</span>
-</span></span><span class="line"><span class="cl"><span class="kc">False</span>
-</span></span><span class="line"><span class="cl"><span class="o">&gt;&gt;&gt;</span> <span class="mi">34</span> <span class="o">!=</span> <span class="mi">323</span>
-</span></span><span class="line"><span class="cl"><span class="kc">True</span>
-</span></span><span class="line"><span class="cl"><span class="c1"># &#39;//&#39; Gives floor division result, could be useful at many places where you would call floor function</span>
-</span></span><span class="line"><span class="cl"><span class="o">&gt;&gt;&gt;</span> <span class="mf">4.0</span> <span class="o">//</span> <span class="mi">3</span> 
-</span></span><span class="line"><span class="cl"><span class="mf">1.0</span>
-</span></span><span class="line"><span class="cl"><span class="o">&gt;&gt;&gt;</span> <span class="mf">4.0</span> <span class="o">/</span> <span class="mi">3</span>
-</span></span><span class="line"><span class="cl"><span class="mf">1.3333333333333333</span>
+<td style="vertical-align:top;padding:0;margin:0;border:0;;width:100%">
+<pre tabindex="0" style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-py" data-lang="py"><span style="display:flex;"><span><span style="color:#666">&gt;&gt;&gt;</span> <span style="color:#40a070">1</span> <span style="color:#666">&lt;</span> <span style="color:#40a070">2</span>
+</span></span><span style="display:flex;"><span><span style="color:#007020;font-weight:bold">True</span>
+</span></span><span style="display:flex;"><span><span style="color:#666">&gt;&gt;&gt;</span> <span style="color:#40a070">3</span> <span style="color:#666">&gt;</span> <span style="color:#40a070">34</span>
+</span></span><span style="display:flex;"><span><span style="color:#007020;font-weight:bold">False</span>
+</span></span><span style="display:flex;"><span><span style="color:#666">&gt;&gt;&gt;</span> <span style="color:#40a070">23</span> <span style="color:#666">==</span> <span style="color:#40a070">45</span>
+</span></span><span style="display:flex;"><span><span style="color:#007020;font-weight:bold">False</span>
+</span></span><span style="display:flex;"><span><span style="color:#666">&gt;&gt;&gt;</span> <span style="color:#40a070">34</span> <span style="color:#666">!=</span> <span style="color:#40a070">323</span>
+</span></span><span style="display:flex;"><span><span style="color:#007020;font-weight:bold">True</span>
+</span></span><span style="display:flex;"><span><span style="color:#60a0b0;font-style:italic"># &#39;//&#39; Gives floor division result, could be useful at many places where you would call floor function</span>
+</span></span><span style="display:flex;"><span><span style="color:#666">&gt;&gt;&gt;</span> <span style="color:#40a070">4.0</span> <span style="color:#666">//</span> <span style="color:#40a070">3</span> 
+</span></span><span style="display:flex;"><span><span style="color:#40a070">1.0</span>
+</span></span><span style="display:flex;"><span><span style="color:#666">&gt;&gt;&gt;</span> <span style="color:#40a070">4.0</span> <span style="color:#666">/</span> <span style="color:#40a070">3</span>
+</span></span><span style="display:flex;"><span><span style="color:#40a070">1.3333333333333333</span>
 </span></span></code></pre></td></tr></table>
 </div>
 </div><h3 id="logical-operators">Logical Operators</h3>
 <p>Note for self: There is difference between logical and bitwise operators. Please don&rsquo;t get confused.
 In logical operators when first value is not true then it would return second value</p>
-<div class="highlight"><div class="chroma">
-<table class="lntable"><tr><td class="lntd">
-<pre tabindex="0" class="chroma"><code><span class="lnt">1
-</span><span class="lnt">2
-</span><span class="lnt">3
-</span><span class="lnt">4
-</span><span class="lnt">5
-</span><span class="lnt">6
-</span><span class="lnt">7
-</span><span class="lnt">8
+<div class="highlight"><div style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">
+<table style="border-spacing:0;padding:0;margin:0;border:0;"><tr><td style="vertical-align:top;padding:0;margin:0;border:0;">
+<pre tabindex="0" style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code><span style="white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-11-1"><a style="outline:none;text-decoration:none;color:inherit" href="#hl-11-1">1</a>
+</span><span style="white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-11-2"><a style="outline:none;text-decoration:none;color:inherit" href="#hl-11-2">2</a>
+</span><span style="white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-11-3"><a style="outline:none;text-decoration:none;color:inherit" href="#hl-11-3">3</a>
+</span><span style="white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-11-4"><a style="outline:none;text-decoration:none;color:inherit" href="#hl-11-4">4</a>
+</span><span style="white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-11-5"><a style="outline:none;text-decoration:none;color:inherit" href="#hl-11-5">5</a>
+</span><span style="white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-11-6"><a style="outline:none;text-decoration:none;color:inherit" href="#hl-11-6">6</a>
+</span><span style="white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-11-7"><a style="outline:none;text-decoration:none;color:inherit" href="#hl-11-7">7</a>
+</span><span style="white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-11-8"><a style="outline:none;text-decoration:none;color:inherit" href="#hl-11-8">8</a>
 </span></code></pre></td>
-<td class="lntd">
-<pre tabindex="0" class="chroma"><code class="language-py" data-lang="py"><span class="line"><span class="cl"><span class="o">&gt;&gt;&gt;</span> <span class="mi">1</span> <span class="ow">and</span> <span class="mi">4</span>
-</span></span><span class="line"><span class="cl"><span class="mi">4</span>
-</span></span><span class="line"><span class="cl"><span class="o">&gt;&gt;&gt;</span> <span class="mi">1</span> <span class="ow">or</span> <span class="mi">4</span>
-</span></span><span class="line"><span class="cl"><span class="mi">1</span>
-</span></span><span class="line"><span class="cl"><span class="o">&gt;&gt;&gt;</span> <span class="o">-</span><span class="mi">1</span> <span class="ow">or</span> <span class="mi">4</span>
-</span></span><span class="line"><span class="cl"><span class="o">-</span><span class="mi">1</span>
-</span></span><span class="line"><span class="cl"><span class="o">&gt;&gt;&gt;</span> <span class="mi">0</span> <span class="ow">or</span> <span class="mi">4</span>
-</span></span><span class="line"><span class="cl"><span class="mi">4</span>
+<td style="vertical-align:top;padding:0;margin:0;border:0;;width:100%">
+<pre tabindex="0" style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-py" data-lang="py"><span style="display:flex;"><span><span style="color:#666">&gt;&gt;&gt;</span> <span style="color:#40a070">1</span> <span style="color:#007020;font-weight:bold">and</span> <span style="color:#40a070">4</span>
+</span></span><span style="display:flex;"><span><span style="color:#40a070">4</span>
+</span></span><span style="display:flex;"><span><span style="color:#666">&gt;&gt;&gt;</span> <span style="color:#40a070">1</span> <span style="color:#007020;font-weight:bold">or</span> <span style="color:#40a070">4</span>
+</span></span><span style="display:flex;"><span><span style="color:#40a070">1</span>
+</span></span><span style="display:flex;"><span><span style="color:#666">&gt;&gt;&gt;</span> <span style="color:#666">-</span><span style="color:#40a070">1</span> <span style="color:#007020;font-weight:bold">or</span> <span style="color:#40a070">4</span>
+</span></span><span style="display:flex;"><span><span style="color:#666">-</span><span style="color:#40a070">1</span>
+</span></span><span style="display:flex;"><span><span style="color:#666">&gt;&gt;&gt;</span> <span style="color:#40a070">0</span> <span style="color:#007020;font-weight:bold">or</span> <span style="color:#40a070">4</span>
+</span></span><span style="display:flex;"><span><span style="color:#40a070">4</span>
 </span></span></code></pre></td></tr></table>
 </div>
 </div><h3 id="shorthand-operators">Shorthand Operators</h3>
 <p>When you perform operation on same variable where you are storing value for example.</p>
-<div class="highlight"><div class="chroma">
-<table class="lntable"><tr><td class="lntd">
-<pre tabindex="0" class="chroma"><code><span class="lnt"> 1
-</span><span class="lnt"> 2
-</span><span class="lnt"> 3
-</span><span class="lnt"> 4
-</span><span class="lnt"> 5
-</span><span class="lnt"> 6
-</span><span class="lnt"> 7
-</span><span class="lnt"> 8
-</span><span class="lnt"> 9
-</span><span class="lnt">10
+<div class="highlight"><div style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">
+<table style="border-spacing:0;padding:0;margin:0;border:0;"><tr><td style="vertical-align:top;padding:0;margin:0;border:0;">
+<pre tabindex="0" style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code><span style="white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-12-1"><a style="outline:none;text-decoration:none;color:inherit" href="#hl-12-1"> 1</a>
+</span><span style="white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-12-2"><a style="outline:none;text-decoration:none;color:inherit" href="#hl-12-2"> 2</a>
+</span><span style="white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-12-3"><a style="outline:none;text-decoration:none;color:inherit" href="#hl-12-3"> 3</a>
+</span><span style="white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-12-4"><a style="outline:none;text-decoration:none;color:inherit" href="#hl-12-4"> 4</a>
+</span><span style="white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-12-5"><a style="outline:none;text-decoration:none;color:inherit" href="#hl-12-5"> 5</a>
+</span><span style="white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-12-6"><a style="outline:none;text-decoration:none;color:inherit" href="#hl-12-6"> 6</a>
+</span><span style="white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-12-7"><a style="outline:none;text-decoration:none;color:inherit" href="#hl-12-7"> 7</a>
+</span><span style="white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-12-8"><a style="outline:none;text-decoration:none;color:inherit" href="#hl-12-8"> 8</a>
+</span><span style="white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-12-9"><a style="outline:none;text-decoration:none;color:inherit" href="#hl-12-9"> 9</a>
+</span><span style="white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-12-10"><a style="outline:none;text-decoration:none;color:inherit" href="#hl-12-10">10</a>
 </span></code></pre></td>
-<td class="lntd">
-<pre tabindex="0" class="chroma"><code class="language-py" data-lang="py"><span class="line"><span class="cl"><span class="o">&gt;&gt;&gt;</span> <span class="n">a</span> <span class="o">=</span> <span class="mi">12</span>
-</span></span><span class="line"><span class="cl"><span class="o">&gt;&gt;&gt;</span> <span class="n">a</span> <span class="o">+=</span> <span class="mi">13</span>
-</span></span><span class="line"><span class="cl"><span class="o">&gt;&gt;&gt;</span> <span class="n">a</span>
-</span></span><span class="line"><span class="cl"><span class="mi">25</span>
-</span></span><span class="line"><span class="cl"><span class="o">&gt;&gt;&gt;</span> <span class="n">a</span> <span class="o">/=</span> <span class="mi">3</span>
-</span></span><span class="line"><span class="cl"><span class="o">&gt;&gt;&gt;</span> <span class="n">a</span>
-</span></span><span class="line"><span class="cl"><span class="mf">8.333333333333334</span>
-</span></span><span class="line"><span class="cl"><span class="o">&gt;&gt;&gt;</span> <span class="n">a</span> <span class="o">+=</span> <span class="p">(</span><span class="mi">26</span> <span class="o">*</span> <span class="mi">32</span><span class="p">)</span>
-</span></span><span class="line"><span class="cl"><span class="o">&gt;&gt;&gt;</span> <span class="n">a</span>
-</span></span><span class="line"><span class="cl"><span class="mf">840.3333333333334</span>
+<td style="vertical-align:top;padding:0;margin:0;border:0;;width:100%">
+<pre tabindex="0" style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-py" data-lang="py"><span style="display:flex;"><span><span style="color:#666">&gt;&gt;&gt;</span> a <span style="color:#666">=</span> <span style="color:#40a070">12</span>
+</span></span><span style="display:flex;"><span><span style="color:#666">&gt;&gt;&gt;</span> a <span style="color:#666">+=</span> <span style="color:#40a070">13</span>
+</span></span><span style="display:flex;"><span><span style="color:#666">&gt;&gt;&gt;</span> a
+</span></span><span style="display:flex;"><span><span style="color:#40a070">25</span>
+</span></span><span style="display:flex;"><span><span style="color:#666">&gt;&gt;&gt;</span> a <span style="color:#666">/=</span> <span style="color:#40a070">3</span>
+</span></span><span style="display:flex;"><span><span style="color:#666">&gt;&gt;&gt;</span> a
+</span></span><span style="display:flex;"><span><span style="color:#40a070">8.333333333333334</span>
+</span></span><span style="display:flex;"><span><span style="color:#666">&gt;&gt;&gt;</span> a <span style="color:#666">+=</span> (<span style="color:#40a070">26</span> <span style="color:#666">*</span> <span style="color:#40a070">32</span>)
+</span></span><span style="display:flex;"><span><span style="color:#666">&gt;&gt;&gt;</span> a
+</span></span><span style="display:flex;"><span><span style="color:#40a070">840.3333333333334</span>
 </span></span></code></pre></td></tr></table>
 </div>
 </div><h3 id="expressions">Expressions</h3>
 <p>General rule whenever you write any operator give spaces between them. Evaluation of expression follows BODMAS.
 For example in following code evaluation of x,y,z would be:</p>
-<div class="highlight"><div class="chroma">
-<table class="lntable"><tr><td class="lntd">
-<pre tabindex="0" class="chroma"><code><span class="lnt"> 1
-</span><span class="lnt"> 2
-</span><span class="lnt"> 3
-</span><span class="lnt"> 4
-</span><span class="lnt"> 5
-</span><span class="lnt"> 6
-</span><span class="lnt"> 7
-</span><span class="lnt"> 8
-</span><span class="lnt"> 9
-</span><span class="lnt">10
+<div class="highlight"><div style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">
+<table style="border-spacing:0;padding:0;margin:0;border:0;"><tr><td style="vertical-align:top;padding:0;margin:0;border:0;">
+<pre tabindex="0" style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code><span style="white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-13-1"><a style="outline:none;text-decoration:none;color:inherit" href="#hl-13-1"> 1</a>
+</span><span style="white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-13-2"><a style="outline:none;text-decoration:none;color:inherit" href="#hl-13-2"> 2</a>
+</span><span style="white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-13-3"><a style="outline:none;text-decoration:none;color:inherit" href="#hl-13-3"> 3</a>
+</span><span style="white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-13-4"><a style="outline:none;text-decoration:none;color:inherit" href="#hl-13-4"> 4</a>
+</span><span style="white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-13-5"><a style="outline:none;text-decoration:none;color:inherit" href="#hl-13-5"> 5</a>
+</span><span style="white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-13-6"><a style="outline:none;text-decoration:none;color:inherit" href="#hl-13-6"> 6</a>
+</span><span style="white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-13-7"><a style="outline:none;text-decoration:none;color:inherit" href="#hl-13-7"> 7</a>
+</span><span style="white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-13-8"><a style="outline:none;text-decoration:none;color:inherit" href="#hl-13-8"> 8</a>
+</span><span style="white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-13-9"><a style="outline:none;text-decoration:none;color:inherit" href="#hl-13-9"> 9</a>
+</span><span style="white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-13-10"><a style="outline:none;text-decoration:none;color:inherit" href="#hl-13-10">10</a>
 </span></code></pre></td>
-<td class="lntd">
-<pre tabindex="0" class="chroma"><code class="language-py" data-lang="py"><span class="line"><span class="cl"><span class="ch">#!/usr/bin/env python3</span>
-</span></span><span class="line"><span class="cl"><span class="n">a</span> <span class="o">=</span> <span class="mi">9</span>
-</span></span><span class="line"><span class="cl"><span class="n">b</span> <span class="o">=</span> <span class="mi">12</span>
-</span></span><span class="line"><span class="cl"><span class="n">c</span> <span class="o">=</span> <span class="mi">3</span>
-</span></span><span class="line"><span class="cl"><span class="n">x</span> <span class="o">=</span> <span class="n">a</span> <span class="o">-</span> <span class="n">b</span> <span class="o">/</span> <span class="mi">3</span> <span class="o">+</span> <span class="n">c</span> <span class="o">*</span> <span class="mi">2</span> <span class="o">-</span> <span class="mi">1</span>
-</span></span><span class="line"><span class="cl"><span class="n">y</span> <span class="o">=</span> <span class="n">a</span> <span class="o">-</span> <span class="n">b</span> <span class="o">/</span> <span class="p">(</span><span class="mi">3</span> <span class="o">+</span> <span class="n">c</span><span class="p">)</span> <span class="o">*</span> <span class="p">(</span><span class="mi">2</span> <span class="o">-</span> <span class="mi">1</span><span class="p">)</span>
-</span></span><span class="line"><span class="cl"><span class="n">z</span> <span class="o">=</span> <span class="n">a</span> <span class="o">-</span> <span class="p">(</span><span class="n">b</span> <span class="o">/</span> <span class="p">(</span><span class="mi">3</span> <span class="o">+</span> <span class="n">c</span><span class="p">)</span> <span class="o">*</span> <span class="mi">2</span><span class="p">)</span> <span class="o">-</span> <span class="mi">1</span>
-</span></span><span class="line"><span class="cl"><span class="nb">print</span><span class="p">(</span><span class="s2">&#34;X = &#34;</span><span class="p">,</span> <span class="n">x</span><span class="p">)</span>
-</span></span><span class="line"><span class="cl"><span class="nb">print</span><span class="p">(</span><span class="s2">&#34;Y = &#34;</span><span class="p">,</span> <span class="n">y</span><span class="p">)</span>
-</span></span><span class="line"><span class="cl"><span class="nb">print</span><span class="p">(</span><span class="s2">&#34;Z = &#34;</span><span class="p">,</span> <span class="n">z</span><span class="p">)</span>
+<td style="vertical-align:top;padding:0;margin:0;border:0;;width:100%">
+<pre tabindex="0" style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-py" data-lang="py"><span style="display:flex;"><span><span style="color:#60a0b0;font-style:italic">#!/usr/bin/env python3</span>
+</span></span><span style="display:flex;"><span>a <span style="color:#666">=</span> <span style="color:#40a070">9</span>
+</span></span><span style="display:flex;"><span>b <span style="color:#666">=</span> <span style="color:#40a070">12</span>
+</span></span><span style="display:flex;"><span>c <span style="color:#666">=</span> <span style="color:#40a070">3</span>
+</span></span><span style="display:flex;"><span>x <span style="color:#666">=</span> a <span style="color:#666">-</span> b <span style="color:#666">/</span> <span style="color:#40a070">3</span> <span style="color:#666">+</span> c <span style="color:#666">*</span> <span style="color:#40a070">2</span> <span style="color:#666">-</span> <span style="color:#40a070">1</span>
+</span></span><span style="display:flex;"><span>y <span style="color:#666">=</span> a <span style="color:#666">-</span> b <span style="color:#666">/</span> (<span style="color:#40a070">3</span> <span style="color:#666">+</span> c) <span style="color:#666">*</span> (<span style="color:#40a070">2</span> <span style="color:#666">-</span> <span style="color:#40a070">1</span>)
+</span></span><span style="display:flex;"><span>z <span style="color:#666">=</span> a <span style="color:#666">-</span> (b <span style="color:#666">/</span> (<span style="color:#40a070">3</span> <span style="color:#666">+</span> c) <span style="color:#666">*</span> <span style="color:#40a070">2</span>) <span style="color:#666">-</span> <span style="color:#40a070">1</span>
+</span></span><span style="display:flex;"><span><span style="color:#007020">print</span>(<span style="color:#4070a0">&#34;X = &#34;</span>, x)
+</span></span><span style="display:flex;"><span><span style="color:#007020">print</span>(<span style="color:#4070a0">&#34;Y = &#34;</span>, y)
+</span></span><span style="display:flex;"><span><span style="color:#007020">print</span>(<span style="color:#4070a0">&#34;Z = &#34;</span>, z)
 </span></span></code></pre></td></tr></table>
 </div>
 </div><p>For x:</p>
-<div class="highlight"><div class="chroma">
-<table class="lntable"><tr><td class="lntd">
-<pre tabindex="0" class="chroma"><code><span class="lnt">1
-</span><span class="lnt">2
-</span><span class="lnt">3
-</span><span class="lnt">4
-</span><span class="lnt">5
-</span><span class="lnt">6
-</span></code></pre></td>
-<td class="lntd">
-<pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback"><span class="line"><span class="cl">9 - 12 / 3 + 3 * 2 -1
-</span></span><span class="line"><span class="cl">9 - 4 + 3 * 2 - 1
-</span></span><span class="line"><span class="cl">9 - 4 + 6 - 1
-</span></span><span class="line"><span class="cl">5 + 6 - 1
-</span></span><span class="line"><span class="cl">11 - 1
-</span></span><span class="line"><span class="cl">10
-</span></span></code></pre></td></tr></table>
-</div>
-</div><p>for y:</p>
-<div class="highlight"><div class="chroma">
-<table class="lntable"><tr><td class="lntd">
-<pre tabindex="0" class="chroma"><code><span class="lnt">1
-</span><span class="lnt">2
-</span><span class="lnt">3
-</span><span class="lnt">4
-</span><span class="lnt">5
-</span><span class="lnt">6
-</span></code></pre></td>
-<td class="lntd">
-<pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback"><span class="line"><span class="cl">a - b / (3 + c) * (2 - 1)
-</span></span><span class="line"><span class="cl">9 - 12 / (3 + 3) * (2 - 1)
-</span></span><span class="line"><span class="cl">9 - 12 / 6 * 1
-</span></span><span class="line"><span class="cl">9 - 2 * 1
-</span></span><span class="line"><span class="cl">9 - 2
-</span></span><span class="line"><span class="cl">7
-</span></span></code></pre></td></tr></table>
-</div>
-</div><p>for z:</p>
-<div class="highlight"><div class="chroma">
-<table class="lntable"><tr><td class="lntd">
-<pre tabindex="0" class="chroma"><code><span class="lnt">1
-</span><span class="lnt">2
-</span><span class="lnt">3
-</span><span class="lnt">4
-</span><span class="lnt">5
-</span><span class="lnt">6
-</span></code></pre></td>
-<td class="lntd">
-<pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback"><span class="line"><span class="cl">a - (b / (3 + c) * 2) - 1
-</span></span><span class="line"><span class="cl">9 - (12 / (3 + 3) * 2) - 1
-</span></span><span class="line"><span class="cl">9 - (12 / 6 * 2) - 1
-</span></span><span class="line"><span class="cl">9 - (2 * 2) - 1
-</span></span><span class="line"><span class="cl">9 - 4 - 1
-</span></span><span class="line"><span class="cl">4
-</span></span></code></pre></td></tr></table>
-</div>
-</div><h3 id="type-conversions">Type Conversions</h3>
+<pre tabindex="0"><code>9 - 12 / 3 + 3 * 2 -1
+9 - 4 + 3 * 2 - 1
+9 - 4 + 6 - 1
+5 + 6 - 1
+11 - 1
+10
+</code></pre><p>for y:</p>
+<pre tabindex="0"><code>a - b / (3 + c) * (2 - 1)
+9 - 12 / (3 + 3) * (2 - 1)
+9 - 12 / 6 * 1
+9 - 2 * 1
+9 - 2
+7
+</code></pre><p>for z:</p>
+<pre tabindex="0"><code>a - (b / (3 + c) * 2) - 1
+9 - (12 / (3 + 3) * 2) - 1
+9 - (12 / 6 * 2) - 1
+9 - (2 * 2) - 1
+9 - 4 - 1
+4
+</code></pre><h3 id="type-conversions">Type Conversions</h3>
 <p>As we were saw previously we were converting string input into float and integers. So is a example of how you do it.</p>
-<div class="highlight"><div class="chroma">
-<table class="lntable"><tr><td class="lntd">
-<pre tabindex="0" class="chroma"><code><span class="lnt">1
-</span><span class="lnt">2
-</span><span class="lnt">3
+<div class="highlight"><div style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">
+<table style="border-spacing:0;padding:0;margin:0;border:0;"><tr><td style="vertical-align:top;padding:0;margin:0;border:0;">
+<pre tabindex="0" style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code><span style="white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-17-1"><a style="outline:none;text-decoration:none;color:inherit" href="#hl-17-1">1</a>
+</span><span style="white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-17-2"><a style="outline:none;text-decoration:none;color:inherit" href="#hl-17-2">2</a>
+</span><span style="white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-17-3"><a style="outline:none;text-decoration:none;color:inherit" href="#hl-17-3">3</a>
 </span></code></pre></td>
-<td class="lntd">
-<pre tabindex="0" class="chroma"><code class="language-py" data-lang="py"><span class="line"><span class="cl"><span class="nb">float</span><span class="p">(</span><span class="n">string</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="nb">float</span> <span class="n">value</span>
-</span></span><span class="line"><span class="cl"><span class="nb">int</span><span class="p">(</span><span class="n">string</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="n">integer</span> <span class="n">value</span>
-</span></span><span class="line"><span class="cl"><span class="nb">str</span><span class="p">(</span><span class="n">integer</span><span class="p">)</span> <span class="ow">or</span> <span class="nb">str</span><span class="p">(</span><span class="nb">float</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="n">string</span> <span class="n">representation</span>
+<td style="vertical-align:top;padding:0;margin:0;border:0;;width:100%">
+<pre tabindex="0" style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-py" data-lang="py"><span style="display:flex;"><span><span style="color:#007020">float</span>(string) <span style="color:#666">-&gt;</span> <span style="color:#007020">float</span> value
+</span></span><span style="display:flex;"><span><span style="color:#007020">int</span>(string) <span style="color:#666">-&gt;</span> integer value
+</span></span><span style="display:flex;"><span><span style="color:#007020">str</span>(integer) <span style="color:#007020;font-weight:bold">or</span> <span style="color:#007020">str</span>(<span style="color:#007020">float</span>) <span style="color:#666">-&gt;</span> string representation
 </span></span></code></pre></td></tr></table>
 </div>
 </div>
@@ -726,15 +720,18 @@ For example in following code evaluation of x,y,z would be:</p>
     
 
 
+
     
     
+
 
     <footer class="post-footer">
       <div class="post-tags">
           <a href="https://BhaveshSGupta.me/tags/pym/">pym</a>
-          <a href="https://BhaveshSGupta.me/tags/dgplug/">dgplug</a>
-          
+            <a href="https://BhaveshSGupta.me/tags/dgplug/">dgplug</a>
+            
         </div>
+
 
       
       <nav class="post-nav">
@@ -772,6 +769,7 @@ For example in following code evaluation of x,y,z would be:</p>
 
   
   
+
 
   
   

@@ -43,11 +43,11 @@
 
 
 <link rel="icon" href="/favicon.png" />
-
-
-
-
-
+<link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+<link rel="manifest" href="/manifest.json">
+<link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5">
 
 
 
@@ -67,10 +67,10 @@
 <meta property="og:type" content="article" />
 <meta property="og:url" content="https://BhaveshSGupta.me/blog/the-fizzbuzz-problem-2/" /><meta property="article:section" content="blog" />
 <meta property="article:published_time" content="2021-02-02T08:56:01+05:30" />
-<meta property="article:modified_time" content="2021-02-03T16:11:40+05:30" />
+<meta property="article:modified_time" content="2023-01-10T11:28:59+05:30" />
 <meta itemprop="name" content="The Fizzbuzz Problem 2">
 <meta itemprop="description" content="Last time I had stopped optimizing this the problem more because we were having a discussion where string concatination is a costly opperation. So yesterday I was talking with Nishchay how can about the previous blog and other things at that point we started on optimizing this further avoiding string contactination as well."><meta itemprop="datePublished" content="2021-02-02T08:56:01+05:30" />
-<meta itemprop="dateModified" content="2021-02-03T16:11:40+05:30" />
+<meta itemprop="dateModified" content="2023-01-10T11:28:59+05:30" />
 <meta itemprop="wordCount" content="536">
 <meta itemprop="keywords" content="Interview Questions,fizz,buzz,fizzbuzz,js,py,javascript,python," /><meta name="twitter:card" content="summary"/>
 <meta name="twitter:title" content="The Fizzbuzz Problem 2"/>
@@ -252,216 +252,246 @@ if (!doNotTrack) {
       
 
       <div class="post-meta">
-        <time datetime="2021-02-02" class="post-time">
-          02-02-2021
-        </time>
-        <div class="post-category">
-            <a href="https://BhaveshSGupta.me/categories/interview-questions/"> Interview Questions </a>
-            
-          </div>
-        <span class="more-meta"> 536 words </span>
-          <span class="more-meta"> 3 min read </span>
+  <div class="post-meta-author">
+    by
+      <a href="/about">
+        <span class="post-meta-author-name">
+          Bhavesh S. Gupta
+        </span>
+      </a>
+    
+  </div>
 
-        
-        
+  <div class="post-meta-time">
+    <time datetime="2021-02-02">
+      02-02-2021
+    </time>
+  </div>
 
-        
-        
+  
+    <div class="post-meta-lastmod">
+      (LastMod:
+      10-01-2023)
+    </div>
+  
+
+
+  <div class="post-meta__right">
+    <span class="post-meta-more">
+        536 words -
+        3 min read
+      </span>
+
+    <div class="post-meta-category">
+        <a href="https://BhaveshSGupta.me/categories/interview-questions/"> Interview Questions </a>
+          
       </div>
+
+
+    
+    
+
+
+    
+    
+  </div>
+</div>
+
     </header>
 
     
     
 
+
     
     <div class="post-content">
       <p>Last time I had stopped optimizing this the problem more because we were having a discussion where string concatination is a costly opperation. So yesterday I was talking with Nishchay how can about the previous blog and other things at that point we started on optimizing this further avoiding string contactination as well.</p>
 <p>In Competetive programming, this is optimize even further, where % modulo operation is replaced by addtion and subtraction. This approach is also dicussed in same video which was shared in previous post.</p>
-<div class="highlight"><div class="chroma">
-<table class="lntable"><tr><td class="lntd">
-<pre tabindex="0" class="chroma"><code><span class="lnt"> 1
-</span><span class="lnt"> 2
-</span><span class="lnt"> 3
-</span><span class="lnt"> 4
-</span><span class="lnt"> 5
-</span><span class="lnt"> 6
-</span><span class="lnt"> 7
-</span><span class="lnt"> 8
-</span><span class="lnt"> 9
-</span><span class="lnt">10
-</span><span class="lnt">11
+<div class="highlight"><div style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">
+<table style="border-spacing:0;padding:0;margin:0;border:0;"><tr><td style="vertical-align:top;padding:0;margin:0;border:0;">
+<pre tabindex="0" style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code><span style="white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-0-1"><a style="outline:none;text-decoration:none;color:inherit" href="#hl-0-1"> 1</a>
+</span><span style="white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-0-2"><a style="outline:none;text-decoration:none;color:inherit" href="#hl-0-2"> 2</a>
+</span><span style="white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-0-3"><a style="outline:none;text-decoration:none;color:inherit" href="#hl-0-3"> 3</a>
+</span><span style="white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-0-4"><a style="outline:none;text-decoration:none;color:inherit" href="#hl-0-4"> 4</a>
+</span><span style="white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-0-5"><a style="outline:none;text-decoration:none;color:inherit" href="#hl-0-5"> 5</a>
+</span><span style="white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-0-6"><a style="outline:none;text-decoration:none;color:inherit" href="#hl-0-6"> 6</a>
+</span><span style="white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-0-7"><a style="outline:none;text-decoration:none;color:inherit" href="#hl-0-7"> 7</a>
+</span><span style="white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-0-8"><a style="outline:none;text-decoration:none;color:inherit" href="#hl-0-8"> 8</a>
+</span><span style="white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-0-9"><a style="outline:none;text-decoration:none;color:inherit" href="#hl-0-9"> 9</a>
+</span><span style="white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-0-10"><a style="outline:none;text-decoration:none;color:inherit" href="#hl-0-10">10</a>
+</span><span style="white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-0-11"><a style="outline:none;text-decoration:none;color:inherit" href="#hl-0-11">11</a>
 </span></code></pre></td>
-<td class="lntd">
-<pre tabindex="0" class="chroma"><code class="language-js" data-lang="js"><span class="line"><span class="cl"><span class="kd">let</span> <span class="nx">c3</span><span class="o">=</span><span class="mi">0</span>
-</span></span><span class="line"><span class="cl"><span class="kd">let</span> <span class="nx">c5</span><span class="o">=</span><span class="mi">0</span>
-</span></span><span class="line"><span class="cl"><span class="k">for</span> <span class="p">(</span><span class="nx">number</span> <span class="o">=</span> <span class="mi">1</span><span class="p">;</span> <span class="nx">number</span> <span class="o">&lt;=</span> <span class="mi">100</span><span class="p">;</span> <span class="nx">number</span><span class="o">++</span><span class="p">)</span> <span class="p">{</span>
-</span></span><span class="line"><span class="cl">  <span class="nx">c3</span><span class="o">++</span><span class="p">;</span>
-</span></span><span class="line"><span class="cl">  <span class="nx">c5</span><span class="o">++</span><span class="p">;</span>
-</span></span><span class="line"><span class="cl">  <span class="kd">var</span> <span class="nx">outcome</span> <span class="o">=</span> <span class="s2">&#34;&#34;</span>
-</span></span><span class="line"><span class="cl">  <span class="k">if</span><span class="p">(</span><span class="nx">c3</span><span class="o">==</span><span class="mi">3</span><span class="p">)</span> <span class="p">{</span><span class="nx">outcome</span> <span class="o">+=</span> <span class="s2">&#34;fizz&#34;</span><span class="p">;</span><span class="nx">c3</span><span class="o">=</span><span class="mi">0</span><span class="p">}</span>
-</span></span><span class="line"><span class="cl">  <span class="k">if</span><span class="p">(</span><span class="nx">c5</span><span class="o">==</span><span class="mi">5</span><span class="p">)</span> <span class="p">{</span><span class="nx">outcome</span> <span class="o">+=</span> <span class="s2">&#34;buzz&#34;</span><span class="p">;</span><span class="nx">c5</span><span class="o">=</span><span class="mi">0</span><span class="p">}</span>
-</span></span><span class="line"><span class="cl">  <span class="k">if</span><span class="p">(</span><span class="nx">outcome</span><span class="p">)</span> <span class="nx">console</span><span class="p">.</span><span class="nx">log</span><span class="p">(</span><span class="nx">outcome</span><span class="p">)</span>
-</span></span><span class="line"><span class="cl">  <span class="k">else</span> <span class="nx">console</span><span class="p">.</span><span class="nx">log</span><span class="p">(</span><span class="nx">number</span><span class="p">)</span>
-</span></span><span class="line"><span class="cl"><span class="p">}</span>
+<td style="vertical-align:top;padding:0;margin:0;border:0;;width:100%">
+<pre tabindex="0" style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-js" data-lang="js"><span style="display:flex;"><span><span style="color:#007020;font-weight:bold">let</span> c3<span style="color:#666">=</span><span style="color:#40a070">0</span>
+</span></span><span style="display:flex;"><span><span style="color:#007020;font-weight:bold">let</span> c5<span style="color:#666">=</span><span style="color:#40a070">0</span>
+</span></span><span style="display:flex;"><span><span style="color:#007020;font-weight:bold">for</span> (number <span style="color:#666">=</span> <span style="color:#40a070">1</span>; number <span style="color:#666">&lt;=</span> <span style="color:#40a070">100</span>; number<span style="color:#666">++</span>) {
+</span></span><span style="display:flex;"><span>  c3<span style="color:#666">++</span>;
+</span></span><span style="display:flex;"><span>  c5<span style="color:#666">++</span>;
+</span></span><span style="display:flex;"><span>  <span style="color:#007020;font-weight:bold">var</span> outcome <span style="color:#666">=</span> <span style="color:#4070a0">&#34;&#34;</span>
+</span></span><span style="display:flex;"><span>  <span style="color:#007020;font-weight:bold">if</span>(c3<span style="color:#666">==</span><span style="color:#40a070">3</span>) {outcome <span style="color:#666">+=</span> <span style="color:#4070a0">&#34;fizz&#34;</span>;c3<span style="color:#666">=</span><span style="color:#40a070">0</span>}
+</span></span><span style="display:flex;"><span>  <span style="color:#007020;font-weight:bold">if</span>(c5<span style="color:#666">==</span><span style="color:#40a070">5</span>) {outcome <span style="color:#666">+=</span> <span style="color:#4070a0">&#34;buzz&#34;</span>;c5<span style="color:#666">=</span><span style="color:#40a070">0</span>}
+</span></span><span style="display:flex;"><span>  <span style="color:#007020;font-weight:bold">if</span>(outcome) console.log(outcome)
+</span></span><span style="display:flex;"><span>  <span style="color:#007020;font-weight:bold">else</span> console.log(number)
+</span></span><span style="display:flex;"><span>}
 </span></span></code></pre></td></tr></table>
 </div>
-</div><div class="highlight"><div class="chroma">
-<table class="lntable"><tr><td class="lntd">
-<pre tabindex="0" class="chroma"><code><span class="lnt"> 1
-</span><span class="lnt"> 2
-</span><span class="lnt"> 3
-</span><span class="lnt"> 4
-</span><span class="lnt"> 5
-</span><span class="lnt"> 6
-</span><span class="lnt"> 7
-</span><span class="lnt"> 8
-</span><span class="lnt"> 9
-</span><span class="lnt">10
-</span><span class="lnt">11
-</span><span class="lnt">12
-</span><span class="lnt">13
-</span><span class="lnt">14
+</div><div class="highlight"><div style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">
+<table style="border-spacing:0;padding:0;margin:0;border:0;"><tr><td style="vertical-align:top;padding:0;margin:0;border:0;">
+<pre tabindex="0" style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code><span style="white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-1-1"><a style="outline:none;text-decoration:none;color:inherit" href="#hl-1-1"> 1</a>
+</span><span style="white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-1-2"><a style="outline:none;text-decoration:none;color:inherit" href="#hl-1-2"> 2</a>
+</span><span style="white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-1-3"><a style="outline:none;text-decoration:none;color:inherit" href="#hl-1-3"> 3</a>
+</span><span style="white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-1-4"><a style="outline:none;text-decoration:none;color:inherit" href="#hl-1-4"> 4</a>
+</span><span style="white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-1-5"><a style="outline:none;text-decoration:none;color:inherit" href="#hl-1-5"> 5</a>
+</span><span style="white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-1-6"><a style="outline:none;text-decoration:none;color:inherit" href="#hl-1-6"> 6</a>
+</span><span style="white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-1-7"><a style="outline:none;text-decoration:none;color:inherit" href="#hl-1-7"> 7</a>
+</span><span style="white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-1-8"><a style="outline:none;text-decoration:none;color:inherit" href="#hl-1-8"> 8</a>
+</span><span style="white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-1-9"><a style="outline:none;text-decoration:none;color:inherit" href="#hl-1-9"> 9</a>
+</span><span style="white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-1-10"><a style="outline:none;text-decoration:none;color:inherit" href="#hl-1-10">10</a>
+</span><span style="white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-1-11"><a style="outline:none;text-decoration:none;color:inherit" href="#hl-1-11">11</a>
+</span><span style="white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-1-12"><a style="outline:none;text-decoration:none;color:inherit" href="#hl-1-12">12</a>
+</span><span style="white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-1-13"><a style="outline:none;text-decoration:none;color:inherit" href="#hl-1-13">13</a>
+</span><span style="white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-1-14"><a style="outline:none;text-decoration:none;color:inherit" href="#hl-1-14">14</a>
 </span></code></pre></td>
-<td class="lntd">
-<pre tabindex="0" class="chroma"><code class="language-py" data-lang="py"><span class="line"><span class="cl"><span class="n">c3</span> <span class="o">=</span> <span class="mi">0</span>
-</span></span><span class="line"><span class="cl"><span class="n">c5</span> <span class="o">=</span> <span class="mi">0</span>
-</span></span><span class="line"><span class="cl"><span class="k">for</span> <span class="n">number</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="mi">1</span><span class="p">,</span> <span class="mi">101</span><span class="p">):</span>
-</span></span><span class="line"><span class="cl">    <span class="n">c3</span><span class="o">+=</span><span class="mi">1</span>
-</span></span><span class="line"><span class="cl">    <span class="n">c5</span><span class="o">+=</span><span class="mi">1</span>
-</span></span><span class="line"><span class="cl">    <span class="n">outcome</span> <span class="o">=</span> <span class="s2">&#34;&#34;</span>
-</span></span><span class="line"><span class="cl">    <span class="k">if</span><span class="p">(</span><span class="n">c3</span> <span class="o">==</span> <span class="mi">3</span><span class="p">)</span> <span class="p">:</span>
-</span></span><span class="line"><span class="cl">        <span class="n">outcome</span> <span class="o">+=</span> <span class="s1">&#39;fizz&#39;</span>
-</span></span><span class="line"><span class="cl">        <span class="n">c3</span><span class="o">=</span><span class="mi">0</span>
-</span></span><span class="line"><span class="cl">    <span class="k">if</span><span class="p">(</span><span class="n">c5</span> <span class="o">==</span> <span class="mi">5</span><span class="p">)</span> <span class="p">:</span>
-</span></span><span class="line"><span class="cl">        <span class="n">outcome</span> <span class="o">+=</span> <span class="s1">&#39;buzz&#39;</span>
-</span></span><span class="line"><span class="cl">        <span class="n">c5</span><span class="o">=</span><span class="mi">0</span>
-</span></span><span class="line"><span class="cl">    <span class="k">if</span><span class="p">(</span><span class="n">outcome</span> <span class="o">!=</span> <span class="s2">&#34;&#34;</span><span class="p">)</span> <span class="p">:</span> <span class="nb">print</span><span class="p">(</span><span class="n">outcome</span><span class="p">)</span>
-</span></span><span class="line"><span class="cl">    <span class="k">else</span><span class="p">:</span> <span class="nb">print</span><span class="p">(</span><span class="n">number</span><span class="p">)</span>
+<td style="vertical-align:top;padding:0;margin:0;border:0;;width:100%">
+<pre tabindex="0" style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-py" data-lang="py"><span style="display:flex;"><span>c3 <span style="color:#666">=</span> <span style="color:#40a070">0</span>
+</span></span><span style="display:flex;"><span>c5 <span style="color:#666">=</span> <span style="color:#40a070">0</span>
+</span></span><span style="display:flex;"><span><span style="color:#007020;font-weight:bold">for</span> number <span style="color:#007020;font-weight:bold">in</span> <span style="color:#007020">range</span>(<span style="color:#40a070">1</span>, <span style="color:#40a070">101</span>):
+</span></span><span style="display:flex;"><span>    c3<span style="color:#666">+=</span><span style="color:#40a070">1</span>
+</span></span><span style="display:flex;"><span>    c5<span style="color:#666">+=</span><span style="color:#40a070">1</span>
+</span></span><span style="display:flex;"><span>    outcome <span style="color:#666">=</span> <span style="color:#4070a0">&#34;&#34;</span>
+</span></span><span style="display:flex;"><span>    <span style="color:#007020;font-weight:bold">if</span>(c3 <span style="color:#666">==</span> <span style="color:#40a070">3</span>) :
+</span></span><span style="display:flex;"><span>        outcome <span style="color:#666">+=</span> <span style="color:#4070a0">&#39;fizz&#39;</span>
+</span></span><span style="display:flex;"><span>        c3<span style="color:#666">=</span><span style="color:#40a070">0</span>
+</span></span><span style="display:flex;"><span>    <span style="color:#007020;font-weight:bold">if</span>(c5 <span style="color:#666">==</span> <span style="color:#40a070">5</span>) :
+</span></span><span style="display:flex;"><span>        outcome <span style="color:#666">+=</span> <span style="color:#4070a0">&#39;buzz&#39;</span>
+</span></span><span style="display:flex;"><span>        c5<span style="color:#666">=</span><span style="color:#40a070">0</span>
+</span></span><span style="display:flex;"><span>    <span style="color:#007020;font-weight:bold">if</span>(outcome <span style="color:#666">!=</span> <span style="color:#4070a0">&#34;&#34;</span>) : <span style="color:#007020">print</span>(outcome)
+</span></span><span style="display:flex;"><span>    <span style="color:#007020;font-weight:bold">else</span>: <span style="color:#007020">print</span>(number)
 </span></span></code></pre></td></tr></table>
 </div>
 </div><p>While discussion this approach, with Vijay and Anup there was discussion that string contactination is costly operation compared to modulo. And instead of going above approach last approach to the problem was much better.</p>
 <p>So yesterday I and Nishchay were dicussing this problem and working on a solution where we could avoid string contactination as well. While doing I tried to combine all of the example from previous post and come up with something as below</p>
-<div class="highlight"><div class="chroma">
-<table class="lntable"><tr><td class="lntd">
-<pre tabindex="0" class="chroma"><code><span class="lnt"> 1
-</span><span class="lnt"> 2
-</span><span class="lnt"> 3
-</span><span class="lnt"> 4
-</span><span class="lnt"> 5
-</span><span class="lnt"> 6
-</span><span class="lnt"> 7
-</span><span class="lnt"> 8
-</span><span class="lnt"> 9
-</span><span class="lnt">10
-</span><span class="lnt">11
+<div class="highlight"><div style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">
+<table style="border-spacing:0;padding:0;margin:0;border:0;"><tr><td style="vertical-align:top;padding:0;margin:0;border:0;">
+<pre tabindex="0" style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code><span style="white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-2-1"><a style="outline:none;text-decoration:none;color:inherit" href="#hl-2-1"> 1</a>
+</span><span style="white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-2-2"><a style="outline:none;text-decoration:none;color:inherit" href="#hl-2-2"> 2</a>
+</span><span style="white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-2-3"><a style="outline:none;text-decoration:none;color:inherit" href="#hl-2-3"> 3</a>
+</span><span style="white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-2-4"><a style="outline:none;text-decoration:none;color:inherit" href="#hl-2-4"> 4</a>
+</span><span style="white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-2-5"><a style="outline:none;text-decoration:none;color:inherit" href="#hl-2-5"> 5</a>
+</span><span style="white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-2-6"><a style="outline:none;text-decoration:none;color:inherit" href="#hl-2-6"> 6</a>
+</span><span style="white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-2-7"><a style="outline:none;text-decoration:none;color:inherit" href="#hl-2-7"> 7</a>
+</span><span style="white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-2-8"><a style="outline:none;text-decoration:none;color:inherit" href="#hl-2-8"> 8</a>
+</span><span style="white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-2-9"><a style="outline:none;text-decoration:none;color:inherit" href="#hl-2-9"> 9</a>
+</span><span style="white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-2-10"><a style="outline:none;text-decoration:none;color:inherit" href="#hl-2-10">10</a>
+</span><span style="white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-2-11"><a style="outline:none;text-decoration:none;color:inherit" href="#hl-2-11">11</a>
 </span></code></pre></td>
-<td class="lntd">
-<pre tabindex="0" class="chroma"><code class="language-js" data-lang="js"><span class="line"><span class="cl"><span class="kd">let</span> <span class="nx">c3</span><span class="o">=</span><span class="mi">0</span>
-</span></span><span class="line"><span class="cl"><span class="kd">let</span> <span class="nx">c5</span><span class="o">=</span><span class="mi">0</span>
-</span></span><span class="line"><span class="cl"><span class="k">for</span> <span class="p">(</span><span class="nx">number</span> <span class="o">=</span> <span class="mi">1</span><span class="p">;</span> <span class="nx">number</span> <span class="o">&lt;=</span> <span class="mi">100</span><span class="p">;</span> <span class="nx">number</span><span class="o">++</span><span class="p">)</span> <span class="p">{</span>
-</span></span><span class="line"><span class="cl">  <span class="nx">c3</span><span class="o">++</span><span class="p">;</span>
-</span></span><span class="line"><span class="cl">  <span class="nx">c5</span><span class="o">++</span><span class="p">;</span>
-</span></span><span class="line"><span class="cl">  <span class="kd">var</span> <span class="nx">outcome</span> <span class="o">=</span> <span class="s2">&#34;&#34;</span>
-</span></span><span class="line"><span class="cl">  <span class="k">if</span><span class="p">(</span><span class="nx">c3</span><span class="o">==</span><span class="mi">3</span> <span class="o">&amp;&amp;</span> <span class="nx">c5</span><span class="o">==</span><span class="mi">5</span><span class="p">)</span> <span class="p">{</span><span class="nx">console</span><span class="p">.</span><span class="nx">log</span><span class="p">(</span><span class="s2">&#34;fizzbuzz&#34;</span><span class="p">);</span><span class="nx">c3</span><span class="o">=</span><span class="mi">0</span><span class="p">;</span><span class="nx">c5</span><span class="o">=</span><span class="mi">0</span><span class="p">}</span>
-</span></span><span class="line"><span class="cl">  <span class="k">else</span> <span class="k">if</span><span class="p">(</span><span class="nx">c3</span><span class="o">==</span><span class="mi">3</span><span class="p">){</span> <span class="nx">console</span><span class="p">.</span><span class="nx">log</span><span class="p">(</span><span class="s2">&#34;fizz&#34;</span><span class="p">);</span> <span class="nx">c3</span><span class="o">=</span><span class="mi">0</span><span class="p">}</span>
-</span></span><span class="line"><span class="cl">  <span class="k">else</span> <span class="k">if</span><span class="p">(</span><span class="nx">c5</span><span class="o">==</span><span class="mi">5</span><span class="p">){</span> <span class="nx">console</span><span class="p">.</span><span class="nx">log</span><span class="p">(</span><span class="s2">&#34;buzz&#34;</span><span class="p">);</span> <span class="nx">c5</span><span class="o">=</span><span class="mi">0</span><span class="p">}</span>
-</span></span><span class="line"><span class="cl">  <span class="k">else</span> <span class="nx">console</span><span class="p">.</span><span class="nx">log</span><span class="p">(</span><span class="nx">number</span><span class="p">)</span>
-</span></span><span class="line"><span class="cl"><span class="p">}</span>
+<td style="vertical-align:top;padding:0;margin:0;border:0;;width:100%">
+<pre tabindex="0" style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-js" data-lang="js"><span style="display:flex;"><span><span style="color:#007020;font-weight:bold">let</span> c3<span style="color:#666">=</span><span style="color:#40a070">0</span>
+</span></span><span style="display:flex;"><span><span style="color:#007020;font-weight:bold">let</span> c5<span style="color:#666">=</span><span style="color:#40a070">0</span>
+</span></span><span style="display:flex;"><span><span style="color:#007020;font-weight:bold">for</span> (number <span style="color:#666">=</span> <span style="color:#40a070">1</span>; number <span style="color:#666">&lt;=</span> <span style="color:#40a070">100</span>; number<span style="color:#666">++</span>) {
+</span></span><span style="display:flex;"><span>  c3<span style="color:#666">++</span>;
+</span></span><span style="display:flex;"><span>  c5<span style="color:#666">++</span>;
+</span></span><span style="display:flex;"><span>  <span style="color:#007020;font-weight:bold">var</span> outcome <span style="color:#666">=</span> <span style="color:#4070a0">&#34;&#34;</span>
+</span></span><span style="display:flex;"><span>  <span style="color:#007020;font-weight:bold">if</span>(c3<span style="color:#666">==</span><span style="color:#40a070">3</span> <span style="color:#666">&amp;&amp;</span> c5<span style="color:#666">==</span><span style="color:#40a070">5</span>) {console.log(<span style="color:#4070a0">&#34;fizzbuzz&#34;</span>);c3<span style="color:#666">=</span><span style="color:#40a070">0</span>;c5<span style="color:#666">=</span><span style="color:#40a070">0</span>}
+</span></span><span style="display:flex;"><span>  <span style="color:#007020;font-weight:bold">else</span> <span style="color:#007020;font-weight:bold">if</span>(c3<span style="color:#666">==</span><span style="color:#40a070">3</span>){ console.log(<span style="color:#4070a0">&#34;fizz&#34;</span>); c3<span style="color:#666">=</span><span style="color:#40a070">0</span>}
+</span></span><span style="display:flex;"><span>  <span style="color:#007020;font-weight:bold">else</span> <span style="color:#007020;font-weight:bold">if</span>(c5<span style="color:#666">==</span><span style="color:#40a070">5</span>){ console.log(<span style="color:#4070a0">&#34;buzz&#34;</span>); c5<span style="color:#666">=</span><span style="color:#40a070">0</span>}
+</span></span><span style="display:flex;"><span>  <span style="color:#007020;font-weight:bold">else</span> console.log(number)
+</span></span><span style="display:flex;"><span>}
 </span></span></code></pre></td></tr></table>
 </div>
-</div><div class="highlight"><div class="chroma">
-<table class="lntable"><tr><td class="lntd">
-<pre tabindex="0" class="chroma"><code><span class="lnt">1
-</span><span class="lnt">2
-</span><span class="lnt">3
-</span><span class="lnt">4
-</span><span class="lnt">5
-</span><span class="lnt">6
-</span><span class="lnt">7
-</span><span class="lnt">8
-</span><span class="lnt">9
+</div><div class="highlight"><div style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">
+<table style="border-spacing:0;padding:0;margin:0;border:0;"><tr><td style="vertical-align:top;padding:0;margin:0;border:0;">
+<pre tabindex="0" style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code><span style="white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-3-1"><a style="outline:none;text-decoration:none;color:inherit" href="#hl-3-1">1</a>
+</span><span style="white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-3-2"><a style="outline:none;text-decoration:none;color:inherit" href="#hl-3-2">2</a>
+</span><span style="white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-3-3"><a style="outline:none;text-decoration:none;color:inherit" href="#hl-3-3">3</a>
+</span><span style="white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-3-4"><a style="outline:none;text-decoration:none;color:inherit" href="#hl-3-4">4</a>
+</span><span style="white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-3-5"><a style="outline:none;text-decoration:none;color:inherit" href="#hl-3-5">5</a>
+</span><span style="white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-3-6"><a style="outline:none;text-decoration:none;color:inherit" href="#hl-3-6">6</a>
+</span><span style="white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-3-7"><a style="outline:none;text-decoration:none;color:inherit" href="#hl-3-7">7</a>
+</span><span style="white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-3-8"><a style="outline:none;text-decoration:none;color:inherit" href="#hl-3-8">8</a>
+</span><span style="white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-3-9"><a style="outline:none;text-decoration:none;color:inherit" href="#hl-3-9">9</a>
 </span></code></pre></td>
-<td class="lntd">
-<pre tabindex="0" class="chroma"><code class="language-py" data-lang="py"><span class="line"><span class="cl"><span class="n">c3</span> <span class="o">=</span> <span class="mi">0</span>
-</span></span><span class="line"><span class="cl"><span class="n">c5</span> <span class="o">=</span> <span class="mi">0</span>
-</span></span><span class="line"><span class="cl"><span class="k">for</span> <span class="n">number</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="mi">1</span><span class="p">,</span> <span class="mi">101</span><span class="p">):</span>
-</span></span><span class="line"><span class="cl">    <span class="n">c3</span><span class="o">+=</span><span class="mi">1</span>
-</span></span><span class="line"><span class="cl">    <span class="n">c5</span><span class="o">+=</span><span class="mi">1</span>
-</span></span><span class="line"><span class="cl">    <span class="k">if</span><span class="p">(</span><span class="n">c3</span> <span class="o">==</span> <span class="mi">3</span> <span class="ow">and</span> <span class="n">c5</span> <span class="o">==</span> <span class="mi">3</span><span class="p">):</span> <span class="nb">print</span><span class="p">(</span><span class="s1">&#39;fizzbuzz&#39;</span><span class="p">)</span>
-</span></span><span class="line"><span class="cl">    <span class="k">elif</span><span class="p">(</span><span class="n">c3</span> <span class="o">==</span> <span class="mi">3</span><span class="p">):</span> <span class="nb">print</span><span class="p">(</span><span class="s1">&#39;fizz&#39;</span><span class="p">)</span>
-</span></span><span class="line"><span class="cl">    <span class="k">elif</span><span class="p">(</span><span class="n">c5</span> <span class="o">==</span> <span class="mi">5</span><span class="p">):</span> <span class="nb">print</span><span class="p">(</span><span class="s1">&#39;buzz&#39;</span><span class="p">)</span>
-</span></span><span class="line"><span class="cl">    <span class="k">else</span><span class="p">:</span> <span class="nb">print</span><span class="p">(</span><span class="n">number</span><span class="p">)</span>
+<td style="vertical-align:top;padding:0;margin:0;border:0;;width:100%">
+<pre tabindex="0" style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-py" data-lang="py"><span style="display:flex;"><span>c3 <span style="color:#666">=</span> <span style="color:#40a070">0</span>
+</span></span><span style="display:flex;"><span>c5 <span style="color:#666">=</span> <span style="color:#40a070">0</span>
+</span></span><span style="display:flex;"><span><span style="color:#007020;font-weight:bold">for</span> number <span style="color:#007020;font-weight:bold">in</span> <span style="color:#007020">range</span>(<span style="color:#40a070">1</span>, <span style="color:#40a070">101</span>):
+</span></span><span style="display:flex;"><span>    c3<span style="color:#666">+=</span><span style="color:#40a070">1</span>
+</span></span><span style="display:flex;"><span>    c5<span style="color:#666">+=</span><span style="color:#40a070">1</span>
+</span></span><span style="display:flex;"><span>    <span style="color:#007020;font-weight:bold">if</span>(c3 <span style="color:#666">==</span> <span style="color:#40a070">3</span> <span style="color:#007020;font-weight:bold">and</span> c5 <span style="color:#666">==</span> <span style="color:#40a070">3</span>): <span style="color:#007020">print</span>(<span style="color:#4070a0">&#39;fizzbuzz&#39;</span>)
+</span></span><span style="display:flex;"><span>    <span style="color:#007020;font-weight:bold">elif</span>(c3 <span style="color:#666">==</span> <span style="color:#40a070">3</span>): <span style="color:#007020">print</span>(<span style="color:#4070a0">&#39;fizz&#39;</span>)
+</span></span><span style="display:flex;"><span>    <span style="color:#007020;font-weight:bold">elif</span>(c5 <span style="color:#666">==</span> <span style="color:#40a070">5</span>): <span style="color:#007020">print</span>(<span style="color:#4070a0">&#39;buzz&#39;</span>)
+</span></span><span style="display:flex;"><span>    <span style="color:#007020;font-weight:bold">else</span>: <span style="color:#007020">print</span>(number)
 </span></span></code></pre></td></tr></table>
 </div>
 </div><p>While dicussing Nishchay pointed out that in this solution also we incrementing three times why not try to lower number of increments and addition and make it further optimize. Then we come up the below solution.</p>
-<div class="highlight"><div class="chroma">
-<table class="lntable"><tr><td class="lntd">
-<pre tabindex="0" class="chroma"><code><span class="lnt"> 1
-</span><span class="lnt"> 2
-</span><span class="lnt"> 3
-</span><span class="lnt"> 4
-</span><span class="lnt"> 5
-</span><span class="lnt"> 6
-</span><span class="lnt"> 7
-</span><span class="lnt"> 8
-</span><span class="lnt"> 9
-</span><span class="lnt">10
-</span><span class="lnt">11
-</span><span class="lnt">12
-</span><span class="lnt">13
-</span><span class="lnt">14
-</span><span class="lnt">15
+<div class="highlight"><div style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">
+<table style="border-spacing:0;padding:0;margin:0;border:0;"><tr><td style="vertical-align:top;padding:0;margin:0;border:0;">
+<pre tabindex="0" style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code><span style="white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-4-1"><a style="outline:none;text-decoration:none;color:inherit" href="#hl-4-1"> 1</a>
+</span><span style="white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-4-2"><a style="outline:none;text-decoration:none;color:inherit" href="#hl-4-2"> 2</a>
+</span><span style="white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-4-3"><a style="outline:none;text-decoration:none;color:inherit" href="#hl-4-3"> 3</a>
+</span><span style="white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-4-4"><a style="outline:none;text-decoration:none;color:inherit" href="#hl-4-4"> 4</a>
+</span><span style="white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-4-5"><a style="outline:none;text-decoration:none;color:inherit" href="#hl-4-5"> 5</a>
+</span><span style="white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-4-6"><a style="outline:none;text-decoration:none;color:inherit" href="#hl-4-6"> 6</a>
+</span><span style="white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-4-7"><a style="outline:none;text-decoration:none;color:inherit" href="#hl-4-7"> 7</a>
+</span><span style="white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-4-8"><a style="outline:none;text-decoration:none;color:inherit" href="#hl-4-8"> 8</a>
+</span><span style="white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-4-9"><a style="outline:none;text-decoration:none;color:inherit" href="#hl-4-9"> 9</a>
+</span><span style="white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-4-10"><a style="outline:none;text-decoration:none;color:inherit" href="#hl-4-10">10</a>
+</span><span style="white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-4-11"><a style="outline:none;text-decoration:none;color:inherit" href="#hl-4-11">11</a>
+</span><span style="white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-4-12"><a style="outline:none;text-decoration:none;color:inherit" href="#hl-4-12">12</a>
+</span><span style="white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-4-13"><a style="outline:none;text-decoration:none;color:inherit" href="#hl-4-13">13</a>
+</span><span style="white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-4-14"><a style="outline:none;text-decoration:none;color:inherit" href="#hl-4-14">14</a>
+</span><span style="white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-4-15"><a style="outline:none;text-decoration:none;color:inherit" href="#hl-4-15">15</a>
 </span></code></pre></td>
-<td class="lntd">
-<pre tabindex="0" class="chroma"><code class="language-js" data-lang="js"><span class="line"><span class="cl"><span class="kd">var</span> <span class="nx">c3</span> <span class="o">=</span> <span class="mi">3</span><span class="p">;</span>
-</span></span><span class="line"><span class="cl"><span class="kd">var</span> <span class="nx">c5</span> <span class="o">=</span> <span class="mi">5</span><span class="p">;</span>
-</span></span><span class="line"><span class="cl"><span class="k">for</span><span class="p">(</span><span class="nx">number</span> <span class="o">=</span> <span class="mi">1</span><span class="p">;</span> <span class="nx">number</span> <span class="o">&lt;=</span><span class="mi">100</span><span class="p">;</span> <span class="nx">number</span><span class="o">++</span><span class="p">){</span>
-</span></span><span class="line"><span class="cl">  <span class="k">if</span><span class="p">(</span><span class="nx">number</span> <span class="o">==</span> <span class="nx">c5</span> <span class="o">&amp;&amp;</span> <span class="nx">number</span> <span class="o">==</span> <span class="nx">c3</span><span class="p">){</span>
-</span></span><span class="line"><span class="cl">    <span class="nx">console</span><span class="p">.</span><span class="nx">log</span><span class="p">(</span><span class="s2">&#34;fizzbuzz&#34;</span><span class="p">);</span>
-</span></span><span class="line"><span class="cl">    <span class="nx">c3</span> <span class="o">+=</span> <span class="mi">3</span><span class="p">;</span>
-</span></span><span class="line"><span class="cl">    <span class="nx">c5</span> <span class="o">+=</span> <span class="mi">5</span><span class="p">;</span>
-</span></span><span class="line"><span class="cl">  <span class="p">}</span> <span class="k">else</span> <span class="k">if</span><span class="p">(</span><span class="nx">number</span> <span class="o">==</span> <span class="nx">c3</span><span class="p">){</span>
-</span></span><span class="line"><span class="cl">    <span class="nx">console</span><span class="p">.</span><span class="nx">log</span><span class="p">(</span><span class="s2">&#34;fizz&#34;</span><span class="p">);</span>
-</span></span><span class="line"><span class="cl">    <span class="nx">c3</span> <span class="o">+=</span> <span class="mi">3</span><span class="p">;</span>
-</span></span><span class="line"><span class="cl">  <span class="p">}</span> <span class="k">else</span> <span class="k">if</span><span class="p">(</span><span class="nx">number</span> <span class="o">==</span> <span class="nx">c5</span><span class="p">){</span>
-</span></span><span class="line"><span class="cl">    <span class="nx">console</span><span class="p">.</span><span class="nx">log</span><span class="p">(</span><span class="s2">&#34;buzz&#34;</span><span class="p">);</span>
-</span></span><span class="line"><span class="cl">    <span class="nx">c5</span> <span class="o">+=</span> <span class="mi">5</span><span class="p">;</span>
-</span></span><span class="line"><span class="cl">  <span class="p">}</span> <span class="k">else</span> <span class="nx">console</span><span class="p">.</span><span class="nx">log</span><span class="p">(</span><span class="nx">number</span><span class="p">);</span>
-</span></span><span class="line"><span class="cl"><span class="p">}</span>
+<td style="vertical-align:top;padding:0;margin:0;border:0;;width:100%">
+<pre tabindex="0" style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-js" data-lang="js"><span style="display:flex;"><span><span style="color:#007020;font-weight:bold">var</span> c3 <span style="color:#666">=</span> <span style="color:#40a070">3</span>;
+</span></span><span style="display:flex;"><span><span style="color:#007020;font-weight:bold">var</span> c5 <span style="color:#666">=</span> <span style="color:#40a070">5</span>;
+</span></span><span style="display:flex;"><span><span style="color:#007020;font-weight:bold">for</span>(number <span style="color:#666">=</span> <span style="color:#40a070">1</span>; number <span style="color:#666">&lt;=</span><span style="color:#40a070">100</span>; number<span style="color:#666">++</span>){
+</span></span><span style="display:flex;"><span>  <span style="color:#007020;font-weight:bold">if</span>(number <span style="color:#666">==</span> c5 <span style="color:#666">&amp;&amp;</span> number <span style="color:#666">==</span> c3){
+</span></span><span style="display:flex;"><span>    console.log(<span style="color:#4070a0">&#34;fizzbuzz&#34;</span>);
+</span></span><span style="display:flex;"><span>    c3 <span style="color:#666">+=</span> <span style="color:#40a070">3</span>;
+</span></span><span style="display:flex;"><span>    c5 <span style="color:#666">+=</span> <span style="color:#40a070">5</span>;
+</span></span><span style="display:flex;"><span>  } <span style="color:#007020;font-weight:bold">else</span> <span style="color:#007020;font-weight:bold">if</span>(number <span style="color:#666">==</span> c3){
+</span></span><span style="display:flex;"><span>    console.log(<span style="color:#4070a0">&#34;fizz&#34;</span>);
+</span></span><span style="display:flex;"><span>    c3 <span style="color:#666">+=</span> <span style="color:#40a070">3</span>;
+</span></span><span style="display:flex;"><span>  } <span style="color:#007020;font-weight:bold">else</span> <span style="color:#007020;font-weight:bold">if</span>(number <span style="color:#666">==</span> c5){
+</span></span><span style="display:flex;"><span>    console.log(<span style="color:#4070a0">&#34;buzz&#34;</span>);
+</span></span><span style="display:flex;"><span>    c5 <span style="color:#666">+=</span> <span style="color:#40a070">5</span>;
+</span></span><span style="display:flex;"><span>  } <span style="color:#007020;font-weight:bold">else</span> console.log(number);
+</span></span><span style="display:flex;"><span>}
 </span></span></code></pre></td></tr></table>
 </div>
-</div><div class="highlight"><div class="chroma">
-<table class="lntable"><tr><td class="lntd">
-<pre tabindex="0" class="chroma"><code><span class="lnt"> 1
-</span><span class="lnt"> 2
-</span><span class="lnt"> 3
-</span><span class="lnt"> 4
-</span><span class="lnt"> 5
-</span><span class="lnt"> 6
-</span><span class="lnt"> 7
-</span><span class="lnt"> 8
-</span><span class="lnt"> 9
-</span><span class="lnt">10
-</span><span class="lnt">11
-</span><span class="lnt">12
-</span><span class="lnt">13
-</span><span class="lnt">14
+</div><div class="highlight"><div style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">
+<table style="border-spacing:0;padding:0;margin:0;border:0;"><tr><td style="vertical-align:top;padding:0;margin:0;border:0;">
+<pre tabindex="0" style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code><span style="white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-5-1"><a style="outline:none;text-decoration:none;color:inherit" href="#hl-5-1"> 1</a>
+</span><span style="white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-5-2"><a style="outline:none;text-decoration:none;color:inherit" href="#hl-5-2"> 2</a>
+</span><span style="white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-5-3"><a style="outline:none;text-decoration:none;color:inherit" href="#hl-5-3"> 3</a>
+</span><span style="white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-5-4"><a style="outline:none;text-decoration:none;color:inherit" href="#hl-5-4"> 4</a>
+</span><span style="white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-5-5"><a style="outline:none;text-decoration:none;color:inherit" href="#hl-5-5"> 5</a>
+</span><span style="white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-5-6"><a style="outline:none;text-decoration:none;color:inherit" href="#hl-5-6"> 6</a>
+</span><span style="white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-5-7"><a style="outline:none;text-decoration:none;color:inherit" href="#hl-5-7"> 7</a>
+</span><span style="white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-5-8"><a style="outline:none;text-decoration:none;color:inherit" href="#hl-5-8"> 8</a>
+</span><span style="white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-5-9"><a style="outline:none;text-decoration:none;color:inherit" href="#hl-5-9"> 9</a>
+</span><span style="white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-5-10"><a style="outline:none;text-decoration:none;color:inherit" href="#hl-5-10">10</a>
+</span><span style="white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-5-11"><a style="outline:none;text-decoration:none;color:inherit" href="#hl-5-11">11</a>
+</span><span style="white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-5-12"><a style="outline:none;text-decoration:none;color:inherit" href="#hl-5-12">12</a>
+</span><span style="white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-5-13"><a style="outline:none;text-decoration:none;color:inherit" href="#hl-5-13">13</a>
+</span><span style="white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-5-14"><a style="outline:none;text-decoration:none;color:inherit" href="#hl-5-14">14</a>
 </span></code></pre></td>
-<td class="lntd">
-<pre tabindex="0" class="chroma"><code class="language-py" data-lang="py"><span class="line"><span class="cl"><span class="n">c3</span> <span class="o">=</span> <span class="mi">3</span>
-</span></span><span class="line"><span class="cl"><span class="n">c5</span> <span class="o">=</span> <span class="mi">5</span>
-</span></span><span class="line"><span class="cl"><span class="k">for</span> <span class="n">number</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="mi">1</span><span class="p">,</span> <span class="mi">101</span><span class="p">)</span> <span class="p">:</span>
-</span></span><span class="line"><span class="cl">    <span class="k">if</span> <span class="p">(</span><span class="n">number</span> <span class="o">==</span> <span class="n">c3</span> <span class="ow">and</span> <span class="n">number</span> <span class="o">==</span> <span class="n">c5</span><span class="p">)</span> <span class="p">:</span>
-</span></span><span class="line"><span class="cl">      <span class="nb">print</span><span class="p">(</span><span class="s1">&#39;fizzbuzz&#39;</span><span class="p">)</span>
-</span></span><span class="line"><span class="cl">      <span class="n">c3</span> <span class="o">+=</span> <span class="mi">3</span>
-</span></span><span class="line"><span class="cl">      <span class="n">c5</span> <span class="o">+=</span> <span class="mi">5</span>
-</span></span><span class="line"><span class="cl">    <span class="k">elif</span> <span class="p">(</span><span class="n">number</span> <span class="o">==</span> <span class="n">c3</span><span class="p">)</span> <span class="p">:</span> 
-</span></span><span class="line"><span class="cl">      <span class="nb">print</span><span class="p">(</span><span class="s1">&#39;fizz&#39;</span><span class="p">)</span>
-</span></span><span class="line"><span class="cl">      <span class="n">c3</span> <span class="o">+=</span> <span class="mi">3</span>
-</span></span><span class="line"><span class="cl">    <span class="k">elif</span><span class="p">(</span><span class="n">number</span> <span class="o">==</span> <span class="n">c5</span><span class="p">):</span>
-</span></span><span class="line"><span class="cl">      <span class="nb">print</span><span class="p">(</span><span class="s1">&#39;buzz&#39;</span><span class="p">)</span>
-</span></span><span class="line"><span class="cl">      <span class="n">c5</span> <span class="o">+=</span> <span class="mi">5</span>
-</span></span><span class="line"><span class="cl">    <span class="k">else</span><span class="p">:</span> <span class="nb">print</span><span class="p">(</span><span class="n">number</span><span class="p">)</span>
+<td style="vertical-align:top;padding:0;margin:0;border:0;;width:100%">
+<pre tabindex="0" style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-py" data-lang="py"><span style="display:flex;"><span>c3 <span style="color:#666">=</span> <span style="color:#40a070">3</span>
+</span></span><span style="display:flex;"><span>c5 <span style="color:#666">=</span> <span style="color:#40a070">5</span>
+</span></span><span style="display:flex;"><span><span style="color:#007020;font-weight:bold">for</span> number <span style="color:#007020;font-weight:bold">in</span> <span style="color:#007020">range</span>(<span style="color:#40a070">1</span>, <span style="color:#40a070">101</span>) :
+</span></span><span style="display:flex;"><span>    <span style="color:#007020;font-weight:bold">if</span> (number <span style="color:#666">==</span> c3 <span style="color:#007020;font-weight:bold">and</span> number <span style="color:#666">==</span> c5) :
+</span></span><span style="display:flex;"><span>      <span style="color:#007020">print</span>(<span style="color:#4070a0">&#39;fizzbuzz&#39;</span>)
+</span></span><span style="display:flex;"><span>      c3 <span style="color:#666">+=</span> <span style="color:#40a070">3</span>
+</span></span><span style="display:flex;"><span>      c5 <span style="color:#666">+=</span> <span style="color:#40a070">5</span>
+</span></span><span style="display:flex;"><span>    <span style="color:#007020;font-weight:bold">elif</span> (number <span style="color:#666">==</span> c3) : 
+</span></span><span style="display:flex;"><span>      <span style="color:#007020">print</span>(<span style="color:#4070a0">&#39;fizz&#39;</span>)
+</span></span><span style="display:flex;"><span>      c3 <span style="color:#666">+=</span> <span style="color:#40a070">3</span>
+</span></span><span style="display:flex;"><span>    <span style="color:#007020;font-weight:bold">elif</span>(number <span style="color:#666">==</span> c5):
+</span></span><span style="display:flex;"><span>      <span style="color:#007020">print</span>(<span style="color:#4070a0">&#39;buzz&#39;</span>)
+</span></span><span style="display:flex;"><span>      c5 <span style="color:#666">+=</span> <span style="color:#40a070">5</span>
+</span></span><span style="display:flex;"><span>    <span style="color:#007020;font-weight:bold">else</span>: <span style="color:#007020">print</span>(number)
 </span></span></code></pre></td></tr></table>
 </div>
 </div><p>A small problem with task to optimize it help me to write two blog post :D. If we find more better approach then there might be a third post to cover that :D.</p>
@@ -471,21 +501,24 @@ if (!doNotTrack) {
     
 
 
+
     
     
+
 
     <footer class="post-footer">
       <div class="post-tags">
           <a href="https://BhaveshSGupta.me/tags/interview-questions/">Interview Questions</a>
-          <a href="https://BhaveshSGupta.me/tags/fizz/">fizz</a>
-          <a href="https://BhaveshSGupta.me/tags/buzz/">buzz</a>
-          <a href="https://BhaveshSGupta.me/tags/fizzbuzz/">fizzbuzz</a>
-          <a href="https://BhaveshSGupta.me/tags/js/">js</a>
-          <a href="https://BhaveshSGupta.me/tags/py/">py</a>
-          <a href="https://BhaveshSGupta.me/tags/javascript/">javascript</a>
-          <a href="https://BhaveshSGupta.me/tags/python/">python</a>
-          
+            <a href="https://BhaveshSGupta.me/tags/fizz/">fizz</a>
+            <a href="https://BhaveshSGupta.me/tags/buzz/">buzz</a>
+            <a href="https://BhaveshSGupta.me/tags/fizzbuzz/">fizzbuzz</a>
+            <a href="https://BhaveshSGupta.me/tags/js/">js</a>
+            <a href="https://BhaveshSGupta.me/tags/py/">py</a>
+            <a href="https://BhaveshSGupta.me/tags/javascript/">javascript</a>
+            <a href="https://BhaveshSGupta.me/tags/python/">python</a>
+            
         </div>
+
 
       
       <nav class="post-nav">
@@ -523,6 +556,7 @@ if (!doNotTrack) {
 
   
   
+
 
   
   

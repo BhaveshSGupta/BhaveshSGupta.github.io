@@ -44,11 +44,11 @@ for loops For loop over a list goes as follows:
 
 
 <link rel="icon" href="/favicon.png" />
-
-
-
-
-
+<link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+<link rel="manifest" href="/manifest.json">
+<link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5">
 
 
 
@@ -70,12 +70,12 @@ for loops For loop over a list goes as follows:
 <meta property="og:type" content="article" />
 <meta property="og:url" content="https://BhaveshSGupta.me/blog/learning-python-through-pym-14-08-2019/" /><meta property="article:section" content="blog" />
 <meta property="article:published_time" content="2019-08-14T16:57:26+05:30" />
-<meta property="article:modified_time" content="2019-09-15T16:09:24+05:30" />
+<meta property="article:modified_time" content="2023-01-10T11:28:59+05:30" />
 <meta itemprop="name" content="Learning python through pym 14-08-2019">
 <meta itemprop="description" content="Day 4 PS: These are notes, there could be grammar error and spelling errors.
 for loops For loop over a list goes as follows:
 1 2 3 4 5 6 7 8 &gt;&gt;&gt; a = [&#39;Fedora&#39;, &#39;is&#39;, &#39;powerful&#39;] &gt;&gt;&gt; for x in a: ... print(x) ... # these ... are automatically created by python interpreter Fedora is powerful range() function range function creates lists based on parameter passed in function``py"><meta itemprop="datePublished" content="2019-08-14T16:57:26+05:30" />
-<meta itemprop="dateModified" content="2019-09-15T16:09:24+05:30" />
+<meta itemprop="dateModified" content="2023-01-10T11:28:59+05:30" />
 <meta itemprop="wordCount" content="664">
 <meta itemprop="keywords" content="pym,dgplug," /><meta name="twitter:card" content="summary"/>
 <meta name="twitter:title" content="Learning python through pym 14-08-2019"/>
@@ -259,27 +259,57 @@ if (!doNotTrack) {
       
 
       <div class="post-meta">
-        <time datetime="2019-08-14" class="post-time">
-          14-08-2019
-        </time>
-        <div class="post-category">
-            <a href="https://BhaveshSGupta.me/categories/pym/"> pym </a>
-            <a href="https://BhaveshSGupta.me/categories/dgplug/"> dgplug </a>
-            
-          </div>
-        <span class="more-meta"> 664 words </span>
-          <span class="more-meta"> 4 min read </span>
+  <div class="post-meta-author">
+    by
+      <a href="/about">
+        <span class="post-meta-author-name">
+          Bhavesh S. Gupta
+        </span>
+      </a>
+    
+  </div>
 
-        
-        
+  <div class="post-meta-time">
+    <time datetime="2019-08-14">
+      14-08-2019
+    </time>
+  </div>
 
-        
-        
+  
+    <div class="post-meta-lastmod">
+      (LastMod:
+      10-01-2023)
+    </div>
+  
+
+
+  <div class="post-meta__right">
+    <span class="post-meta-more">
+        664 words -
+        4 min read
+      </span>
+
+    <div class="post-meta-category">
+        <a href="https://BhaveshSGupta.me/categories/pym/"> pym </a>
+          <a href="https://BhaveshSGupta.me/categories/dgplug/"> dgplug </a>
+          
       </div>
+
+
+    
+    
+
+
+    
+    
+  </div>
+</div>
+
     </header>
 
     
     
+
 
     
     <div class="post-content">
@@ -287,190 +317,190 @@ if (!doNotTrack) {
 <p>PS: These are notes, there could be grammar error and spelling errors.</p>
 <h3 id="for-loops">for loops</h3>
 <p>For loop over a list goes as follows:</p>
-<div class="highlight"><div class="chroma">
-<table class="lntable"><tr><td class="lntd">
-<pre tabindex="0" class="chroma"><code><span class="lnt">1
-</span><span class="lnt">2
-</span><span class="lnt">3
-</span><span class="lnt">4
-</span><span class="lnt">5
-</span><span class="lnt">6
-</span><span class="lnt">7
-</span><span class="lnt">8
+<div class="highlight"><div style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">
+<table style="border-spacing:0;padding:0;margin:0;border:0;"><tr><td style="vertical-align:top;padding:0;margin:0;border:0;">
+<pre tabindex="0" style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code><span style="white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-0-1"><a style="outline:none;text-decoration:none;color:inherit" href="#hl-0-1">1</a>
+</span><span style="white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-0-2"><a style="outline:none;text-decoration:none;color:inherit" href="#hl-0-2">2</a>
+</span><span style="white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-0-3"><a style="outline:none;text-decoration:none;color:inherit" href="#hl-0-3">3</a>
+</span><span style="white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-0-4"><a style="outline:none;text-decoration:none;color:inherit" href="#hl-0-4">4</a>
+</span><span style="white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-0-5"><a style="outline:none;text-decoration:none;color:inherit" href="#hl-0-5">5</a>
+</span><span style="white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-0-6"><a style="outline:none;text-decoration:none;color:inherit" href="#hl-0-6">6</a>
+</span><span style="white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-0-7"><a style="outline:none;text-decoration:none;color:inherit" href="#hl-0-7">7</a>
+</span><span style="white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-0-8"><a style="outline:none;text-decoration:none;color:inherit" href="#hl-0-8">8</a>
 </span></code></pre></td>
-<td class="lntd">
-<pre tabindex="0" class="chroma"><code class="language-py" data-lang="py"><span class="line"><span class="cl"><span class="o">&gt;&gt;&gt;</span> <span class="n">a</span> <span class="o">=</span> <span class="p">[</span><span class="s1">&#39;Fedora&#39;</span><span class="p">,</span> <span class="s1">&#39;is&#39;</span><span class="p">,</span> <span class="s1">&#39;powerful&#39;</span><span class="p">]</span>
-</span></span><span class="line"><span class="cl"><span class="o">&gt;&gt;&gt;</span> <span class="k">for</span> <span class="n">x</span> <span class="ow">in</span> <span class="n">a</span><span class="p">:</span>
-</span></span><span class="line"><span class="cl"><span class="o">...</span>    <span class="nb">print</span><span class="p">(</span><span class="n">x</span><span class="p">)</span>
-</span></span><span class="line"><span class="cl"><span class="o">...</span>
-</span></span><span class="line"><span class="cl"><span class="c1"># these ... are automatically created by python interpreter</span>
-</span></span><span class="line"><span class="cl"><span class="n">Fedora</span>
-</span></span><span class="line"><span class="cl"><span class="ow">is</span>
-</span></span><span class="line"><span class="cl"><span class="n">powerful</span>
+<td style="vertical-align:top;padding:0;margin:0;border:0;;width:100%">
+<pre tabindex="0" style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-py" data-lang="py"><span style="display:flex;"><span><span style="color:#666">&gt;&gt;&gt;</span> a <span style="color:#666">=</span> [<span style="color:#4070a0">&#39;Fedora&#39;</span>, <span style="color:#4070a0">&#39;is&#39;</span>, <span style="color:#4070a0">&#39;powerful&#39;</span>]
+</span></span><span style="display:flex;"><span><span style="color:#666">&gt;&gt;&gt;</span> <span style="color:#007020;font-weight:bold">for</span> x <span style="color:#007020;font-weight:bold">in</span> a:
+</span></span><span style="display:flex;"><span><span style="color:#666">...</span>    <span style="color:#007020">print</span>(x)
+</span></span><span style="display:flex;"><span><span style="color:#666">...</span>
+</span></span><span style="display:flex;"><span><span style="color:#60a0b0;font-style:italic"># these ... are automatically created by python interpreter</span>
+</span></span><span style="display:flex;"><span>Fedora
+</span></span><span style="display:flex;"><span><span style="color:#007020;font-weight:bold">is</span>
+</span></span><span style="display:flex;"><span>powerful
 </span></span></code></pre></td></tr></table>
 </div>
 </div><h3 id="range-function">range() function</h3>
 <p>range function creates lists based on parameter passed in function``py</p>
-<div class="highlight"><div class="chroma">
-<table class="lntable"><tr><td class="lntd">
-<pre tabindex="0" class="chroma"><code><span class="lnt">1
-</span><span class="lnt">2
-</span><span class="lnt">3
-</span><span class="lnt">4
-</span><span class="lnt">5
-</span><span class="lnt">6
+<div class="highlight"><div style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">
+<table style="border-spacing:0;padding:0;margin:0;border:0;"><tr><td style="vertical-align:top;padding:0;margin:0;border:0;">
+<pre tabindex="0" style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code><span style="white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-1-1"><a style="outline:none;text-decoration:none;color:inherit" href="#hl-1-1">1</a>
+</span><span style="white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-1-2"><a style="outline:none;text-decoration:none;color:inherit" href="#hl-1-2">2</a>
+</span><span style="white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-1-3"><a style="outline:none;text-decoration:none;color:inherit" href="#hl-1-3">3</a>
+</span><span style="white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-1-4"><a style="outline:none;text-decoration:none;color:inherit" href="#hl-1-4">4</a>
+</span><span style="white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-1-5"><a style="outline:none;text-decoration:none;color:inherit" href="#hl-1-5">5</a>
+</span><span style="white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-1-6"><a style="outline:none;text-decoration:none;color:inherit" href="#hl-1-6">6</a>
 </span></code></pre></td>
-<td class="lntd">
-<pre tabindex="0" class="chroma"><code class="language-py" data-lang="py"><span class="line"><span class="cl"><span class="o">&gt;&gt;&gt;</span> <span class="nb">list</span><span class="p">(</span><span class="nb">range</span><span class="p">(</span><span class="mi">1</span><span class="p">,</span> <span class="mi">5</span><span class="p">))</span> <span class="c1"># when two numbers are passed n,j List starts at n ends at j-1</span>
-</span></span><span class="line"><span class="cl"> <span class="p">[</span><span class="mi">1</span><span class="p">,</span> <span class="mi">2</span><span class="p">,</span> <span class="mi">3</span><span class="p">,</span> <span class="mi">4</span><span class="p">]</span>
-</span></span><span class="line"><span class="cl"><span class="o">&gt;&gt;&gt;</span> <span class="nb">list</span><span class="p">(</span><span class="nb">range</span><span class="p">(</span><span class="mi">1</span><span class="p">,</span> <span class="mi">15</span><span class="p">,</span> <span class="mi">3</span><span class="p">))</span> <span class="c1"># when three numbers are passed n,j,k. List starts at n ends at j after stepping at every k steps</span>
-</span></span><span class="line"><span class="cl"><span class="p">[</span><span class="mi">1</span><span class="p">,</span> <span class="mi">4</span><span class="p">,</span> <span class="mi">7</span><span class="p">,</span> <span class="mi">10</span><span class="p">,</span> <span class="mi">13</span><span class="p">]</span>
-</span></span><span class="line"><span class="cl"><span class="o">&gt;&gt;&gt;</span> <span class="nb">list</span><span class="p">(</span><span class="nb">range</span><span class="p">(</span><span class="mi">10</span><span class="p">))</span> <span class="c1"># when only single number n is passed list starts from 0 and ends after n elements</span>
-</span></span><span class="line"><span class="cl"><span class="p">[</span><span class="mi">0</span><span class="p">,</span> <span class="mi">1</span><span class="p">,</span> <span class="mi">2</span><span class="p">,</span> <span class="mi">3</span><span class="p">,</span> <span class="mi">4</span><span class="p">,</span> <span class="mi">5</span><span class="p">,</span> <span class="mi">6</span><span class="p">,</span> <span class="mi">7</span><span class="p">,</span> <span class="mi">8</span><span class="p">,</span> <span class="mi">9</span><span class="p">]</span>
+<td style="vertical-align:top;padding:0;margin:0;border:0;;width:100%">
+<pre tabindex="0" style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-py" data-lang="py"><span style="display:flex;"><span><span style="color:#666">&gt;&gt;&gt;</span> <span style="color:#007020">list</span>(<span style="color:#007020">range</span>(<span style="color:#40a070">1</span>, <span style="color:#40a070">5</span>)) <span style="color:#60a0b0;font-style:italic"># when two numbers are passed n,j List starts at n ends at j-1</span>
+</span></span><span style="display:flex;"><span> [<span style="color:#40a070">1</span>, <span style="color:#40a070">2</span>, <span style="color:#40a070">3</span>, <span style="color:#40a070">4</span>]
+</span></span><span style="display:flex;"><span><span style="color:#666">&gt;&gt;&gt;</span> <span style="color:#007020">list</span>(<span style="color:#007020">range</span>(<span style="color:#40a070">1</span>, <span style="color:#40a070">15</span>, <span style="color:#40a070">3</span>)) <span style="color:#60a0b0;font-style:italic"># when three numbers are passed n,j,k. List starts at n ends at j after stepping at every k steps</span>
+</span></span><span style="display:flex;"><span>[<span style="color:#40a070">1</span>, <span style="color:#40a070">4</span>, <span style="color:#40a070">7</span>, <span style="color:#40a070">10</span>, <span style="color:#40a070">13</span>]
+</span></span><span style="display:flex;"><span><span style="color:#666">&gt;&gt;&gt;</span> <span style="color:#007020">list</span>(<span style="color:#007020">range</span>(<span style="color:#40a070">10</span>)) <span style="color:#60a0b0;font-style:italic"># when only single number n is passed list starts from 0 and ends after n elements</span>
+</span></span><span style="display:flex;"><span>[<span style="color:#40a070">0</span>, <span style="color:#40a070">1</span>, <span style="color:#40a070">2</span>, <span style="color:#40a070">3</span>, <span style="color:#40a070">4</span>, <span style="color:#40a070">5</span>, <span style="color:#40a070">6</span>, <span style="color:#40a070">7</span>, <span style="color:#40a070">8</span>, <span style="color:#40a070">9</span>]
 </span></span></code></pre></td></tr></table>
 </div>
 </div><h3 id="continue-statement">Continue statement</h3>
 <p>Just like break is use to break loop, continue is used to continue loop towards iteration without further execution
 A combined example.</p>
-<div class="highlight"><div class="chroma">
-<table class="lntable"><tr><td class="lntd">
-<pre tabindex="0" class="chroma"><code><span class="lnt">1
-</span><span class="lnt">2
-</span><span class="lnt">3
-</span><span class="lnt">4
-</span><span class="lnt">5
-</span><span class="lnt">6
-</span><span class="lnt">7
-</span><span class="lnt">8
-</span><span class="lnt">9
+<div class="highlight"><div style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">
+<table style="border-spacing:0;padding:0;margin:0;border:0;"><tr><td style="vertical-align:top;padding:0;margin:0;border:0;">
+<pre tabindex="0" style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code><span style="white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-2-1"><a style="outline:none;text-decoration:none;color:inherit" href="#hl-2-1">1</a>
+</span><span style="white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-2-2"><a style="outline:none;text-decoration:none;color:inherit" href="#hl-2-2">2</a>
+</span><span style="white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-2-3"><a style="outline:none;text-decoration:none;color:inherit" href="#hl-2-3">3</a>
+</span><span style="white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-2-4"><a style="outline:none;text-decoration:none;color:inherit" href="#hl-2-4">4</a>
+</span><span style="white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-2-5"><a style="outline:none;text-decoration:none;color:inherit" href="#hl-2-5">5</a>
+</span><span style="white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-2-6"><a style="outline:none;text-decoration:none;color:inherit" href="#hl-2-6">6</a>
+</span><span style="white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-2-7"><a style="outline:none;text-decoration:none;color:inherit" href="#hl-2-7">7</a>
+</span><span style="white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-2-8"><a style="outline:none;text-decoration:none;color:inherit" href="#hl-2-8">8</a>
+</span><span style="white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-2-9"><a style="outline:none;text-decoration:none;color:inherit" href="#hl-2-9">9</a>
 </span></code></pre></td>
-<td class="lntd">
-<pre tabindex="0" class="chroma"><code class="language-py" data-lang="py"><span class="line"><span class="cl"><span class="ch">#!/usr/bin/env python3</span>
-</span></span><span class="line"><span class="cl"><span class="k">while</span> <span class="kc">True</span><span class="p">:</span>
-</span></span><span class="line"><span class="cl">    <span class="n">n</span> <span class="o">=</span> <span class="nb">int</span><span class="p">(</span><span class="nb">input</span><span class="p">(</span><span class="s2">&#34;Please enter an Integer: &#34;</span><span class="p">))</span>
-</span></span><span class="line"><span class="cl">    <span class="k">if</span> <span class="n">n</span> <span class="o">&lt;</span> <span class="mi">0</span><span class="p">:</span>
-</span></span><span class="line"><span class="cl">        <span class="k">continue</span> <span class="c1"># this will take the execution back to the starting of the loop</span>
-</span></span><span class="line"><span class="cl">    <span class="k">elif</span> <span class="n">n</span> <span class="o">==</span> <span class="mi">0</span><span class="p">:</span>
-</span></span><span class="line"><span class="cl">        <span class="k">break</span>
-</span></span><span class="line"><span class="cl">    <span class="nb">print</span><span class="p">(</span><span class="s2">&#34;Square is &#34;</span><span class="p">,</span> <span class="n">n</span> <span class="o">**</span> <span class="mi">2</span><span class="p">)</span>
-</span></span><span class="line"><span class="cl"><span class="nb">print</span><span class="p">(</span><span class="s2">&#34;Goodbye&#34;</span><span class="p">)</span>
+<td style="vertical-align:top;padding:0;margin:0;border:0;;width:100%">
+<pre tabindex="0" style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-py" data-lang="py"><span style="display:flex;"><span><span style="color:#60a0b0;font-style:italic">#!/usr/bin/env python3</span>
+</span></span><span style="display:flex;"><span><span style="color:#007020;font-weight:bold">while</span> <span style="color:#007020;font-weight:bold">True</span>:
+</span></span><span style="display:flex;"><span>    n <span style="color:#666">=</span> <span style="color:#007020">int</span>(<span style="color:#007020">input</span>(<span style="color:#4070a0">&#34;Please enter an Integer: &#34;</span>))
+</span></span><span style="display:flex;"><span>    <span style="color:#007020;font-weight:bold">if</span> n <span style="color:#666">&lt;</span> <span style="color:#40a070">0</span>:
+</span></span><span style="display:flex;"><span>        <span style="color:#007020;font-weight:bold">continue</span> <span style="color:#60a0b0;font-style:italic"># this will take the execution back to the starting of the loop</span>
+</span></span><span style="display:flex;"><span>    <span style="color:#007020;font-weight:bold">elif</span> n <span style="color:#666">==</span> <span style="color:#40a070">0</span>:
+</span></span><span style="display:flex;"><span>        <span style="color:#007020;font-weight:bold">break</span>
+</span></span><span style="display:flex;"><span>    <span style="color:#007020">print</span>(<span style="color:#4070a0">&#34;Square is &#34;</span>, n <span style="color:#666">**</span> <span style="color:#40a070">2</span>)
+</span></span><span style="display:flex;"><span><span style="color:#007020">print</span>(<span style="color:#4070a0">&#34;Goodbye&#34;</span>)
 </span></span></code></pre></td></tr></table>
 </div>
 </div><h2 id="data-structures">Data Structures</h2>
 <h3 id="lists">Lists</h3>
 <p>Few other things with lists:</p>
-<div class="highlight"><div class="chroma">
-<table class="lntable"><tr><td class="lntd">
-<pre tabindex="0" class="chroma"><code><span class="lnt"> 1
-</span><span class="lnt"> 2
-</span><span class="lnt"> 3
-</span><span class="lnt"> 4
-</span><span class="lnt"> 5
-</span><span class="lnt"> 6
-</span><span class="lnt"> 7
-</span><span class="lnt"> 8
-</span><span class="lnt"> 9
-</span><span class="lnt">10
-</span><span class="lnt">11
+<div class="highlight"><div style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">
+<table style="border-spacing:0;padding:0;margin:0;border:0;"><tr><td style="vertical-align:top;padding:0;margin:0;border:0;">
+<pre tabindex="0" style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code><span style="white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-3-1"><a style="outline:none;text-decoration:none;color:inherit" href="#hl-3-1"> 1</a>
+</span><span style="white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-3-2"><a style="outline:none;text-decoration:none;color:inherit" href="#hl-3-2"> 2</a>
+</span><span style="white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-3-3"><a style="outline:none;text-decoration:none;color:inherit" href="#hl-3-3"> 3</a>
+</span><span style="white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-3-4"><a style="outline:none;text-decoration:none;color:inherit" href="#hl-3-4"> 4</a>
+</span><span style="white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-3-5"><a style="outline:none;text-decoration:none;color:inherit" href="#hl-3-5"> 5</a>
+</span><span style="white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-3-6"><a style="outline:none;text-decoration:none;color:inherit" href="#hl-3-6"> 6</a>
+</span><span style="white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-3-7"><a style="outline:none;text-decoration:none;color:inherit" href="#hl-3-7"> 7</a>
+</span><span style="white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-3-8"><a style="outline:none;text-decoration:none;color:inherit" href="#hl-3-8"> 8</a>
+</span><span style="white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-3-9"><a style="outline:none;text-decoration:none;color:inherit" href="#hl-3-9"> 9</a>
+</span><span style="white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-3-10"><a style="outline:none;text-decoration:none;color:inherit" href="#hl-3-10">10</a>
+</span><span style="white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-3-11"><a style="outline:none;text-decoration:none;color:inherit" href="#hl-3-11">11</a>
 </span></code></pre></td>
-<td class="lntd">
-<pre tabindex="0" class="chroma"><code class="language-py" data-lang="py"><span class="line"><span class="cl"><span class="c1"># to insert a new element in list</span>
-</span></span><span class="line"><span class="cl"><span class="o">&gt;&gt;&gt;</span> <span class="n">a</span> <span class="o">=</span> <span class="p">[</span><span class="mi">23</span><span class="p">,</span> <span class="mi">45</span><span class="p">,</span> <span class="mi">1</span><span class="p">,</span> <span class="o">-</span><span class="mi">3434</span><span class="p">,</span> <span class="mi">43624356</span><span class="p">,</span> <span class="mi">234</span><span class="p">]</span>
-</span></span><span class="line"><span class="cl"><span class="o">&gt;&gt;&gt;</span> <span class="n">a</span><span class="o">.</span><span class="n">append</span><span class="p">(</span><span class="mi">45</span><span class="p">)</span>
-</span></span><span class="line"><span class="cl"><span class="o">&gt;&gt;&gt;</span> <span class="n">a</span>
-</span></span><span class="line"><span class="cl"><span class="p">[</span><span class="mi">23</span><span class="p">,</span> <span class="mi">45</span><span class="p">,</span> <span class="mi">1</span><span class="p">,</span> <span class="o">-</span><span class="mi">3434</span><span class="p">,</span> <span class="mi">43624356</span><span class="p">,</span> <span class="mi">234</span><span class="p">,</span> <span class="mi">45</span><span class="p">]</span>
-</span></span><span class="line"><span class="cl"><span class="c1"># to inset at particular position we have to pass position along. First would be position then would be element</span>
-</span></span><span class="line"><span class="cl"><span class="o">&gt;&gt;&gt;</span> <span class="n">a</span><span class="o">.</span><span class="n">insert</span><span class="p">(</span><span class="mi">0</span><span class="p">,</span> <span class="mi">1</span><span class="p">)</span> 
-</span></span><span class="line"><span class="cl"><span class="o">&gt;&gt;&gt;</span> <span class="n">a</span>
-</span></span><span class="line"><span class="cl"><span class="p">[</span><span class="mi">1</span><span class="p">,</span> <span class="mi">23</span><span class="p">,</span> <span class="mi">45</span><span class="p">,</span> <span class="mi">1</span><span class="p">,</span> <span class="o">-</span><span class="mi">3434</span><span class="p">,</span> <span class="mi">43624356</span><span class="p">,</span> <span class="mi">234</span><span class="p">,</span> <span class="mi">45</span><span class="p">]</span>
-</span></span><span class="line"><span class="cl"><span class="c1"># to count number of occurrences of a element</span>
-</span></span><span class="line"><span class="cl"><span class="o">&gt;&gt;&gt;</span> <span class="n">a</span><span class="o">.</span><span class="n">count</span><span class="p">(</span><span class="mi">45</span><span class="p">)</span>
+<td style="vertical-align:top;padding:0;margin:0;border:0;;width:100%">
+<pre tabindex="0" style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-py" data-lang="py"><span style="display:flex;"><span><span style="color:#60a0b0;font-style:italic"># to insert a new element in list</span>
+</span></span><span style="display:flex;"><span><span style="color:#666">&gt;&gt;&gt;</span> a <span style="color:#666">=</span> [<span style="color:#40a070">23</span>, <span style="color:#40a070">45</span>, <span style="color:#40a070">1</span>, <span style="color:#666">-</span><span style="color:#40a070">3434</span>, <span style="color:#40a070">43624356</span>, <span style="color:#40a070">234</span>]
+</span></span><span style="display:flex;"><span><span style="color:#666">&gt;&gt;&gt;</span> a<span style="color:#666">.</span>append(<span style="color:#40a070">45</span>)
+</span></span><span style="display:flex;"><span><span style="color:#666">&gt;&gt;&gt;</span> a
+</span></span><span style="display:flex;"><span>[<span style="color:#40a070">23</span>, <span style="color:#40a070">45</span>, <span style="color:#40a070">1</span>, <span style="color:#666">-</span><span style="color:#40a070">3434</span>, <span style="color:#40a070">43624356</span>, <span style="color:#40a070">234</span>, <span style="color:#40a070">45</span>]
+</span></span><span style="display:flex;"><span><span style="color:#60a0b0;font-style:italic"># to inset at particular position we have to pass position along. First would be position then would be element</span>
+</span></span><span style="display:flex;"><span><span style="color:#666">&gt;&gt;&gt;</span> a<span style="color:#666">.</span>insert(<span style="color:#40a070">0</span>, <span style="color:#40a070">1</span>) 
+</span></span><span style="display:flex;"><span><span style="color:#666">&gt;&gt;&gt;</span> a
+</span></span><span style="display:flex;"><span>[<span style="color:#40a070">1</span>, <span style="color:#40a070">23</span>, <span style="color:#40a070">45</span>, <span style="color:#40a070">1</span>, <span style="color:#666">-</span><span style="color:#40a070">3434</span>, <span style="color:#40a070">43624356</span>, <span style="color:#40a070">234</span>, <span style="color:#40a070">45</span>]
+</span></span><span style="display:flex;"><span><span style="color:#60a0b0;font-style:italic"># to count number of occurrences of a element</span>
+</span></span><span style="display:flex;"><span><span style="color:#666">&gt;&gt;&gt;</span> a<span style="color:#666">.</span>count(<span style="color:#40a070">45</span>)
 </span></span></code></pre></td></tr></table>
 </div>
 </div><p>Same way we have <code>.reverse</code>, <code>.remove</code> using append we can append another list to existing list as a element of the list</p>
-<div class="highlight"><div class="chroma">
-<table class="lntable"><tr><td class="lntd">
-<pre tabindex="0" class="chroma"><code><span class="lnt">1
-</span><span class="lnt">2
-</span><span class="lnt">3
-</span><span class="lnt">4
+<div class="highlight"><div style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">
+<table style="border-spacing:0;padding:0;margin:0;border:0;"><tr><td style="vertical-align:top;padding:0;margin:0;border:0;">
+<pre tabindex="0" style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code><span style="white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-4-1"><a style="outline:none;text-decoration:none;color:inherit" href="#hl-4-1">1</a>
+</span><span style="white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-4-2"><a style="outline:none;text-decoration:none;color:inherit" href="#hl-4-2">2</a>
+</span><span style="white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-4-3"><a style="outline:none;text-decoration:none;color:inherit" href="#hl-4-3">3</a>
+</span><span style="white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-4-4"><a style="outline:none;text-decoration:none;color:inherit" href="#hl-4-4">4</a>
 </span></code></pre></td>
-<td class="lntd">
-<pre tabindex="0" class="chroma"><code class="language-py" data-lang="py"><span class="line"><span class="cl"><span class="o">&gt;&gt;&gt;</span> <span class="n">b</span> <span class="o">=</span> <span class="p">[</span><span class="mi">45</span><span class="p">,</span> <span class="mi">56</span><span class="p">,</span> <span class="mi">90</span><span class="p">]</span>
-</span></span><span class="line"><span class="cl"><span class="o">&gt;&gt;&gt;</span> <span class="n">a</span><span class="o">.</span><span class="n">append</span><span class="p">(</span><span class="n">b</span><span class="p">)</span>
-</span></span><span class="line"><span class="cl"><span class="o">&gt;&gt;&gt;</span> <span class="n">a</span>
-</span></span><span class="line"><span class="cl"><span class="p">[</span><span class="mi">45</span><span class="p">,</span> <span class="mi">43624356</span><span class="p">,</span> <span class="o">-</span><span class="mi">3434</span><span class="p">,</span> <span class="mi">1</span><span class="p">,</span> <span class="mi">45</span><span class="p">,</span> <span class="mi">23</span><span class="p">,</span> <span class="mi">1</span><span class="p">,</span> <span class="mi">111</span><span class="p">,</span> <span class="p">[</span><span class="mi">45</span><span class="p">,</span> <span class="mi">56</span><span class="p">,</span> <span class="mi">90</span><span class="p">]]</span>
+<td style="vertical-align:top;padding:0;margin:0;border:0;;width:100%">
+<pre tabindex="0" style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-py" data-lang="py"><span style="display:flex;"><span><span style="color:#666">&gt;&gt;&gt;</span> b <span style="color:#666">=</span> [<span style="color:#40a070">45</span>, <span style="color:#40a070">56</span>, <span style="color:#40a070">90</span>]
+</span></span><span style="display:flex;"><span><span style="color:#666">&gt;&gt;&gt;</span> a<span style="color:#666">.</span>append(b)
+</span></span><span style="display:flex;"><span><span style="color:#666">&gt;&gt;&gt;</span> a
+</span></span><span style="display:flex;"><span>[<span style="color:#40a070">45</span>, <span style="color:#40a070">43624356</span>, <span style="color:#666">-</span><span style="color:#40a070">3434</span>, <span style="color:#40a070">1</span>, <span style="color:#40a070">45</span>, <span style="color:#40a070">23</span>, <span style="color:#40a070">1</span>, <span style="color:#40a070">111</span>, [<span style="color:#40a070">45</span>, <span style="color:#40a070">56</span>, <span style="color:#40a070">90</span>]]
 </span></span></code></pre></td></tr></table>
 </div>
 </div><p>There is another method call <code>.extend</code> which would add element of second list as element of new list</p>
-<div class="highlight"><div class="chroma">
-<table class="lntable"><tr><td class="lntd">
-<pre tabindex="0" class="chroma"><code><span class="lnt"> 1
-</span><span class="lnt"> 2
-</span><span class="lnt"> 3
-</span><span class="lnt"> 4
-</span><span class="lnt"> 5
-</span><span class="lnt"> 6
-</span><span class="lnt"> 7
-</span><span class="lnt"> 8
-</span><span class="lnt"> 9
-</span><span class="lnt">10
-</span><span class="lnt">11
-</span><span class="lnt">12
-</span><span class="lnt">13
-</span><span class="lnt">14
+<div class="highlight"><div style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">
+<table style="border-spacing:0;padding:0;margin:0;border:0;"><tr><td style="vertical-align:top;padding:0;margin:0;border:0;">
+<pre tabindex="0" style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code><span style="white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-5-1"><a style="outline:none;text-decoration:none;color:inherit" href="#hl-5-1"> 1</a>
+</span><span style="white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-5-2"><a style="outline:none;text-decoration:none;color:inherit" href="#hl-5-2"> 2</a>
+</span><span style="white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-5-3"><a style="outline:none;text-decoration:none;color:inherit" href="#hl-5-3"> 3</a>
+</span><span style="white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-5-4"><a style="outline:none;text-decoration:none;color:inherit" href="#hl-5-4"> 4</a>
+</span><span style="white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-5-5"><a style="outline:none;text-decoration:none;color:inherit" href="#hl-5-5"> 5</a>
+</span><span style="white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-5-6"><a style="outline:none;text-decoration:none;color:inherit" href="#hl-5-6"> 6</a>
+</span><span style="white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-5-7"><a style="outline:none;text-decoration:none;color:inherit" href="#hl-5-7"> 7</a>
+</span><span style="white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-5-8"><a style="outline:none;text-decoration:none;color:inherit" href="#hl-5-8"> 8</a>
+</span><span style="white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-5-9"><a style="outline:none;text-decoration:none;color:inherit" href="#hl-5-9"> 9</a>
+</span><span style="white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-5-10"><a style="outline:none;text-decoration:none;color:inherit" href="#hl-5-10">10</a>
+</span><span style="white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-5-11"><a style="outline:none;text-decoration:none;color:inherit" href="#hl-5-11">11</a>
+</span><span style="white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-5-12"><a style="outline:none;text-decoration:none;color:inherit" href="#hl-5-12">12</a>
+</span><span style="white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-5-13"><a style="outline:none;text-decoration:none;color:inherit" href="#hl-5-13">13</a>
+</span><span style="white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-5-14"><a style="outline:none;text-decoration:none;color:inherit" href="#hl-5-14">14</a>
 </span></code></pre></td>
-<td class="lntd">
-<pre tabindex="0" class="chroma"><code class="language-py" data-lang="py"><span class="line"><span class="cl"><span class="o">&gt;&gt;&gt;</span> <span class="n">a</span><span class="o">.</span><span class="n">extend</span><span class="p">(</span><span class="n">b</span><span class="p">)</span> <span class="c1">#To add the values of b not the b itself</span>
-</span></span><span class="line"><span class="cl"><span class="o">&gt;&gt;&gt;</span> <span class="n">a</span>
-</span></span><span class="line"><span class="cl"><span class="p">[</span><span class="mi">45</span><span class="p">,</span> <span class="mi">43624356</span><span class="p">,</span> <span class="o">-</span><span class="mi">3434</span><span class="p">,</span> <span class="mi">1</span><span class="p">,</span> <span class="mi">45</span><span class="p">,</span> <span class="mi">23</span><span class="p">,</span> <span class="mi">1</span><span class="p">,</span> <span class="mi">111</span><span class="p">,</span> <span class="p">[</span><span class="mi">45</span><span class="p">,</span> <span class="mi">56</span><span class="p">,</span> <span class="mi">90</span><span class="p">],</span> <span class="mi">45</span><span class="p">,</span> <span class="mi">56</span><span class="p">,</span> <span class="mi">90</span><span class="p">]</span>
-</span></span><span class="line"><span class="cl"><span class="o">&gt;&gt;&gt;</span> <span class="n">a</span><span class="p">[</span><span class="o">-</span><span class="mi">1</span><span class="p">]</span> <span class="c1"># here in a[n] value of n  is -1 so it would give last element</span>
-</span></span><span class="line"><span class="cl"><span class="mi">90</span>
-</span></span><span class="line"><span class="cl"><span class="c1"># to remove element which was we would pass same list or sublist to remove it.</span>
-</span></span><span class="line"><span class="cl"><span class="o">&gt;&gt;&gt;</span> <span class="n">a</span><span class="o">.</span><span class="n">remove</span><span class="p">(</span><span class="n">b</span><span class="p">)</span>
-</span></span><span class="line"><span class="cl"><span class="o">&gt;&gt;&gt;</span> <span class="n">a</span>
-</span></span><span class="line"><span class="cl"><span class="p">[</span><span class="mi">45</span><span class="p">,</span> <span class="mi">43624356</span><span class="p">,</span> <span class="o">-</span><span class="mi">3434</span><span class="p">,</span> <span class="mi">1</span><span class="p">,</span> <span class="mi">45</span><span class="p">,</span> <span class="mi">23</span><span class="p">,</span> <span class="mi">1</span><span class="p">,</span> <span class="mi">111</span><span class="p">,</span> <span class="mi">45</span><span class="p">,</span> <span class="mi">56</span><span class="p">,</span> <span class="mi">90</span><span class="p">]</span>
-</span></span><span class="line"><span class="cl"><span class="c1"># .sort is use to sort list if list is sortable means elements are comparable.</span>
-</span></span><span class="line"><span class="cl"><span class="c1"># del can also be used to delete a element from list</span>
-</span></span><span class="line"><span class="cl"><span class="o">&gt;&gt;&gt;</span> <span class="k">del</span> <span class="n">a</span><span class="p">[</span><span class="o">-</span><span class="mi">1</span><span class="p">]</span>
-</span></span><span class="line"><span class="cl"><span class="o">&gt;&gt;&gt;</span> <span class="n">a</span>
-</span></span><span class="line"><span class="cl"><span class="p">[</span><span class="o">-</span><span class="mi">3434</span><span class="p">,</span> <span class="mi">1</span><span class="p">,</span> <span class="mi">1</span><span class="p">,</span> <span class="mi">23</span><span class="p">,</span> <span class="mi">45</span><span class="p">,</span> <span class="mi">45</span><span class="p">,</span> <span class="mi">45</span><span class="p">,</span> <span class="mi">56</span><span class="p">,</span> <span class="mi">90</span><span class="p">,</span> <span class="mi">111</span><span class="p">]</span>
+<td style="vertical-align:top;padding:0;margin:0;border:0;;width:100%">
+<pre tabindex="0" style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-py" data-lang="py"><span style="display:flex;"><span><span style="color:#666">&gt;&gt;&gt;</span> a<span style="color:#666">.</span>extend(b) <span style="color:#60a0b0;font-style:italic">#To add the values of b not the b itself</span>
+</span></span><span style="display:flex;"><span><span style="color:#666">&gt;&gt;&gt;</span> a
+</span></span><span style="display:flex;"><span>[<span style="color:#40a070">45</span>, <span style="color:#40a070">43624356</span>, <span style="color:#666">-</span><span style="color:#40a070">3434</span>, <span style="color:#40a070">1</span>, <span style="color:#40a070">45</span>, <span style="color:#40a070">23</span>, <span style="color:#40a070">1</span>, <span style="color:#40a070">111</span>, [<span style="color:#40a070">45</span>, <span style="color:#40a070">56</span>, <span style="color:#40a070">90</span>], <span style="color:#40a070">45</span>, <span style="color:#40a070">56</span>, <span style="color:#40a070">90</span>]
+</span></span><span style="display:flex;"><span><span style="color:#666">&gt;&gt;&gt;</span> a[<span style="color:#666">-</span><span style="color:#40a070">1</span>] <span style="color:#60a0b0;font-style:italic"># here in a[n] value of n  is -1 so it would give last element</span>
+</span></span><span style="display:flex;"><span><span style="color:#40a070">90</span>
+</span></span><span style="display:flex;"><span><span style="color:#60a0b0;font-style:italic"># to remove element which was we would pass same list or sublist to remove it.</span>
+</span></span><span style="display:flex;"><span><span style="color:#666">&gt;&gt;&gt;</span> a<span style="color:#666">.</span>remove(b)
+</span></span><span style="display:flex;"><span><span style="color:#666">&gt;&gt;&gt;</span> a
+</span></span><span style="display:flex;"><span>[<span style="color:#40a070">45</span>, <span style="color:#40a070">43624356</span>, <span style="color:#666">-</span><span style="color:#40a070">3434</span>, <span style="color:#40a070">1</span>, <span style="color:#40a070">45</span>, <span style="color:#40a070">23</span>, <span style="color:#40a070">1</span>, <span style="color:#40a070">111</span>, <span style="color:#40a070">45</span>, <span style="color:#40a070">56</span>, <span style="color:#40a070">90</span>]
+</span></span><span style="display:flex;"><span><span style="color:#60a0b0;font-style:italic"># .sort is use to sort list if list is sortable means elements are comparable.</span>
+</span></span><span style="display:flex;"><span><span style="color:#60a0b0;font-style:italic"># del can also be used to delete a element from list</span>
+</span></span><span style="display:flex;"><span><span style="color:#666">&gt;&gt;&gt;</span> <span style="color:#007020;font-weight:bold">del</span> a[<span style="color:#666">-</span><span style="color:#40a070">1</span>]
+</span></span><span style="display:flex;"><span><span style="color:#666">&gt;&gt;&gt;</span> a
+</span></span><span style="display:flex;"><span>[<span style="color:#666">-</span><span style="color:#40a070">3434</span>, <span style="color:#40a070">1</span>, <span style="color:#40a070">1</span>, <span style="color:#40a070">23</span>, <span style="color:#40a070">45</span>, <span style="color:#40a070">45</span>, <span style="color:#40a070">45</span>, <span style="color:#40a070">56</span>, <span style="color:#40a070">90</span>, <span style="color:#40a070">111</span>]
 </span></span></code></pre></td></tr></table>
 </div>
 </div><h3 id="using-lists-as-stack-and-queue">Using lists as stack and queue</h3>
 <p>Stacks work as LIFO(Last In First Out) and queue work on FIFO(First In First Out)</p>
-<div class="highlight"><div class="chroma">
-<table class="lntable"><tr><td class="lntd">
-<pre tabindex="0" class="chroma"><code><span class="lnt"> 1
-</span><span class="lnt"> 2
-</span><span class="lnt"> 3
-</span><span class="lnt"> 4
-</span><span class="lnt"> 5
-</span><span class="lnt"> 6
-</span><span class="lnt"> 7
-</span><span class="lnt"> 8
-</span><span class="lnt"> 9
-</span><span class="lnt">10
-</span><span class="lnt">11
-</span><span class="lnt">12
-</span><span class="lnt">13
-</span><span class="lnt">14
+<div class="highlight"><div style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">
+<table style="border-spacing:0;padding:0;margin:0;border:0;"><tr><td style="vertical-align:top;padding:0;margin:0;border:0;">
+<pre tabindex="0" style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code><span style="white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-6-1"><a style="outline:none;text-decoration:none;color:inherit" href="#hl-6-1"> 1</a>
+</span><span style="white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-6-2"><a style="outline:none;text-decoration:none;color:inherit" href="#hl-6-2"> 2</a>
+</span><span style="white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-6-3"><a style="outline:none;text-decoration:none;color:inherit" href="#hl-6-3"> 3</a>
+</span><span style="white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-6-4"><a style="outline:none;text-decoration:none;color:inherit" href="#hl-6-4"> 4</a>
+</span><span style="white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-6-5"><a style="outline:none;text-decoration:none;color:inherit" href="#hl-6-5"> 5</a>
+</span><span style="white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-6-6"><a style="outline:none;text-decoration:none;color:inherit" href="#hl-6-6"> 6</a>
+</span><span style="white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-6-7"><a style="outline:none;text-decoration:none;color:inherit" href="#hl-6-7"> 7</a>
+</span><span style="white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-6-8"><a style="outline:none;text-decoration:none;color:inherit" href="#hl-6-8"> 8</a>
+</span><span style="white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-6-9"><a style="outline:none;text-decoration:none;color:inherit" href="#hl-6-9"> 9</a>
+</span><span style="white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-6-10"><a style="outline:none;text-decoration:none;color:inherit" href="#hl-6-10">10</a>
+</span><span style="white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-6-11"><a style="outline:none;text-decoration:none;color:inherit" href="#hl-6-11">11</a>
+</span><span style="white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-6-12"><a style="outline:none;text-decoration:none;color:inherit" href="#hl-6-12">12</a>
+</span><span style="white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-6-13"><a style="outline:none;text-decoration:none;color:inherit" href="#hl-6-13">13</a>
+</span><span style="white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-6-14"><a style="outline:none;text-decoration:none;color:inherit" href="#hl-6-14">14</a>
 </span></code></pre></td>
-<td class="lntd">
-<pre tabindex="0" class="chroma"><code class="language-py" data-lang="py"><span class="line"><span class="cl"><span class="o">&gt;&gt;&gt;</span> <span class="n">a</span> <span class="o">=</span> <span class="p">[</span><span class="mi">1</span><span class="p">,</span> <span class="mi">2</span><span class="p">,</span> <span class="mi">3</span><span class="p">,</span> <span class="mi">4</span><span class="p">,</span> <span class="mi">5</span><span class="p">,</span> <span class="mi">6</span><span class="p">]</span>
-</span></span><span class="line"><span class="cl"><span class="o">&gt;&gt;&gt;</span> <span class="n">a</span>
-</span></span><span class="line"><span class="cl"><span class="p">[</span><span class="mi">1</span><span class="p">,</span> <span class="mi">2</span><span class="p">,</span> <span class="mi">3</span><span class="p">,</span> <span class="mi">4</span><span class="p">,</span> <span class="mi">5</span><span class="p">,</span> <span class="mi">6</span><span class="p">]</span>
-</span></span><span class="line"><span class="cl"><span class="c1"># for Lifo and fifo everything would be appended at the end of list we would use append.</span>
-</span></span><span class="line"><span class="cl"><span class="o">&gt;&gt;&gt;</span> <span class="n">a</span><span class="o">.</span><span class="n">append</span><span class="p">(</span><span class="mi">34</span><span class="p">)</span>
-</span></span><span class="line"><span class="cl"><span class="o">&gt;&gt;&gt;</span> <span class="n">a</span>
-</span></span><span class="line"><span class="cl"><span class="p">[</span><span class="mi">1</span><span class="p">,</span> <span class="mi">2</span><span class="p">,</span> <span class="mi">3</span><span class="p">,</span> <span class="mi">4</span><span class="p">,</span> <span class="mi">5</span><span class="p">,</span> <span class="mi">6</span><span class="p">,</span> <span class="mi">34</span><span class="p">]</span>
-</span></span><span class="line"><span class="cl"><span class="c1"># while removing element we would remove using pop</span>
-</span></span><span class="line"><span class="cl"><span class="c1"># for removing element in lifo we would use .pop() without any parameter so that it would remove last element</span>
-</span></span><span class="line"><span class="cl"><span class="o">&gt;&gt;&gt;</span> <span class="n">a</span><span class="o">.</span><span class="n">pop</span><span class="p">()</span>
-</span></span><span class="line"><span class="cl"><span class="mi">34</span>
-</span></span><span class="line"><span class="cl"><span class="c1"># for fifo or queue where oldest element is removed first we use .pop(0)</span>
-</span></span><span class="line"><span class="cl"><span class="o">&gt;&gt;&gt;</span> <span class="n">a</span><span class="o">.</span><span class="n">pop</span><span class="p">(</span><span class="mi">0</span><span class="p">)</span>
-</span></span><span class="line"><span class="cl"><span class="mi">1</span>
+<td style="vertical-align:top;padding:0;margin:0;border:0;;width:100%">
+<pre tabindex="0" style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-py" data-lang="py"><span style="display:flex;"><span><span style="color:#666">&gt;&gt;&gt;</span> a <span style="color:#666">=</span> [<span style="color:#40a070">1</span>, <span style="color:#40a070">2</span>, <span style="color:#40a070">3</span>, <span style="color:#40a070">4</span>, <span style="color:#40a070">5</span>, <span style="color:#40a070">6</span>]
+</span></span><span style="display:flex;"><span><span style="color:#666">&gt;&gt;&gt;</span> a
+</span></span><span style="display:flex;"><span>[<span style="color:#40a070">1</span>, <span style="color:#40a070">2</span>, <span style="color:#40a070">3</span>, <span style="color:#40a070">4</span>, <span style="color:#40a070">5</span>, <span style="color:#40a070">6</span>]
+</span></span><span style="display:flex;"><span><span style="color:#60a0b0;font-style:italic"># for Lifo and fifo everything would be appended at the end of list we would use append.</span>
+</span></span><span style="display:flex;"><span><span style="color:#666">&gt;&gt;&gt;</span> a<span style="color:#666">.</span>append(<span style="color:#40a070">34</span>)
+</span></span><span style="display:flex;"><span><span style="color:#666">&gt;&gt;&gt;</span> a
+</span></span><span style="display:flex;"><span>[<span style="color:#40a070">1</span>, <span style="color:#40a070">2</span>, <span style="color:#40a070">3</span>, <span style="color:#40a070">4</span>, <span style="color:#40a070">5</span>, <span style="color:#40a070">6</span>, <span style="color:#40a070">34</span>]
+</span></span><span style="display:flex;"><span><span style="color:#60a0b0;font-style:italic"># while removing element we would remove using pop</span>
+</span></span><span style="display:flex;"><span><span style="color:#60a0b0;font-style:italic"># for removing element in lifo we would use .pop() without any parameter so that it would remove last element</span>
+</span></span><span style="display:flex;"><span><span style="color:#666">&gt;&gt;&gt;</span> a<span style="color:#666">.</span>pop()
+</span></span><span style="display:flex;"><span><span style="color:#40a070">34</span>
+</span></span><span style="display:flex;"><span><span style="color:#60a0b0;font-style:italic"># for fifo or queue where oldest element is removed first we use .pop(0)</span>
+</span></span><span style="display:flex;"><span><span style="color:#666">&gt;&gt;&gt;</span> a<span style="color:#666">.</span>pop(<span style="color:#40a070">0</span>)
+</span></span><span style="display:flex;"><span><span style="color:#40a070">1</span>
 </span></span></code></pre></td></tr></table>
 </div>
 </div><p>Note: .pop removes element and return removed element while append just add element doesn&rsquo;t returns anything</p>
@@ -481,15 +511,18 @@ A combined example.</p>
     
 
 
+
     
     
+
 
     <footer class="post-footer">
       <div class="post-tags">
           <a href="https://BhaveshSGupta.me/tags/pym/">pym</a>
-          <a href="https://BhaveshSGupta.me/tags/dgplug/">dgplug</a>
-          
+            <a href="https://BhaveshSGupta.me/tags/dgplug/">dgplug</a>
+            
         </div>
+
 
       
       <nav class="post-nav">
@@ -527,6 +560,7 @@ A combined example.</p>
 
   
   
+
 
   
   

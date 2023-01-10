@@ -43,11 +43,11 @@
 
 
 <link rel="icon" href="/favicon.png" />
-
-
-
-
-
+<link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+<link rel="manifest" href="/manifest.json">
+<link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5">
 
 
 
@@ -68,11 +68,11 @@
 <meta property="og:type" content="article" />
 <meta property="og:url" content="https://BhaveshSGupta.me/blog/another-attempt-at-wag3/" /><meta property="article:section" content="blog" />
 <meta property="article:published_time" content="2019-08-25T16:57:46+05:30" />
-<meta property="article:modified_time" content="2019-09-15T15:50:47+05:30" />
+<meta property="article:modified_time" content="2023-01-10T11:28:59+05:30" />
 <meta itemprop="name" content="Another Attempt at Wag3">
 <meta itemprop="description" content="Until now we had done as of following code. We would create couples of more functions which would help us in managing our application. As discussed earlier we would now we creating different directories and files present inside .git directory along with directory itself. More or less we would something like following directory structure after doing wag init
 .git is the git directory itself, which contains: .git/objects/ : the object store, which we’ll introduce in the next section."><meta itemprop="datePublished" content="2019-08-25T16:57:46+05:30" />
-<meta itemprop="dateModified" content="2019-09-15T15:50:47+05:30" />
+<meta itemprop="dateModified" content="2023-01-10T11:28:59+05:30" />
 <meta itemprop="wordCount" content="1272">
 <meta itemprop="keywords" content="wag,dgplug,git," /><meta name="twitter:card" content="summary"/>
 <meta name="twitter:title" content="Another Attempt at Wag3"/>
@@ -255,28 +255,58 @@ if (!doNotTrack) {
       
 
       <div class="post-meta">
-        <time datetime="2019-08-25" class="post-time">
-          25-08-2019
-        </time>
-        <div class="post-category">
-            <a href="https://BhaveshSGupta.me/categories/wag/"> wag </a>
-            <a href="https://BhaveshSGupta.me/categories/dgplug/"> dgplug </a>
-            <a href="https://BhaveshSGupta.me/categories/git/"> git </a>
-            
-          </div>
-        <span class="more-meta"> 1272 words </span>
-          <span class="more-meta"> 6 min read </span>
+  <div class="post-meta-author">
+    by
+      <a href="/about">
+        <span class="post-meta-author-name">
+          Bhavesh S. Gupta
+        </span>
+      </a>
+    
+  </div>
 
-        
-        
+  <div class="post-meta-time">
+    <time datetime="2019-08-25">
+      25-08-2019
+    </time>
+  </div>
 
-        
-        
+  
+    <div class="post-meta-lastmod">
+      (LastMod:
+      10-01-2023)
+    </div>
+  
+
+
+  <div class="post-meta__right">
+    <span class="post-meta-more">
+        1272 words -
+        6 min read
+      </span>
+
+    <div class="post-meta-category">
+        <a href="https://BhaveshSGupta.me/categories/wag/"> wag </a>
+          <a href="https://BhaveshSGupta.me/categories/dgplug/"> dgplug </a>
+          <a href="https://BhaveshSGupta.me/categories/git/"> git </a>
+          
       </div>
+
+
+    
+    
+
+
+    
+    
+  </div>
+</div>
+
     </header>
 
     
     
+
 
     
     <div class="post-content">
@@ -292,210 +322,210 @@ if (!doNotTrack) {
 </ul>
 </li>
 </ul>
-<div class="highlight"><div class="chroma">
-<table class="lntable"><tr><td class="lntd">
-<pre tabindex="0" class="chroma"><code><span class="lnt"> 1
-</span><span class="lnt"> 2
-</span><span class="lnt"> 3
-</span><span class="lnt"> 4
-</span><span class="lnt"> 5
-</span><span class="lnt"> 6
-</span><span class="lnt"> 7
-</span><span class="lnt"> 8
-</span><span class="lnt"> 9
-</span><span class="lnt">10
-</span><span class="lnt">11
-</span><span class="lnt">12
-</span><span class="lnt">13
-</span><span class="lnt">14
-</span><span class="lnt">15
-</span><span class="lnt">16
-</span><span class="lnt">17
-</span><span class="lnt">18
-</span><span class="lnt">19
-</span><span class="lnt">20
-</span><span class="lnt">21
-</span><span class="lnt">22
-</span><span class="lnt">23
-</span><span class="lnt">24
-</span><span class="lnt">25
-</span><span class="lnt">26
-</span><span class="lnt">27
-</span><span class="lnt">28
-</span><span class="lnt">29
-</span><span class="lnt">30
-</span><span class="lnt">31
-</span><span class="lnt">32
-</span><span class="lnt">33
-</span><span class="lnt">34
-</span><span class="lnt">35
-</span><span class="lnt">36
-</span><span class="lnt">37
-</span><span class="lnt">38
-</span><span class="lnt">39
-</span><span class="lnt">40
-</span><span class="lnt">41
-</span><span class="lnt">42
-</span><span class="lnt">43
-</span><span class="lnt">44
-</span><span class="lnt">45
-</span><span class="lnt">46
-</span><span class="lnt">47
+<div class="highlight"><div style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">
+<table style="border-spacing:0;padding:0;margin:0;border:0;"><tr><td style="vertical-align:top;padding:0;margin:0;border:0;">
+<pre tabindex="0" style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code><span style="white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-0-1"><a style="outline:none;text-decoration:none;color:inherit" href="#hl-0-1"> 1</a>
+</span><span style="white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-0-2"><a style="outline:none;text-decoration:none;color:inherit" href="#hl-0-2"> 2</a>
+</span><span style="white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-0-3"><a style="outline:none;text-decoration:none;color:inherit" href="#hl-0-3"> 3</a>
+</span><span style="white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-0-4"><a style="outline:none;text-decoration:none;color:inherit" href="#hl-0-4"> 4</a>
+</span><span style="white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-0-5"><a style="outline:none;text-decoration:none;color:inherit" href="#hl-0-5"> 5</a>
+</span><span style="white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-0-6"><a style="outline:none;text-decoration:none;color:inherit" href="#hl-0-6"> 6</a>
+</span><span style="white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-0-7"><a style="outline:none;text-decoration:none;color:inherit" href="#hl-0-7"> 7</a>
+</span><span style="white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-0-8"><a style="outline:none;text-decoration:none;color:inherit" href="#hl-0-8"> 8</a>
+</span><span style="white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-0-9"><a style="outline:none;text-decoration:none;color:inherit" href="#hl-0-9"> 9</a>
+</span><span style="white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-0-10"><a style="outline:none;text-decoration:none;color:inherit" href="#hl-0-10">10</a>
+</span><span style="white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-0-11"><a style="outline:none;text-decoration:none;color:inherit" href="#hl-0-11">11</a>
+</span><span style="white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-0-12"><a style="outline:none;text-decoration:none;color:inherit" href="#hl-0-12">12</a>
+</span><span style="white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-0-13"><a style="outline:none;text-decoration:none;color:inherit" href="#hl-0-13">13</a>
+</span><span style="white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-0-14"><a style="outline:none;text-decoration:none;color:inherit" href="#hl-0-14">14</a>
+</span><span style="white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-0-15"><a style="outline:none;text-decoration:none;color:inherit" href="#hl-0-15">15</a>
+</span><span style="white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-0-16"><a style="outline:none;text-decoration:none;color:inherit" href="#hl-0-16">16</a>
+</span><span style="white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-0-17"><a style="outline:none;text-decoration:none;color:inherit" href="#hl-0-17">17</a>
+</span><span style="white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-0-18"><a style="outline:none;text-decoration:none;color:inherit" href="#hl-0-18">18</a>
+</span><span style="white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-0-19"><a style="outline:none;text-decoration:none;color:inherit" href="#hl-0-19">19</a>
+</span><span style="white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-0-20"><a style="outline:none;text-decoration:none;color:inherit" href="#hl-0-20">20</a>
+</span><span style="white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-0-21"><a style="outline:none;text-decoration:none;color:inherit" href="#hl-0-21">21</a>
+</span><span style="white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-0-22"><a style="outline:none;text-decoration:none;color:inherit" href="#hl-0-22">22</a>
+</span><span style="white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-0-23"><a style="outline:none;text-decoration:none;color:inherit" href="#hl-0-23">23</a>
+</span><span style="white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-0-24"><a style="outline:none;text-decoration:none;color:inherit" href="#hl-0-24">24</a>
+</span><span style="white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-0-25"><a style="outline:none;text-decoration:none;color:inherit" href="#hl-0-25">25</a>
+</span><span style="white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-0-26"><a style="outline:none;text-decoration:none;color:inherit" href="#hl-0-26">26</a>
+</span><span style="white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-0-27"><a style="outline:none;text-decoration:none;color:inherit" href="#hl-0-27">27</a>
+</span><span style="white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-0-28"><a style="outline:none;text-decoration:none;color:inherit" href="#hl-0-28">28</a>
+</span><span style="white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-0-29"><a style="outline:none;text-decoration:none;color:inherit" href="#hl-0-29">29</a>
+</span><span style="white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-0-30"><a style="outline:none;text-decoration:none;color:inherit" href="#hl-0-30">30</a>
+</span><span style="white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-0-31"><a style="outline:none;text-decoration:none;color:inherit" href="#hl-0-31">31</a>
+</span><span style="white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-0-32"><a style="outline:none;text-decoration:none;color:inherit" href="#hl-0-32">32</a>
+</span><span style="white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-0-33"><a style="outline:none;text-decoration:none;color:inherit" href="#hl-0-33">33</a>
+</span><span style="white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-0-34"><a style="outline:none;text-decoration:none;color:inherit" href="#hl-0-34">34</a>
+</span><span style="white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-0-35"><a style="outline:none;text-decoration:none;color:inherit" href="#hl-0-35">35</a>
+</span><span style="white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-0-36"><a style="outline:none;text-decoration:none;color:inherit" href="#hl-0-36">36</a>
+</span><span style="white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-0-37"><a style="outline:none;text-decoration:none;color:inherit" href="#hl-0-37">37</a>
+</span><span style="white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-0-38"><a style="outline:none;text-decoration:none;color:inherit" href="#hl-0-38">38</a>
+</span><span style="white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-0-39"><a style="outline:none;text-decoration:none;color:inherit" href="#hl-0-39">39</a>
+</span><span style="white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-0-40"><a style="outline:none;text-decoration:none;color:inherit" href="#hl-0-40">40</a>
+</span><span style="white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-0-41"><a style="outline:none;text-decoration:none;color:inherit" href="#hl-0-41">41</a>
+</span><span style="white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-0-42"><a style="outline:none;text-decoration:none;color:inherit" href="#hl-0-42">42</a>
+</span><span style="white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-0-43"><a style="outline:none;text-decoration:none;color:inherit" href="#hl-0-43">43</a>
+</span><span style="white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-0-44"><a style="outline:none;text-decoration:none;color:inherit" href="#hl-0-44">44</a>
+</span><span style="white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-0-45"><a style="outline:none;text-decoration:none;color:inherit" href="#hl-0-45">45</a>
+</span><span style="white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-0-46"><a style="outline:none;text-decoration:none;color:inherit" href="#hl-0-46">46</a>
+</span><span style="white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-0-47"><a style="outline:none;text-decoration:none;color:inherit" href="#hl-0-47">47</a>
 </span></code></pre></td>
-<td class="lntd">
-<pre tabindex="0" class="chroma"><code class="language-py" data-lang="py"><span class="line"><span class="cl"><span class="kn">import</span> <span class="nn">sys</span>
-</span></span><span class="line"><span class="cl"><span class="kn">import</span> <span class="nn">argparse</span>
-</span></span><span class="line"><span class="cl"><span class="kn">import</span> <span class="nn">os</span>
-</span></span><span class="line"><span class="cl">
-</span></span><span class="line"><span class="cl"><span class="n">argparser</span> <span class="o">=</span> <span class="n">argparse</span><span class="o">.</span><span class="n">ArgumentParser</span><span class="p">(</span><span class="n">description</span><span class="o">=</span><span class="s2">&#34;Another Content Tracker&#34;</span><span class="p">)</span>
-</span></span><span class="line"><span class="cl"><span class="n">argsubparsers</span> <span class="o">=</span> <span class="n">argparser</span><span class="o">.</span><span class="n">add_subparsers</span><span class="p">(</span><span class="n">title</span><span class="o">=</span><span class="s2">&#34;Commands&#34;</span><span class="p">,</span> <span class="n">dest</span><span class="o">=</span><span class="s2">&#34;command&#34;</span><span class="p">)</span>
-</span></span><span class="line"><span class="cl"><span class="n">argsubparsers</span><span class="o">.</span><span class="n">required</span> <span class="o">=</span> <span class="kc">True</span>
-</span></span><span class="line"><span class="cl"><span class="n">argsp</span> <span class="o">=</span> <span class="n">argsubparsers</span><span class="o">.</span><span class="n">add_parser</span><span class="p">(</span>
-</span></span><span class="line"><span class="cl">    <span class="s2">&#34;init&#34;</span><span class="p">,</span> <span class="n">help</span><span class="o">=</span><span class="s2">&#34;Initialize a new, empty repository.&#34;</span><span class="p">)</span>
-</span></span><span class="line"><span class="cl"><span class="n">argsp</span><span class="o">.</span><span class="n">add_argument</span><span class="p">(</span><span class="s2">&#34;path&#34;</span><span class="p">,</span> <span class="n">metavar</span><span class="o">=</span><span class="s2">&#34;directory&#34;</span><span class="p">,</span> <span class="n">nargs</span><span class="o">=</span><span class="s2">&#34;?&#34;</span><span class="p">,</span>
-</span></span><span class="line"><span class="cl">                   <span class="n">default</span><span class="o">=</span><span class="s2">&#34;.&#34;</span><span class="p">,</span> <span class="n">help</span><span class="o">=</span><span class="s2">&#34;Where to create the repository.&#34;</span><span class="p">)</span>
-</span></span><span class="line"><span class="cl">
-</span></span><span class="line"><span class="cl">
-</span></span><span class="line"><span class="cl"><span class="k">def</span> <span class="nf">main</span><span class="p">(</span><span class="n">argv</span><span class="o">=</span><span class="n">sys</span><span class="o">.</span><span class="n">argv</span><span class="p">[</span><span class="mi">1</span><span class="p">:]):</span>
-</span></span><span class="line"><span class="cl">    <span class="n">args</span> <span class="o">=</span> <span class="n">argparser</span><span class="o">.</span><span class="n">parse_args</span><span class="p">(</span><span class="n">argv</span><span class="p">)</span>
-</span></span><span class="line"><span class="cl">    <span class="k">if</span> <span class="n">args</span><span class="o">.</span><span class="n">command</span> <span class="o">==</span> <span class="s2">&#34;init&#34;</span><span class="p">:</span>
-</span></span><span class="line"><span class="cl">        <span class="n">cmd_init</span><span class="p">(</span><span class="n">args</span><span class="p">)</span>
-</span></span><span class="line"><span class="cl">
-</span></span><span class="line"><span class="cl">
-</span></span><span class="line"><span class="cl"><span class="k">def</span> <span class="nf">cmd_init</span><span class="p">(</span><span class="n">args</span><span class="p">):</span>
-</span></span><span class="line"><span class="cl">    <span class="n">repo_create</span><span class="p">(</span><span class="n">args</span><span class="o">.</span><span class="n">path</span><span class="p">)</span>
-</span></span><span class="line"><span class="cl">
-</span></span><span class="line"><span class="cl">
-</span></span><span class="line"><span class="cl"><span class="k">class</span> <span class="nc">GitRepository</span><span class="p">(</span><span class="nb">object</span><span class="p">):</span>
-</span></span><span class="line"><span class="cl">    <span class="s2">&#34;&#34;&#34;A git repository&#34;&#34;&#34;</span>
-</span></span><span class="line"><span class="cl">    <span class="n">worktree</span> <span class="o">=</span> <span class="kc">None</span>
-</span></span><span class="line"><span class="cl">    <span class="n">gitdir</span> <span class="o">=</span> <span class="kc">None</span>
-</span></span><span class="line"><span class="cl">
-</span></span><span class="line"><span class="cl">    <span class="k">def</span> <span class="fm">__init__</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">path</span><span class="p">,</span> <span class="n">force</span><span class="o">=</span><span class="kc">False</span><span class="p">):</span>
-</span></span><span class="line"><span class="cl">        <span class="bp">self</span><span class="o">.</span><span class="n">worktree</span> <span class="o">=</span> <span class="n">path</span>
-</span></span><span class="line"><span class="cl">        <span class="bp">self</span><span class="o">.</span><span class="n">gitdir</span> <span class="o">=</span> <span class="n">os</span><span class="o">.</span><span class="n">path</span><span class="o">.</span><span class="n">join</span><span class="p">(</span><span class="n">path</span><span class="p">,</span> <span class="s2">&#34;.git&#34;</span><span class="p">)</span>
-</span></span><span class="line"><span class="cl">
-</span></span><span class="line"><span class="cl">
-</span></span><span class="line"><span class="cl"><span class="k">def</span> <span class="nf">repo_create</span><span class="p">(</span><span class="n">path</span><span class="p">):</span>
-</span></span><span class="line"><span class="cl">    <span class="s2">&#34;&#34;&#34;Create a new repository at path.&#34;&#34;&#34;</span>
-</span></span><span class="line"><span class="cl">    <span class="n">repo</span> <span class="o">=</span> <span class="n">GitRepository</span><span class="p">(</span><span class="n">path</span><span class="p">)</span>
-</span></span><span class="line"><span class="cl">    <span class="c1"># We check whether there exsits a path of worktree</span>
-</span></span><span class="line"><span class="cl">    <span class="k">if</span> <span class="n">os</span><span class="o">.</span><span class="n">path</span><span class="o">.</span><span class="n">exists</span><span class="p">(</span><span class="n">repo</span><span class="o">.</span><span class="n">worktree</span><span class="p">):</span>
-</span></span><span class="line"><span class="cl">        <span class="c1"># if path exsits its a directory or not</span>
-</span></span><span class="line"><span class="cl">        <span class="k">if</span> <span class="ow">not</span> <span class="n">os</span><span class="o">.</span><span class="n">path</span><span class="o">.</span><span class="n">isdir</span><span class="p">(</span><span class="n">repo</span><span class="o">.</span><span class="n">worktree</span><span class="p">):</span>
-</span></span><span class="line"><span class="cl">            <span class="k">raise</span> <span class="ne">Exception</span><span class="p">(</span><span class="s2">&#34;</span><span class="si">%s</span><span class="s2"> is not a directory!&#34;</span> <span class="o">%</span> <span class="n">path</span><span class="p">)</span>
-</span></span><span class="line"><span class="cl">        <span class="c1"># if path exsits its empty or not</span>
-</span></span><span class="line"><span class="cl">        <span class="k">if</span> <span class="n">os</span><span class="o">.</span><span class="n">listdir</span><span class="p">(</span><span class="n">repo</span><span class="o">.</span><span class="n">worktree</span><span class="p">):</span>
-</span></span><span class="line"><span class="cl">            <span class="k">raise</span> <span class="ne">Exception</span><span class="p">(</span><span class="s2">&#34;</span><span class="si">%s</span><span class="s2"> is not empty!&#34;</span> <span class="o">%</span> <span class="n">path</span><span class="p">)</span>
-</span></span><span class="line"><span class="cl">    <span class="k">else</span><span class="p">:</span>
-</span></span><span class="line"><span class="cl">        <span class="c1"># Create directory as nothing exist with same path</span>
-</span></span><span class="line"><span class="cl">        <span class="n">os</span><span class="o">.</span><span class="n">makedirs</span><span class="p">(</span><span class="n">repo</span><span class="o">.</span><span class="n">worktree</span><span class="p">)</span>
+<td style="vertical-align:top;padding:0;margin:0;border:0;;width:100%">
+<pre tabindex="0" style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-py" data-lang="py"><span style="display:flex;"><span><span style="color:#007020;font-weight:bold">import</span> <span style="color:#0e84b5;font-weight:bold">sys</span>
+</span></span><span style="display:flex;"><span><span style="color:#007020;font-weight:bold">import</span> <span style="color:#0e84b5;font-weight:bold">argparse</span>
+</span></span><span style="display:flex;"><span><span style="color:#007020;font-weight:bold">import</span> <span style="color:#0e84b5;font-weight:bold">os</span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>argparser <span style="color:#666">=</span> argparse<span style="color:#666">.</span>ArgumentParser(description<span style="color:#666">=</span><span style="color:#4070a0">&#34;Another Content Tracker&#34;</span>)
+</span></span><span style="display:flex;"><span>argsubparsers <span style="color:#666">=</span> argparser<span style="color:#666">.</span>add_subparsers(title<span style="color:#666">=</span><span style="color:#4070a0">&#34;Commands&#34;</span>, dest<span style="color:#666">=</span><span style="color:#4070a0">&#34;command&#34;</span>)
+</span></span><span style="display:flex;"><span>argsubparsers<span style="color:#666">.</span>required <span style="color:#666">=</span> <span style="color:#007020;font-weight:bold">True</span>
+</span></span><span style="display:flex;"><span>argsp <span style="color:#666">=</span> argsubparsers<span style="color:#666">.</span>add_parser(
+</span></span><span style="display:flex;"><span>    <span style="color:#4070a0">&#34;init&#34;</span>, help<span style="color:#666">=</span><span style="color:#4070a0">&#34;Initialize a new, empty repository.&#34;</span>)
+</span></span><span style="display:flex;"><span>argsp<span style="color:#666">.</span>add_argument(<span style="color:#4070a0">&#34;path&#34;</span>, metavar<span style="color:#666">=</span><span style="color:#4070a0">&#34;directory&#34;</span>, nargs<span style="color:#666">=</span><span style="color:#4070a0">&#34;?&#34;</span>,
+</span></span><span style="display:flex;"><span>                   default<span style="color:#666">=</span><span style="color:#4070a0">&#34;.&#34;</span>, help<span style="color:#666">=</span><span style="color:#4070a0">&#34;Where to create the repository.&#34;</span>)
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#007020;font-weight:bold">def</span> <span style="color:#06287e">main</span>(argv<span style="color:#666">=</span>sys<span style="color:#666">.</span>argv[<span style="color:#40a070">1</span>:]):
+</span></span><span style="display:flex;"><span>    args <span style="color:#666">=</span> argparser<span style="color:#666">.</span>parse_args(argv)
+</span></span><span style="display:flex;"><span>    <span style="color:#007020;font-weight:bold">if</span> args<span style="color:#666">.</span>command <span style="color:#666">==</span> <span style="color:#4070a0">&#34;init&#34;</span>:
+</span></span><span style="display:flex;"><span>        cmd_init(args)
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#007020;font-weight:bold">def</span> <span style="color:#06287e">cmd_init</span>(args):
+</span></span><span style="display:flex;"><span>    repo_create(args<span style="color:#666">.</span>path)
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#007020;font-weight:bold">class</span> <span style="color:#0e84b5;font-weight:bold">GitRepository</span>(<span style="color:#007020">object</span>):
+</span></span><span style="display:flex;"><span>    <span style="color:#4070a0">&#34;&#34;&#34;A git repository&#34;&#34;&#34;</span>
+</span></span><span style="display:flex;"><span>    worktree <span style="color:#666">=</span> <span style="color:#007020;font-weight:bold">None</span>
+</span></span><span style="display:flex;"><span>    gitdir <span style="color:#666">=</span> <span style="color:#007020;font-weight:bold">None</span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>    <span style="color:#007020;font-weight:bold">def</span> __init__(self, path, force<span style="color:#666">=</span><span style="color:#007020;font-weight:bold">False</span>):
+</span></span><span style="display:flex;"><span>        self<span style="color:#666">.</span>worktree <span style="color:#666">=</span> path
+</span></span><span style="display:flex;"><span>        self<span style="color:#666">.</span>gitdir <span style="color:#666">=</span> os<span style="color:#666">.</span>path<span style="color:#666">.</span>join(path, <span style="color:#4070a0">&#34;.git&#34;</span>)
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#007020;font-weight:bold">def</span> <span style="color:#06287e">repo_create</span>(path):
+</span></span><span style="display:flex;"><span>    <span style="color:#4070a0">&#34;&#34;&#34;Create a new repository at path.&#34;&#34;&#34;</span>
+</span></span><span style="display:flex;"><span>    repo <span style="color:#666">=</span> GitRepository(path)
+</span></span><span style="display:flex;"><span>    <span style="color:#60a0b0;font-style:italic"># We check whether there exsits a path of worktree</span>
+</span></span><span style="display:flex;"><span>    <span style="color:#007020;font-weight:bold">if</span> os<span style="color:#666">.</span>path<span style="color:#666">.</span>exists(repo<span style="color:#666">.</span>worktree):
+</span></span><span style="display:flex;"><span>        <span style="color:#60a0b0;font-style:italic"># if path exsits its a directory or not</span>
+</span></span><span style="display:flex;"><span>        <span style="color:#007020;font-weight:bold">if</span> <span style="color:#007020;font-weight:bold">not</span> os<span style="color:#666">.</span>path<span style="color:#666">.</span>isdir(repo<span style="color:#666">.</span>worktree):
+</span></span><span style="display:flex;"><span>            <span style="color:#007020;font-weight:bold">raise</span> <span style="color:#007020">Exception</span>(<span style="color:#4070a0">&#34;</span><span style="color:#70a0d0">%s</span><span style="color:#4070a0"> is not a directory!&#34;</span> <span style="color:#666">%</span> path)
+</span></span><span style="display:flex;"><span>        <span style="color:#60a0b0;font-style:italic"># if path exsits its empty or not</span>
+</span></span><span style="display:flex;"><span>        <span style="color:#007020;font-weight:bold">if</span> os<span style="color:#666">.</span>listdir(repo<span style="color:#666">.</span>worktree):
+</span></span><span style="display:flex;"><span>            <span style="color:#007020;font-weight:bold">raise</span> <span style="color:#007020">Exception</span>(<span style="color:#4070a0">&#34;</span><span style="color:#70a0d0">%s</span><span style="color:#4070a0"> is not empty!&#34;</span> <span style="color:#666">%</span> path)
+</span></span><span style="display:flex;"><span>    <span style="color:#007020;font-weight:bold">else</span>:
+</span></span><span style="display:flex;"><span>        <span style="color:#60a0b0;font-style:italic"># Create directory as nothing exist with same path</span>
+</span></span><span style="display:flex;"><span>        os<span style="color:#666">.</span>makedirs(repo<span style="color:#666">.</span>worktree)
 </span></span></code></pre></td></tr></table>
 </div>
 </div><p>Now let&rsquo;s create function which would gives us path of directory after verifying that the directory exist and if it doesn&rsquo;t it should gives us an error. We would also require mechanism to check whether we need to create the directory or not if it doesn&rsquo;t exists.</p>
-<div class="highlight"><div class="chroma">
-<table class="lntable"><tr><td class="lntd">
-<pre tabindex="0" class="chroma"><code><span class="lnt"> 1
-</span><span class="lnt"> 2
-</span><span class="lnt"> 3
-</span><span class="lnt"> 4
-</span><span class="lnt"> 5
-</span><span class="lnt"> 6
-</span><span class="lnt"> 7
-</span><span class="lnt"> 8
-</span><span class="lnt"> 9
-</span><span class="lnt">10
-</span><span class="lnt">11
-</span><span class="lnt">12
-</span><span class="lnt">13
-</span><span class="lnt">14
-</span><span class="lnt">15
-</span><span class="lnt">16
-</span><span class="lnt">17
-</span><span class="lnt">18
-</span><span class="lnt">19
-</span><span class="lnt">20
-</span><span class="lnt">21
-</span><span class="lnt">22
-</span><span class="lnt">23
-</span><span class="lnt">24
-</span><span class="lnt">25
-</span><span class="lnt">26
+<div class="highlight"><div style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">
+<table style="border-spacing:0;padding:0;margin:0;border:0;"><tr><td style="vertical-align:top;padding:0;margin:0;border:0;">
+<pre tabindex="0" style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code><span style="white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-1-1"><a style="outline:none;text-decoration:none;color:inherit" href="#hl-1-1"> 1</a>
+</span><span style="white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-1-2"><a style="outline:none;text-decoration:none;color:inherit" href="#hl-1-2"> 2</a>
+</span><span style="white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-1-3"><a style="outline:none;text-decoration:none;color:inherit" href="#hl-1-3"> 3</a>
+</span><span style="white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-1-4"><a style="outline:none;text-decoration:none;color:inherit" href="#hl-1-4"> 4</a>
+</span><span style="white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-1-5"><a style="outline:none;text-decoration:none;color:inherit" href="#hl-1-5"> 5</a>
+</span><span style="white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-1-6"><a style="outline:none;text-decoration:none;color:inherit" href="#hl-1-6"> 6</a>
+</span><span style="white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-1-7"><a style="outline:none;text-decoration:none;color:inherit" href="#hl-1-7"> 7</a>
+</span><span style="white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-1-8"><a style="outline:none;text-decoration:none;color:inherit" href="#hl-1-8"> 8</a>
+</span><span style="white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-1-9"><a style="outline:none;text-decoration:none;color:inherit" href="#hl-1-9"> 9</a>
+</span><span style="white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-1-10"><a style="outline:none;text-decoration:none;color:inherit" href="#hl-1-10">10</a>
+</span><span style="white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-1-11"><a style="outline:none;text-decoration:none;color:inherit" href="#hl-1-11">11</a>
+</span><span style="white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-1-12"><a style="outline:none;text-decoration:none;color:inherit" href="#hl-1-12">12</a>
+</span><span style="white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-1-13"><a style="outline:none;text-decoration:none;color:inherit" href="#hl-1-13">13</a>
+</span><span style="white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-1-14"><a style="outline:none;text-decoration:none;color:inherit" href="#hl-1-14">14</a>
+</span><span style="white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-1-15"><a style="outline:none;text-decoration:none;color:inherit" href="#hl-1-15">15</a>
+</span><span style="white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-1-16"><a style="outline:none;text-decoration:none;color:inherit" href="#hl-1-16">16</a>
+</span><span style="white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-1-17"><a style="outline:none;text-decoration:none;color:inherit" href="#hl-1-17">17</a>
+</span><span style="white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-1-18"><a style="outline:none;text-decoration:none;color:inherit" href="#hl-1-18">18</a>
+</span><span style="white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-1-19"><a style="outline:none;text-decoration:none;color:inherit" href="#hl-1-19">19</a>
+</span><span style="white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-1-20"><a style="outline:none;text-decoration:none;color:inherit" href="#hl-1-20">20</a>
+</span><span style="white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-1-21"><a style="outline:none;text-decoration:none;color:inherit" href="#hl-1-21">21</a>
+</span><span style="white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-1-22"><a style="outline:none;text-decoration:none;color:inherit" href="#hl-1-22">22</a>
+</span><span style="white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-1-23"><a style="outline:none;text-decoration:none;color:inherit" href="#hl-1-23">23</a>
+</span><span style="white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-1-24"><a style="outline:none;text-decoration:none;color:inherit" href="#hl-1-24">24</a>
+</span><span style="white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-1-25"><a style="outline:none;text-decoration:none;color:inherit" href="#hl-1-25">25</a>
+</span><span style="white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-1-26"><a style="outline:none;text-decoration:none;color:inherit" href="#hl-1-26">26</a>
 </span></code></pre></td>
-<td class="lntd">
-<pre tabindex="0" class="chroma"><code class="language-py" data-lang="py"><span class="line"><span class="cl"><span class="k">def</span> <span class="nf">repo_dir</span><span class="p">(</span><span class="n">repo</span><span class="p">,</span> <span class="o">*</span><span class="n">path</span><span class="p">,</span> <span class="n">mkdir</span><span class="o">=</span><span class="kc">False</span><span class="p">):</span>
-</span></span><span class="line"><span class="cl">    <span class="c1"># repo is for our GitRepository object as we want to work with repository.</span>
-</span></span><span class="line"><span class="cl">    <span class="c1"># *path is the path we want to check</span>
-</span></span><span class="line"><span class="cl">    <span class="c1"># mkdir to specify whether we want to create directory or not.</span>
-</span></span><span class="line"><span class="cl">
-</span></span><span class="line"><span class="cl">    <span class="c1"># this function would give us path we want to check if it exist or not</span>
-</span></span><span class="line"><span class="cl">    <span class="n">path</span> <span class="o">=</span> <span class="n">repo_path</span><span class="p">(</span><span class="n">repo</span><span class="p">,</span> <span class="o">*</span><span class="n">path</span><span class="p">)</span>
-</span></span><span class="line"><span class="cl">
-</span></span><span class="line"><span class="cl">    <span class="c1"># This would check whether path exists and if it does then it would check if it is a directory or not</span>
-</span></span><span class="line"><span class="cl">    <span class="k">if</span> <span class="n">os</span><span class="o">.</span><span class="n">path</span><span class="o">.</span><span class="n">exists</span><span class="p">(</span><span class="n">path</span><span class="p">):</span>
-</span></span><span class="line"><span class="cl">        <span class="k">if</span> <span class="p">(</span><span class="n">os</span><span class="o">.</span><span class="n">path</span><span class="o">.</span><span class="n">isdir</span><span class="p">(</span><span class="n">path</span><span class="p">)):</span>
-</span></span><span class="line"><span class="cl">            <span class="k">return</span> <span class="n">path</span>
-</span></span><span class="line"><span class="cl">        <span class="k">else</span><span class="p">:</span>
-</span></span><span class="line"><span class="cl">            <span class="k">raise</span> <span class="ne">Exception</span><span class="p">(</span><span class="s2">&#34;Not a directory </span><span class="si">%s</span><span class="s2">&#34;</span> <span class="o">%</span> <span class="n">path</span><span class="p">)</span>
-</span></span><span class="line"><span class="cl">
-</span></span><span class="line"><span class="cl">    <span class="c1"># This would check if we need to create directory as it doesn&#39;t exists</span>
-</span></span><span class="line"><span class="cl">    <span class="k">if</span> <span class="n">mkdir</span><span class="p">:</span>
-</span></span><span class="line"><span class="cl">        <span class="n">os</span><span class="o">.</span><span class="n">makedirs</span><span class="p">(</span><span class="n">path</span><span class="p">)</span>
-</span></span><span class="line"><span class="cl">        <span class="k">return</span> <span class="n">path</span>
-</span></span><span class="line"><span class="cl">    <span class="k">else</span><span class="p">:</span>
-</span></span><span class="line"><span class="cl">        <span class="k">return</span> <span class="kc">None</span>
-</span></span><span class="line"><span class="cl">
-</span></span><span class="line"><span class="cl">
-</span></span><span class="line"><span class="cl"><span class="k">def</span> <span class="nf">repo_path</span><span class="p">(</span><span class="n">repo</span><span class="p">,</span> <span class="o">*</span><span class="n">path</span><span class="p">):</span>
-</span></span><span class="line"><span class="cl">    <span class="c1"># This would return us path under repository git directory</span>
-</span></span><span class="line"><span class="cl">    <span class="k">return</span> <span class="n">os</span><span class="o">.</span><span class="n">path</span><span class="o">.</span><span class="n">join</span><span class="p">(</span><span class="n">repo</span><span class="o">.</span><span class="n">gitdir</span><span class="p">,</span> <span class="o">*</span><span class="n">path</span><span class="p">)</span>
+<td style="vertical-align:top;padding:0;margin:0;border:0;;width:100%">
+<pre tabindex="0" style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-py" data-lang="py"><span style="display:flex;"><span><span style="color:#007020;font-weight:bold">def</span> <span style="color:#06287e">repo_dir</span>(repo, <span style="color:#666">*</span>path, mkdir<span style="color:#666">=</span><span style="color:#007020;font-weight:bold">False</span>):
+</span></span><span style="display:flex;"><span>    <span style="color:#60a0b0;font-style:italic"># repo is for our GitRepository object as we want to work with repository.</span>
+</span></span><span style="display:flex;"><span>    <span style="color:#60a0b0;font-style:italic"># *path is the path we want to check</span>
+</span></span><span style="display:flex;"><span>    <span style="color:#60a0b0;font-style:italic"># mkdir to specify whether we want to create directory or not.</span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>    <span style="color:#60a0b0;font-style:italic"># this function would give us path we want to check if it exist or not</span>
+</span></span><span style="display:flex;"><span>    path <span style="color:#666">=</span> repo_path(repo, <span style="color:#666">*</span>path)
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>    <span style="color:#60a0b0;font-style:italic"># This would check whether path exists and if it does then it would check if it is a directory or not</span>
+</span></span><span style="display:flex;"><span>    <span style="color:#007020;font-weight:bold">if</span> os<span style="color:#666">.</span>path<span style="color:#666">.</span>exists(path):
+</span></span><span style="display:flex;"><span>        <span style="color:#007020;font-weight:bold">if</span> (os<span style="color:#666">.</span>path<span style="color:#666">.</span>isdir(path)):
+</span></span><span style="display:flex;"><span>            <span style="color:#007020;font-weight:bold">return</span> path
+</span></span><span style="display:flex;"><span>        <span style="color:#007020;font-weight:bold">else</span>:
+</span></span><span style="display:flex;"><span>            <span style="color:#007020;font-weight:bold">raise</span> <span style="color:#007020">Exception</span>(<span style="color:#4070a0">&#34;Not a directory </span><span style="color:#70a0d0">%s</span><span style="color:#4070a0">&#34;</span> <span style="color:#666">%</span> path)
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>    <span style="color:#60a0b0;font-style:italic"># This would check if we need to create directory as it doesn&#39;t exists</span>
+</span></span><span style="display:flex;"><span>    <span style="color:#007020;font-weight:bold">if</span> mkdir:
+</span></span><span style="display:flex;"><span>        os<span style="color:#666">.</span>makedirs(path)
+</span></span><span style="display:flex;"><span>        <span style="color:#007020;font-weight:bold">return</span> path
+</span></span><span style="display:flex;"><span>    <span style="color:#007020;font-weight:bold">else</span>:
+</span></span><span style="display:flex;"><span>        <span style="color:#007020;font-weight:bold">return</span> <span style="color:#007020;font-weight:bold">None</span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#007020;font-weight:bold">def</span> <span style="color:#06287e">repo_path</span>(repo, <span style="color:#666">*</span>path):
+</span></span><span style="display:flex;"><span>    <span style="color:#60a0b0;font-style:italic"># This would return us path under repository git directory</span>
+</span></span><span style="display:flex;"><span>    <span style="color:#007020;font-weight:bold">return</span> os<span style="color:#666">.</span>path<span style="color:#666">.</span>join(repo<span style="color:#666">.</span>gitdir, <span style="color:#666">*</span>path)
 </span></span></code></pre></td></tr></table>
 </div>
 </div><p>We have created another <code>repo_path</code> function which is gives us path based on our git directory. Now we would add for these in our <code>repo_create()</code></p>
-<div class="highlight"><div class="chroma">
-<table class="lntable"><tr><td class="lntd">
-<pre tabindex="0" class="chroma"><code><span class="lnt"> 1
-</span><span class="lnt"> 2
-</span><span class="lnt"> 3
-</span><span class="lnt"> 4
-</span><span class="lnt"> 5
-</span><span class="lnt"> 6
-</span><span class="lnt"> 7
-</span><span class="lnt"> 8
-</span><span class="lnt"> 9
-</span><span class="lnt">10
-</span><span class="lnt">11
-</span><span class="lnt">12
-</span><span class="lnt">13
-</span><span class="lnt">14
-</span><span class="lnt">15
-</span><span class="lnt">16
-</span><span class="lnt">17
-</span><span class="lnt">18
-</span><span class="lnt">19
-</span><span class="lnt">20
+<div class="highlight"><div style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">
+<table style="border-spacing:0;padding:0;margin:0;border:0;"><tr><td style="vertical-align:top;padding:0;margin:0;border:0;">
+<pre tabindex="0" style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code><span style="white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-2-1"><a style="outline:none;text-decoration:none;color:inherit" href="#hl-2-1"> 1</a>
+</span><span style="white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-2-2"><a style="outline:none;text-decoration:none;color:inherit" href="#hl-2-2"> 2</a>
+</span><span style="white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-2-3"><a style="outline:none;text-decoration:none;color:inherit" href="#hl-2-3"> 3</a>
+</span><span style="white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-2-4"><a style="outline:none;text-decoration:none;color:inherit" href="#hl-2-4"> 4</a>
+</span><span style="white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-2-5"><a style="outline:none;text-decoration:none;color:inherit" href="#hl-2-5"> 5</a>
+</span><span style="white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-2-6"><a style="outline:none;text-decoration:none;color:inherit" href="#hl-2-6"> 6</a>
+</span><span style="white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-2-7"><a style="outline:none;text-decoration:none;color:inherit" href="#hl-2-7"> 7</a>
+</span><span style="white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-2-8"><a style="outline:none;text-decoration:none;color:inherit" href="#hl-2-8"> 8</a>
+</span><span style="white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-2-9"><a style="outline:none;text-decoration:none;color:inherit" href="#hl-2-9"> 9</a>
+</span><span style="white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-2-10"><a style="outline:none;text-decoration:none;color:inherit" href="#hl-2-10">10</a>
+</span><span style="white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-2-11"><a style="outline:none;text-decoration:none;color:inherit" href="#hl-2-11">11</a>
+</span><span style="white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-2-12"><a style="outline:none;text-decoration:none;color:inherit" href="#hl-2-12">12</a>
+</span><span style="white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-2-13"><a style="outline:none;text-decoration:none;color:inherit" href="#hl-2-13">13</a>
+</span><span style="white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-2-14"><a style="outline:none;text-decoration:none;color:inherit" href="#hl-2-14">14</a>
+</span><span style="white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-2-15"><a style="outline:none;text-decoration:none;color:inherit" href="#hl-2-15">15</a>
+</span><span style="white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-2-16"><a style="outline:none;text-decoration:none;color:inherit" href="#hl-2-16">16</a>
+</span><span style="white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-2-17"><a style="outline:none;text-decoration:none;color:inherit" href="#hl-2-17">17</a>
+</span><span style="white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-2-18"><a style="outline:none;text-decoration:none;color:inherit" href="#hl-2-18">18</a>
+</span><span style="white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-2-19"><a style="outline:none;text-decoration:none;color:inherit" href="#hl-2-19">19</a>
+</span><span style="white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-2-20"><a style="outline:none;text-decoration:none;color:inherit" href="#hl-2-20">20</a>
 </span></code></pre></td>
-<td class="lntd">
-<pre tabindex="0" class="chroma"><code class="language-py" data-lang="py"><span class="line"><span class="cl"><span class="k">def</span> <span class="nf">repo_create</span><span class="p">(</span><span class="n">path</span><span class="p">):</span>
-</span></span><span class="line"><span class="cl">    <span class="s2">&#34;&#34;&#34;Create a new repository at path.&#34;&#34;&#34;</span>
-</span></span><span class="line"><span class="cl">    <span class="n">repo</span> <span class="o">=</span> <span class="n">GitRepository</span><span class="p">(</span><span class="n">path</span><span class="p">)</span>
-</span></span><span class="line"><span class="cl">    <span class="c1"># We check whether there exists a path of worktree</span>
-</span></span><span class="line"><span class="cl">    <span class="k">if</span> <span class="n">os</span><span class="o">.</span><span class="n">path</span><span class="o">.</span><span class="n">exists</span><span class="p">(</span><span class="n">repo</span><span class="o">.</span><span class="n">worktree</span><span class="p">):</span>
-</span></span><span class="line"><span class="cl">        <span class="c1"># if path exists its a directory or not</span>
-</span></span><span class="line"><span class="cl">        <span class="k">if</span> <span class="ow">not</span> <span class="n">os</span><span class="o">.</span><span class="n">path</span><span class="o">.</span><span class="n">isdir</span><span class="p">(</span><span class="n">repo</span><span class="o">.</span><span class="n">worktree</span><span class="p">):</span>
-</span></span><span class="line"><span class="cl">            <span class="k">raise</span> <span class="ne">Exception</span><span class="p">(</span><span class="s2">&#34;</span><span class="si">%s</span><span class="s2"> is not a directory!&#34;</span> <span class="o">%</span> <span class="n">path</span><span class="p">)</span>
-</span></span><span class="line"><span class="cl">        <span class="c1"># if path exists its empty or not</span>
-</span></span><span class="line"><span class="cl">        <span class="k">if</span> <span class="n">os</span><span class="o">.</span><span class="n">listdir</span><span class="p">(</span><span class="n">repo</span><span class="o">.</span><span class="n">worktree</span><span class="p">):</span>
-</span></span><span class="line"><span class="cl">            <span class="k">raise</span> <span class="ne">Exception</span><span class="p">(</span><span class="s2">&#34;</span><span class="si">%s</span><span class="s2"> is not empty!&#34;</span> <span class="o">%</span> <span class="n">path</span><span class="p">)</span>
-</span></span><span class="line"><span class="cl">    <span class="k">else</span><span class="p">:</span>
-</span></span><span class="line"><span class="cl">        <span class="c1"># Create directory as nothing exist with same path</span>
-</span></span><span class="line"><span class="cl">        <span class="n">os</span><span class="o">.</span><span class="n">makedirs</span><span class="p">(</span><span class="n">repo</span><span class="o">.</span><span class="n">worktree</span><span class="p">)</span>
-</span></span><span class="line"><span class="cl">        <span class="n">repo_path</span><span class="p">(</span><span class="n">repo</span><span class="p">,</span> <span class="s2">&#34;branches&#34;</span><span class="p">)</span>
-</span></span><span class="line"><span class="cl">
-</span></span><span class="line"><span class="cl">    <span class="k">assert</span><span class="p">(</span><span class="n">repo_dir</span><span class="p">(</span><span class="n">repo</span><span class="p">,</span> <span class="s2">&#34;branches&#34;</span><span class="p">,</span> <span class="n">mkdir</span><span class="o">=</span><span class="kc">True</span><span class="p">))</span>
-</span></span><span class="line"><span class="cl">    <span class="k">assert</span><span class="p">(</span><span class="n">repo_dir</span><span class="p">(</span><span class="n">repo</span><span class="p">,</span> <span class="s2">&#34;objects&#34;</span><span class="p">,</span> <span class="n">mkdir</span><span class="o">=</span><span class="kc">True</span><span class="p">))</span>
-</span></span><span class="line"><span class="cl">    <span class="k">assert</span><span class="p">(</span><span class="n">repo_dir</span><span class="p">(</span><span class="n">repo</span><span class="p">,</span> <span class="s2">&#34;refs&#34;</span><span class="p">,</span> <span class="s2">&#34;tags&#34;</span><span class="p">,</span> <span class="n">mkdir</span><span class="o">=</span><span class="kc">True</span><span class="p">))</span>
-</span></span><span class="line"><span class="cl">    <span class="k">assert</span><span class="p">(</span><span class="n">repo_dir</span><span class="p">(</span><span class="n">repo</span><span class="p">,</span> <span class="s2">&#34;refs&#34;</span><span class="p">,</span> <span class="s2">&#34;heads&#34;</span><span class="p">,</span> <span class="n">mkdir</span><span class="o">=</span><span class="kc">True</span><span class="p">))</span>
+<td style="vertical-align:top;padding:0;margin:0;border:0;;width:100%">
+<pre tabindex="0" style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-py" data-lang="py"><span style="display:flex;"><span><span style="color:#007020;font-weight:bold">def</span> <span style="color:#06287e">repo_create</span>(path):
+</span></span><span style="display:flex;"><span>    <span style="color:#4070a0">&#34;&#34;&#34;Create a new repository at path.&#34;&#34;&#34;</span>
+</span></span><span style="display:flex;"><span>    repo <span style="color:#666">=</span> GitRepository(path)
+</span></span><span style="display:flex;"><span>    <span style="color:#60a0b0;font-style:italic"># We check whether there exists a path of worktree</span>
+</span></span><span style="display:flex;"><span>    <span style="color:#007020;font-weight:bold">if</span> os<span style="color:#666">.</span>path<span style="color:#666">.</span>exists(repo<span style="color:#666">.</span>worktree):
+</span></span><span style="display:flex;"><span>        <span style="color:#60a0b0;font-style:italic"># if path exists its a directory or not</span>
+</span></span><span style="display:flex;"><span>        <span style="color:#007020;font-weight:bold">if</span> <span style="color:#007020;font-weight:bold">not</span> os<span style="color:#666">.</span>path<span style="color:#666">.</span>isdir(repo<span style="color:#666">.</span>worktree):
+</span></span><span style="display:flex;"><span>            <span style="color:#007020;font-weight:bold">raise</span> <span style="color:#007020">Exception</span>(<span style="color:#4070a0">&#34;</span><span style="color:#70a0d0">%s</span><span style="color:#4070a0"> is not a directory!&#34;</span> <span style="color:#666">%</span> path)
+</span></span><span style="display:flex;"><span>        <span style="color:#60a0b0;font-style:italic"># if path exists its empty or not</span>
+</span></span><span style="display:flex;"><span>        <span style="color:#007020;font-weight:bold">if</span> os<span style="color:#666">.</span>listdir(repo<span style="color:#666">.</span>worktree):
+</span></span><span style="display:flex;"><span>            <span style="color:#007020;font-weight:bold">raise</span> <span style="color:#007020">Exception</span>(<span style="color:#4070a0">&#34;</span><span style="color:#70a0d0">%s</span><span style="color:#4070a0"> is not empty!&#34;</span> <span style="color:#666">%</span> path)
+</span></span><span style="display:flex;"><span>    <span style="color:#007020;font-weight:bold">else</span>:
+</span></span><span style="display:flex;"><span>        <span style="color:#60a0b0;font-style:italic"># Create directory as nothing exist with same path</span>
+</span></span><span style="display:flex;"><span>        os<span style="color:#666">.</span>makedirs(repo<span style="color:#666">.</span>worktree)
+</span></span><span style="display:flex;"><span>        repo_path(repo, <span style="color:#4070a0">&#34;branches&#34;</span>)
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>    <span style="color:#007020;font-weight:bold">assert</span>(repo_dir(repo, <span style="color:#4070a0">&#34;branches&#34;</span>, mkdir<span style="color:#666">=</span><span style="color:#007020;font-weight:bold">True</span>))
+</span></span><span style="display:flex;"><span>    <span style="color:#007020;font-weight:bold">assert</span>(repo_dir(repo, <span style="color:#4070a0">&#34;objects&#34;</span>, mkdir<span style="color:#666">=</span><span style="color:#007020;font-weight:bold">True</span>))
+</span></span><span style="display:flex;"><span>    <span style="color:#007020;font-weight:bold">assert</span>(repo_dir(repo, <span style="color:#4070a0">&#34;refs&#34;</span>, <span style="color:#4070a0">&#34;tags&#34;</span>, mkdir<span style="color:#666">=</span><span style="color:#007020;font-weight:bold">True</span>))
+</span></span><span style="display:flex;"><span>    <span style="color:#007020;font-weight:bold">assert</span>(repo_dir(repo, <span style="color:#4070a0">&#34;refs&#34;</span>, <span style="color:#4070a0">&#34;heads&#34;</span>, mkdir<span style="color:#666">=</span><span style="color:#007020;font-weight:bold">True</span>))
 </span></span></code></pre></td></tr></table>
 </div>
 </div><p>Above would create <code>.git</code> directory with <code>braches</code>, <code>objects</code> and <code>refs</code> directory with <code>tags</code> and <code>heads</code> under it. It would look as follows:</p>
@@ -516,64 +546,64 @@ if (!doNotTrack) {
 <p><code>Assert()</code> helps us to identify that all these directories are created. If there is some issue and we return None from function it would show assertation error.</p>
 <p>Besides directories there are few files which are also created when you do a git init, so those also needs to be created when we <code>wag init</code>. Those files are config, HEAD and description others too but for now we would concentrate on these three.</p>
 <p>Now these files could be created anywhere and that directory may or may not exist so we would so let&rsquo;s create a function which would create these directories if require. Also lets open description file and write &ldquo;Unnamed repository; edit this file &lsquo;description&rsquo; to name the repository.&rdquo; into that. We need to change this in our <code>repo_create</code> function</p>
-<div class="highlight"><div class="chroma">
-<table class="lntable"><tr><td class="lntd">
-<pre tabindex="0" class="chroma"><code><span class="lnt"> 1
-</span><span class="lnt"> 2
-</span><span class="lnt"> 3
-</span><span class="lnt"> 4
-</span><span class="lnt"> 5
-</span><span class="lnt"> 6
-</span><span class="lnt"> 7
-</span><span class="lnt"> 8
-</span><span class="lnt"> 9
-</span><span class="lnt">10
-</span><span class="lnt">11
-</span><span class="lnt">12
-</span><span class="lnt">13
-</span><span class="lnt">14
-</span><span class="lnt">15
-</span><span class="lnt">16
-</span><span class="lnt">17
-</span><span class="lnt">18
-</span><span class="lnt">19
-</span><span class="lnt">20
-</span><span class="lnt">21
-</span><span class="lnt">22
-</span><span class="lnt">23
-</span><span class="lnt">24
-</span><span class="lnt">25
-</span><span class="lnt">26
-</span><span class="lnt">27
+<div class="highlight"><div style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">
+<table style="border-spacing:0;padding:0;margin:0;border:0;"><tr><td style="vertical-align:top;padding:0;margin:0;border:0;">
+<pre tabindex="0" style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code><span style="white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-3-1"><a style="outline:none;text-decoration:none;color:inherit" href="#hl-3-1"> 1</a>
+</span><span style="white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-3-2"><a style="outline:none;text-decoration:none;color:inherit" href="#hl-3-2"> 2</a>
+</span><span style="white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-3-3"><a style="outline:none;text-decoration:none;color:inherit" href="#hl-3-3"> 3</a>
+</span><span style="white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-3-4"><a style="outline:none;text-decoration:none;color:inherit" href="#hl-3-4"> 4</a>
+</span><span style="white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-3-5"><a style="outline:none;text-decoration:none;color:inherit" href="#hl-3-5"> 5</a>
+</span><span style="white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-3-6"><a style="outline:none;text-decoration:none;color:inherit" href="#hl-3-6"> 6</a>
+</span><span style="white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-3-7"><a style="outline:none;text-decoration:none;color:inherit" href="#hl-3-7"> 7</a>
+</span><span style="white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-3-8"><a style="outline:none;text-decoration:none;color:inherit" href="#hl-3-8"> 8</a>
+</span><span style="white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-3-9"><a style="outline:none;text-decoration:none;color:inherit" href="#hl-3-9"> 9</a>
+</span><span style="white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-3-10"><a style="outline:none;text-decoration:none;color:inherit" href="#hl-3-10">10</a>
+</span><span style="white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-3-11"><a style="outline:none;text-decoration:none;color:inherit" href="#hl-3-11">11</a>
+</span><span style="white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-3-12"><a style="outline:none;text-decoration:none;color:inherit" href="#hl-3-12">12</a>
+</span><span style="white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-3-13"><a style="outline:none;text-decoration:none;color:inherit" href="#hl-3-13">13</a>
+</span><span style="white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-3-14"><a style="outline:none;text-decoration:none;color:inherit" href="#hl-3-14">14</a>
+</span><span style="white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-3-15"><a style="outline:none;text-decoration:none;color:inherit" href="#hl-3-15">15</a>
+</span><span style="white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-3-16"><a style="outline:none;text-decoration:none;color:inherit" href="#hl-3-16">16</a>
+</span><span style="white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-3-17"><a style="outline:none;text-decoration:none;color:inherit" href="#hl-3-17">17</a>
+</span><span style="white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-3-18"><a style="outline:none;text-decoration:none;color:inherit" href="#hl-3-18">18</a>
+</span><span style="white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-3-19"><a style="outline:none;text-decoration:none;color:inherit" href="#hl-3-19">19</a>
+</span><span style="white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-3-20"><a style="outline:none;text-decoration:none;color:inherit" href="#hl-3-20">20</a>
+</span><span style="white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-3-21"><a style="outline:none;text-decoration:none;color:inherit" href="#hl-3-21">21</a>
+</span><span style="white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-3-22"><a style="outline:none;text-decoration:none;color:inherit" href="#hl-3-22">22</a>
+</span><span style="white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-3-23"><a style="outline:none;text-decoration:none;color:inherit" href="#hl-3-23">23</a>
+</span><span style="white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-3-24"><a style="outline:none;text-decoration:none;color:inherit" href="#hl-3-24">24</a>
+</span><span style="white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-3-25"><a style="outline:none;text-decoration:none;color:inherit" href="#hl-3-25">25</a>
+</span><span style="white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-3-26"><a style="outline:none;text-decoration:none;color:inherit" href="#hl-3-26">26</a>
+</span><span style="white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-3-27"><a style="outline:none;text-decoration:none;color:inherit" href="#hl-3-27">27</a>
 </span></code></pre></td>
-<td class="lntd">
-<pre tabindex="0" class="chroma"><code class="language-py" data-lang="py"><span class="line"><span class="cl"><span class="k">def</span> <span class="nf">repo_create</span><span class="p">(</span><span class="n">path</span><span class="p">):</span>
-</span></span><span class="line"><span class="cl">    <span class="s2">&#34;&#34;&#34;Create a new repository at path.&#34;&#34;&#34;</span>
-</span></span><span class="line"><span class="cl">    <span class="n">repo</span> <span class="o">=</span> <span class="n">GitRepository</span><span class="p">(</span><span class="n">path</span><span class="p">)</span>
-</span></span><span class="line"><span class="cl">    <span class="c1"># We check whether there exists a path of worktree</span>
-</span></span><span class="line"><span class="cl">    <span class="k">if</span> <span class="n">os</span><span class="o">.</span><span class="n">path</span><span class="o">.</span><span class="n">exists</span><span class="p">(</span><span class="n">repo</span><span class="o">.</span><span class="n">worktree</span><span class="p">):</span>
-</span></span><span class="line"><span class="cl">        <span class="c1"># if path exists its a directory or not</span>
-</span></span><span class="line"><span class="cl">        <span class="k">if</span> <span class="ow">not</span> <span class="n">os</span><span class="o">.</span><span class="n">path</span><span class="o">.</span><span class="n">isdir</span><span class="p">(</span><span class="n">repo</span><span class="o">.</span><span class="n">worktree</span><span class="p">):</span>
-</span></span><span class="line"><span class="cl">            <span class="k">raise</span> <span class="ne">Exception</span><span class="p">(</span><span class="s2">&#34;</span><span class="si">%s</span><span class="s2"> is not a directory!&#34;</span> <span class="o">%</span> <span class="n">path</span><span class="p">)</span>
-</span></span><span class="line"><span class="cl">        <span class="c1"># if path exists its empty or not</span>
-</span></span><span class="line"><span class="cl">        <span class="k">if</span> <span class="n">os</span><span class="o">.</span><span class="n">listdir</span><span class="p">(</span><span class="n">repo</span><span class="o">.</span><span class="n">worktree</span><span class="p">):</span>
-</span></span><span class="line"><span class="cl">            <span class="k">raise</span> <span class="ne">Exception</span><span class="p">(</span><span class="s2">&#34;</span><span class="si">%s</span><span class="s2"> is not empty!&#34;</span> <span class="o">%</span> <span class="n">path</span><span class="p">)</span>
-</span></span><span class="line"><span class="cl">    <span class="k">else</span><span class="p">:</span>
-</span></span><span class="line"><span class="cl">        <span class="c1"># Create directory as nothing exist with same path</span>
-</span></span><span class="line"><span class="cl">        <span class="n">os</span><span class="o">.</span><span class="n">makedirs</span><span class="p">(</span><span class="n">repo</span><span class="o">.</span><span class="n">worktree</span><span class="p">)</span>
-</span></span><span class="line"><span class="cl">        <span class="n">repo_path</span><span class="p">(</span><span class="n">repo</span><span class="p">,</span> <span class="s2">&#34;branches&#34;</span><span class="p">)</span>
-</span></span><span class="line"><span class="cl">
-</span></span><span class="line"><span class="cl">    <span class="k">assert</span><span class="p">(</span><span class="n">repo_dir</span><span class="p">(</span><span class="n">repo</span><span class="p">,</span> <span class="s2">&#34;branches&#34;</span><span class="p">,</span> <span class="n">mkdir</span><span class="o">=</span><span class="kc">True</span><span class="p">))</span>
-</span></span><span class="line"><span class="cl">    <span class="k">assert</span><span class="p">(</span><span class="n">repo_dir</span><span class="p">(</span><span class="n">repo</span><span class="p">,</span> <span class="s2">&#34;objects&#34;</span><span class="p">,</span> <span class="n">mkdir</span><span class="o">=</span><span class="kc">True</span><span class="p">))</span>
-</span></span><span class="line"><span class="cl">    <span class="k">assert</span><span class="p">(</span><span class="n">repo_dir</span><span class="p">(</span><span class="n">repo</span><span class="p">,</span> <span class="s2">&#34;refs&#34;</span><span class="p">,</span> <span class="s2">&#34;tags&#34;</span><span class="p">,</span> <span class="n">mkdir</span><span class="o">=</span><span class="kc">True</span><span class="p">))</span>
-</span></span><span class="line"><span class="cl">    <span class="k">assert</span><span class="p">(</span><span class="n">repo_dir</span><span class="p">(</span><span class="n">repo</span><span class="p">,</span> <span class="s2">&#34;refs&#34;</span><span class="p">,</span> <span class="s2">&#34;heads&#34;</span><span class="p">,</span> <span class="n">mkdir</span><span class="o">=</span><span class="kc">True</span><span class="p">))</span>
-</span></span><span class="line"><span class="cl">
-</span></span><span class="line"><span class="cl">    <span class="k">with</span> <span class="nb">open</span><span class="p">(</span><span class="n">repo_file</span><span class="p">(</span><span class="n">repo</span><span class="p">,</span> <span class="s2">&#34;description&#34;</span><span class="p">),</span> <span class="s2">&#34;w&#34;</span><span class="p">)</span> <span class="k">as</span> <span class="n">f</span><span class="p">:</span>
-</span></span><span class="line"><span class="cl">        <span class="n">f</span><span class="o">.</span><span class="n">write</span><span class="p">(</span><span class="s2">&#34;Unnamed repository; edit this file &#39;description&#39; to name the repository.</span><span class="se">\n</span><span class="s2">&#34;</span><span class="p">)</span>
-</span></span><span class="line"><span class="cl">
-</span></span><span class="line"><span class="cl"><span class="k">def</span> <span class="nf">repo_file</span><span class="p">(</span><span class="n">repo</span><span class="p">,</span> <span class="o">*</span><span class="n">path</span><span class="p">,</span> <span class="n">mkdir</span><span class="o">=</span><span class="kc">False</span><span class="p">):</span>
-</span></span><span class="line"><span class="cl">    <span class="k">if</span> <span class="n">repo_dir</span><span class="p">(</span><span class="n">repo</span><span class="p">,</span> <span class="o">*</span><span class="n">path</span><span class="p">[:</span><span class="o">-</span><span class="mi">1</span><span class="p">],</span> <span class="n">mkdir</span><span class="o">=</span><span class="n">mkdir</span><span class="p">):</span>
-</span></span><span class="line"><span class="cl">    <span class="k">return</span> <span class="n">repo_path</span><span class="p">(</span><span class="n">repo</span><span class="p">,</span> <span class="o">*</span><span class="n">path</span><span class="p">)</span>
+<td style="vertical-align:top;padding:0;margin:0;border:0;;width:100%">
+<pre tabindex="0" style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-py" data-lang="py"><span style="display:flex;"><span><span style="color:#007020;font-weight:bold">def</span> <span style="color:#06287e">repo_create</span>(path):
+</span></span><span style="display:flex;"><span>    <span style="color:#4070a0">&#34;&#34;&#34;Create a new repository at path.&#34;&#34;&#34;</span>
+</span></span><span style="display:flex;"><span>    repo <span style="color:#666">=</span> GitRepository(path)
+</span></span><span style="display:flex;"><span>    <span style="color:#60a0b0;font-style:italic"># We check whether there exists a path of worktree</span>
+</span></span><span style="display:flex;"><span>    <span style="color:#007020;font-weight:bold">if</span> os<span style="color:#666">.</span>path<span style="color:#666">.</span>exists(repo<span style="color:#666">.</span>worktree):
+</span></span><span style="display:flex;"><span>        <span style="color:#60a0b0;font-style:italic"># if path exists its a directory or not</span>
+</span></span><span style="display:flex;"><span>        <span style="color:#007020;font-weight:bold">if</span> <span style="color:#007020;font-weight:bold">not</span> os<span style="color:#666">.</span>path<span style="color:#666">.</span>isdir(repo<span style="color:#666">.</span>worktree):
+</span></span><span style="display:flex;"><span>            <span style="color:#007020;font-weight:bold">raise</span> <span style="color:#007020">Exception</span>(<span style="color:#4070a0">&#34;</span><span style="color:#70a0d0">%s</span><span style="color:#4070a0"> is not a directory!&#34;</span> <span style="color:#666">%</span> path)
+</span></span><span style="display:flex;"><span>        <span style="color:#60a0b0;font-style:italic"># if path exists its empty or not</span>
+</span></span><span style="display:flex;"><span>        <span style="color:#007020;font-weight:bold">if</span> os<span style="color:#666">.</span>listdir(repo<span style="color:#666">.</span>worktree):
+</span></span><span style="display:flex;"><span>            <span style="color:#007020;font-weight:bold">raise</span> <span style="color:#007020">Exception</span>(<span style="color:#4070a0">&#34;</span><span style="color:#70a0d0">%s</span><span style="color:#4070a0"> is not empty!&#34;</span> <span style="color:#666">%</span> path)
+</span></span><span style="display:flex;"><span>    <span style="color:#007020;font-weight:bold">else</span>:
+</span></span><span style="display:flex;"><span>        <span style="color:#60a0b0;font-style:italic"># Create directory as nothing exist with same path</span>
+</span></span><span style="display:flex;"><span>        os<span style="color:#666">.</span>makedirs(repo<span style="color:#666">.</span>worktree)
+</span></span><span style="display:flex;"><span>        repo_path(repo, <span style="color:#4070a0">&#34;branches&#34;</span>)
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>    <span style="color:#007020;font-weight:bold">assert</span>(repo_dir(repo, <span style="color:#4070a0">&#34;branches&#34;</span>, mkdir<span style="color:#666">=</span><span style="color:#007020;font-weight:bold">True</span>))
+</span></span><span style="display:flex;"><span>    <span style="color:#007020;font-weight:bold">assert</span>(repo_dir(repo, <span style="color:#4070a0">&#34;objects&#34;</span>, mkdir<span style="color:#666">=</span><span style="color:#007020;font-weight:bold">True</span>))
+</span></span><span style="display:flex;"><span>    <span style="color:#007020;font-weight:bold">assert</span>(repo_dir(repo, <span style="color:#4070a0">&#34;refs&#34;</span>, <span style="color:#4070a0">&#34;tags&#34;</span>, mkdir<span style="color:#666">=</span><span style="color:#007020;font-weight:bold">True</span>))
+</span></span><span style="display:flex;"><span>    <span style="color:#007020;font-weight:bold">assert</span>(repo_dir(repo, <span style="color:#4070a0">&#34;refs&#34;</span>, <span style="color:#4070a0">&#34;heads&#34;</span>, mkdir<span style="color:#666">=</span><span style="color:#007020;font-weight:bold">True</span>))
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>    <span style="color:#007020;font-weight:bold">with</span> <span style="color:#007020">open</span>(repo_file(repo, <span style="color:#4070a0">&#34;description&#34;</span>), <span style="color:#4070a0">&#34;w&#34;</span>) <span style="color:#007020;font-weight:bold">as</span> f:
+</span></span><span style="display:flex;"><span>        f<span style="color:#666">.</span>write(<span style="color:#4070a0">&#34;Unnamed repository; edit this file &#39;description&#39; to name the repository.</span><span style="color:#4070a0;font-weight:bold">\n</span><span style="color:#4070a0">&#34;</span>)
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#007020;font-weight:bold">def</span> <span style="color:#06287e">repo_file</span>(repo, <span style="color:#666">*</span>path, mkdir<span style="color:#666">=</span><span style="color:#007020;font-weight:bold">False</span>):
+</span></span><span style="display:flex;"><span>    <span style="color:#007020;font-weight:bold">if</span> repo_dir(repo, <span style="color:#666">*</span>path[:<span style="color:#666">-</span><span style="color:#40a070">1</span>], mkdir<span style="color:#666">=</span>mkdir):
+</span></span><span style="display:flex;"><span>    <span style="color:#007020;font-weight:bold">return</span> repo_path(repo, <span style="color:#666">*</span>path)
 </span></span></code></pre></td></tr></table>
 </div>
 </div><p>For config file we would need to use config parser module which would create a config file in Microsoft’s INI format. So first let&rsquo;s create a function which would create default config. We would need to import this module with below modules.
@@ -584,95 +614,95 @@ In default config there are thing fields,</p>
 <li>bare whose value would be false. It indicates that this repository has a work. Git supports an optional worktree key which indicates location of the worktree, if not <code>..</code>(parent repository)</li>
 </ul>
 <p>All these keys are under core section so first we would add section and then set this config.</p>
-<div class="highlight"><div class="chroma">
-<table class="lntable"><tr><td class="lntd">
-<pre tabindex="0" class="chroma"><code><span class="lnt">1
-</span><span class="lnt">2
-</span><span class="lnt">3
-</span><span class="lnt">4
-</span><span class="lnt">5
-</span><span class="lnt">6
-</span><span class="lnt">7
-</span><span class="lnt">8
-</span><span class="lnt">9
+<div class="highlight"><div style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">
+<table style="border-spacing:0;padding:0;margin:0;border:0;"><tr><td style="vertical-align:top;padding:0;margin:0;border:0;">
+<pre tabindex="0" style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code><span style="white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-4-1"><a style="outline:none;text-decoration:none;color:inherit" href="#hl-4-1">1</a>
+</span><span style="white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-4-2"><a style="outline:none;text-decoration:none;color:inherit" href="#hl-4-2">2</a>
+</span><span style="white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-4-3"><a style="outline:none;text-decoration:none;color:inherit" href="#hl-4-3">3</a>
+</span><span style="white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-4-4"><a style="outline:none;text-decoration:none;color:inherit" href="#hl-4-4">4</a>
+</span><span style="white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-4-5"><a style="outline:none;text-decoration:none;color:inherit" href="#hl-4-5">5</a>
+</span><span style="white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-4-6"><a style="outline:none;text-decoration:none;color:inherit" href="#hl-4-6">6</a>
+</span><span style="white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-4-7"><a style="outline:none;text-decoration:none;color:inherit" href="#hl-4-7">7</a>
+</span><span style="white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-4-8"><a style="outline:none;text-decoration:none;color:inherit" href="#hl-4-8">8</a>
+</span><span style="white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-4-9"><a style="outline:none;text-decoration:none;color:inherit" href="#hl-4-9">9</a>
 </span></code></pre></td>
-<td class="lntd">
-<pre tabindex="0" class="chroma"><code class="language-py" data-lang="py"><span class="line"><span class="cl"><span class="k">def</span> <span class="nf">repo_default_config</span><span class="p">():</span>
-</span></span><span class="line"><span class="cl">    <span class="n">ret</span> <span class="o">=</span> <span class="n">configparser</span><span class="o">.</span><span class="n">ConfigParser</span><span class="p">()</span>
-</span></span><span class="line"><span class="cl">
-</span></span><span class="line"><span class="cl">    <span class="n">ret</span><span class="o">.</span><span class="n">add_section</span><span class="p">(</span><span class="s2">&#34;core&#34;</span><span class="p">)</span>
-</span></span><span class="line"><span class="cl">    <span class="n">ret</span><span class="o">.</span><span class="n">set</span><span class="p">(</span><span class="s2">&#34;core&#34;</span><span class="p">,</span> <span class="s2">&#34;repositoryformatversion&#34;</span><span class="p">,</span> <span class="s2">&#34;0&#34;</span><span class="p">)</span>
-</span></span><span class="line"><span class="cl">    <span class="n">ret</span><span class="o">.</span><span class="n">set</span><span class="p">(</span><span class="s2">&#34;core&#34;</span><span class="p">,</span> <span class="s2">&#34;filemode&#34;</span><span class="p">,</span> <span class="s2">&#34;false&#34;</span><span class="p">)</span>
-</span></span><span class="line"><span class="cl">    <span class="n">ret</span><span class="o">.</span><span class="n">set</span><span class="p">(</span><span class="s2">&#34;core&#34;</span><span class="p">,</span> <span class="s2">&#34;bare&#34;</span><span class="p">,</span> <span class="s2">&#34;false&#34;</span><span class="p">)</span>
-</span></span><span class="line"><span class="cl">
-</span></span><span class="line"><span class="cl">    <span class="k">return</span> <span class="n">ret</span>
+<td style="vertical-align:top;padding:0;margin:0;border:0;;width:100%">
+<pre tabindex="0" style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-py" data-lang="py"><span style="display:flex;"><span><span style="color:#007020;font-weight:bold">def</span> <span style="color:#06287e">repo_default_config</span>():
+</span></span><span style="display:flex;"><span>    ret <span style="color:#666">=</span> configparser<span style="color:#666">.</span>ConfigParser()
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>    ret<span style="color:#666">.</span>add_section(<span style="color:#4070a0">&#34;core&#34;</span>)
+</span></span><span style="display:flex;"><span>    ret<span style="color:#666">.</span>set(<span style="color:#4070a0">&#34;core&#34;</span>, <span style="color:#4070a0">&#34;repositoryformatversion&#34;</span>, <span style="color:#4070a0">&#34;0&#34;</span>)
+</span></span><span style="display:flex;"><span>    ret<span style="color:#666">.</span>set(<span style="color:#4070a0">&#34;core&#34;</span>, <span style="color:#4070a0">&#34;filemode&#34;</span>, <span style="color:#4070a0">&#34;false&#34;</span>)
+</span></span><span style="display:flex;"><span>    ret<span style="color:#666">.</span>set(<span style="color:#4070a0">&#34;core&#34;</span>, <span style="color:#4070a0">&#34;bare&#34;</span>, <span style="color:#4070a0">&#34;false&#34;</span>)
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>    <span style="color:#007020;font-weight:bold">return</span> ret
 </span></span></code></pre></td></tr></table>
 </div>
 </div><p>Now let&rsquo;s update our <code>repo_create</code> function to create config and Head file.</p>
-<div class="highlight"><div class="chroma">
-<table class="lntable"><tr><td class="lntd">
-<pre tabindex="0" class="chroma"><code><span class="lnt"> 1
-</span><span class="lnt"> 2
-</span><span class="lnt"> 3
-</span><span class="lnt"> 4
-</span><span class="lnt"> 5
-</span><span class="lnt"> 6
-</span><span class="lnt"> 7
-</span><span class="lnt"> 8
-</span><span class="lnt"> 9
-</span><span class="lnt">10
-</span><span class="lnt">11
-</span><span class="lnt">12
-</span><span class="lnt">13
-</span><span class="lnt">14
-</span><span class="lnt">15
-</span><span class="lnt">16
-</span><span class="lnt">17
-</span><span class="lnt">18
-</span><span class="lnt">19
-</span><span class="lnt">20
-</span><span class="lnt">21
-</span><span class="lnt">22
-</span><span class="lnt">23
-</span><span class="lnt">24
-</span><span class="lnt">25
-</span><span class="lnt">26
-</span><span class="lnt">27
-</span><span class="lnt">28
-</span><span class="lnt">29
-</span><span class="lnt">30
+<div class="highlight"><div style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">
+<table style="border-spacing:0;padding:0;margin:0;border:0;"><tr><td style="vertical-align:top;padding:0;margin:0;border:0;">
+<pre tabindex="0" style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code><span style="white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-5-1"><a style="outline:none;text-decoration:none;color:inherit" href="#hl-5-1"> 1</a>
+</span><span style="white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-5-2"><a style="outline:none;text-decoration:none;color:inherit" href="#hl-5-2"> 2</a>
+</span><span style="white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-5-3"><a style="outline:none;text-decoration:none;color:inherit" href="#hl-5-3"> 3</a>
+</span><span style="white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-5-4"><a style="outline:none;text-decoration:none;color:inherit" href="#hl-5-4"> 4</a>
+</span><span style="white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-5-5"><a style="outline:none;text-decoration:none;color:inherit" href="#hl-5-5"> 5</a>
+</span><span style="white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-5-6"><a style="outline:none;text-decoration:none;color:inherit" href="#hl-5-6"> 6</a>
+</span><span style="white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-5-7"><a style="outline:none;text-decoration:none;color:inherit" href="#hl-5-7"> 7</a>
+</span><span style="white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-5-8"><a style="outline:none;text-decoration:none;color:inherit" href="#hl-5-8"> 8</a>
+</span><span style="white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-5-9"><a style="outline:none;text-decoration:none;color:inherit" href="#hl-5-9"> 9</a>
+</span><span style="white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-5-10"><a style="outline:none;text-decoration:none;color:inherit" href="#hl-5-10">10</a>
+</span><span style="white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-5-11"><a style="outline:none;text-decoration:none;color:inherit" href="#hl-5-11">11</a>
+</span><span style="white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-5-12"><a style="outline:none;text-decoration:none;color:inherit" href="#hl-5-12">12</a>
+</span><span style="white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-5-13"><a style="outline:none;text-decoration:none;color:inherit" href="#hl-5-13">13</a>
+</span><span style="white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-5-14"><a style="outline:none;text-decoration:none;color:inherit" href="#hl-5-14">14</a>
+</span><span style="white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-5-15"><a style="outline:none;text-decoration:none;color:inherit" href="#hl-5-15">15</a>
+</span><span style="white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-5-16"><a style="outline:none;text-decoration:none;color:inherit" href="#hl-5-16">16</a>
+</span><span style="white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-5-17"><a style="outline:none;text-decoration:none;color:inherit" href="#hl-5-17">17</a>
+</span><span style="white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-5-18"><a style="outline:none;text-decoration:none;color:inherit" href="#hl-5-18">18</a>
+</span><span style="white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-5-19"><a style="outline:none;text-decoration:none;color:inherit" href="#hl-5-19">19</a>
+</span><span style="white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-5-20"><a style="outline:none;text-decoration:none;color:inherit" href="#hl-5-20">20</a>
+</span><span style="white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-5-21"><a style="outline:none;text-decoration:none;color:inherit" href="#hl-5-21">21</a>
+</span><span style="white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-5-22"><a style="outline:none;text-decoration:none;color:inherit" href="#hl-5-22">22</a>
+</span><span style="white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-5-23"><a style="outline:none;text-decoration:none;color:inherit" href="#hl-5-23">23</a>
+</span><span style="white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-5-24"><a style="outline:none;text-decoration:none;color:inherit" href="#hl-5-24">24</a>
+</span><span style="white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-5-25"><a style="outline:none;text-decoration:none;color:inherit" href="#hl-5-25">25</a>
+</span><span style="white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-5-26"><a style="outline:none;text-decoration:none;color:inherit" href="#hl-5-26">26</a>
+</span><span style="white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-5-27"><a style="outline:none;text-decoration:none;color:inherit" href="#hl-5-27">27</a>
+</span><span style="white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-5-28"><a style="outline:none;text-decoration:none;color:inherit" href="#hl-5-28">28</a>
+</span><span style="white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-5-29"><a style="outline:none;text-decoration:none;color:inherit" href="#hl-5-29">29</a>
+</span><span style="white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-5-30"><a style="outline:none;text-decoration:none;color:inherit" href="#hl-5-30">30</a>
 </span></code></pre></td>
-<td class="lntd">
-<pre tabindex="0" class="chroma"><code class="language-py" data-lang="py"><span class="line"><span class="cl"><span class="k">def</span> <span class="nf">repo_create</span><span class="p">(</span><span class="n">path</span><span class="p">):</span>
-</span></span><span class="line"><span class="cl">    <span class="s2">&#34;&#34;&#34;Create a new repository at path.&#34;&#34;&#34;</span>
-</span></span><span class="line"><span class="cl">    <span class="n">repo</span> <span class="o">=</span> <span class="n">GitRepository</span><span class="p">(</span><span class="n">path</span><span class="p">)</span>
-</span></span><span class="line"><span class="cl">    <span class="c1"># We check whether there exsits a path of worktree</span>
-</span></span><span class="line"><span class="cl">    <span class="k">if</span> <span class="n">os</span><span class="o">.</span><span class="n">path</span><span class="o">.</span><span class="n">exists</span><span class="p">(</span><span class="n">repo</span><span class="o">.</span><span class="n">worktree</span><span class="p">):</span>
-</span></span><span class="line"><span class="cl">        <span class="c1"># if path exsits its a directory or not</span>
-</span></span><span class="line"><span class="cl">        <span class="k">if</span> <span class="ow">not</span> <span class="n">os</span><span class="o">.</span><span class="n">path</span><span class="o">.</span><span class="n">isdir</span><span class="p">(</span><span class="n">repo</span><span class="o">.</span><span class="n">worktree</span><span class="p">):</span>
-</span></span><span class="line"><span class="cl">            <span class="k">raise</span> <span class="ne">Exception</span><span class="p">(</span><span class="s2">&#34;</span><span class="si">%s</span><span class="s2"> is not a directory!&#34;</span> <span class="o">%</span> <span class="n">path</span><span class="p">)</span>
-</span></span><span class="line"><span class="cl">        <span class="c1"># if path exsits its empty or not</span>
-</span></span><span class="line"><span class="cl">        <span class="k">if</span> <span class="n">os</span><span class="o">.</span><span class="n">listdir</span><span class="p">(</span><span class="n">repo</span><span class="o">.</span><span class="n">worktree</span><span class="p">):</span>
-</span></span><span class="line"><span class="cl">            <span class="k">raise</span> <span class="ne">Exception</span><span class="p">(</span><span class="s2">&#34;</span><span class="si">%s</span><span class="s2"> is not empty!&#34;</span> <span class="o">%</span> <span class="n">path</span><span class="p">)</span>
-</span></span><span class="line"><span class="cl">    <span class="k">else</span><span class="p">:</span>
-</span></span><span class="line"><span class="cl">        <span class="c1"># Create directory as nothing exist with same path</span>
-</span></span><span class="line"><span class="cl">        <span class="n">os</span><span class="o">.</span><span class="n">makedirs</span><span class="p">(</span><span class="n">repo</span><span class="o">.</span><span class="n">worktree</span><span class="p">)</span>
-</span></span><span class="line"><span class="cl">        <span class="n">repo_path</span><span class="p">(</span><span class="n">repo</span><span class="p">,</span> <span class="s2">&#34;branches&#34;</span><span class="p">)</span>
-</span></span><span class="line"><span class="cl">
-</span></span><span class="line"><span class="cl">    <span class="k">assert</span><span class="p">(</span><span class="n">repo_dir</span><span class="p">(</span><span class="n">repo</span><span class="p">,</span> <span class="s2">&#34;branches&#34;</span><span class="p">,</span> <span class="n">mkdir</span><span class="o">=</span><span class="kc">True</span><span class="p">))</span>
-</span></span><span class="line"><span class="cl">    <span class="k">assert</span><span class="p">(</span><span class="n">repo_dir</span><span class="p">(</span><span class="n">repo</span><span class="p">,</span> <span class="s2">&#34;objects&#34;</span><span class="p">,</span> <span class="n">mkdir</span><span class="o">=</span><span class="kc">True</span><span class="p">))</span>
-</span></span><span class="line"><span class="cl">    <span class="k">assert</span><span class="p">(</span><span class="n">repo_dir</span><span class="p">(</span><span class="n">repo</span><span class="p">,</span> <span class="s2">&#34;refs&#34;</span><span class="p">,</span> <span class="s2">&#34;tags&#34;</span><span class="p">,</span> <span class="n">mkdir</span><span class="o">=</span><span class="kc">True</span><span class="p">))</span>
-</span></span><span class="line"><span class="cl">    <span class="k">assert</span><span class="p">(</span><span class="n">repo_dir</span><span class="p">(</span><span class="n">repo</span><span class="p">,</span> <span class="s2">&#34;refs&#34;</span><span class="p">,</span> <span class="s2">&#34;heads&#34;</span><span class="p">,</span> <span class="n">mkdir</span><span class="o">=</span><span class="kc">True</span><span class="p">))</span>
-</span></span><span class="line"><span class="cl">
-</span></span><span class="line"><span class="cl">    <span class="k">with</span> <span class="nb">open</span><span class="p">(</span><span class="n">repo_file</span><span class="p">(</span><span class="n">repo</span><span class="p">,</span> <span class="s2">&#34;description&#34;</span><span class="p">),</span> <span class="s2">&#34;w&#34;</span><span class="p">)</span> <span class="k">as</span> <span class="n">f</span><span class="p">:</span>
-</span></span><span class="line"><span class="cl">        <span class="n">f</span><span class="o">.</span><span class="n">write</span><span class="p">(</span><span class="s2">&#34;Unnamed repository; edit this file &#39;description&#39; to name the repository.</span><span class="se">\n</span><span class="s2">&#34;</span><span class="p">)</span>
-</span></span><span class="line"><span class="cl">
-</span></span><span class="line"><span class="cl">    <span class="k">with</span> <span class="nb">open</span><span class="p">(</span><span class="n">repo_file</span><span class="p">(</span><span class="n">repo</span><span class="p">,</span> <span class="s2">&#34;HEAD&#34;</span><span class="p">),</span> <span class="s2">&#34;w&#34;</span><span class="p">)</span> <span class="k">as</span> <span class="n">f</span><span class="p">:</span>
-</span></span><span class="line"><span class="cl">        <span class="n">f</span><span class="o">.</span><span class="n">write</span><span class="p">(</span><span class="s2">&#34;ref: refs/heads/master</span><span class="se">\n</span><span class="s2">&#34;</span><span class="p">)</span>
-</span></span><span class="line"><span class="cl">
-</span></span><span class="line"><span class="cl">    <span class="k">with</span> <span class="nb">open</span><span class="p">(</span><span class="n">repo_file</span><span class="p">(</span><span class="n">repo</span><span class="p">,</span> <span class="s2">&#34;config&#34;</span><span class="p">),</span> <span class="s2">&#34;w&#34;</span><span class="p">)</span> <span class="k">as</span> <span class="n">f</span><span class="p">:</span>
-</span></span><span class="line"><span class="cl">        <span class="n">config</span> <span class="o">=</span> <span class="n">repo_default_config</span><span class="p">()</span>
-</span></span><span class="line"><span class="cl">        <span class="n">config</span><span class="o">.</span><span class="n">write</span><span class="p">(</span><span class="n">f</span><span class="p">)</span>
+<td style="vertical-align:top;padding:0;margin:0;border:0;;width:100%">
+<pre tabindex="0" style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-py" data-lang="py"><span style="display:flex;"><span><span style="color:#007020;font-weight:bold">def</span> <span style="color:#06287e">repo_create</span>(path):
+</span></span><span style="display:flex;"><span>    <span style="color:#4070a0">&#34;&#34;&#34;Create a new repository at path.&#34;&#34;&#34;</span>
+</span></span><span style="display:flex;"><span>    repo <span style="color:#666">=</span> GitRepository(path)
+</span></span><span style="display:flex;"><span>    <span style="color:#60a0b0;font-style:italic"># We check whether there exsits a path of worktree</span>
+</span></span><span style="display:flex;"><span>    <span style="color:#007020;font-weight:bold">if</span> os<span style="color:#666">.</span>path<span style="color:#666">.</span>exists(repo<span style="color:#666">.</span>worktree):
+</span></span><span style="display:flex;"><span>        <span style="color:#60a0b0;font-style:italic"># if path exsits its a directory or not</span>
+</span></span><span style="display:flex;"><span>        <span style="color:#007020;font-weight:bold">if</span> <span style="color:#007020;font-weight:bold">not</span> os<span style="color:#666">.</span>path<span style="color:#666">.</span>isdir(repo<span style="color:#666">.</span>worktree):
+</span></span><span style="display:flex;"><span>            <span style="color:#007020;font-weight:bold">raise</span> <span style="color:#007020">Exception</span>(<span style="color:#4070a0">&#34;</span><span style="color:#70a0d0">%s</span><span style="color:#4070a0"> is not a directory!&#34;</span> <span style="color:#666">%</span> path)
+</span></span><span style="display:flex;"><span>        <span style="color:#60a0b0;font-style:italic"># if path exsits its empty or not</span>
+</span></span><span style="display:flex;"><span>        <span style="color:#007020;font-weight:bold">if</span> os<span style="color:#666">.</span>listdir(repo<span style="color:#666">.</span>worktree):
+</span></span><span style="display:flex;"><span>            <span style="color:#007020;font-weight:bold">raise</span> <span style="color:#007020">Exception</span>(<span style="color:#4070a0">&#34;</span><span style="color:#70a0d0">%s</span><span style="color:#4070a0"> is not empty!&#34;</span> <span style="color:#666">%</span> path)
+</span></span><span style="display:flex;"><span>    <span style="color:#007020;font-weight:bold">else</span>:
+</span></span><span style="display:flex;"><span>        <span style="color:#60a0b0;font-style:italic"># Create directory as nothing exist with same path</span>
+</span></span><span style="display:flex;"><span>        os<span style="color:#666">.</span>makedirs(repo<span style="color:#666">.</span>worktree)
+</span></span><span style="display:flex;"><span>        repo_path(repo, <span style="color:#4070a0">&#34;branches&#34;</span>)
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>    <span style="color:#007020;font-weight:bold">assert</span>(repo_dir(repo, <span style="color:#4070a0">&#34;branches&#34;</span>, mkdir<span style="color:#666">=</span><span style="color:#007020;font-weight:bold">True</span>))
+</span></span><span style="display:flex;"><span>    <span style="color:#007020;font-weight:bold">assert</span>(repo_dir(repo, <span style="color:#4070a0">&#34;objects&#34;</span>, mkdir<span style="color:#666">=</span><span style="color:#007020;font-weight:bold">True</span>))
+</span></span><span style="display:flex;"><span>    <span style="color:#007020;font-weight:bold">assert</span>(repo_dir(repo, <span style="color:#4070a0">&#34;refs&#34;</span>, <span style="color:#4070a0">&#34;tags&#34;</span>, mkdir<span style="color:#666">=</span><span style="color:#007020;font-weight:bold">True</span>))
+</span></span><span style="display:flex;"><span>    <span style="color:#007020;font-weight:bold">assert</span>(repo_dir(repo, <span style="color:#4070a0">&#34;refs&#34;</span>, <span style="color:#4070a0">&#34;heads&#34;</span>, mkdir<span style="color:#666">=</span><span style="color:#007020;font-weight:bold">True</span>))
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>    <span style="color:#007020;font-weight:bold">with</span> <span style="color:#007020">open</span>(repo_file(repo, <span style="color:#4070a0">&#34;description&#34;</span>), <span style="color:#4070a0">&#34;w&#34;</span>) <span style="color:#007020;font-weight:bold">as</span> f:
+</span></span><span style="display:flex;"><span>        f<span style="color:#666">.</span>write(<span style="color:#4070a0">&#34;Unnamed repository; edit this file &#39;description&#39; to name the repository.</span><span style="color:#4070a0;font-weight:bold">\n</span><span style="color:#4070a0">&#34;</span>)
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>    <span style="color:#007020;font-weight:bold">with</span> <span style="color:#007020">open</span>(repo_file(repo, <span style="color:#4070a0">&#34;HEAD&#34;</span>), <span style="color:#4070a0">&#34;w&#34;</span>) <span style="color:#007020;font-weight:bold">as</span> f:
+</span></span><span style="display:flex;"><span>        f<span style="color:#666">.</span>write(<span style="color:#4070a0">&#34;ref: refs/heads/master</span><span style="color:#4070a0;font-weight:bold">\n</span><span style="color:#4070a0">&#34;</span>)
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>    <span style="color:#007020;font-weight:bold">with</span> <span style="color:#007020">open</span>(repo_file(repo, <span style="color:#4070a0">&#34;config&#34;</span>), <span style="color:#4070a0">&#34;w&#34;</span>) <span style="color:#007020;font-weight:bold">as</span> f:
+</span></span><span style="display:flex;"><span>        config <span style="color:#666">=</span> repo_default_config()
+</span></span><span style="display:flex;"><span>        config<span style="color:#666">.</span>write(f)
 </span></span></code></pre></td></tr></table>
 </div>
 </div><p>This would complete our init method. YAY</p>
@@ -683,16 +713,19 @@ In default config there are thing fields,</p>
     
 
 
+
     
     
+
 
     <footer class="post-footer">
       <div class="post-tags">
           <a href="https://BhaveshSGupta.me/tags/wag/">wag</a>
-          <a href="https://BhaveshSGupta.me/tags/dgplug/">dgplug</a>
-          <a href="https://BhaveshSGupta.me/tags/git/">git</a>
-          
+            <a href="https://BhaveshSGupta.me/tags/dgplug/">dgplug</a>
+            <a href="https://BhaveshSGupta.me/tags/git/">git</a>
+            
         </div>
+
 
       
       <nav class="post-nav">
@@ -730,6 +763,7 @@ In default config there are thing fields,</p>
 
   
   
+
 
   
   
