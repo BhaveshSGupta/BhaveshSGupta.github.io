@@ -3,27 +3,34 @@
   
   <url>
     <loc>https://BhaveshSGupta.me/about/</loc>
-    <lastmod>2022-05-04T07:56:55+05:30</lastmod>
+    <lastmod>2023-04-06T07:57:34+01:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
     <loc>https://BhaveshSGupta.me/blog/</loc>
-    <lastmod>2023-01-10T11:28:59+05:30</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
-    <loc>https://BhaveshSGupta.me/categories/</loc>
-    <lastmod>2023-01-10T11:28:59+05:30</lastmod>
+    <lastmod>2023-04-06T07:57:34+01:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
     <loc>https://BhaveshSGupta.me/</loc>
+    <lastmod>2023-04-06T07:57:34+01:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://BhaveshSGupta.me/blog/samsung-galaxy-s20/</loc>
+    <lastmod>2023-04-06T07:57:34+01:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://BhaveshSGupta.me/categories/</loc>
     <lastmod>2023-01-10T11:28:59+05:30</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
