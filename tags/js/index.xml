@@ -1,58 +1,49 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>js on Everyone Has a Story</title>
+    <title>Js on Everyone Has a Story</title>
     <link>https://BhaveshSGupta.me/tags/js/</link>
-    <description>Recent content in js on Everyone Has a Story</description>
+    <description>Recent content in Js on Everyone Has a Story</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Tue, 02 Feb 2021 08:56:01 +0530</lastBuildDate><atom:link href="https://BhaveshSGupta.me/tags/js/index.xml" rel="self" type="application/rss+xml" />
+    <managingEditor>BhaveshSGupta@disroot.org (Bhavesh S. Gupta)</managingEditor>
+    <webMaster>BhaveshSGupta@disroot.org (Bhavesh S. Gupta)</webMaster>
+    <lastBuildDate>Tue, 10 Jan 2023 11:28:59 +0530</lastBuildDate>
+    <atom:link href="https://BhaveshSGupta.me/tags/js/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>The Fizzbuzz Problem 2</title>
       <link>https://BhaveshSGupta.me/blog/the-fizzbuzz-problem-2/</link>
-      <pubDate>Tue, 02 Feb 2021 08:56:01 +0530</pubDate>
-      
+      <pubDate>Tue, 02 Feb 2021 08:56:01 +0530</pubDate><author>BhaveshSGupta@disroot.org (Bhavesh S. Gupta)</author>
       <guid>https://BhaveshSGupta.me/blog/the-fizzbuzz-problem-2/</guid>
       <description>&lt;p&gt;Last time I had stopped optimizing this the problem more because we were having a discussion where string concatination is a costly opperation. So yesterday I was talking with Nishchay how can about the previous blog and other things at that point we started on optimizing this further avoiding string contactination as well.&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>The Fizzbuzz Problem</title>
       <link>https://BhaveshSGupta.me/blog/the-fizzbuzz-problem/</link>
-      <pubDate>Sun, 31 Jan 2021 16:42:25 +0530</pubDate>
-      
+      <pubDate>Sun, 31 Jan 2021 16:42:25 +0530</pubDate><author>BhaveshSGupta@disroot.org (Bhavesh S. Gupta)</author>
       <guid>https://BhaveshSGupta.me/blog/the-fizzbuzz-problem/</guid>
       <description>&lt;p&gt;Recently I have been giving few interviews and I have faced this problem twice or thrice I guess where an interviewer asks me this problem.&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>Convert Excel to Json</title>
       <link>https://BhaveshSGupta.me/blog/convert-excel-to-json/</link>
-      <pubDate>Sat, 14 Sep 2019 19:54:55 +0530</pubDate>
-      
+      <pubDate>Sat, 14 Sep 2019 19:54:55 +0530</pubDate><author>BhaveshSGupta@disroot.org (Bhavesh S. Gupta)</author>
       <guid>https://BhaveshSGupta.me/blog/convert-excel-to-json/</guid>
-      <description>Some time in our projects we need data in json files(mostly web projects). But collecting and managing data in json files is harder(At least this is what I feel) compared to excel. I had recently ran into a similar situation where I need some data. Data is going to be provided by a non-technical person/client. And there going to be several rounds of it.
-So I was looking for options what can be done here, where I found several online tools which could be used for same.</description>
+      <description>Some time in our projects we need data in json files(mostly web projects). But collecting and managing data in json files is harder(At least this is what I feel) compared to excel. I had recently ran into a similar situation where I need some data. Data is going to be provided by a non-technical person/client. And there going to be several rounds of it.&#xA;So I was looking for options what can be done here, where I found several online tools which could be used for same.</description>
     </item>
-    
     <item>
       <title>Object-Oriented Programming With JavaScript (part 1)</title>
       <link>https://BhaveshSGupta.me/blog/object-oriented-programming-with-javascript-part-1/</link>
-      <pubDate>Mon, 29 Jul 2019 16:56:15 +0530</pubDate>
-      
+      <pubDate>Mon, 29 Jul 2019 16:56:15 +0530</pubDate><author>BhaveshSGupta@disroot.org (Bhavesh S. Gupta)</author>
       <guid>https://BhaveshSGupta.me/blog/object-oriented-programming-with-javascript-part-1/</guid>
       <description>&lt;p&gt;I started to learn Object-oriented Programming in JavaScript using this &lt;a href=&#34;https://udemy.com/javascript-object-oriented-programming/&#34;&gt;course&lt;/a&gt;. This post is more of notes for the course I am taking.&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>Javascript uses utf16 and Html utf8, then how things work together?</title>
       <link>https://BhaveshSGupta.me/blog/javascript-utf16-and-html-utf8-how-things-work-together/</link>
-      <pubDate>Tue, 17 Jul 2018 05:45:40 +0530</pubDate>
-      
+      <pubDate>Tue, 17 Jul 2018 05:45:40 +0530</pubDate><author>BhaveshSGupta@disroot.org (Bhavesh S. Gupta)</author>
       <guid>https://BhaveshSGupta.me/blog/javascript-utf16-and-html-utf8-how-things-work-together/</guid>
-      <description>This was part of one the discussion of dgplug discussion, that javascript uses utf-16 and html we usually use utf-8 as character encoding then how things work out.
-This was quite interesting on how things work around because of this. So I was reading around to find answers for the above question and I landed upon this. And this text from the answer in the link helps understand how things work.</description>
+      <description>This was part of one the discussion of dgplug discussion, that javascript uses utf-16 and html we usually use utf-8 as character encoding then how things work out.&#xA;This was quite interesting on how things work around because of this. So I was reading around to find answers for the above question and I landed upon this. And this text from the answer in the link helps understand how things work.</description>
     </item>
-    
   </channel>
 </rss>

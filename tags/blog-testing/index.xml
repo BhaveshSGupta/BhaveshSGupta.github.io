@@ -1,33 +1,28 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>blog testing on Everyone Has a Story</title>
+    <title>Blog Testing on Everyone Has a Story</title>
     <link>https://BhaveshSGupta.me/tags/blog-testing/</link>
-    <description>Recent content in blog testing on Everyone Has a Story</description>
+    <description>Recent content in Blog Testing on Everyone Has a Story</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Tue, 15 May 2018 05:59:44 +0530</lastBuildDate><atom:link href="https://BhaveshSGupta.me/tags/blog-testing/index.xml" rel="self" type="application/rss+xml" />
+    <managingEditor>BhaveshSGupta@disroot.org (Bhavesh S. Gupta)</managingEditor>
+    <webMaster>BhaveshSGupta@disroot.org (Bhavesh S. Gupta)</webMaster>
+    <lastBuildDate>Tue, 10 Jan 2023 11:28:59 +0530</lastBuildDate>
+    <atom:link href="https://BhaveshSGupta.me/tags/blog-testing/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Trying Forestry from mobile browser</title>
       <link>https://BhaveshSGupta.me/blog/trying-forestry-from-mobile-browser/</link>
-      <pubDate>Tue, 15 May 2018 05:59:44 +0530</pubDate>
-      
+      <pubDate>Tue, 15 May 2018 05:59:44 +0530</pubDate><author>BhaveshSGupta@disroot.org (Bhavesh S. Gupta)</author>
       <guid>https://BhaveshSGupta.me/blog/trying-forestry-from-mobile-browser/</guid>
-      <description>This is the first post using forestry I have actually setup git for android and other stuff for my blog this is another approach which can be used let see how&amp;rsquo;s this work. There would be more test post to check the overall working.
-bye
-Kudos
-Bhavesh Gupta</description>
+      <description>This is the first post using forestry I have actually setup git for android and other stuff for my blog this is another approach which can be used let see how&amp;rsquo;s this work. There would be more test post to check the overall working.&#xA;bye&#xA;Kudos&#xA;Bhavesh Gupta</description>
     </item>
-    
     <item>
       <title>Bloging from mobile</title>
       <link>https://BhaveshSGupta.me/blog/mobile-test-post/</link>
-      <pubDate>Tue, 15 May 2018 05:20:55 +0530</pubDate>
-      
+      <pubDate>Tue, 15 May 2018 05:20:55 +0530</pubDate><author>BhaveshSGupta@disroot.org (Bhavesh S. Gupta)</author>
       <guid>https://BhaveshSGupta.me/blog/mobile-test-post/</guid>
-      <description>This is the solution test for the question how to create static site generator blog from mobile with an ease this is a test post of everything works out a how to post is coming down soon.
-kudos, bye</description>
+      <description>This is the solution test for the question how to create static site generator blog from mobile with an ease this is a test post of everything works out a how to post is coming down soon.&#xA;kudos, bye</description>
     </item>
-    
   </channel>
 </rss>

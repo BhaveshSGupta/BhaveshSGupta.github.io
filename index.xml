@@ -6,6 +6,8 @@
     <description>Recent content on Everyone Has a Story</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
+    <managingEditor>BhaveshSGupta@disroot.org (Bhavesh S. Gupta)</managingEditor>
+    <webMaster>BhaveshSGupta@disroot.org (Bhavesh S. Gupta)</webMaster>
     <lastBuildDate>Wed, 05 Apr 2023 01:45:46 +0000</lastBuildDate>
     
         <atom:link href="https://BhaveshSGupta.me/index.xml" rel="self" type="application/rss+xml" />
@@ -15,7 +17,7 @@
       <title>About</title>
       <link>https://BhaveshSGupta.me/about/</link>
       <pubDate>Sat, 20 Jun 2015 14:02:37 +0200</pubDate>
-      
+      <author>BhaveshSGupta@disroot.org (Bhavesh S. Gupta)</author>
       <guid>https://BhaveshSGupta.me/about/</guid>
       
         <description>&lt;p&gt;My name is Bhavesh S. Gupta, and I am currently working as a Sr. Software Engineer at &lt;a href=&#34;https://Investisdigital.com&#34;&gt;InvestisDigital&lt;/a&gt;. I am passionate about using technology to make people&amp;rsquo;s lives better, and I believe that OpenSource technology is the key to achieving this goal.&lt;/p&gt;
@@ -30,7 +32,7 @@
       <title>Samsung Galaxy Watch4 Classic LTE &amp; Galaxy S20 FE 5G: The Ultimate Combo for Tech Enthusiasts</title>
       <link>https://BhaveshSGupta.me/blog/samsung-galaxy-s20/</link>
       <pubDate>Wed, 05 Apr 2023 01:45:46 +0000</pubDate>
-      
+      <author>BhaveshSGupta@disroot.org (Bhavesh S. Gupta)</author>
       <guid>https://BhaveshSGupta.me/blog/samsung-galaxy-s20/</guid>
       
         <description>&lt;p&gt;If you&amp;rsquo;re a tech enthusiast looking for the perfect combination of a smartphone and a wearable, look no further than the Samsung Galaxy Watch4 Classic LTE and Galaxy S20 FE 5G combo. This dynamic duo provides all the features you need to stay connected, fit, and up-to-date with the latest technology trends.&lt;/p&gt;
@@ -48,7 +50,7 @@
       <title>Resignation Etiquette</title>
       <link>https://BhaveshSGupta.me/blog/resignation-etiqutte/</link>
       <pubDate>Mon, 08 Feb 2021 20:50:32 +0530</pubDate>
-      
+      <author>BhaveshSGupta@disroot.org (Bhavesh S. Gupta)</author>
       <guid>https://BhaveshSGupta.me/blog/resignation-etiqutte/</guid>
       
         <description>&lt;p&gt;One follow etiquette about several things in life but rarely people talk about resignation etiquette.&lt;/p&gt;
@@ -90,7 +92,7 @@
       <title>The Coin Weight Problem</title>
       <link>https://BhaveshSGupta.me/blog/the-coin-weight-problem/</link>
       <pubDate>Wed, 03 Feb 2021 11:06:14 +0530</pubDate>
-      
+      <author>BhaveshSGupta@disroot.org (Bhavesh S. Gupta)</author>
       <guid>https://BhaveshSGupta.me/blog/the-coin-weight-problem/</guid>
       
         <description>&lt;p&gt;The problem resolves around find which of the coin is uneven in weight of all other coins. Suppose there are around 8 coin out of them one is heavy/light then others and we have one scale where we can compare two things&lt;/p&gt;
@@ -196,7 +198,7 @@
       <title>The Fizzbuzz Problem 2</title>
       <link>https://BhaveshSGupta.me/blog/the-fizzbuzz-problem-2/</link>
       <pubDate>Tue, 02 Feb 2021 08:56:01 +0530</pubDate>
-      
+      <author>BhaveshSGupta@disroot.org (Bhavesh S. Gupta)</author>
       <guid>https://BhaveshSGupta.me/blog/the-fizzbuzz-problem-2/</guid>
       
         <description>&lt;p&gt;Last time I had stopped optimizing this the problem more because we were having a discussion where string concatination is a costly opperation. So yesterday I was talking with Nishchay how can about the previous blog and other things at that point we started on optimizing this further avoiding string contactination as well.&lt;/p&gt;
@@ -396,7 +398,7 @@
       <title>The Fizzbuzz Problem</title>
       <link>https://BhaveshSGupta.me/blog/the-fizzbuzz-problem/</link>
       <pubDate>Sun, 31 Jan 2021 16:42:25 +0530</pubDate>
-      
+      <author>BhaveshSGupta@disroot.org (Bhavesh S. Gupta)</author>
       <guid>https://BhaveshSGupta.me/blog/the-fizzbuzz-problem/</guid>
       
         <description>&lt;p&gt;Recently I have been giving few interviews and I have faced this problem twice or thrice I guess where an interviewer asks me this problem.&lt;/p&gt;
@@ -600,7 +602,7 @@ There would be another update to this.&lt;/p&gt;</description>
       <title>First and Last post of 2020</title>
       <link>https://BhaveshSGupta.me/blog/first-and-last-2020/</link>
       <pubDate>Thu, 31 Dec 2020 23:11:46 +0530</pubDate>
-      
+      <author>BhaveshSGupta@disroot.org (Bhavesh S. Gupta)</author>
       <guid>https://BhaveshSGupta.me/blog/first-and-last-2020/</guid>
       
         <description>&lt;h2 id=&#34;2020&#34;&gt;2020&lt;/h2&gt;
@@ -616,7 +618,7 @@ Happy 2021&lt;/p&gt;
       <title>Convert Excel to Json</title>
       <link>https://BhaveshSGupta.me/blog/convert-excel-to-json/</link>
       <pubDate>Sat, 14 Sep 2019 19:54:55 +0530</pubDate>
-      
+      <author>BhaveshSGupta@disroot.org (Bhavesh S. Gupta)</author>
       <guid>https://BhaveshSGupta.me/blog/convert-excel-to-json/</guid>
       
         <description>&lt;p&gt;Some time in our projects we need data in json files(mostly web projects). But collecting and managing data in json files is harder(At least this is what I feel) compared to excel. I had recently ran into a similar situation where I need some data. Data is going to be provided by a non-technical person/client. And there going to be several rounds of it.&lt;/p&gt;
@@ -656,7 +658,7 @@ Happy 2021&lt;/p&gt;
       <title>Another Attempt at Wag3</title>
       <link>https://BhaveshSGupta.me/blog/another-attempt-at-wag3/</link>
       <pubDate>Sun, 25 Aug 2019 16:57:46 +0530</pubDate>
-      
+      <author>BhaveshSGupta@disroot.org (Bhavesh S. Gupta)</author>
       <guid>https://BhaveshSGupta.me/blog/another-attempt-at-wag3/</guid>
       
         <description>&lt;p&gt;Until now we had done as of following code. We would create couples of more functions which would help us in managing our application. As discussed earlier we would now we creating different directories and files present inside .git directory along with directory itself. More or less we would something like following directory structure after doing &lt;code&gt;wag init&lt;/code&gt;&lt;/p&gt;
@@ -1063,7 +1065,7 @@ In default config there are thing fields,&lt;/p&gt;
       <title>Another Attempt at Wag 2</title>
       <link>https://BhaveshSGupta.me/blog/another-attempt-at-wag-2/</link>
       <pubDate>Sat, 24 Aug 2019 15:32:32 +0530</pubDate>
-      
+      <author>BhaveshSGupta@disroot.org (Bhavesh S. Gupta)</author>
       <guid>https://BhaveshSGupta.me/blog/another-attempt-at-wag-2/</guid>
       
         <description>&lt;p&gt;Last time we had created &lt;code&gt;cmd_init(args)&lt;/code&gt; function. We add more functionality to cmd_init(args).&lt;/p&gt;
@@ -1211,7 +1213,7 @@ So first let&#39;s import configparser and os, start creating a class to get thi
       <title>Another Attempt to write a git</title>
       <link>https://BhaveshSGupta.me/blog/another-attempt-at-wag/</link>
       <pubDate>Thu, 22 Aug 2019 20:50:56 +0530</pubDate>
-      
+      <author>BhaveshSGupta@disroot.org (Bhavesh S. Gupta)</author>
       <guid>https://BhaveshSGupta.me/blog/another-attempt-at-wag/</guid>
       
         <description>&lt;h2 id=&#34;second-try&#34;&gt;Second Try&lt;/h2&gt;
@@ -1336,7 +1338,7 @@ So first let&#39;s import configparser and os, start creating a class to get thi
       <title>An attempt to Write Yourself a Git</title>
       <link>https://BhaveshSGupta.me/blog/an-attempt-to-write-yourself-a-git/</link>
       <pubDate>Mon, 19 Aug 2019 21:13:07 +0530</pubDate>
-      
+      <author>BhaveshSGupta@disroot.org (Bhavesh S. Gupta)</author>
       <guid>https://BhaveshSGupta.me/blog/an-attempt-to-write-yourself-a-git/</guid>
       
         <description>&lt;p&gt;So I tried to follow &lt;a href=&#34;https://wyag.thb.lt/&#34;&gt;wyag&lt;/a&gt; at &lt;a href=&#34;https://github.com/BhaveshSGupta/wyag&#34;&gt;here&lt;/a&gt; but I was not able to. This tutorial is great but I was not able follow it because may be I am not still not much clear with python and how it works. So after much thought I have decided that I would try to create my own blog post series where I would take learnings from &lt;a href=&#34;https://wyag.thb.lt/&#34;&gt;wyag&lt;/a&gt; and try to do it in my way.&lt;/p&gt;
@@ -1349,7 +1351,7 @@ So first let&#39;s import configparser and os, start creating a class to get thi
       <title>Learning python through pym 14-08-2019</title>
       <link>https://BhaveshSGupta.me/blog/learning-python-through-pym-14-08-2019/</link>
       <pubDate>Wed, 14 Aug 2019 16:57:26 +0530</pubDate>
-      
+      <author>BhaveshSGupta@disroot.org (Bhavesh S. Gupta)</author>
       <guid>https://BhaveshSGupta.me/blog/learning-python-through-pym-14-08-2019/</guid>
       
         <description>&lt;h2 id=&#34;day-4&#34;&gt;Day 4&lt;/h2&gt;
@@ -1551,7 +1553,7 @@ A combined example.&lt;/p&gt;
       <title>Learning python through pym 13-08-2019</title>
       <link>https://BhaveshSGupta.me/blog/learning-python-through-pym-13-08-2019/</link>
       <pubDate>Tue, 13 Aug 2019 20:57:26 +0530</pubDate>
-      
+      <author>BhaveshSGupta@disroot.org (Bhavesh S. Gupta)</author>
       <guid>https://BhaveshSGupta.me/blog/learning-python-through-pym-13-08-2019/</guid>
       
         <description>&lt;h2 id=&#34;day-3&#34;&gt;Day 3&lt;/h2&gt;
@@ -1830,7 +1832,7 @@ we would print two things number of spaces and stars. Need to decrease number of
       <title>Learning python through pym 12-08-2019</title>
       <link>https://BhaveshSGupta.me/blog/learning-python-through-pym-12-08-2019/</link>
       <pubDate>Mon, 12 Aug 2019 20:57:26 +0530</pubDate>
-      
+      <author>BhaveshSGupta@disroot.org (Bhavesh S. Gupta)</author>
       <guid>https://BhaveshSGupta.me/blog/learning-python-through-pym-12-08-2019/</guid>
       
         <description>&lt;h2 id=&#34;day-2&#34;&gt;Day 2&lt;/h2&gt;
@@ -1954,7 +1956,7 @@ In python because of multiple assignment approach things becomes easy.&lt;/p&gt;
 &lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
 &lt;/div&gt;
 &lt;/div&gt;&lt;ul&gt;
-&lt;li&gt;using f-strings(More to read:&lt;a href=&#34;https://www.python.org/dev/peps/pep-0498/%5D&#34;&gt;link&lt;/a&gt;)&lt;/li&gt;
+&lt;li&gt;using f-strings(More to read:&lt;a href=&#34;https://www.python.org/dev/peps/pep-0498/]&#34;&gt;link&lt;/a&gt;)&lt;/li&gt;
 &lt;/ul&gt;
 &lt;div class=&#34;highlight&#34;&gt;&lt;div style=&#34;background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;
 &lt;table style=&#34;border-spacing:0;padding:0;margin:0;border:0;&#34;&gt;&lt;tr&gt;&lt;td style=&#34;vertical-align:top;padding:0;margin:0;border:0;&#34;&gt;
@@ -2233,7 +2235,7 @@ For example in following code evaluation of x,y,z would be:&lt;/p&gt;
       <title>Learning python through pym 10-08-2019</title>
       <link>https://BhaveshSGupta.me/blog/learning-python-through-pym-10-08-2019/</link>
       <pubDate>Sat, 10 Aug 2019 17:59:22 +0530</pubDate>
-      
+      <author>BhaveshSGupta@disroot.org (Bhavesh S. Gupta)</author>
       <guid>https://BhaveshSGupta.me/blog/learning-python-through-pym-10-08-2019/</guid>
       
         <description>&lt;h2 id=&#34;day-1&#34;&gt;Day 1&lt;/h2&gt;
@@ -2318,7 +2320,7 @@ Below is the list of identifiers. Note: Identifiers are case sensitive they shou
       <title>Object-Oriented Programming With JavaScript (part 1)</title>
       <link>https://BhaveshSGupta.me/blog/object-oriented-programming-with-javascript-part-1/</link>
       <pubDate>Mon, 29 Jul 2019 16:56:15 +0530</pubDate>
-      
+      <author>BhaveshSGupta@disroot.org (Bhavesh S. Gupta)</author>
       <guid>https://BhaveshSGupta.me/blog/object-oriented-programming-with-javascript-part-1/</guid>
       
         <description>&lt;p&gt;I started to learn Object-oriented Programming in JavaScript using this &lt;a href=&#34;https://udemy.com/javascript-object-oriented-programming/&#34;&gt;course&lt;/a&gt;. This post is more of notes for the course I am taking.&lt;/p&gt;
@@ -2339,7 +2341,7 @@ Below is the list of identifiers. Note: Identifiers are case sensitive they shou
       <title>More information about git log command</title>
       <link>https://BhaveshSGupta.me/blog/more-information-about-git-log-command/</link>
       <pubDate>Mon, 22 Jul 2019 21:59:52 +0530</pubDate>
-      
+      <author>BhaveshSGupta@disroot.org (Bhavesh S. Gupta)</author>
       <guid>https://BhaveshSGupta.me/blog/more-information-about-git-log-command/</guid>
       
         <description>&lt;p&gt;As part of home task part 2, we were asked to read about git log command. So this blog post is dedicated to that. To get more info about git log command I had gone through Git pro book available at &lt;a href=&#34;https://git-scm.com/book/en/v2/&#34;&gt;https://git-scm.com/book/en/v2/&lt;/a&gt;. From this book I had followed chapter &lt;a href=&#34;https://git-scm.com/book/en/v2/Git-Basics-Viewing-the-Commit-History&#34;&gt;https://git-scm.com/book/en/v2/Git-Basics-Viewing-the-Commit-History&lt;/a&gt; to study more about git log command.&lt;/p&gt;
@@ -2425,7 +2427,7 @@ Below is the list of identifiers. Note: Identifiers are case sensitive they shou
       <title>Introduction to Git and seven rules of great Git Commit Message</title>
       <link>https://BhaveshSGupta.me/blog/introduction-to-git-and-seven-rules-of-a-great-git-commit-message/</link>
       <pubDate>Mon, 22 Jul 2019 12:12:00 +0530</pubDate>
-      
+      <author>BhaveshSGupta@disroot.org (Bhavesh S. Gupta)</author>
       <guid>https://BhaveshSGupta.me/blog/introduction-to-git-and-seven-rules-of-a-great-git-commit-message/</guid>
       
         <description>&lt;p&gt;As part of summer training at #dgplug, Sayan took our basics to Git session. We were introduced to basics of VCS(Version Control System), need to use a VCS and introduction to Git.&lt;/p&gt;
@@ -2478,7 +2480,7 @@ $ git log --stat
       <title>Birthday Week 2019</title>
       <link>https://BhaveshSGupta.me/blog/birthday-week-2019/</link>
       <pubDate>Thu, 23 May 2019 19:30:00 +0000</pubDate>
-      
+      <author>BhaveshSGupta@disroot.org (Bhavesh S. Gupta)</author>
       <guid>https://BhaveshSGupta.me/blog/birthday-week-2019/</guid>
       
         <description>&lt;p&gt;So another Birthday gone as-usual. Although I am not a big celebrator expect last where we had a trip to Rishikesh on my birthday PS: I am yet to write that post.&lt;/p&gt;

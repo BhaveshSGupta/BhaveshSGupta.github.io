@@ -6,210 +6,149 @@
     <description>Recent content in Blogs on Everyone Has a Story</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Wed, 05 Apr 2023 01:45:46 +0000</lastBuildDate><atom:link href="https://BhaveshSGupta.me/blog/index.xml" rel="self" type="application/rss+xml" />
+    <managingEditor>BhaveshSGupta@disroot.org (Bhavesh S. Gupta)</managingEditor>
+    <webMaster>BhaveshSGupta@disroot.org (Bhavesh S. Gupta)</webMaster>
+    <lastBuildDate>Thu, 06 Apr 2023 07:57:34 +0100</lastBuildDate>
+    <atom:link href="https://BhaveshSGupta.me/blog/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Samsung Galaxy Watch4 Classic LTE &amp; Galaxy S20 FE 5G: The Ultimate Combo for Tech Enthusiasts</title>
       <link>https://BhaveshSGupta.me/blog/samsung-galaxy-s20/</link>
-      <pubDate>Wed, 05 Apr 2023 01:45:46 +0000</pubDate>
-      
+      <pubDate>Wed, 05 Apr 2023 01:45:46 +0000</pubDate><author>BhaveshSGupta@disroot.org (Bhavesh S. Gupta)</author>
       <guid>https://BhaveshSGupta.me/blog/samsung-galaxy-s20/</guid>
       <description>&lt;p&gt;If you&amp;rsquo;re a tech enthusiast looking for the perfect combination of a smartphone and a wearable, look no further than the Samsung Galaxy Watch4 Classic LTE and Galaxy S20 FE 5G combo. This dynamic duo provides all the features you need to stay connected, fit, and up-to-date with the latest technology trends.&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>Resignation Etiquette</title>
       <link>https://BhaveshSGupta.me/blog/resignation-etiqutte/</link>
-      <pubDate>Mon, 08 Feb 2021 20:50:32 +0530</pubDate>
-      
+      <pubDate>Mon, 08 Feb 2021 20:50:32 +0530</pubDate><author>BhaveshSGupta@disroot.org (Bhavesh S. Gupta)</author>
       <guid>https://BhaveshSGupta.me/blog/resignation-etiqutte/</guid>
       <description>&lt;p&gt;One follow etiquette about several things in life but rarely people talk about resignation etiquette.&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>The Coin Weight Problem</title>
       <link>https://BhaveshSGupta.me/blog/the-coin-weight-problem/</link>
-      <pubDate>Wed, 03 Feb 2021 11:06:14 +0530</pubDate>
-      
+      <pubDate>Wed, 03 Feb 2021 11:06:14 +0530</pubDate><author>BhaveshSGupta@disroot.org (Bhavesh S. Gupta)</author>
       <guid>https://BhaveshSGupta.me/blog/the-coin-weight-problem/</guid>
       <description>&lt;p&gt;The problem resolves around find which of the coin is uneven in weight of all other coins. Suppose there are around 8 coin out of them one is heavy/light then others and we have one scale where we can compare two things&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>The Fizzbuzz Problem 2</title>
       <link>https://BhaveshSGupta.me/blog/the-fizzbuzz-problem-2/</link>
-      <pubDate>Tue, 02 Feb 2021 08:56:01 +0530</pubDate>
-      
+      <pubDate>Tue, 02 Feb 2021 08:56:01 +0530</pubDate><author>BhaveshSGupta@disroot.org (Bhavesh S. Gupta)</author>
       <guid>https://BhaveshSGupta.me/blog/the-fizzbuzz-problem-2/</guid>
       <description>&lt;p&gt;Last time I had stopped optimizing this the problem more because we were having a discussion where string concatination is a costly opperation. So yesterday I was talking with Nishchay how can about the previous blog and other things at that point we started on optimizing this further avoiding string contactination as well.&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>The Fizzbuzz Problem</title>
       <link>https://BhaveshSGupta.me/blog/the-fizzbuzz-problem/</link>
-      <pubDate>Sun, 31 Jan 2021 16:42:25 +0530</pubDate>
-      
+      <pubDate>Sun, 31 Jan 2021 16:42:25 +0530</pubDate><author>BhaveshSGupta@disroot.org (Bhavesh S. Gupta)</author>
       <guid>https://BhaveshSGupta.me/blog/the-fizzbuzz-problem/</guid>
       <description>&lt;p&gt;Recently I have been giving few interviews and I have faced this problem twice or thrice I guess where an interviewer asks me this problem.&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>First and Last post of 2020</title>
       <link>https://BhaveshSGupta.me/blog/first-and-last-2020/</link>
-      <pubDate>Thu, 31 Dec 2020 23:11:46 +0530</pubDate>
-      
+      <pubDate>Thu, 31 Dec 2020 23:11:46 +0530</pubDate><author>BhaveshSGupta@disroot.org (Bhavesh S. Gupta)</author>
       <guid>https://BhaveshSGupta.me/blog/first-and-last-2020/</guid>
-      <description>2020 2020, has been amazing year by far. Have experience so much this year which is unbelievable. Although I have not written anything then these two lines. But this would a memorable year in lot of sense.
-Cheers, Happy New Year everyone, Happy 2021</description>
+      <description>2020 2020, has been amazing year by far. Have experience so much this year which is unbelievable. Although I have not written anything then these two lines. But this would a memorable year in lot of sense.&#xA;Cheers, Happy New Year everyone, Happy 2021</description>
     </item>
-    
     <item>
       <title>Convert Excel to Json</title>
       <link>https://BhaveshSGupta.me/blog/convert-excel-to-json/</link>
-      <pubDate>Sat, 14 Sep 2019 19:54:55 +0530</pubDate>
-      
+      <pubDate>Sat, 14 Sep 2019 19:54:55 +0530</pubDate><author>BhaveshSGupta@disroot.org (Bhavesh S. Gupta)</author>
       <guid>https://BhaveshSGupta.me/blog/convert-excel-to-json/</guid>
-      <description>Some time in our projects we need data in json files(mostly web projects). But collecting and managing data in json files is harder(At least this is what I feel) compared to excel. I had recently ran into a similar situation where I need some data. Data is going to be provided by a non-technical person/client. And there going to be several rounds of it.
-So I was looking for options what can be done here, where I found several online tools which could be used for same.</description>
+      <description>Some time in our projects we need data in json files(mostly web projects). But collecting and managing data in json files is harder(At least this is what I feel) compared to excel. I had recently ran into a similar situation where I need some data. Data is going to be provided by a non-technical person/client. And there going to be several rounds of it.&#xA;So I was looking for options what can be done here, where I found several online tools which could be used for same.</description>
     </item>
-    
     <item>
       <title>Another Attempt at Wag3</title>
       <link>https://BhaveshSGupta.me/blog/another-attempt-at-wag3/</link>
-      <pubDate>Sun, 25 Aug 2019 16:57:46 +0530</pubDate>
-      
+      <pubDate>Sun, 25 Aug 2019 16:57:46 +0530</pubDate><author>BhaveshSGupta@disroot.org (Bhavesh S. Gupta)</author>
       <guid>https://BhaveshSGupta.me/blog/another-attempt-at-wag3/</guid>
-      <description>Until now we had done as of following code. We would create couples of more functions which would help us in managing our application. As discussed earlier we would now we creating different directories and files present inside .git directory along with directory itself. More or less we would something like following directory structure after doing wag init
-.git is the git directory itself, which contains: .git/objects/ : the object store, which we’ll introduce in the next section.</description>
+      <description>Until now we had done as of following code. We would create couples of more functions which would help us in managing our application. As discussed earlier we would now we creating different directories and files present inside .git directory along with directory itself. More or less we would something like following directory structure after doing wag init&#xA;.git is the git directory itself, which contains: .git/objects/ : the object store, which we’ll introduce in the next section.</description>
     </item>
-    
     <item>
       <title>Another Attempt at Wag 2</title>
       <link>https://BhaveshSGupta.me/blog/another-attempt-at-wag-2/</link>
-      <pubDate>Sat, 24 Aug 2019 15:32:32 +0530</pubDate>
-      
+      <pubDate>Sat, 24 Aug 2019 15:32:32 +0530</pubDate><author>BhaveshSGupta@disroot.org (Bhavesh S. Gupta)</author>
       <guid>https://BhaveshSGupta.me/blog/another-attempt-at-wag-2/</guid>
-      <description>Last time we had created cmd_init(args) function. We add more functionality to cmd_init(args).
-This was our code till last time.
-1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 import sys import argparse argparser = argparse.ArgumentParser(description=&amp;#34;Another Content Tracker&amp;#34;) argsubparsers = argparser.add_subparsers(title=&amp;#34;Commands&amp;#34;, dest=&amp;#34;command&amp;#34;) argsubparsers.required = True argsp = argsubparsers.add_parser(&amp;#34;init&amp;#34;, help=&amp;#34;Initialize a new, empty repository.&amp;#34;) argsp.add_argument(&amp;#34;path&amp;#34;, metavar=&amp;#34;directory&amp;#34;, nargs=&amp;#34;?&amp;#34;, default=&amp;#34;.&amp;#34;, help=&amp;#34;Where to create the repository.</description>
+      <description>Last time we had created cmd_init(args) function. We add more functionality to cmd_init(args).&#xA;This was our code till last time.&#xA;1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 import sys import argparse argparser = argparse.ArgumentParser(description=&amp;#34;Another Content Tracker&amp;#34;) argsubparsers = argparser.add_subparsers(title=&amp;#34;Commands&amp;#34;, dest=&amp;#34;command&amp;#34;) argsubparsers.required = True argsp = argsubparsers.add_parser(&amp;#34;init&amp;#34;, help=&amp;#34;Initialize a new, empty repository.&amp;#34;) argsp.add_argument(&amp;#34;path&amp;#34;, metavar=&amp;#34;directory&amp;#34;, nargs=&amp;#34;?&amp;#34;, default=&amp;#34;.&amp;#34;, help=&amp;#34;Where to create the repository.</description>
     </item>
-    
     <item>
       <title>Another Attempt to write a git</title>
       <link>https://BhaveshSGupta.me/blog/another-attempt-at-wag/</link>
-      <pubDate>Thu, 22 Aug 2019 20:50:56 +0530</pubDate>
-      
+      <pubDate>Thu, 22 Aug 2019 20:50:56 +0530</pubDate><author>BhaveshSGupta@disroot.org (Bhavesh S. Gupta)</author>
       <guid>https://BhaveshSGupta.me/blog/another-attempt-at-wag/</guid>
-      <description>Second Try We would be trying to create a mini git clone from this tutorial. I aspect this to go long. In general git is awesome source code manager which is wieldy use.
-So first we would be creating a lib file and executing file.
-Let&amp;rsquo;s create a file called wag which would have following code.
-1 2 3 4 #!/usr/bin/env python3 import libwag libwag.main() Then we would create another file which would be libwag.</description>
+      <description>Second Try We would be trying to create a mini git clone from this tutorial. I aspect this to go long. In general git is awesome source code manager which is wieldy use.&#xA;So first we would be creating a lib file and executing file.&#xA;Let&amp;rsquo;s create a file called wag which would have following code.&#xA;1 2 3 4 #!/usr/bin/env python3 import libwag libwag.main() Then we would create another file which would be libwag.</description>
     </item>
-    
     <item>
       <title>An attempt to Write Yourself a Git</title>
       <link>https://BhaveshSGupta.me/blog/an-attempt-to-write-yourself-a-git/</link>
-      <pubDate>Mon, 19 Aug 2019 21:13:07 +0530</pubDate>
-      
+      <pubDate>Mon, 19 Aug 2019 21:13:07 +0530</pubDate><author>BhaveshSGupta@disroot.org (Bhavesh S. Gupta)</author>
       <guid>https://BhaveshSGupta.me/blog/an-attempt-to-write-yourself-a-git/</guid>
       <description>So I tried to follow wyag at here but I was not able to. This tutorial is great but I was not able follow it because may be I am not still not much clear with python and how it works. So after much thought I have decided that I would try to create my own blog post series where I would take learnings from wyag and try to do it in my way.</description>
     </item>
-    
     <item>
       <title>Learning python through pym 14-08-2019</title>
       <link>https://BhaveshSGupta.me/blog/learning-python-through-pym-14-08-2019/</link>
-      <pubDate>Wed, 14 Aug 2019 16:57:26 +0530</pubDate>
-      
+      <pubDate>Wed, 14 Aug 2019 16:57:26 +0530</pubDate><author>BhaveshSGupta@disroot.org (Bhavesh S. Gupta)</author>
       <guid>https://BhaveshSGupta.me/blog/learning-python-through-pym-14-08-2019/</guid>
-      <description>Day 4 PS: These are notes, there could be grammar error and spelling errors.
-for loops For loop over a list goes as follows:
-1 2 3 4 5 6 7 8 &amp;gt;&amp;gt;&amp;gt; a = [&amp;#39;Fedora&amp;#39;, &amp;#39;is&amp;#39;, &amp;#39;powerful&amp;#39;] &amp;gt;&amp;gt;&amp;gt; for x in a: ... print(x) ... # these ... are automatically created by python interpreter Fedora is powerful range() function range function creates lists based on parameter passed in function``py</description>
+      <description>Day 4 PS: These are notes, there could be grammar error and spelling errors.&#xA;for loops For loop over a list goes as follows:&#xA;1 2 3 4 5 6 7 8 &amp;gt;&amp;gt;&amp;gt; a = [&amp;#39;Fedora&amp;#39;, &amp;#39;is&amp;#39;, &amp;#39;powerful&amp;#39;] &amp;gt;&amp;gt;&amp;gt; for x in a: ... print(x) ... # these ... are automatically created by python interpreter Fedora is powerful range() function range function creates lists based on parameter passed in function``py</description>
     </item>
-    
     <item>
       <title>Learning python through pym 13-08-2019</title>
       <link>https://BhaveshSGupta.me/blog/learning-python-through-pym-13-08-2019/</link>
-      <pubDate>Tue, 13 Aug 2019 20:57:26 +0530</pubDate>
-      
+      <pubDate>Tue, 13 Aug 2019 20:57:26 +0530</pubDate><author>BhaveshSGupta@disroot.org (Bhavesh S. Gupta)</author>
       <guid>https://BhaveshSGupta.me/blog/learning-python-through-pym-13-08-2019/</guid>
-      <description>Day 3 PS: These are notes, there could be grammar error and spelling errors.
-Last time we were just starting with If else, the control flow,
-if-else , the control flow Control flow is used when we need to do some decisive task
-if, if else, if elif else statement If statement is simple as it is other language
-1 2 if expression: do this 1 2 3 4 if expression: do this else: do this 1 2 3 4 5 6 if expression: do this elif expression: do this else: do this Things to note:</description>
+      <description>Day 3 PS: These are notes, there could be grammar error and spelling errors.&#xA;Last time we were just starting with If else, the control flow,&#xA;if-else , the control flow Control flow is used when we need to do some decisive task&#xA;if, if else, if elif else statement If statement is simple as it is other language&#xA;1 2 if expression: do this 1 2 3 4 if expression: do this else: do this 1 2 3 4 5 6 if expression: do this elif expression: do this else: do this Things to note:</description>
     </item>
-    
     <item>
       <title>Learning python through pym 12-08-2019</title>
       <link>https://BhaveshSGupta.me/blog/learning-python-through-pym-12-08-2019/</link>
-      <pubDate>Mon, 12 Aug 2019 20:57:26 +0530</pubDate>
-      
+      <pubDate>Mon, 12 Aug 2019 20:57:26 +0530</pubDate><author>BhaveshSGupta@disroot.org (Bhavesh S. Gupta)</author>
       <guid>https://BhaveshSGupta.me/blog/learning-python-through-pym-12-08-2019/</guid>
-      <description>Day 2 PS: These are notes, there could be grammar error and spelling errors.
-Last time had got until here,
-We don&amp;rsquo;t need specify data type with python something similar to javascript where we use var for every type of variable.(const and let are new ES6 standards, although they are not new but new)
-So basically
-1 2 3 a = 10 b = 1.0 c = &amp;#34;test&amp;#34; in above a become integer, b becomes float and c becomes string.</description>
+      <description>Day 2 PS: These are notes, there could be grammar error and spelling errors.&#xA;Last time had got until here,&#xA;We don&amp;rsquo;t need specify data type with python something similar to javascript where we use var for every type of variable.(const and let are new ES6 standards, although they are not new but new)&#xA;So basically&#xA;1 2 3 a = 10 b = 1.0 c = &amp;#34;test&amp;#34; in above a become integer, b becomes float and c becomes string.</description>
     </item>
-    
     <item>
       <title>Learning python through pym 10-08-2019</title>
       <link>https://BhaveshSGupta.me/blog/learning-python-through-pym-10-08-2019/</link>
-      <pubDate>Sat, 10 Aug 2019 17:59:22 +0530</pubDate>
-      
+      <pubDate>Sat, 10 Aug 2019 17:59:22 +0530</pubDate><author>BhaveshSGupta@disroot.org (Bhavesh S. Gupta)</author>
       <guid>https://BhaveshSGupta.me/blog/learning-python-through-pym-10-08-2019/</guid>
-      <description>Day 1 Installing python one can install python using package manager depending upon the operating system you are using. As I have a windows machine and ubuntu using linux on windows subsystem. I can install python from https://python.org. And Ubuntu I can use below command to install python.
-1 sudo apt-get install python3 Running python To run python you would call python3 which open Python interpreter. On that you can type print(&amp;ldquo;Hello World&amp;rdquo;) to run your first python code which would print Hello World in next line.</description>
+      <description>Day 1 Installing python one can install python using package manager depending upon the operating system you are using. As I have a windows machine and ubuntu using linux on windows subsystem. I can install python from https://python.org. And Ubuntu I can use below command to install python.&#xA;1 sudo apt-get install python3 Running python To run python you would call python3 which open Python interpreter. On that you can type print(&amp;ldquo;Hello World&amp;rdquo;) to run your first python code which would print Hello World in next line.</description>
     </item>
-    
     <item>
       <title>Object-Oriented Programming With JavaScript (part 1)</title>
       <link>https://BhaveshSGupta.me/blog/object-oriented-programming-with-javascript-part-1/</link>
-      <pubDate>Mon, 29 Jul 2019 16:56:15 +0530</pubDate>
-      
+      <pubDate>Mon, 29 Jul 2019 16:56:15 +0530</pubDate><author>BhaveshSGupta@disroot.org (Bhavesh S. Gupta)</author>
       <guid>https://BhaveshSGupta.me/blog/object-oriented-programming-with-javascript-part-1/</guid>
       <description>&lt;p&gt;I started to learn Object-oriented Programming in JavaScript using this &lt;a href=&#34;https://udemy.com/javascript-object-oriented-programming/&#34;&gt;course&lt;/a&gt;. This post is more of notes for the course I am taking.&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>More information about git log command</title>
       <link>https://BhaveshSGupta.me/blog/more-information-about-git-log-command/</link>
-      <pubDate>Mon, 22 Jul 2019 21:59:52 +0530</pubDate>
-      
+      <pubDate>Mon, 22 Jul 2019 21:59:52 +0530</pubDate><author>BhaveshSGupta@disroot.org (Bhavesh S. Gupta)</author>
       <guid>https://BhaveshSGupta.me/blog/more-information-about-git-log-command/</guid>
-      <description>As part of home task part 2, we were asked to read about git log command. So this blog post is dedicated to that. To get more info about git log command I had gone through Git pro book available at https://git-scm.com/book/en/v2/. From this book I had followed chapter https://git-scm.com/book/en/v2/Git-Basics-Viewing-the-Commit-History to study more about git log command.
-When git log is used without any argument, it displays all previous commits in reverse chronological order.</description>
+      <description>As part of home task part 2, we were asked to read about git log command. So this blog post is dedicated to that. To get more info about git log command I had gone through Git pro book available at https://git-scm.com/book/en/v2/. From this book I had followed chapter https://git-scm.com/book/en/v2/Git-Basics-Viewing-the-Commit-History to study more about git log command.&#xA;When git log is used without any argument, it displays all previous commits in reverse chronological order.</description>
     </item>
-    
     <item>
       <title>Introduction to Git and seven rules of great Git Commit Message</title>
       <link>https://BhaveshSGupta.me/blog/introduction-to-git-and-seven-rules-of-a-great-git-commit-message/</link>
-      <pubDate>Mon, 22 Jul 2019 12:12:00 +0530</pubDate>
-      
+      <pubDate>Mon, 22 Jul 2019 12:12:00 +0530</pubDate><author>BhaveshSGupta@disroot.org (Bhavesh S. Gupta)</author>
       <guid>https://BhaveshSGupta.me/blog/introduction-to-git-and-seven-rules-of-a-great-git-commit-message/</guid>
-      <description>As part of summer training at #dgplug, Sayan took our basics to Git session. We were introduced to basics of VCS(Version Control System), need to use a VCS and introduction to Git.
-These were some of commands we learn during the session conducted over the course of two days,
-git init is used initialize Git repository $ git init git config to used to configure various Git configuration using below command one can configure their Name and Email globally for Git.</description>
+      <description>As part of summer training at #dgplug, Sayan took our basics to Git session. We were introduced to basics of VCS(Version Control System), need to use a VCS and introduction to Git.&#xA;These were some of commands we learn during the session conducted over the course of two days,&#xA;git init is used initialize Git repository $ git init git config to used to configure various Git configuration using below command one can configure their Name and Email globally for Git.</description>
     </item>
-    
     <item>
       <title>Birthday Week 2019</title>
       <link>https://BhaveshSGupta.me/blog/birthday-week-2019/</link>
-      <pubDate>Thu, 23 May 2019 19:30:00 +0000</pubDate>
-      
+      <pubDate>Thu, 23 May 2019 19:30:00 +0000</pubDate><author>BhaveshSGupta@disroot.org (Bhavesh S. Gupta)</author>
       <guid>https://BhaveshSGupta.me/blog/birthday-week-2019/</guid>
-      <description>So another Birthday gone as-usual. Although I am not a big celebrator expect last where we had a trip to Rishikesh on my birthday PS: I am yet to write that post.
-My celebration to birthday most part has only dinner with family. We go to a fancy hotel have some food and come back. Its almost like this has become a tradition to celebrate birthday this way.
-This post was to be published on 19th May, instead I am writing now because of my laziness I don&amp;rsquo;t often write due to fear of writing or fear of making mistakes while write.</description>
+      <description>So another Birthday gone as-usual. Although I am not a big celebrator expect last where we had a trip to Rishikesh on my birthday PS: I am yet to write that post.&#xA;My celebration to birthday most part has only dinner with family. We go to a fancy hotel have some food and come back. Its almost like this has become a tradition to celebrate birthday this way.&#xA;This post was to be published on 19th May, instead I am writing now because of my laziness I don&amp;rsquo;t often write due to fear of writing or fear of making mistakes while write.</description>
     </item>
-    
     <item>
       <title>#readingeveryday 2</title>
       <link>https://BhaveshSGupta.me/blog/readingeveryday-2/</link>
-      <pubDate>Tue, 07 Aug 2018 18:06:01 +0000</pubDate>
-      
+      <pubDate>Tue, 07 Aug 2018 18:06:01 +0000</pubDate><author>BhaveshSGupta@disroot.org (Bhavesh S. Gupta)</author>
       <guid>https://BhaveshSGupta.me/blog/readingeveryday-2/</guid>
       <description>For #readingeveryday and link Today I dedicated 15 mins to read documentation or pym python book.</description>
     </item>
-    
   </channel>
 </rss>
