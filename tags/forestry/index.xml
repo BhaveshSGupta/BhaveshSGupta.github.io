@@ -4,18 +4,18 @@
     <title>Forestry on Everyone Has a Story</title>
     <link>https://BhaveshSGupta.me/tags/forestry/</link>
     <description>Recent content in Forestry on Everyone Has a Story</description>
-    <generator>Hugo -- gohugo.io</generator>
+    <generator>Hugo</generator>
     <language>en</language>
     <managingEditor>BhaveshSGupta@disroot.org (Bhavesh S. Gupta)</managingEditor>
     <webMaster>BhaveshSGupta@disroot.org (Bhavesh S. Gupta)</webMaster>
-    <lastBuildDate>Tue, 10 Jan 2023 11:28:59 +0530</lastBuildDate>
+    <lastBuildDate>Tue, 15 May 2018 05:59:44 +0530</lastBuildDate>
     <atom:link href="https://BhaveshSGupta.me/tags/forestry/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Trying Forestry from mobile browser</title>
       <link>https://BhaveshSGupta.me/blog/trying-forestry-from-mobile-browser/</link>
       <pubDate>Tue, 15 May 2018 05:59:44 +0530</pubDate><author>BhaveshSGupta@disroot.org (Bhavesh S. Gupta)</author>
       <guid>https://BhaveshSGupta.me/blog/trying-forestry-from-mobile-browser/</guid>
-      <description>This is the first post using forestry I have actually setup git for android and other stuff for my blog this is another approach which can be used let see how&amp;rsquo;s this work. There would be more test post to check the overall working.&#xA;bye&#xA;Kudos&#xA;Bhavesh Gupta</description>
+      <description>&lt;p&gt;This is the first post using forestry I have actually setup git for android and other stuff for my blog this is another approach which can be used let see how&amp;rsquo;s this work. There would be more test post to check the overall working.&lt;/p&gt;&#xA;&lt;p&gt;bye&lt;/p&gt;&#xA;&lt;p&gt;Kudos&lt;br&gt;&#xA;Bhavesh Gupta&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>

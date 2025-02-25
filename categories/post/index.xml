@@ -4,18 +4,18 @@
     <title>Post on Everyone Has a Story</title>
     <link>https://BhaveshSGupta.me/categories/post/</link>
     <description>Recent content in Post on Everyone Has a Story</description>
-    <generator>Hugo -- gohugo.io</generator>
+    <generator>Hugo</generator>
     <language>en</language>
     <managingEditor>BhaveshSGupta@disroot.org (Bhavesh S. Gupta)</managingEditor>
     <webMaster>BhaveshSGupta@disroot.org (Bhavesh S. Gupta)</webMaster>
-    <lastBuildDate>Tue, 10 Jan 2023 11:28:59 +0530</lastBuildDate>
+    <lastBuildDate>Tue, 15 May 2018 05:20:55 +0530</lastBuildDate>
     <atom:link href="https://BhaveshSGupta.me/categories/post/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Bloging from mobile</title>
       <link>https://BhaveshSGupta.me/blog/mobile-test-post/</link>
       <pubDate>Tue, 15 May 2018 05:20:55 +0530</pubDate><author>BhaveshSGupta@disroot.org (Bhavesh S. Gupta)</author>
       <guid>https://BhaveshSGupta.me/blog/mobile-test-post/</guid>
-      <description>This is the solution test for the question how to create static site generator blog from mobile with an ease this is a test post of everything works out a how to post is coming down soon.&#xA;kudos, bye</description>
+      <description>&lt;p&gt;This is the solution test for the question how to create static site generator blog from mobile with an ease this is a test post of everything works out a how to post is coming down soon.&lt;/p&gt;&#xA;&lt;p&gt;kudos,&#xA;bye&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>

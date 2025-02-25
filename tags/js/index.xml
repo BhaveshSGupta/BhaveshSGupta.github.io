@@ -4,11 +4,11 @@
     <title>Js on Everyone Has a Story</title>
     <link>https://BhaveshSGupta.me/tags/js/</link>
     <description>Recent content in Js on Everyone Has a Story</description>
-    <generator>Hugo -- gohugo.io</generator>
+    <generator>Hugo</generator>
     <language>en</language>
     <managingEditor>BhaveshSGupta@disroot.org (Bhavesh S. Gupta)</managingEditor>
     <webMaster>BhaveshSGupta@disroot.org (Bhavesh S. Gupta)</webMaster>
-    <lastBuildDate>Tue, 10 Jan 2023 11:28:59 +0530</lastBuildDate>
+    <lastBuildDate>Tue, 02 Feb 2021 08:56:01 +0530</lastBuildDate>
     <atom:link href="https://BhaveshSGupta.me/tags/js/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>The Fizzbuzz Problem 2</title>
@@ -29,7 +29,7 @@
       <link>https://BhaveshSGupta.me/blog/convert-excel-to-json/</link>
       <pubDate>Sat, 14 Sep 2019 19:54:55 +0530</pubDate><author>BhaveshSGupta@disroot.org (Bhavesh S. Gupta)</author>
       <guid>https://BhaveshSGupta.me/blog/convert-excel-to-json/</guid>
-      <description>Some time in our projects we need data in json files(mostly web projects). But collecting and managing data in json files is harder(At least this is what I feel) compared to excel. I had recently ran into a similar situation where I need some data. Data is going to be provided by a non-technical person/client. And there going to be several rounds of it.&#xA;So I was looking for options what can be done here, where I found several online tools which could be used for same.</description>
+      <description>&lt;p&gt;Some time in our projects we need data in json files(mostly web projects). But collecting and managing data in json files is harder(At least this is what I feel) compared to excel. I had recently ran into a similar situation where I need some data. Data is going to be provided by a non-technical person/client. And there going to be several rounds of it.&lt;/p&gt;&#xA;&lt;p&gt;So I was looking for options what can be done here, where I found several online tools which could be used for same. But I don&amp;rsquo;t want to use that because of course privacy. I don&amp;rsquo;t want to upload an excel file to a unknown application which would process it server side give me results.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Object-Oriented Programming With JavaScript (part 1)</title>
@@ -43,7 +43,7 @@
       <link>https://BhaveshSGupta.me/blog/javascript-utf16-and-html-utf8-how-things-work-together/</link>
       <pubDate>Tue, 17 Jul 2018 05:45:40 +0530</pubDate><author>BhaveshSGupta@disroot.org (Bhavesh S. Gupta)</author>
       <guid>https://BhaveshSGupta.me/blog/javascript-utf16-and-html-utf8-how-things-work-together/</guid>
-      <description>This was part of one the discussion of dgplug discussion, that javascript uses utf-16 and html we usually use utf-8 as character encoding then how things work out.&#xA;This was quite interesting on how things work around because of this. So I was reading around to find answers for the above question and I landed upon this. And this text from the answer in the link helps understand how things work.</description>
+      <description>&lt;p&gt;This was part of one the discussion of dgplug discussion, that javascript uses utf-16 and html we usually use utf-8 as character encoding then how things work out.&lt;/p&gt;&#xA;&lt;p&gt;This was quite interesting on how things work around because of this. So I was reading around to find answers for the above question and I landed upon &lt;a href=&#34;https://stackoverflow.com/questions/12114477/how-do-i-correctly-insert-unicode-in-an-html-title-using-javascript/12114520#12114520&#34;&gt;this&lt;/a&gt;. And this text from the answer in the link helps understand how things work. &amp;ldquo;JavaScript string constants are parsed by the JavaScript parser. Text inside HTML tags is parsed by the HTML parser. The two languages (and, by extension, their parsers) are different, and in particular they have different ways of representing characters by character code.&amp;rdquo; Basically they won&amp;rsquo;t have issue with different character encoding as they would render same character. More over javascript parser would parse the character into the html when you use innerHTML method.&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>

@@ -4,25 +4,25 @@
     <title>Personal on Everyone Has a Story</title>
     <link>https://BhaveshSGupta.me/tags/personal/</link>
     <description>Recent content in Personal on Everyone Has a Story</description>
-    <generator>Hugo -- gohugo.io</generator>
+    <generator>Hugo</generator>
     <language>en</language>
     <managingEditor>BhaveshSGupta@disroot.org (Bhavesh S. Gupta)</managingEditor>
     <webMaster>BhaveshSGupta@disroot.org (Bhavesh S. Gupta)</webMaster>
-    <lastBuildDate>Tue, 10 Jan 2023 11:28:59 +0530</lastBuildDate>
+    <lastBuildDate>Tue, 17 Jul 2018 05:03:32 +0530</lastBuildDate>
     <atom:link href="https://BhaveshSGupta.me/tags/personal/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Update 17 Jul 18</title>
       <link>https://BhaveshSGupta.me/blog/update-17-jul-18/</link>
       <pubDate>Tue, 17 Jul 2018 05:03:32 +0530</pubDate><author>BhaveshSGupta@disroot.org (Bhavesh S. Gupta)</author>
       <guid>https://BhaveshSGupta.me/blog/update-17-jul-18/</guid>
-      <description>This update post was actually created on 10th july, But as usual due to some x reason it is not yet complete. There are several things which are running into my life right now out of them on is to update this blog on regular bases to get align with things.&#xA;Pending Posts This blog came to life again due to dgplug summer training where we were taught to write blog post about things you are doing or learning(PS: I am yet to read logs to that class :p).</description>
+      <description>&lt;p&gt;This update post was actually created on 10th july, But as usual due to some x reason it is not yet complete. There are several things which are running into my life right now out of them on is to update this blog on regular bases to get align with things.&lt;/p&gt;&#xA;&lt;h2 id=&#34;pending-posts&#34;&gt;Pending Posts&lt;/h2&gt;&#xA;&lt;p&gt;This blog came to life again due to dgplug summer training where we were taught to write blog post about things you are doing or learning(PS: I am yet to read logs to that class :p).&lt;/p&gt;</description>
     </item>
     <item>
       <title>Static file blog using web based CMS</title>
       <link>https://BhaveshSGupta.me/blog/static-file-blog-with-web-based-cms/</link>
       <pubDate>Tue, 10 Jul 2018 12:44:32 +0530</pubDate><author>BhaveshSGupta@disroot.org (Bhavesh S. Gupta)</author>
       <guid>https://BhaveshSGupta.me/blog/static-file-blog-with-web-based-cms/</guid>
-      <description>So a few days back I was working on a solution so that I could keep that blog updated. As this is a not-self deployable blog I actually need to deploy changes. Somebody would say instead of taking so much efforts to deploy a single post you could have set up a WordPress blog which has an awesome app to add post, n number of themes, plugins, etc. But I feel I like it this way.</description>
+      <description>&lt;p&gt;So a few days back I was working on a solution so that I could keep that blog updated. As this is a not-self deployable blog I actually need to deploy changes. Somebody would say instead of taking so much efforts to deploy a single post you could have set up a WordPress blog which has an awesome app to add post, n number of themes, plugins, etc. But I feel I like it this way. The geeky way of maintaining a blog :D. I was working on to find something which could help me update my blog from cell phone. For that I was able to install git on my cellphone (SU access). First how this blog actually works so there are two repository using which this blog works. One is the content management part where the content stays, theme stays and other things. And there is another repo on which there whole hugo generated HTML stays which is present on github.&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>

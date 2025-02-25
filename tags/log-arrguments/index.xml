@@ -4,18 +4,18 @@
     <title>Log Arrguments on Everyone Has a Story</title>
     <link>https://BhaveshSGupta.me/tags/log-arrguments/</link>
     <description>Recent content in Log Arrguments on Everyone Has a Story</description>
-    <generator>Hugo -- gohugo.io</generator>
+    <generator>Hugo</generator>
     <language>en</language>
     <managingEditor>BhaveshSGupta@disroot.org (Bhavesh S. Gupta)</managingEditor>
     <webMaster>BhaveshSGupta@disroot.org (Bhavesh S. Gupta)</webMaster>
-    <lastBuildDate>Tue, 10 Jan 2023 11:28:59 +0530</lastBuildDate>
+    <lastBuildDate>Mon, 22 Jul 2019 21:59:52 +0530</lastBuildDate>
     <atom:link href="https://BhaveshSGupta.me/tags/log-arrguments/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>More information about git log command</title>
       <link>https://BhaveshSGupta.me/blog/more-information-about-git-log-command/</link>
       <pubDate>Mon, 22 Jul 2019 21:59:52 +0530</pubDate><author>BhaveshSGupta@disroot.org (Bhavesh S. Gupta)</author>
       <guid>https://BhaveshSGupta.me/blog/more-information-about-git-log-command/</guid>
-      <description>As part of home task part 2, we were asked to read about git log command. So this blog post is dedicated to that. To get more info about git log command I had gone through Git pro book available at https://git-scm.com/book/en/v2/. From this book I had followed chapter https://git-scm.com/book/en/v2/Git-Basics-Viewing-the-Commit-History to study more about git log command.&#xA;When git log is used without any argument, it displays all previous commits in reverse chronological order.</description>
+      <description>&lt;p&gt;As part of home task part 2, we were asked to read about git log command. So this blog post is dedicated to that. To get more info about git log command I had gone through Git pro book available at &lt;a href=&#34;https://git-scm.com/book/en/v2/&#34;&gt;https://git-scm.com/book/en/v2/&lt;/a&gt;. From this book I had followed chapter &lt;a href=&#34;https://git-scm.com/book/en/v2/Git-Basics-Viewing-the-Commit-History&#34;&gt;https://git-scm.com/book/en/v2/Git-Basics-Viewing-the-Commit-History&lt;/a&gt; to study more about git log command.&lt;/p&gt;&#xA;&lt;p&gt;When &lt;code&gt;git log&lt;/code&gt; is used without any argument, it displays all previous commits in reverse chronological order.&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>
