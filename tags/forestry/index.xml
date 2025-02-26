@@ -2,19 +2,19 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Forestry on Everyone Has a Story</title>
-    <link>https://BhaveshSGupta.me/tags/forestry/</link>
+    <link>https://19051992.xyz/tags/forestry/</link>
     <description>Recent content in Forestry on Everyone Has a Story</description>
     <generator>Hugo</generator>
     <language>en</language>
     <managingEditor>BhaveshSGupta@disroot.org (Bhavesh S. Gupta)</managingEditor>
     <webMaster>BhaveshSGupta@disroot.org (Bhavesh S. Gupta)</webMaster>
     <lastBuildDate>Tue, 15 May 2018 05:59:44 +0530</lastBuildDate>
-    <atom:link href="https://BhaveshSGupta.me/tags/forestry/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://19051992.xyz/tags/forestry/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Trying Forestry from mobile browser</title>
-      <link>https://BhaveshSGupta.me/blog/trying-forestry-from-mobile-browser/</link>
+      <link>https://19051992.xyz/blog/trying-forestry-from-mobile-browser/</link>
       <pubDate>Tue, 15 May 2018 05:59:44 +0530</pubDate><author>BhaveshSGupta@disroot.org (Bhavesh S. Gupta)</author>
-      <guid>https://BhaveshSGupta.me/blog/trying-forestry-from-mobile-browser/</guid>
+      <guid>https://19051992.xyz/blog/trying-forestry-from-mobile-browser/</guid>
       <description>&lt;p&gt;This is the first post using forestry I have actually setup git for android and other stuff for my blog this is another approach which can be used let see how&amp;rsquo;s this work. There would be more test post to check the overall working.&lt;/p&gt;&#xA;&lt;p&gt;bye&lt;/p&gt;&#xA;&lt;p&gt;Kudos&lt;br&gt;&#xA;Bhavesh Gupta&lt;/p&gt;</description>
     </item>
   </channel>

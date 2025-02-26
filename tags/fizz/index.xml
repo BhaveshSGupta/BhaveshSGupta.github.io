@@ -2,26 +2,26 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Fizz on Everyone Has a Story</title>
-    <link>https://BhaveshSGupta.me/tags/fizz/</link>
+    <link>https://19051992.xyz/tags/fizz/</link>
     <description>Recent content in Fizz on Everyone Has a Story</description>
     <generator>Hugo</generator>
     <language>en</language>
     <managingEditor>BhaveshSGupta@disroot.org (Bhavesh S. Gupta)</managingEditor>
     <webMaster>BhaveshSGupta@disroot.org (Bhavesh S. Gupta)</webMaster>
     <lastBuildDate>Tue, 02 Feb 2021 08:56:01 +0530</lastBuildDate>
-    <atom:link href="https://BhaveshSGupta.me/tags/fizz/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://19051992.xyz/tags/fizz/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>The Fizzbuzz Problem 2</title>
-      <link>https://BhaveshSGupta.me/blog/the-fizzbuzz-problem-2/</link>
+      <link>https://19051992.xyz/blog/the-fizzbuzz-problem-2/</link>
       <pubDate>Tue, 02 Feb 2021 08:56:01 +0530</pubDate><author>BhaveshSGupta@disroot.org (Bhavesh S. Gupta)</author>
-      <guid>https://BhaveshSGupta.me/blog/the-fizzbuzz-problem-2/</guid>
+      <guid>https://19051992.xyz/blog/the-fizzbuzz-problem-2/</guid>
       <description>&lt;p&gt;Last time I had stopped optimizing this the problem more because we were having a discussion where string concatination is a costly opperation. So yesterday I was talking with Nishchay how can about the previous blog and other things at that point we started on optimizing this further avoiding string contactination as well.&lt;/p&gt;</description>
     </item>
     <item>
       <title>The Fizzbuzz Problem</title>
-      <link>https://BhaveshSGupta.me/blog/the-fizzbuzz-problem/</link>
+      <link>https://19051992.xyz/blog/the-fizzbuzz-problem/</link>
       <pubDate>Sun, 31 Jan 2021 16:42:25 +0530</pubDate><author>BhaveshSGupta@disroot.org (Bhavesh S. Gupta)</author>
-      <guid>https://BhaveshSGupta.me/blog/the-fizzbuzz-problem/</guid>
+      <guid>https://19051992.xyz/blog/the-fizzbuzz-problem/</guid>
       <description>&lt;p&gt;Recently I have been giving few interviews and I have faced this problem twice or thrice I guess where an interviewer asks me this problem.&lt;/p&gt;</description>
     </item>
   </channel>

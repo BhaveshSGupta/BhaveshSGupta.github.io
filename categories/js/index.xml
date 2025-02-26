@@ -2,26 +2,26 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Js on Everyone Has a Story</title>
-    <link>https://BhaveshSGupta.me/categories/js/</link>
+    <link>https://19051992.xyz/categories/js/</link>
     <description>Recent content in Js on Everyone Has a Story</description>
     <generator>Hugo</generator>
     <language>en</language>
     <managingEditor>BhaveshSGupta@disroot.org (Bhavesh S. Gupta)</managingEditor>
     <webMaster>BhaveshSGupta@disroot.org (Bhavesh S. Gupta)</webMaster>
     <lastBuildDate>Sat, 14 Sep 2019 19:54:55 +0530</lastBuildDate>
-    <atom:link href="https://BhaveshSGupta.me/categories/js/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://19051992.xyz/categories/js/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Convert Excel to Json</title>
-      <link>https://BhaveshSGupta.me/blog/convert-excel-to-json/</link>
+      <link>https://19051992.xyz/blog/convert-excel-to-json/</link>
       <pubDate>Sat, 14 Sep 2019 19:54:55 +0530</pubDate><author>BhaveshSGupta@disroot.org (Bhavesh S. Gupta)</author>
-      <guid>https://BhaveshSGupta.me/blog/convert-excel-to-json/</guid>
+      <guid>https://19051992.xyz/blog/convert-excel-to-json/</guid>
       <description>&lt;p&gt;Some time in our projects we need data in json files(mostly web projects). But collecting and managing data in json files is harder(At least this is what I feel) compared to excel. I had recently ran into a similar situation where I need some data. Data is going to be provided by a non-technical person/client. And there going to be several rounds of it.&lt;/p&gt;&#xA;&lt;p&gt;So I was looking for options what can be done here, where I found several online tools which could be used for same. But I don&amp;rsquo;t want to use that because of course privacy. I don&amp;rsquo;t want to upload an excel file to a unknown application which would process it server side give me results.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Object-Oriented Programming With JavaScript (part 1)</title>
-      <link>https://BhaveshSGupta.me/blog/object-oriented-programming-with-javascript-part-1/</link>
+      <link>https://19051992.xyz/blog/object-oriented-programming-with-javascript-part-1/</link>
       <pubDate>Mon, 29 Jul 2019 16:56:15 +0530</pubDate><author>BhaveshSGupta@disroot.org (Bhavesh S. Gupta)</author>
-      <guid>https://BhaveshSGupta.me/blog/object-oriented-programming-with-javascript-part-1/</guid>
+      <guid>https://19051992.xyz/blog/object-oriented-programming-with-javascript-part-1/</guid>
       <description>&lt;p&gt;I started to learn Object-oriented Programming in JavaScript using this &lt;a href=&#34;https://udemy.com/javascript-object-oriented-programming/&#34;&gt;course&lt;/a&gt;. This post is more of notes for the course I am taking.&lt;/p&gt;</description>
     </item>
   </channel>
